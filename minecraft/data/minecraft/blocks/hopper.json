@@ -1,0 +1,469 @@
+{
+    "pick_block": "minecraft:hopper",
+    "hardness": {
+        "minecraft:default": 15,
+        "minecraft:wooden_pickaxe": 2.25,
+        "minecraft:stone_pickaxe": 1.15,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 0.4
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/hopper",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "block_entity": "minecraft:hopper",
+    "states": {
+        "facing": {
+            "default": "down",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "enabled": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:hopper"
+            }
+        ],
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "enabled": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "enabled": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "enabled": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "enabled": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 6, 4, 0 ],
+                        "to": [ 10, 8, 4 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 6, 4, 0 ],
+                        "to": [ 10, 8, 4 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 6, 4, 12 ],
+                        "to": [ 10, 8, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 6, 4, 12 ],
+                        "to": [ 10, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 12, 4, 6 ],
+                        "to": [ 16, 8, 10 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 12, 4, 6 ],
+                        "to": [ 16, 8, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 0, 4, 6 ],
+                        "to": [ 4, 8, 10 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 0, 4, 6 ],
+                        "to": [ 4, 8, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "down"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 6, 0, 6 ],
+                        "to": [ 10, 4, 10 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 10, 0 ],
+                        "to": [ 16, 11, 16 ]
+                    },
+                    {
+                        "from": [ 0, 11, 0 ],
+                        "to": [ 2, 16, 16 ]
+                    },
+                    {
+                        "from": [ 14, 11, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 2, 11, 0 ],
+                        "to": [ 14, 16, 2 ]
+                    },
+                    {
+                        "from": [ 2, 11, 14 ],
+                        "to": [ 14, 16, 16 ]
+                    },
+                    {
+                        "from": [ 4, 4, 4 ],
+                        "to": [ 12, 10, 12 ]
+                    },
+                    {
+                        "from": [ 6, 0, 6 ],
+                        "to": [ 10, 4, 10 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

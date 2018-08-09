@@ -1,0 +1,421 @@
+{
+    "block_item": true,
+    "functions": [
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "down"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": 45,
+                        "max": 90
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "up"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -90,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "north"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": 135,
+                        "max": -135
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "east"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": -135,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "south"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": -45,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "west"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": 135,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "down"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": 45,
+                        "max": 90
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "up"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -90,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "north"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": 135,
+                        "max": -135
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "east"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": -135,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "south"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": -45,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:sticky_piston",
+                "properties": {
+                    "facing": "west"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "x": {
+                        "min": -45,
+                        "max": 45
+                    },
+                    "y": {
+                        "min": 135,
+                        "max": 45
+                    }
+                }
+            }
+        }
+    ]
+}

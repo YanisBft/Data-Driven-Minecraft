@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:andesite"
+        }
+    },
+    "result": {
+        "item": "minecraft:polished_andesite",
+        "count": 4
+    }
+}

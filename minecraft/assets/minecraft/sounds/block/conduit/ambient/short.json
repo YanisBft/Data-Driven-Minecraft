@@ -1,0 +1,40 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:block/conduit/short1",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short2",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short3",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short4",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short5",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short6",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short7",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short8",
+            "attenuation_distance": 8
+        },
+        {
+            "name": "minecraft:block/conduit/short9",
+            "attenuation_distance": 8
+        }
+    ]
+}

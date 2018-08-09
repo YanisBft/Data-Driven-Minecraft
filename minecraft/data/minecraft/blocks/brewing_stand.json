@@ -1,0 +1,293 @@
+{
+    "pick_block": "minecraft:brewing_stand",
+    "hardness": {
+        "minecraft:default": 2.5,
+        "minecraft:wooden_pickaxe": 0.4,
+        "minecraft:stone_pickaxe": 0.2,
+        "minecraft:iron_pickaxe": 0.15,
+        "minecraft:diamond_pickaxe": 0.1,
+        "minecraft:golden_pickaxe": 0.1
+    },
+    "blast_resistance": 2.5,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/brewing_stand",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        },
+        {
+            "table": "minecraft:builtin/inventory"
+        }
+    ],
+    "block_entity": "minecraft:brewing_stand",
+    "states": {
+        "has_bottle_0": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "has_bottle_1": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "has_bottle_2": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.8,
+                    "z": 0.5,
+                    "name": "minecraft:smoke",
+                    "count": 1
+                }
+            }
+        ],
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:brewing"
+            }
+        ],
+        "minecraft:nbt_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "has_bottle_0": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "has_bottle_0": "false"
+                                    },
+                                    "nbt": "{Items:[{Slot:0b}]}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "has_bottle_1": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "has_bottle_1": "false"
+                                    },
+                                    "nbt": "{Items:[{Slot:1b}]}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "has_bottle_2": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "has_bottle_2": "false"
+                                    },
+                                    "nbt": "{Items:[{Slot:3b}]}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "has_bottle_0": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "has_bottle_0": "true"
+                                        }
+                                    },
+                                    {
+                                        "nbt": "{Items:[{Slot:0b}]}",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "has_bottle_1": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "has_bottle_1": "true"
+                                        }
+                                    },
+                                    {
+                                        "nbt": "{Items:[{Slot:1b}]}",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "has_bottle_2": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "has_bottle_2": "true"
+                                        }
+                                    },
+                                    {
+                                        "nbt": "{Items:[{Slot:2b}]}",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 7, 0, 7 ],
+                        "to": [ 9, 14, 9 ]
+                    },
+                    {
+                        "from": [ 9, 0, 5 ],
+                        "to": [ 15, 2, 11 ]
+                    },
+                    {
+                        "from": [ 2, 0, 1 ],
+                        "to": [ 8, 2, 7 ]
+                    },
+                    {
+                        "from": [ 2, 0, 9 ],
+                        "to": [ 8, 2, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 0, 7 ],
+                        "to": [ 9, 14, 9 ]
+                    },
+                    {
+                        "from": [ 9, 0, 5 ],
+                        "to": [ 15, 2, 11 ]
+                    },
+                    {
+                        "from": [ 2, 0, 1 ],
+                        "to": [ 8, 2, 7 ]
+                    },
+                    {
+                        "from": [ 2, 0, 9 ],
+                        "to": [ 8, 2, 15 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

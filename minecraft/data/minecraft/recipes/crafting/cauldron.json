@@ -1,0 +1,19 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "item",    "",    "item"    ],
+                [    "item",    "",    "item"    ],
+                [    "item",    "item",    "item"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "item": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:cauldron"
+    }
+}

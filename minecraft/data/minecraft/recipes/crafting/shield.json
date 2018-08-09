@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "shell",    "front",    "shell"    ],
+                [    "shell",    "shell",    "shell"    ],
+                [    "",    "shell",    ""    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "shell": {
+            "tag": "minecraft:planks"
+        },
+        "front": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:shield"
+    }
+}

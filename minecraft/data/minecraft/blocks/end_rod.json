@@ -1,0 +1,246 @@
+{
+    "pick_block": "minecraft:end_rod",
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/end_rod"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "up",
+            "values": [
+                "down",
+                "up",
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:tick": [
+        
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 6, 6, 15 ],
+                        "to": [ 10, 10, 16 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 9, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 6, 15 ],
+                        "to": [ 10, 10, 16 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 9, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, 6, 15 ],
+                        "to": [ 10, 10, 16 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 9, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 6, 15 ],
+                        "to": [ 10, 10, 16 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 9, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, 6, 0 ],
+                        "to": [ 10, 10, 1 ]
+                    },
+                    {
+                        "from": [ 7, 7, 1 ],
+                        "to": [ 9, 9, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 6, 0 ],
+                        "to": [ 10, 10, 1 ]
+                    },
+                    {
+                        "from": [ 7, 7, 1 ],
+                        "to": [ 9, 9, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 6, 6 ],
+                        "to": [ 1, 10, 10 ]
+                    },
+                    {
+                        "from": [ 1, 7, 7 ],
+                        "to": [ 16, 9, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 6, 6 ],
+                        "to": [ 1, 10, 10 ]
+                    },
+                    {
+                        "from": [ 1, 7, 7 ],
+                        "to": [ 16, 9, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 15, 6, 6 ],
+                        "to": [ 16, 10, 10 ]
+                    },
+                    {
+                        "from": [ 0, 7, 7 ],
+                        "to": [ 15, 9, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 15, 6, 6 ],
+                        "to": [ 16, 10, 10 ]
+                    },
+                    {
+                        "from": [ 0, 7, 7 ],
+                        "to": [ 15, 9, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "up"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, 0, 6 ],
+                        "to": [ 10, 1, 10 ]
+                    },
+                    {
+                        "from": [ 7, 1, 7 ],
+                        "to": [ 9, 16, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 0, 6 ],
+                        "to": [ 10, 1, 10 ]
+                    },
+                    {
+                        "from": [ 7, 1, 7 ],
+                        "to": [ 9, 16, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "down"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, 15, 6 ],
+                        "to": [ 10, 16, 10 ]
+                    },
+                    {
+                        "from": [ 7, 0, 7 ],
+                        "to": [ 9, 15, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 15, 6 ],
+                        "to": [ 10, 16, 10 ]
+                    },
+                    {
+                        "from": [ 7, 0, 7 ],
+                        "to": [ 9, 15, 9 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "pick_block": "minecraft:hay_block",
+    "hardness": {
+        "minecraft:default": 0.75
+    },
+    "burn": {
+        "encouragement": 60,
+        "flammability": 20
+    },
+    "blast_resistance": 2.5,
+    "fall_damage": 0.2,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/hay_block"
+        }
+    ],
+    "states": {
+        "axis": {
+            "default": "y",
+            "values": [
+                "x",
+                "y",
+                "z"
+            ]
+        }
+    }
+}

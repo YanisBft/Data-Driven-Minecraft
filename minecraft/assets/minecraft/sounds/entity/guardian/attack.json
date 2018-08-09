@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/guardian/attack_loop"
+    ],
+    "subtitle": "subtitles.entity.guardian.attack"
+}

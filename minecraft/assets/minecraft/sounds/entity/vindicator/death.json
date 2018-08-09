@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/vindication_illager/death1",
+        "minecraft:mob/vindication_illager/death2"
+    ],
+    "subtitle": "subtitles.entity.vindicator.death"
+}

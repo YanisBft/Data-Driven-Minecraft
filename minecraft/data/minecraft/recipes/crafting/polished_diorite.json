@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:diorite"
+        }
+    },
+    "result": {
+        "item": "minecraft:polished_diorite",
+        "count": 4
+    }
+}

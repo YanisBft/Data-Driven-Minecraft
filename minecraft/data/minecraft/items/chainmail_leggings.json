@@ -1,0 +1,32 @@
+{
+    "stack_size": 1,
+    "durability": 226,
+    "armor_piece": [
+        "leggings"
+    ],
+    "attribute_modifiers": [
+        {
+            "attribute": "generic.armor",
+            "slot": "legs",
+            "amount": 4,
+            "operation": "add"
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:worn",
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "damage": {}
+            }
+        },
+        {
+            "function": "minecraft:equip",
+            "sound": "equip",
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

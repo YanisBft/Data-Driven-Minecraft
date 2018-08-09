@@ -1,0 +1,30 @@
+{
+    "item": "minecraft:shears",
+    "enchantments": [
+        {
+            "name": "minecraft:efficiency",
+            "weight": 1,
+            "max_lvl": 5,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 0
+}

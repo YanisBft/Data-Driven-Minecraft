@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/skeleton/step1",
+        "minecraft:mob/skeleton/step2",
+        "minecraft:mob/skeleton/step3",
+        "minecraft:mob/skeleton/step4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+}

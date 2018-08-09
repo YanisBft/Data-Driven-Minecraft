@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:hoe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:cobblestone"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_hoe"
+    },
+    "group": "minecraft:hoe"
+}

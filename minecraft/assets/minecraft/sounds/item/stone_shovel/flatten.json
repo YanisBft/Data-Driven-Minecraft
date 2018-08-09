@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:item/shovel/flatten1",
+        "minecraft:item/shovel/flatten2",
+        "minecraft:item/shovel/flatten3",
+        "minecraft:item/shovel/flatten4"
+    ],
+    "subtitle": "subtitles.item.shovel.flatten"
+}

@@ -1,0 +1,1238 @@
+{
+    "pick_block": "minecraft:light_blue_shulker_box",
+    "hardness": {
+        "minecraft:default": 9,
+        "minecraft:wooden_pickaxe": 4.5,
+        "minecraft:stone_pickaxe": 2.25,
+        "minecraft:iron_pickaxe": 1.5,
+        "minecraft:diamond_pickaxe": 1.15,
+        "minecraft:golden_pickaxe": 0.75
+    },
+    "blast_resistance": 30,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/light_blue_shulker_box"
+        }
+    ],
+    "block_entity": "minecraft:shulker_box",
+    "states": {
+        "facing": {
+            "default": "up",
+            "values": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:gui_closed": [
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "time": 20
+            }
+        ],
+        "minecraft:gui_opened": [
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 24, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 24, 16, 16 ]
+                    }
+                ],
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ -8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ -8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 24 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 24 ]
+                    }
+                ],
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, -8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, -8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 24, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 24, 16 ]
+                    }
+                ],
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:change_box",
+                "hit_box": [
+                    {
+                        "from": [ 0, -8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "down"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:shulker_box",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:ladder",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:cocoa",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:crops"
+                                    },
+                                    {
+                                        "tag": "minecraft:plants"
+                                    },
+                                    {
+                                        "tag": "minecraft:mushrooms"
+                                    },
+                                    {
+                                        "name": "minecraft:sugar_cane"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "south": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:banners"
+                                    },
+                                    {
+                                        "tag": "minecraft:banners",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:signs"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_sign",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:torches"
+                                    },
+                                    {
+                                        "tag": "minecraft:torches",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "facing": "south",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "facing": "south",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "north",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "east",
+                                            "open": "true",
+                                            "hinge": "right"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "west",
+                                            "open": "true",
+                                            "hinge": "left"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "facing": "north",
+                                            "open": "true"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire_hook",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "tag": "minecraft:rails"
+                                    },
+                                    {
+                                        "tag": "minecraft:pressure_plates"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:shulker_box",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:ladder",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:cocoa",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:crops"
+                                    },
+                                    {
+                                        "tag": "minecraft:plants"
+                                    },
+                                    {
+                                        "tag": "minecraft:mushrooms"
+                                    },
+                                    {
+                                        "name": "minecraft:sugar_cane"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "north": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:banners"
+                                    },
+                                    {
+                                        "tag": "minecraft:banners",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:signs"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_sign",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:torches"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_torch",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "facing": "north",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "facing": "north",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "south",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "west",
+                                            "open": "true",
+                                            "hinge": "right"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "east",
+                                            "open": "true",
+                                            "hinge": "left"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "facing": "south",
+                                            "open": "true"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire_hook",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "tag": "minecraft:rails"
+                                    },
+                                    {
+                                        "tag": "minecraft:pressure_plates"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:shulker_box",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:ladder",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:cocoa",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:crops"
+                                    },
+                                    {
+                                        "tag": "minecraft:plants"
+                                    },
+                                    {
+                                        "tag": "minecraft:mushrooms"
+                                    },
+                                    {
+                                        "name": "minecraft:sugar_cane"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "west": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:banners"
+                                    },
+                                    {
+                                        "tag": "minecraft:banners",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:signs"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_sign",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:torches"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_torch",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "facing": "west",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "facing": "west",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "east",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "south",
+                                            "open": "true",
+                                            "hinge": "right"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "north",
+                                            "open": "true",
+                                            "hinge": "left"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "facing": "east",
+                                            "open": "true"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire_hook",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "tag": "minecraft:rails"
+                                    },
+                                    {
+                                        "tag": "minecraft:pressure_plates"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:shulker_box",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:ladder",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:cocoa",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:crops"
+                                    },
+                                    {
+                                        "tag": "minecraft:plants"
+                                    },
+                                    {
+                                        "tag": "minecraft:mushrooms"
+                                    },
+                                    {
+                                        "name": "minecraft:sugar_cane"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "east": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:banners"
+                                    },
+                                    {
+                                        "tag": "minecraft:banners",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:signs"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_sign",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:torches"
+                                    },
+                                    {
+                                        "name": "minecraft:wall_torch",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "facing": "east",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "facing": "east",
+                                            "face": "wall"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "west",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "north",
+                                            "open": "true",
+                                            "hinge": "right"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "properties": {
+                                            "facing": "south",
+                                            "open": "true",
+                                            "hinge": "left"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "facing": "west",
+                                            "open": "true"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire_hook",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    },
+                                    {
+                                        "name": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "tag": "minecraft:rails"
+                                    },
+                                    {
+                                        "tag": "minecraft:pressure_plates"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:shulker_box",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "up"
+                                    }
+                                }
+                            },
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "north": "false",
+                                            "south": "false",
+                                            "east": "false",
+                                            "west": "false"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:wall_torch"
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch"
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "half": "top",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    },
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "upper"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:shulker_box",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "down"
+                                    }
+                                }
+                            },
+                            {
+                                "y": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "tag": "minecraft:torches"
+                                    },
+                                    {
+                                        "tag": "minecraft:crops"
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "face": "ceiling"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "face": "ceiling"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "half": "bottom",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    },
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "lower"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false
+                    },
+                    "up": {
+                        "support": false
+                    },
+                    "north": {
+                        "support": false
+                    },
+                    "east": {
+                        "support": false
+                    },
+                    "west": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false
+                    },
+                    "up": {
+                        "support": false
+                    },
+                    "south": {
+                        "support": false
+                    },
+                    "east": {
+                        "support": false
+                    },
+                    "west": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false
+                    },
+                    "up": {
+                        "support": false
+                    },
+                    "north": {
+                        "support": false
+                    },
+                    "south": {
+                        "support": false
+                    },
+                    "east": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false
+                    },
+                    "up": {
+                        "support": false
+                    },
+                    "north": {
+                        "support": false
+                    },
+                    "south": {
+                        "support": false
+                    },
+                    "west": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "up"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false
+                    },
+                    "north": {
+                        "support": false
+                    },
+                    "south": {
+                        "support": false
+                    },
+                    "east": {
+                        "support": false
+                    },
+                    "west": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "down"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false
+                    },
+                    "north": {
+                        "support": false
+                    },
+                    "south": {
+                        "support": false
+                    },
+                    "east": {
+                        "support": false
+                    },
+                    "west": {
+                        "support": false
+                    }
+                }
+            }
+        }
+    ]
+}

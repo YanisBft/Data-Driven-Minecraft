@@ -1,0 +1,79 @@
+{
+    "pick_block": "minecraft:tnt",
+    "burn": {
+        "encouragement": 15,
+        "flammability": 100
+    },
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/tnt",
+            "states": {
+                "unstable": "false"
+            }
+        }
+    ],
+    "states": {
+        "unstable": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:tnt",
+                    "nbt": "{Fuse:80s}"
+                },
+                "sound": "ignite",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_broken": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:tnt",
+                    "nbt": "{Fuse:80s}"
+                },
+                "sound": "ignite",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "unstable": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

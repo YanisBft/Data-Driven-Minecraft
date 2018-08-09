@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/phantom/death1",
+        "minecraft:mob/phantom/death2",
+        "minecraft:mob/phantom/death3"
+    ],
+    "subtitle": "subtitles.entity.phantom.death"
+}

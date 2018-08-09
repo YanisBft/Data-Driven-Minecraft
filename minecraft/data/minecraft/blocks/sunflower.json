@@ -1,0 +1,115 @@
+{
+    "pick_block": "minecraft:sunflower",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "random_offset": {
+        "x": 5,
+        "z": 5,
+        "depend_on": [
+            "x",
+            "z"
+        ]
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/sunflower",
+            "states": {
+                "half": "upper"
+            }
+        }
+    ],
+    "states": {
+        "half": {
+            "default": "lower",
+            "values": [
+                "lower",
+                "upper"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "half": "lower"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {
+                        "name": "minecraft:sunflower",
+                        "properties": {
+                            "half": "upper"
+                        }
+                    },
+                    "down": [
+                        {
+                            "tag": "minecraft:soil"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 0, 5 ],
+                        "to": [ 11, 16, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "half": "upper"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:sunflower",
+                        "properties": {
+                            "half": "lower"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 0, 5 ],
+                        "to": [ 11, 12, 11 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

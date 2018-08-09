@@ -1,0 +1,221 @@
+{
+    "pick_block": "minecraft:blue_concrete_powder",
+    "hardness": {
+        "minecraft:default": 0.75,
+        "minecraft:wooden_shovel": 0.4,
+        "minecraft:stone_shovel": 0.2,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.1,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/blue_concrete_powder"
+        }
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.2,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:falling_dust",
+                    "count": 3,
+                    "parameters": "minecraft:blue_concrete_powder"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_below_changed": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:blue_concrete_powder\"}}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:blue_concrete"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_above_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:blue_concrete"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": 1,
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:blue_concrete"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:blue_concrete"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:blue_concrete"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:blue_concrete"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

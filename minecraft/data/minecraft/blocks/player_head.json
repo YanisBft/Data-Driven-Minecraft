@@ -1,0 +1,81 @@
+{
+    "pick_block": "minecraft:player_head",
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "blast_resistance": 5,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/player_head"
+        }
+    ],
+    "block_entity": "minecraft:player_head",
+    "states": {
+        "rotation": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 8, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 8, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

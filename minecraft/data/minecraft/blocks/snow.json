@@ -1,0 +1,551 @@
+{
+    "pick_block": "minecraft:snow",
+    "hardness": {
+        "minecraft:default": 0.5,
+        "minecraft:wooden_shovel": 0.1,
+        "minecraft:stone_shovel": 0.05,
+        "minecraft:iron_shovel": 0.05,
+        "minecraft:diamond_shovel": 0.05,
+        "minecraft:golden_shovel": 0.05
+    },
+    "light_needed": {
+        "max": 11
+    },
+    "blast_resistance": 0.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/snow_balls_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 1
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 2
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 3
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_4",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 4
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_5",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 5
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_6",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 6
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_7",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": {
+                "layers": 7
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_balls_8",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "states": [
+                {
+                    "layers": 8
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/snow_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 1
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 2
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 3
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_4",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 4
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_5",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 5
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_6",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 6
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_7",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 7
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/snow_8",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shovels"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "layers": 8
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "states": {
+        "layers": {
+            "default": "1",
+            "values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                }
+            }
+        },
+        {
+            "states": {
+                "layers": "1"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 0, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "2"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 4, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "3"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 6, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 4, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "4"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 6, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "5"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 10, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "6"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 10, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "7"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "south": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "east": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "west": {
+                        "support": true,
+                        "transfer_power": true
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 14, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "layers": "8"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "north": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "south": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "east": {
+                        "support": true,
+                        "transfer_power": true
+                    },
+                    "west": {
+                        "support": true,
+                        "transfer_power": true
+                    }
+                },
+                "collision_box": [
+                    {
+                        "from": [ 0, -2, 0 ],
+                        "to": [ 16, 14, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

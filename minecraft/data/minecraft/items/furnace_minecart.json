@@ -1,0 +1,37 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_block",
+            "spawn_entity": {
+                "name": "minecraft:furnace_minecart",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:rails"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

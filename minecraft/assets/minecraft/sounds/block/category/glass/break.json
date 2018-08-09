@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:dig/glass1",
+        "minecraft:dig/glass2",
+        "minecraft:dig/glass3",
+        "minecraft:dig/glass4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+}

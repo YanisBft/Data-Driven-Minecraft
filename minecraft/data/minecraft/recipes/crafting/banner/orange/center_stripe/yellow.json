@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/center_stripe",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:orange_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_banner"
+    },
+    "group": "minecraft:banner_center_stripe",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "yellow",
+                    "pattern": "center_stripe"
+                }
+            }
+        }
+    ]
+}

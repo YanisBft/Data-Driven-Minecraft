@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/bottom_sawtooth_triangle",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:gray_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:light_blue_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_banner"
+    },
+    "group": "minecraft:banner_bottom_triangle_sawtooth",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "light_blue",
+                    "pattern": "bottom_triangle_sawtooth"
+                }
+            }
+        }
+    ]
+}

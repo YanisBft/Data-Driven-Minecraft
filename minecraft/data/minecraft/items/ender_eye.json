@@ -1,0 +1,56 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:spawn_entity",
+            "position": "user",
+            "sound": "launch",
+            "entity": {
+                "name": "minecraft:eye_of_ender_signal",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "dimension": "overworld"
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "fill_end_portal_frame",
+            "block": {
+                "properties": {
+                    "eye": "true"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "block": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:end_portal_frame",
+                                "properties": {
+                                    "eye": "false"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "eat",
+            "time": 600,
+            "effects": {
+                "food": 2,
+                "saturation": 1.2,
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:hunger",
+                        "amplifier": 0,
+                        "duration": 600,
+                        "chance": 0.3
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

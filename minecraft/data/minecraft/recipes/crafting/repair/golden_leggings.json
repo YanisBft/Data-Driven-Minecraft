@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:golden_leggings"
+        },
+        "item2": {
+            "item": "minecraft:golden_leggings"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ingredients": [
+                "item1",
+                "item2"
+            ],
+            "bonus": 5
+        }
+    ],
+    "result": {
+        "item": "minecraft:golden_leggings"
+    },
+    "group": "minecraft:repair_tool"
+}

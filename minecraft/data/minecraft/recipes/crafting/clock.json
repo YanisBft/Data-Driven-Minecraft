@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:circle",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:gold_ingot"
+        },
+        "center": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:clock"
+    }
+}

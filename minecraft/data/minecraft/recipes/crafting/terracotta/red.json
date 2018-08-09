@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:red_terracotta",
+        "count": 8
+    },
+    "group": "minecraft:terracotta_coloring"
+}

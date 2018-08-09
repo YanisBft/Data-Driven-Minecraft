@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:blaze_powder"
+        },
+        "item2": {
+            "item": [
+                "minecraft:coal",
+                "minecraft:charcoal"
+            ]
+        },
+        "item3": {
+            "item": "minecraft:gunpowder"
+        }
+    },
+    "result": {
+        "item": "minecraft:fire_charge"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "item": "minecraft:trident",
+    "enchantments": [
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:loyality",
+            "weight": 10,
+            "not_with": [
+                "minecraft:riptide"
+            ],
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:riptide",
+            "weight": 2,
+            "not_with": [
+                "minecraft:loyalty",
+                "minecraft:channeling"
+            ],
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:channeling",
+            "weight": 1,
+            "not_with": [
+                "minecraft:riptide"
+            ]
+        },
+        {
+            "name": "minecraft:impaling",
+            "weight": 5,
+            "max_lvl": 5
+        }
+    ],
+    "enchantability": 1
+}

@@ -1,0 +1,35 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "top",    "top",    "top"    ],
+                [    "side",    "center",    "side"    ],
+                [    "bottom",    "bottom",    "bottom"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "top": {
+            "item": "minecraft:milk_bucket"
+        },
+        "side": {
+            "item": "minecraft:sugar"
+        },
+        "middle": {
+            "item": "minecraft:egg"
+        },
+        "bottom": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:return_items",
+            "item": "minecraft:bucket",
+            "ingredient": "top"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cake"
+    }
+}

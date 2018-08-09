@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:note/xylophone",
+            "pitch": 0.840896
+        }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+}

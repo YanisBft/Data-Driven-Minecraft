@@ -1,0 +1,32 @@
+{
+    "pick_block": "minecraft:quartz_pillar",
+    "hardness": {
+        "minecraft:default": 4,
+        "minecraft:wooden_pickaxe": 0.65,
+        "minecraft:stone_pickaxe": 0.35,
+        "minecraft:iron_pickaxe": 0.2,
+        "minecraft:diamond_pickaxe": 0.2,
+        "minecraft:golden_pickaxe": 0.1
+    },
+    "blast_resistance": 4,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/quartz_pillar",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "states": {
+        "axis": {
+            "default": "y",
+            "values": [
+                "x",
+                "y",
+                "z"
+            ]
+        }
+    }
+}

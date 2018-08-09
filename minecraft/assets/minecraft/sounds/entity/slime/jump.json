@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/slime/big1",
+        "minecraft:mob/slime/big2",
+        "minecraft:mob/slime/big3",
+        "minecraft:mob/slime/big4"
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+}

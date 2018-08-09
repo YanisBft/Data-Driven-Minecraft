@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/square_cross",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:light_blue_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:light_blue_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:light_blue_banner"
+    },
+    "group": "minecraft:banner_square_cross",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "light_blue",
+                    "pattern": "square_cross"
+                }
+            }
+        }
+    ]
+}

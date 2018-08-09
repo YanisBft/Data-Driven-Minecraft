@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/left_of_diagonal",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:brown_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    },
+    "result": {
+        "item": "minecraft:brown_banner"
+    },
+    "group": "minecraft:banner_left_of_diagonal",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "yellow",
+                    "pattern": "left_of_diagonal"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:arrow"
+        },
+        "center": {
+            "item": "minecraft:lingering_potion"
+        }
+    },
+    "result": {
+        "item": "minecraft:tipped_arrow",
+        "count": 8
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "center",
+            "copy": "Potion"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "center",
+            "copy": "CustomPotionColor"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "center",
+            "copy": "CustomPotionEffects"
+        }
+    ]
+}

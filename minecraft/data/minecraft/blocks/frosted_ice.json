@@ -1,0 +1,249 @@
+{
+    "pick_block": "minecraft:air",
+    "hardness": {
+        "minecraft:default": 2.5
+    },
+    "blast_resistance": 2.5,
+    "transparent": true,
+    "states": {
+        "age": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "3"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "2"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "3"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": -2,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": -2,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": -2,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": -2,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": -2,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": -2,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        }
+    ]
+}

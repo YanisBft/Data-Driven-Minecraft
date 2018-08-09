@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:spruce_log"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:spruce_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

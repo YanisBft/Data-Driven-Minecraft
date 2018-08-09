@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:gold_nugget"
+        },
+        "center": {
+            "item": "minecraft:melon_slice"
+        }
+    },
+    "result": {
+        "item": "minecraft:glistering_melon_slice"
+    },
+    "group": "minecraft:golden_food"
+}

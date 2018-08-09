@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:terracotta",
+    "hardness": {
+        "minecraft:default": 6.25,
+        "minecraft:wooden_pickaxe": 0.95,
+        "minecraft:stone_pickaxe": 0.5,
+        "minecraft:iron_pickaxe": 0.35,
+        "minecraft:diamond_pickaxe": 0.25,
+        "minecraft:golden_pickaxe": 0.2
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/terracotta",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ]
+}

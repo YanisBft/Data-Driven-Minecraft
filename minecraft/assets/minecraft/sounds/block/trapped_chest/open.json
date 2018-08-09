@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:block/chest/open"
+    ],
+    "subtitle": "subtitles.block.chest.open"
+}

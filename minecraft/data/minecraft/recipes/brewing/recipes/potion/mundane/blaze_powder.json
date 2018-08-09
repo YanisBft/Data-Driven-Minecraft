@@ -1,0 +1,31 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:water"
+        }
+    },
+    "item": {
+        "item": "minecraft:blaze_powder"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "group": "minecraft:mundane_potion",
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:mundane"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

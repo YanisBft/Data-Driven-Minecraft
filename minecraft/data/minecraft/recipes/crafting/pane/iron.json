@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:iron_ingot"
+        },
+        "bottom": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:bars",
+        "count": 16
+    },
+    "group": "minecraft:glass_pane"
+}

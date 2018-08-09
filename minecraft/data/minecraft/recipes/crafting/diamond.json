@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 9
+    },
+    "group": "minecraft:gem"
+}

@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:tile/piston/in"
+    ],
+    "subtitle": "subtitles.block.piston.move"
+}

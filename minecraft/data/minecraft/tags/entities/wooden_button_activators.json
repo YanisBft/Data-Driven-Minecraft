@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#minecraft:arrows",
+        "#minecraft:fireballs",
+        "minecraft:egg",
+        "minecraft:eye_of_ender",
+        "minecraft:fishing_bobber",
+        "minecraft:potion",
+        "minecraft:snowball",
+        "minecraft:wither_skull"
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "pick_block": "minecraft:spruce_slab",
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/spruce_slab",
+            "states": [
+                {
+                    "type": "bottom"
+                },
+                {
+                    "type": "top"
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/spruce_slabs",
+            "states": {
+                "type": "double"
+            }
+        }
+    ],
+    "states": {
+        "type": {
+            "default": "bottom",
+            "values": [
+                "bottom",
+                "top",
+                "double"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_block_changed": [
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "name": "minecraft:empty"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "type": "bottom"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "top"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

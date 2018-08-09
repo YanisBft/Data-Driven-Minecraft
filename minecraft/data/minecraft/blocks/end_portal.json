@@ -1,0 +1,96 @@
+{
+    "pick_block": "minecraft:air",
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "blast_resistance": -1,
+    "block_entity": "minecraft:end_portal",
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": 0.6,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:smoke",
+                    "count": 2
+                }
+            },
+            {
+                "function": "minecraft:transport_entity",
+                "transport_sound": "travel",
+                "dimension": "minecraft:the_end",
+                "scale_coordinates": 0,
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_end",
+                            "inverse": true
+                        }
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:transport_entity",
+                "transport_sound": "travel",
+                "dimension": "minecraft:overworld",
+                "scale_coordinates": 0,
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_end"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

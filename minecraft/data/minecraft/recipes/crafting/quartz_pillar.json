@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_high_line",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:quartz_block"
+        },
+        "bottom": {
+            "item": "minecraft:quartz_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:quartz_pillar",
+        "count": 2
+    }
+}

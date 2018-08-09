@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:stairs",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:stone_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_brick_stairs",
+        "count": 4
+    },
+    "group": "minecraft:stairs"
+}

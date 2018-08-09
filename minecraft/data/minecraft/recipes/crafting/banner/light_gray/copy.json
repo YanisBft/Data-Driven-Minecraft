@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:light_gray_banner",
+            "conditions": {
+                "layers": {
+                    "min": 1
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:light_gray_banner",
+            "conditions": {
+                "layers": {
+                    "max": 0
+                }
+            }
+        }
+    },
+    "result": {
+        "item": "minecraft:light_gray_banner"
+    },
+    "group": "minecraft:banner_copy",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1",
+            "copy": "BlockEntityTag"
+        },
+        {
+            "function": "minecraft:return_items",
+            "ingredient": "item1"
+        }
+    ]
+}

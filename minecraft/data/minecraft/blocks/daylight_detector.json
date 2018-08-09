@@ -1,0 +1,426 @@
+{
+    "pick_block": "minecraft:daylight_detector",
+    "hardness": {
+        "minecraft:default": 0.35,
+        "minecraft:wooden_axe": 0.2,
+        "minecraft:stone_axe": 0.1,
+        "minecraft:iron_axe": 0.05,
+        "minecraft:diamond_axe": 0.05,
+        "minecraft:golden_axe": 0.05
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 1,
+    "loot_tables": [
+        {
+            "table": "minecraft:daylight_detector"
+        }
+    ],
+    "block_entity": "minecraft:daylight_detector",
+    "states": {
+        "power": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+            ],
+            "hidden": true
+        },
+        "inverted": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "inverted": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "inverted": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "inverted": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "inverted": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 9,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 10,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "10"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 11,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "11"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 12,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "12"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 13,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "13"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 14,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "14"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 3,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "15"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 6, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 6, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

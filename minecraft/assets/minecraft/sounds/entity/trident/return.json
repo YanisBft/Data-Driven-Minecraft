@@ -1,0 +1,47 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:item/trident/return1",
+            "volume": 0.8
+        },
+        {
+            "name": "minecraft:item/trident/return2",
+            "volume": 0.8,
+            "pitch": 1.2
+        },
+        {
+            "name": "minecraft:item/trident/return3",
+            "volume": 0.8,
+            "pitch": 0.8
+        },
+        {
+            "name": "minecraft:item/trident/return2",
+            "volume": 0.8
+        },
+        {
+            "name": "minecraft:item/trident/return2",
+            "volume": 0.8,
+            "pitch": 1.2
+        },
+        {
+            "name": "minecraft:item/trident/return2",
+            "volume": 0.8,
+            "pitch": 0.8
+        },
+        {
+            "name": "minecraft:item/trident/return3",
+            "volume": 0.8
+        },
+        {
+            "name": "minecraft:item/trident/return3",
+            "volume": 0.8,
+            "pitch": 1.2
+        },
+        {
+            "name": "minecraft:item/trident/return3",
+            "volume": 0.8,
+            "pitch": 0.8
+        }
+    ],
+    "subtitle": "subtitles.item.trident.return"
+}

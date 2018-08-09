@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:cyan_stained_glass"
+        },
+        "bottom": {
+            "item": "minecraft:cyan_stained_glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_stained_glass_pane",
+        "count": 16
+    },
+    "group": "minecraft:glass_pane"
+}

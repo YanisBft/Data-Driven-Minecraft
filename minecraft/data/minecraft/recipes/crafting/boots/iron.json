@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:boots",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_boots"
+    },
+    "group": "minecraft:boots"
+}

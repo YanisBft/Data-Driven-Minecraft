@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:red_tulip"
+        }
+    },
+    "result": {
+        "item": "minecraft:rose_red"
+    },
+    "group": "minecraft:rose_red"
+}

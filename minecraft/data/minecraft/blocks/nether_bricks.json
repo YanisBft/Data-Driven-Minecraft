@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:nether_bricks",
+    "hardness": {
+        "minecraft:default": 10,
+        "minecraft:wooden_pickaxe": 1.5,
+        "minecraft:stone_pickaxe": 0.75,
+        "minecraft:iron_pickaxe": 0.5,
+        "minecraft:diamond_pickaxe": 0.4,
+        "minecraft:golden_pickaxe": 0.25
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/nether_bricks",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ]
+}

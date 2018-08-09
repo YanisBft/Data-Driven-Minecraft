@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:clay_ball"
+    },
+    "result": {
+        "item": "minecraft:brick",
+        "xp": 0.3
+    },
+    "group": "minecraft:brick",
+    "cooking_time": 200
+}

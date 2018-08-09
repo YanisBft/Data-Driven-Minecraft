@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:block/beacon/ambient",
+            "attenuation_distance": 7,
+            "volume": 0.9
+        }
+    ]
+}

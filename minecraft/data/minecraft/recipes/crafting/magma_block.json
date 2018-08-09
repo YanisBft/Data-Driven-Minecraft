@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:magma_cream"
+        }
+    },
+    "result": {
+        "item": "minecraft:magma_block"
+    }
+}

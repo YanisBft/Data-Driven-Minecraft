@@ -1,0 +1,132 @@
+{
+    "pick_block": "minecraft:yellow_banner",
+    "hardness": {
+        "minecraft:default": 1.5,
+        "minecraft:wooden_axe": 0.75,
+        "minecraft:stone_axe": 0.4,
+        "minecraft:iron_axe": 0.25,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.15
+    },
+    "burn": {
+        "encouragement": 30,
+        "flammability": 60
+    },
+    "blast_resistance": 5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/yellow_banner"
+        }
+    ],
+    "block_entity": "minecraft:banner",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1.5, 12.5, 14 ],
+                        "to": [ 14.5, 13.5, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1.5, 12.5, 0 ],
+                        "to": [ 14.5, 13.5, 2 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 12.5, 1.5 ],
+                        "to": [ 2, 13.5, 14.5 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 14, 12.5, 1.5 ],
+                        "to": [ 16, 13.5, 14.5 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

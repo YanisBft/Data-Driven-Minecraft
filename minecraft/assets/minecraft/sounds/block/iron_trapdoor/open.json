@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:block/iron_trapdoor/open1",
+        "minecraft:block/iron_trapdoor/open2",
+        "minecraft:block/iron_trapdoor/open3",
+        "minecraft:block/iron_trapdoor/open4"
+    ],
+    "subtitle": "subtitles.block.iron_trapdoor.open"
+}

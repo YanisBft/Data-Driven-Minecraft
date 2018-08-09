@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:oak_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:oak_button"
+    },
+    "group": "minecraft:button"
+}

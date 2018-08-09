@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:entity/fish/hurt1",
+        "minecraft:entity/fish/hurt2",
+        "minecraft:entity/fish/hurt3",
+        "minecraft:entity/fish/hurt4"
+    ],
+    "subtitle": "subtitles.entity.cod.hurt"
+}

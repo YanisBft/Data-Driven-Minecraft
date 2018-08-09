@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:magenta_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:creeper_head"
+        },
+        "item3": {
+            "item": "minecraft:ink_sack"
+        }
+    },
+    "result": {
+        "item": "minecraft:magenta_banner"
+    },
+    "group": "minecraft:banner_creeper",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "black",
+                    "pattern": "creeper"
+                }
+            }
+        }
+    ]
+}

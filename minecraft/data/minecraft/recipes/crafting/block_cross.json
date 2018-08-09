@@ -1,0 +1,11 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "corner",    "center",    "corner"    ],
+                [    "center",    "center",    "center"    ],
+                [    "corner",    "center",    "corner"    ]
+            ]
+        }
+    ]
+}

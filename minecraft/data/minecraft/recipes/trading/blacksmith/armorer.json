@@ -1,0 +1,192 @@
+{
+    "tiers": [
+        [
+            {
+                "buy": {
+                    "item": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 24
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:iron_helmet"
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 9
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 14
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:iron_chestplate"
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 19
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 19
+                            },
+                            "treasure": false
+                        }
+                    ]
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:chainmail_boots"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 9,
+                                "max": 11
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:chainmail_leggings"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:chainmail_helmet"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 11,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:chainmail_chestplate"
+                }
+            }
+        ]
+    ]
+}

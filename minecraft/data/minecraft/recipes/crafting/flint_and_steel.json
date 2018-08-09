@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:flint"
+        },
+        "item2": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:flint_and_steel"
+    }
+}

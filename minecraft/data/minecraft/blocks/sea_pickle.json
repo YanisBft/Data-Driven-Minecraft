@@ -1,0 +1,333 @@
+{
+    "pick_block": "minecraft:sea_pickle",
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/sea_pickle_1",
+            "states": {
+                "pickles": "1"
+            }
+        },
+        {
+            "table": "minecraft:blocks/sea_pickle_2",
+            "states": {
+                "pickles": "2"
+            }
+        },
+        {
+            "table": "minecraft:blocks/sea_pickle_3",
+            "states": {
+                "pickles": "3"
+            }
+        },
+        {
+            "table": "minecraft:blocks/sea_pickle_4",
+            "states": {
+                "pickles": "4"
+            }
+        }
+    ],
+    "states": {
+        "pickles": {
+            "default": "1",
+            "values": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        "waterlogged": {
+            "default": "false",
+            "values": [
+                "true",
+                "false"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "waterlogged": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "waterlogged": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "name": "minecraft:empty"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "waterlogged": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "waterlogged": "false"
+                                    }
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "name": "minecraft:empty"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {}
+                    ]
+                }
+            }
+        },
+        {
+            "states": {
+                "pickles": "1"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 5, 0, 5 ],
+                        "to": [ 10, 6, 10 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 5, 0, 5 ],
+                        "to": [ 10, 6, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "pickles": "2"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 3, 0, 3 ],
+                        "to": [ 12, 6, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 3, 0, 3 ],
+                        "to": [ 12, 6, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "pickles": "3"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 13, 6, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 13, 6, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "pickles": "4"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 6, 14 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 6, 14 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "pickles": "1",
+                "waterlogged": "true"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "light": 6
+                    },
+                    "down": {
+                        "light": 6
+                    },
+                    "north": {
+                        "light": 6
+                    },
+                    "south": {
+                        "light": 6
+                    },
+                    "east": {
+                        "light": 6
+                    },
+                    "west": {
+                        "light": 6
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "pickles": "2"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "light": 9
+                    },
+                    "down": {
+                        "light": 9
+                    },
+                    "north": {
+                        "light": 9
+                    },
+                    "south": {
+                        "light": 9
+                    },
+                    "east": {
+                        "light": 9
+                    },
+                    "west": {
+                        "light": 9
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "pickles": "3"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "light": 12
+                    },
+                    "down": {
+                        "light": 12
+                    },
+                    "north": {
+                        "light": 12
+                    },
+                    "south": {
+                        "light": 12
+                    },
+                    "east": {
+                        "light": 12
+                    },
+                    "west": {
+                        "light": 12
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "pickles": "4"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "light": 15
+                    },
+                    "down": {
+                        "light": 15
+                    },
+                    "north": {
+                        "light": 15
+                    },
+                    "south": {
+                        "light": 15
+                    },
+                    "east": {
+                        "light": 15
+                    },
+                    "west": {
+                        "light": 15
+                    }
+                }
+            }
+        }
+    ]
+}

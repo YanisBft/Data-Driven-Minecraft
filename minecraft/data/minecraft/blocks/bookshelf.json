@@ -1,0 +1,39 @@
+{
+    "pick_block": "minecraft:bookshelf",
+    "hardness": {
+        "minecraft:default": 2.25,
+        "minecraft:wooden_axe": 1.15,
+        "minecraft:stone_axe": 0.6,
+        "minecraft:iron_axe": 0.4,
+        "minecraft:diamond_axe": 0.3,
+        "minecraft:golden_axe": 0.2
+    },
+    "burn": {
+        "encouragement": 30,
+        "flammability": 20
+    },
+    "blast_resistance": 7.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/bookshelf_books",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/bookshelf",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ]
+}

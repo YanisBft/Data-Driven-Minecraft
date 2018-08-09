@@ -1,0 +1,25 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "",    "torch"    ],
+                [    "torch",    "center",    "torch"    ],
+                [    "plate",    "plate",    "plate"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "torch": {
+            "item": "minecraft:redstone_torch"
+        },
+        "center": {
+            "item": "minecraft:quartz"
+        },
+        "plate": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "outline",    "outline",    "outline"    ],
+                [    "outline",    "center",    "outline"    ],
+                [    "outline",    "bottom",    "outline"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:cobblestone"
+        },
+        "center": {
+            "item": "minecraft:bow",
+            "durability": 1
+        },
+        "bottom": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:dispenser"
+    }
+}

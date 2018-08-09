@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:random/bowhit1",
+        "minecraft:random/bowhit2",
+        "minecraft:random/bowhit3",
+        "minecraft:random/bowhit4"
+    ],
+    "subtitle": "subtitles.entity.arrow.hit"
+}

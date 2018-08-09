@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:entity/shulker/hurt1",
+        "minecraft:entity/shulker/hurt2",
+        "minecraft:entity/shulker/hurt3",
+        "minecraft:entity/shulker/hurt4"
+    ],
+    "subtitle": "subtitles.entity.shulker.hurt"
+}

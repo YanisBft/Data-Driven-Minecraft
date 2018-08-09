@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:diamond_block",
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:wooden_pickaxe": 12.5,
+        "minecraft:stone_pickaxe": 6.25,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 2.1
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/diamond_block",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ]
+        }
+    ]
+}

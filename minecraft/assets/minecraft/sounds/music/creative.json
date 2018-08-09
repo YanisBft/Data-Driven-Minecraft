@@ -1,0 +1,32 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:music/game"
+        },
+        {
+            "name": "minecraft:music/game/creative/creative1",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/creative/creative2",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/creative/creative3",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/creative/creative4",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/creative/creative5",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/creative/creative6",
+            "stream": true
+        }
+    ]
+}

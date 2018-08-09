@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:random/click",
+            "pitch": 0.6
+        }
+    ],
+    "subtitle": "subtitles.block.lever.click"
+}

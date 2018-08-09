@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:spruce_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:spruce_wood"
+    },
+    "group": "minecraft:wood"
+}

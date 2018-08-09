@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:yellow_terracotta"
+    },
+    "result": {
+        "item": "minecraft:yellow_glazed_terracotta",
+        "xp": 0.1
+    },
+    "group": "minecraft:glazed_terracotta",
+    "cooking_time": 200
+}

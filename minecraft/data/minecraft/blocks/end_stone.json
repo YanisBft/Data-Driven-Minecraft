@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:end_stone",
+    "hardness": {
+        "minecraft:default": 15,
+        "minecraft:wooden_pickaxe": 2.25,
+        "minecraft:stone_pickaxe": 1.15,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 0.4
+    },
+    "blast_resistance": 45,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/end_stone",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:step/snow1",
+        "minecraft:step/snow2",
+        "minecraft:step/snow3",
+        "minecraft:step/snow4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+}

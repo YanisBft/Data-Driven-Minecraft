@@ -1,0 +1,40 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity",
+            "alter_nbt": "{Jhonny:1b}",
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:vindication_illager"
+                    }
+                ],
+                "item_name": {
+                    "name": "Jhonny"
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity",
+            "alter_name": "item_name",
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity"
+                    }
+                ],
+                "item_name": {
+                    "name": "",
+                    "inverse": true
+                }
+            }
+        }
+    ]
+}

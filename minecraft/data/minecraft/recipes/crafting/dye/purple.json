@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "item2": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:purple_dye",
+        "count": 2
+    },
+    "group": "minecraft:purple_dye"
+}

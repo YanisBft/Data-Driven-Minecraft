@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:hay_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:wheat",
+        "count": 9
+    },
+    "group": "minecraft:gem"
+}

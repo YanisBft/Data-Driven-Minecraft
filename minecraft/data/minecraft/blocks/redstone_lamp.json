@@ -1,0 +1,105 @@
+{
+    "pick_block": "minecraft:redstone_lamp",
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "blast_resistance": 1.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/redstone_lamp"
+        }
+    ],
+    "states": {
+        "lit": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "lit": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "lit": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "lit": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 15
+                    },
+                    "up": {
+                        "light": 15
+                    },
+                    "north": {
+                        "light": 15
+                    },
+                    "south": {
+                        "light": 15
+                    },
+                    "east": {
+                        "light": 15
+                    },
+                    "west": {
+                        "light": 15
+                    }
+                }
+            }
+        }
+    ]
+}

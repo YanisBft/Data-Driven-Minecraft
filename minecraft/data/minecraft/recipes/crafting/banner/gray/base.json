@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:sign",
+    "ingredients": {
+        "frame": {
+            "item": "minecraft:gray_wool"
+        },
+        "pole": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_banner"
+    },
+    "group": "minecraft:banner"
+}

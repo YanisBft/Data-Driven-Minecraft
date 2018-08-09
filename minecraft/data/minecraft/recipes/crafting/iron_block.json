@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_block"
+    },
+    "group": "minecraft:material_block"
+}

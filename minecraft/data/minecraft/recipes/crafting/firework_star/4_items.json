@@ -1,0 +1,106 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "item1"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "item2"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "item3"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "item4"    ]
+            ]
+        }
+    ],
+    "optional_shapes": [
+        {
+            "items": [
+                [    "black"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "red"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "green"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "brown"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "blue"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "purple"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "cyan"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "light_gray"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "gray"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "pink"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "lime"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "yellow"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "light_blue"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "magenta"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "orange"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "white"    ]
+            ]
+        }
+    ]
+}

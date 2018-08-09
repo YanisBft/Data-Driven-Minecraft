@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:glass"
+        },
+        "center": {
+            "item": "minecraft:cactus_green"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_stained_glass",
+        "count": 8
+    },
+    "group": "minecraft:stained_glass"
+}

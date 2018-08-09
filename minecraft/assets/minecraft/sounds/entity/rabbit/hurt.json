@@ -1,0 +1,21 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:mob/rabbit/hurt1",
+            "volume": 0.5
+        },
+        {
+            "name": "minecraft:mob/rabbit/hurt2",
+            "volume": 0.5
+        },
+        {
+            "name": "minecraft:mob/rabbit/hurt3",
+            "volume": 0.5
+        },
+        {
+            "name": "minecraft:mob/rabbit/hurt4",
+            "volume": 0.5
+        }
+    ],
+    "subtitle": "subtitles.entity.rabbit.hurt"
+}

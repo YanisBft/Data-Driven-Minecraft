@@ -1,0 +1,1053 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:water\"}"
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "empty",
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:water\"}",
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:cauldron"
+                            },
+                            {
+                                "name": "minecraft:cauldron",
+                                "properties": {
+                                    "level": "3"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "properties": {
+                    "level": "3"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:water\"}",
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:cauldron",
+                                "properties": {
+                                    "level": "2"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "properties": {
+                    "level": "2"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:water\"}",
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:cauldron",
+                                "properties": {
+                                    "level": "1"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "properties": {
+                    "level": "1"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:water\"}",
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:cauldron",
+                                "properties": {
+                                    "level": "0"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:awkward\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:thick\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:mundane\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:empty\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:regeneration\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 0,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 1,
+                        "duration": 450
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:speed",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:swiftness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:speed",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:speed",
+                        "amplifier": 1,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:fire_resistance",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:fire_resistance",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_fire_resistance\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:instant_health",
+                        "amplifier": 0,
+                        "duration": 0
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:healing\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:instant_health",
+                        "amplifier": 1,
+                        "duration": 0
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_healing\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:night_vision",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:night_vision\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:night_vision",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:strength",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strength\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:strength",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_strength\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:strength",
+                        "amplifier": 1,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_strength\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:jump_boost",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:leaping\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:jump_boost",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_leaping\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:jump_boost",
+                        "amplifier": 1,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_leaping\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:water_breathing",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:water_breathing\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:water_breathing",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:invisibility",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:invisibility\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:invisibility",
+                        "amplifier": 0,
+                        "duration": 9600
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:luck",
+                        "amplifier": 0,
+                        "duration": 6000
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:luck\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:poison",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:poison\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:poison",
+                        "amplifier": 0,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_poison\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:poison",
+                        "amplifier": 1,
+                        "duration": 432
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_poison\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:weakness",
+                        "amplifier": 0,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:weakness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:weakness",
+                        "amplifier": 0,
+                        "duration": 4800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_weakness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slowness",
+                        "amplifier": 0,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:slowness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slowness",
+                        "amplifier": 0,
+                        "duration": 4800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_slowness\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:instant_damage",
+                        "amplifier": 0,
+                        "duration": 0
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:harming\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:instant_damage",
+                        "amplifier": 1,
+                        "duration": 0
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_harming\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slowness",
+                        "amplifier": 3,
+                        "duration": 1800
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "amplifier": 3,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:turtle_master\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slowness",
+                        "amplifier": 3,
+                        "duration": 5400
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "amplifier": 3,
+                        "duration": 5400
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slowness",
+                        "amplifier": 5,
+                        "duration": 1800
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "amplifier": 5,
+                        "duration": 1800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slow_falling",
+                        "amplifier": 0,
+                        "duration": 180
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:slow_falling\"}"
+            }
+        },
+        {
+            "function": "minecraft:consume",
+            "sound": "drink",
+            "time": 60,
+            "item": {
+                "name": "minecraft:glass_bottle"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:slow_falling",
+                        "amplifier": 0,
+                        "duration": 480
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:random/burp"
+    ],
+    "subtitle": "subtitles.entity.player.burp"
+}

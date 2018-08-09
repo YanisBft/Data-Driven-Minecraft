@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/illusion_illager/hurt1",
+        "minecraft:mob/illusion_illager/hurt2",
+        "minecraft:mob/illusion_illager/hurt3"
+    ],
+    "subtitle": "subtitles.entity.illusioner.hurt"
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "item2": {
+            "item": "minecraft:flint_and_steel"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ingredients": [
+                "item1",
+                "item2"
+            ],
+            "bonus": 5
+        }
+    ],
+    "result": {
+        "item": "minecraft:flint_and_steel"
+    },
+    "group": "minecraft:repair_tool"
+}

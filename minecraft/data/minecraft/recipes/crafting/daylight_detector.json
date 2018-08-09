@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:3_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:glass"
+        },
+        "middle": {
+            "item": "minecraft:quartz"
+        },
+        "bottom": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:daylight_detector"
+    }
+}

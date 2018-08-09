@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:liquid/heavy_splash"
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+}

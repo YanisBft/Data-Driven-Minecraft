@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:dark_oak_sapling",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 19
+                }
+            ]
+        }
+    ]
+}

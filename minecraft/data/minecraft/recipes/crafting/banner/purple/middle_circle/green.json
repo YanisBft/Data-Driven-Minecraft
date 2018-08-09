@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/middle_circle",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:purple_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:cactus_green"
+        }
+    },
+    "result": {
+        "item": "minecraft:purple_banner"
+    },
+    "group": "minecraft:banner_middle_circle",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "green",
+                    "pattern": "middle_circle"
+                }
+            }
+        }
+    ]
+}

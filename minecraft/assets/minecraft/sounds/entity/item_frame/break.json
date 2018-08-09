@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:entity/itemframe/break1",
+        "minecraft:entity/itemframe/break2",
+        "minecraft:entity/itemframe/break3"
+    ],
+    "subtitle": "subtitles.entity.item_frame.break"
+}

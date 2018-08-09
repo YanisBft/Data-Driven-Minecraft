@@ -1,0 +1,28 @@
+{
+    "block_item": true,
+    "functions": [
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "name": "minecraft:potted_fern"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:flower_pot"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "place_block": "minecraft:fern"
+}

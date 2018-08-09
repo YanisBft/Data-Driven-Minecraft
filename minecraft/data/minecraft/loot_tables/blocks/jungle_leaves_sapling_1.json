@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:junge_sapling",
+                    "weight": 139
+                },
+                {
+                    "type": "empty",
+                    "weight": 4861
+                }
+            ]
+        }
+    ]
+}

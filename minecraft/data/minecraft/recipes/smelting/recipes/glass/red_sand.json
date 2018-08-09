@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:red_sand"
+    },
+    "result": {
+        "item": "minecraft:glass",
+        "xp": 0.1
+    },
+    "group": "minecraft:glass",
+    "cooking_time": 200
+}

@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:chorus_fruit"
+    },
+    "result": {
+        "item": "minecraft:popped_chorus_fruit",
+        "xp": 0.1
+    },
+    "group": "minecraft:cook_food",
+    "cooking_time": 200
+}

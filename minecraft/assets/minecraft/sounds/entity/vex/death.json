@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/vex/death1",
+        "minecraft:mob/vex/death2"
+    ],
+    "subtitle": "subtitles.entity.vex.death"
+}

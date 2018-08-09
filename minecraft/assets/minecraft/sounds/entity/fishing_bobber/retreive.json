@@ -1,0 +1,12 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:entity/bobber/retrieve1",
+            "pitch": 2.4
+        },
+        {
+            "name": "minecraft:entity/bobber/retrieve2",
+            "pitch": 2.4
+        }
+    ]
+}

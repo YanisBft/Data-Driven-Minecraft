@@ -1,0 +1,44 @@
+{
+    "stack_size": 1,
+    "durability": 132,
+    "attribute_modiers": [
+        {
+            "attribute": "generic.attackSpeed",
+            "amount": -3,
+            "operation": "add",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attackDamage",
+            "amount": 2.5,
+            "operation": "add",
+            "slot": "mainhand"
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:attack",
+            "increase_stat": true,
+            "consume_item": true
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looed_at_block",
+            "sound": "flatten",
+            "block": {
+                "name": "minecraft:grass_path"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:grass_block"
+                    }
+                ]
+            }
+        }
+    ]
+}

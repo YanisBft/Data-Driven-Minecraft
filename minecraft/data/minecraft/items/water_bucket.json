@@ -1,0 +1,245 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_fish",
+            "item": {
+                "name": "minecraft:cod_bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "entity": [
+                            {
+                                "type": "minecraft:cod"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_fish",
+            "item": {
+                "name": "minecraft:salmon_bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "entity": [
+                            {
+                                "type": "minecraft:salmon"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_fish",
+            "item": {
+                "name": "minecraft:pufferfish_bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "entity": [
+                            {
+                                "type": "minecraft:pufferfish"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_fish",
+            "item": {
+                "name": "minecraft:tropical_fish_bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "entity": [
+                            {
+                                "type": "minecraft:tropical_fish"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity",
+            "entity": {
+                "nbt": "{DeathTime:19}"
+            },
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "entity": [
+                            {
+                                "type": "#minecraft:fish"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "empty",
+            "item": {
+                "name": "minecraft:bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "empty",
+            "item": {
+                "name": "minecraft:bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "empty",
+            "item": {
+                "name": "minecraft:bucket"
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:cauldron",
+                                "properties": {
+                                    "level": "0"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "properties": {
+                    "level": "3"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:cauldron",
+                                "properties": {
+                                    "level": "0"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "name": "minecraft:water",
+                "properties": {
+                    "level": "0"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block": {
+                "name": "minecraft:water",
+                "properties": {
+                    "level": "0"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

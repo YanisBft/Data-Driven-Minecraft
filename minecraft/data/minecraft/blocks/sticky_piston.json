@@ -1,0 +1,375 @@
+{
+    "pick_block": "minecraft:sticky_piston",
+    "hardness": {
+        "minecraft:default": 0.75
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/sticky_piston"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west",
+                "up",
+                "down"
+            ]
+        },
+        "extended": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "states": {
+                "facing": "north",
+                "extended": "false"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "sticky": true
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "extended": "false"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "sticky": true
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "extended": "false"
+            },
+            "properties": {
+                "faces": {
+                    "east": {
+                        "sticky": true
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "extended": "false"
+            },
+            "properties": {
+                "faces": {
+                    "west": {
+                        "sticky": true
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "up",
+                "extended": "false"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "sticky": true
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "down",
+                "extended": "false"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "sticky": true
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "extended": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 4 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 4 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "extended": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "extended": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 12, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 12, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "extended": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "up",
+                "extended": "true"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "down",
+                "extended": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 4, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 4, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:1_layer",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "item": "minecraft:bread"
+    }
+}

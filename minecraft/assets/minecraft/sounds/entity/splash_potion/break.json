@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:random/glass1",
+        "minecraft:random/glass2",
+        "minecraft:random/glass3"
+    ],
+    "subtitle": "subtitles.entity.splah_potion.splash"
+}

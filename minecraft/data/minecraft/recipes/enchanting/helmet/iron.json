@@ -1,0 +1,85 @@
+{
+    "item": "minecraft:iron_helmet",
+    "group": "minecraft:helmet",
+    "enchantments": [
+        {
+            "name": "minecraft:protection",
+            "weight": 10,
+            "not_with": [
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:fire_protection",
+            "weight": 5,
+            "not_with": [
+                "minecraft:protection",
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:projectile_protection",
+            "weight": 5,
+            "not_with": [
+                "minecraft:protection",
+                "minecraft:fire_protection",
+                "minecraft:blast_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:aqua_affinity",
+            "weight": 2
+        },
+        {
+            "name": "minecraft:blast_protection",
+            "weight": 2,
+            "not_with": [
+                "minecraft:protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:respiration",
+            "weight": 2,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:binding_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:thorns",
+            "weight": 1,
+            "max_lvl": 3,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 9
+}

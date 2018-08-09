@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/sheep/say1",
+        "minecraft:mob/sheep/say2",
+        "minecraft:mob/sheep/say3"
+    ],
+    "subtitle": "subtitles.entity.sheep.hurt"
+}

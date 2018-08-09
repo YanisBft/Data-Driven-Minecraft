@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:concrete_powder",
+    "ingredients": {
+        "sand": {
+            "item": "minecraft:sand"
+        },
+        "gravel": {
+            "item": "minecraft:gravel"
+        },
+        "dye": {
+            "item": "minecraft:pink_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_concrete_powder",
+        "count": 8
+    },
+    "group": "minecraft:concrete_powder"
+}

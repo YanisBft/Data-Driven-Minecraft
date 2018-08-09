@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/zombie/remedy"
+    ],
+    "subtitle": "subtitles.entity.zombie_villager.cure"
+}

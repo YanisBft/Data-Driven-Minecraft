@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:gray_wool"
+        },
+        "bottom": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_bed"
+    },
+    "group": "minecraft:2_layers"
+}

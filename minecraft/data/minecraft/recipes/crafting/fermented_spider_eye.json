@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:brown_mushroom"
+        },
+        "item2": {
+            "item": "minecraft:sugar"
+        },
+        "item3": {
+            "item": "minecraft:spider_eye"
+        }
+    },
+    "result": {
+        "item": "minecraft:fermented_spider_eye"
+    }
+}

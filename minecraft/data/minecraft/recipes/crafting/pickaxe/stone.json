@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:pickaxe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:cobblestone"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_pickaxe"
+    },
+    "group": "minecraft:pickaxe"
+}

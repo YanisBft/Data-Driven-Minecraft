@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:chorus_fruit_popped"
+        }
+    },
+    "result": {
+        "item": "minecraft:purpur_block"
+    }
+}

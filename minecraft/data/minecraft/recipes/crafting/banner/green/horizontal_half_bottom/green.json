@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/horizontal_half_bottom",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:green_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:cactus_green"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_banner"
+    },
+    "group": "minecraft:banner_horizontal_half_bottom",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "green",
+                    "pattern": "horizontal_half_bottom"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/vindication_illager/hurt1",
+        "minecraft:mob/vindication_illager/hurt2",
+        "minecraft:mob/vindication_illager/hurt3"
+    ],
+    "subtitle": "subtitles.entity.vindicator.hurt"
+}

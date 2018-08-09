@@ -1,0 +1,28 @@
+{
+    "pick_block": "minecraft:air",
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:wooden_pickaxe": 3.75,
+        "minecraft:stone_pickaxe": 1.9,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 0.65
+    },
+    "blast_resistance": 25,
+    "transparent": true,
+    "block_entity": "minecraft:mob_spawner",
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dx": 1,
+                    "dy": 1,
+                    "dz": 1,
+                    "name": "minecraft:flame",
+                    "count": 10
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:rose_bush"
+        }
+    },
+    "result": {
+        "item": "minecraft:rose_red",
+        "count": 2
+    },
+    "group": "minecraft:rose_red"
+}

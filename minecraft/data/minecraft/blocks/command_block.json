@@ -1,0 +1,808 @@
+{
+    "pick_block": "minecraft:command_block",
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "blast_resistance": -1,
+    "block_entity": "minecraft:command_block",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "up",
+                "down",
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "conditional": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:command"
+            }
+        ],
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "powered": "true"
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "powered": "false"
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    },
+                                    "nbt": "{auto:0b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:run_command",
+                "type": "Command",
+                "tag": "Command",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false",
+                                        "conditional": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "down",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "up",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "receive_power": {
+                            "type": "redstone"
+                        }
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "y": -1
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "down",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "y": 1
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "up",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "x": -1
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:nbt_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "powered": "true"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "powered": "false"
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    },
+                                    "nbt": "{auto:0b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:run_command",
+                "type": "string",
+                "tag": "Command",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false",
+                                        "conditional": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "down",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "up",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:command_blocks"
+                                    },
+                                    {
+                                        "nbt": "{SuccessCount:0}",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west",
+                                        "powered": "false",
+                                        "conditional": "true"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "y": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "down",
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "y": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "up",
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north",
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south",
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east",
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "type": "command_block",
+                "strength": 1,
+                "amount": 1,
+                "positions": {
+                    "x": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west",
+                                        "powered": "false"
+                                    },
+                                    "nbt": "{auto:1b}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

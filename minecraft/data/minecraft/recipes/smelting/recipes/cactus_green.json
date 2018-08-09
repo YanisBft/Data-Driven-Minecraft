@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:cactus"
+    },
+    "result": {
+        "item": "minecraft:cactus_green",
+        "xp": 0.2
+    },
+    "cooking_time": 200
+}

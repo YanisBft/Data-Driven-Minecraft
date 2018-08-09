@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:block_cross_diagonal",
+    "ingredients": {
+        "corner": {
+            "item": "minecraft:gunpowder"
+        },
+        "center": {
+            "item": "minecraft:sand"
+        }
+    },
+    "result": {
+        "item": "minecraft:tnt"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/polarbear/idle1",
+        "minecraft:mob/polarbear/idle2",
+        "minecraft:mob/polarbear/idle3",
+        "minecraft:mob/polarbear/idle4"
+    ],
+    "subtitle": "subtitles.entity.polar_bear.ambient"
+}

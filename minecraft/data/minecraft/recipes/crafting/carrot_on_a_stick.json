@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:fishing_rod"
+        },
+        "item2": {
+            "item": "minecraft:carrot"
+        }
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick"
+    }
+}

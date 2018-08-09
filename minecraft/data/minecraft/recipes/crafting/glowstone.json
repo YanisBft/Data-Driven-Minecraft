@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:glowstone"
+    }
+}

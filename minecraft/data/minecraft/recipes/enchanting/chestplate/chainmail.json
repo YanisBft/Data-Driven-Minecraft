@@ -1,0 +1,75 @@
+{
+    "item": "minecraft:chainmail_chestplate",
+    "group": "minecraft:chestplate",
+    "enchantments": [
+        {
+            "name": "minecraft:protection",
+            "weight": 10,
+            "not_with": [
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:fire_protection",
+            "weight": 5,
+            "not_with": [
+                "minecraft:protection",
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:projectile_protection",
+            "weight": 5,
+            "not_with": [
+                "minecraft:protection",
+                "minecraft:fire_protection",
+                "minecraft:blast_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:blast_protection",
+            "weight": 2,
+            "not_with": [
+                "minecraft:protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+            ],
+            "max_lvl": 4
+        },
+        {
+            "name": "minecraft:thorns",
+            "weight": 1,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:binding_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 12
+}

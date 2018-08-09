@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/skeleton/say1",
+        "minecraft:mob/skeleton/say2",
+        "minecraft:mob/skeleton/say3"
+    ],
+    "subtitle": "subtitles.entity.skeleton.ambient"
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:entity/witch/hurt1",
+        "minecraft:entity/witch/hurt2",
+        "minecraft:entity/witch/hurt3"
+    ],
+    "subtitle": "subtitles.entity.witch.hurt"
+}

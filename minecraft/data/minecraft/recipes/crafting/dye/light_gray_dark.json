@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:ink_sack"
+        },
+        "item2": {
+            "item": "minecraft:bone_meal"
+        },
+        "item3": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "result": {
+        "item": "minecraft:light_gray_dye",
+        "count": 3
+    },
+    "group": "minecraft:light_gray_dye"
+}

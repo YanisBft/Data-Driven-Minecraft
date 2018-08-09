@@ -1,0 +1,89 @@
+{
+    "pick_block": "minecraft:blue_banner",
+    "hardness": {
+        "minecraft:default": 1.5,
+        "minecraft:wooden_axe": 0.75,
+        "minecraft:stone_axe": 0.4,
+        "minecraft:iron_axe": 0.25,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.15
+    },
+    "burn": {
+        "encouragement": 30,
+        "flammability": 60
+    },
+    "blast_resistance": 5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/blue_banner"
+        }
+    ],
+    "block_entity": "minecraft:banner",
+    "states": {
+        "rotation": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 28, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:brown_shulker_box",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "copy": "Items",
+                            "paste": "BlockEntityTag.Items"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "copy": "CustomName",
+                            "paste": "display.Name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

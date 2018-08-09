@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:netherrack",
+    "hardness": {
+        "minecraft:default": 2,
+        "minecraft:wooden_pickaxe": 0.35,
+        "minecraft:stone_pickaxe": 0.2,
+        "minecraft:iron_pickaxe": 0.1,
+        "minecraft:diamond_pickaxe": 0.1,
+        "minecraft:golden_pickaxe": 0.05
+    },
+    "blast_resistance": 2,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/netherrack",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ]
+}

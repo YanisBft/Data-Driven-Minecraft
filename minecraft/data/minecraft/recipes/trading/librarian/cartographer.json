@@ -1,0 +1,110 @@
+{
+    "tiers": [
+        [
+            {
+                "buy": {
+                    "item": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 24,
+                                "max": 36
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:compass"
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:map"
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:compass"
+                },
+                "buy2": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 12,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:filled_map",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "destination": "ocean_monument",
+                            "decoration": "monument",
+                            "zoom": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:compass"
+                },
+                "buy2": {
+                    "item": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 28
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:filled_map",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "destination": "woodland_mansion",
+                            "decoration": "mansion",
+                            "zoom": 1
+                        }
+                    ]
+                }
+            }
+        ]
+    ]
+}

@@ -1,0 +1,491 @@
+{
+    "pick_block": "minecraft:cocoa_beans",
+    "hardness": {
+        "minecraft:default": 0.35,
+        "minecraft:wooden_pickaxe": 0.25,
+        "minecraft:stone_pickaxe": 0.2,
+        "minecraft:iron_pickaxe": 0.05,
+        "minecraft:diamond_pickaxe": 0.05,
+        "minecraft:golden_pickaxe": 0.05,
+        "minecraft:wooden_sword": 0.2,
+        "minecraft:stone_sword": 0.2,
+        "minecraft:iron_sword": 0.2,
+        "minecraft:diamond_sword": 0.2,
+        "minecraft:golden_sword": 0.2
+    },
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/cocoa_ungrown",
+            "states": [
+                {
+                    "age": "0"
+                },
+                {
+                    "age": "1"
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/cocoa_grown",
+            "states": {
+                "age": "2"
+            }
+        }
+    ],
+    "states": {
+        "age": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2"
+            ]
+        },
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "west",
+                "east"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "age": "0",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "north": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 6, 7, 1 ],
+                        "to": [ 10, 12, 5 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 7, 1 ],
+                        "to": [ 10, 12, 5 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "1",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "north": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 5, 1 ],
+                        "to": [ 11, 12, 7 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 5, 5, 1 ],
+                        "to": [ 11, 12, 7 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "2",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "north": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 1 ],
+                        "to": [ 12, 12, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "0",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "south": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 6, 7, 11 ],
+                        "to": [ 10, 12, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 6, 7, 11 ],
+                        "to": [ 10, 12, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "1",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "south": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 5, 13 ],
+                        "to": [ 11, 12, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 5, 5, 13 ],
+                        "to": [ 11, 12, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "2",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "south": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 9 ],
+                        "to": [ 12, 12, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 9 ],
+                        "to": [ 12, 12, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "0",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "east": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 11, 7, 6 ],
+                        "to": [ 15, 12, 10 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 11, 7, 6 ],
+                        "to": [ 15, 12, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "1",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "east": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 9, 5, 5 ],
+                        "to": [ 15, 12, 11 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 9, 5, 5 ],
+                        "to": [ 15, 12, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "2",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "east": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 7, 3, 4 ],
+                        "to": [ 15, 12, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 3, 4 ],
+                        "to": [ 15, 12, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "0",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "west": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1, 7, 6 ],
+                        "to": [ 5, 12, 10 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 7, 6 ],
+                        "to": [ 5, 12, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "1",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "west": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1, 5, 5 ],
+                        "to": [ 7, 12, 11 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 5, 5 ],
+                        "to": [ 7, 12, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "2",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "west": [
+                        {
+                            "name": "minecraft:jungle_log"
+                        },
+                        {
+                            "name": "minecraft:jungle_bark"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1, 3, 4 ],
+                        "to": [ 9, 12, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 3, 4 ],
+                        "to": [ 9, 12, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

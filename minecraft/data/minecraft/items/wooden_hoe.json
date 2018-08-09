@@ -1,0 +1,60 @@
+{
+    "stack_size": 1,
+    "durability": 60,
+    "attribute_modiers": [
+        {
+            "attribute": "generic.attackSpeed",
+            "amount": -3,
+            "operation": "add",
+            "slot": "mainhand"
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:attack",
+            "increase_stat": true,
+            "consume_item": true
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looed_at_block",
+            "sound": "till_farmland",
+            "block": {
+                "name": "minecraft:farmland",
+                "properties": {
+                    "moisture": 0
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:dirt"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looed_at_block",
+            "sound": "till_dirt",
+            "block": {
+                "name": "minecraft:dirt"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:coarse_dirt"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:rail",
+    "ingredients": {
+        "rail": {
+            "item": "minecraft:stick"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:ladder",
+        "count": 3
+    }
+}

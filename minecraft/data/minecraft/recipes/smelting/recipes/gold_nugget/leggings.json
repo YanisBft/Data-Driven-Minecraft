@@ -1,0 +1,18 @@
+{
+    "item": {
+        "item": "minecraft:golden_leggings"
+    },
+    "result": {
+        "item": "minecraft:gold_nugget",
+        "count": 7,
+        "xp": 0.2
+    },
+    "group": "minecraft:gold_nugget",
+    "cooking_time": 200,
+    "functions": [
+        {
+            "function": "minecraft:scale_durability",
+            "tag": "Count"
+        }
+    ]
+}

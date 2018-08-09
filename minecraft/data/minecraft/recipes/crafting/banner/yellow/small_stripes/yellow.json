@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/small_stripes",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:yellow_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    },
+    "result": {
+        "item": "minecraft:yellow_banner"
+    },
+    "group": "minecraft:banner_small_stripes",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "yellow",
+                    "pattern": "small_stripes"
+                }
+            }
+        }
+    ]
+}

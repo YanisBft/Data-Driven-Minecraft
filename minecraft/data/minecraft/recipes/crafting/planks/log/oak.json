@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:oak_log"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:oak_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

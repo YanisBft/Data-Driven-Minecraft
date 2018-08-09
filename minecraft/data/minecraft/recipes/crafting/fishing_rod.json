@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "stick"    ],
+                [    "string",    "stick"    ],
+                [    "string",    "",    "stick"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "stick": {
+            "item": "minecraft:stick"
+        },
+        "string": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:fishing_rod"
+    }
+}

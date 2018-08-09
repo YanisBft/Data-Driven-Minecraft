@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:blue_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:bricks"
+        },
+        "item3": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_banner"
+    },
+    "group": "minecraft:banner_brick",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "white",
+                    "pattern": "brick"
+                }
+            }
+        }
+    ]
+}

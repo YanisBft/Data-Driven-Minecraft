@@ -1,0 +1,21 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "wheat",    "chocolate",    "wheat"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "wheat": {
+            "item": "minecraft:wheat"
+        },
+        "chocolate": {
+            "item": "minecraft:cocoa_beans"
+        }
+    },
+    "result": {
+        "item": "minecraft:cookie",
+        "count": 8
+    }
+}

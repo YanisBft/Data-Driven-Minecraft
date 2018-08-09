@@ -1,0 +1,1740 @@
+{
+    "pick_block": "minecraft:comparator",
+    "transparent": true,
+    "loot_table": [
+        {
+            "table": "minecraft:blocks/comparator"
+        }
+    ],
+    "block_entity": "minecraft:comparator",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "east",
+                "south",
+                "west"
+            ]
+        },
+        "mode": {
+            "default": "compare",
+            "values": [
+                "compare",
+                "substract"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "time": 2,
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "north"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false",
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "south"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false",
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "east"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false",
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "west"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false",
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "time": 2,
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "north",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "south",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "east",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "from": "west",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:used": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "mode": "substract"
+                    }
+                },
+                "sound": "click_substract",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "mode": "compare"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "mode": "compare"
+                    }
+                },
+                "sound": "click_compare",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "mode": "substract"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:15}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 14,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:14}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 13,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:13}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 12,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:12}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 11,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:11}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 10,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:10}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 9,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:8}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:7}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:6}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:5}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:4}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:2}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "north"
+                                    },
+                                    "nbt": "{output:1}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:15}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 14,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:14}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 13,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:13}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 12,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:12}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 11,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:11}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 10,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:10}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 9,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:8}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:7}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:6}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:5}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:4}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:2}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "south"
+                                    },
+                                    "nbt": "{output:1}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:15}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 14,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:14}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 13,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:13}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 12,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:12}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 11,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:11}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 10,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:10}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 9,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:8}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:7}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:6}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:5}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:4}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:2}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "east"
+                                    },
+                                    "nbt": "{output:1}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:15}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 14,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:14}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 13,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:13}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 12,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:12}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 11,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:11}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 10,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:10}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 9,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:8}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:7}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:6}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:5}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:4}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:2}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "facing": "west"
+                                    },
+                                    "nbt": "{output:1}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

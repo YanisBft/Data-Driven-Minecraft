@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "shell",    "",    "shell"    ],
+                [    "shell",    "chest",    "shell"    ],
+                [    "",    "shell",    ""    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "shell": {
+            "item": "minecraft:iron_ingot"
+        },
+        "chest": {
+            "item": "minecraft:chest"
+        }
+    },
+    "result": {
+        "item": "minecraft:hopper"
+    }
+}

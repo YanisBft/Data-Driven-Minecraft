@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/horizontal_half_top",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:lime_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_banner"
+    },
+    "group": "minecraft:banner_horizontal_half_top",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "red",
+                    "pattern": "horizontal_half_top"
+                }
+            }
+        }
+    ]
+}

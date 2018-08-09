@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:birch_planks"
+        },
+        "bottom": {
+            "item": "minecraft:birch_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:birch_trapdoor",
+        "count": 2
+    },
+    "group": "minecraft:trapdoor"
+}

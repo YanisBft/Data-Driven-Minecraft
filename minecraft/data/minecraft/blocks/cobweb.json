@@ -1,0 +1,124 @@
+{
+    "pick_block": "minecraft:cobweb",
+    "hardness": {
+        "minecraft:default": 20,
+        "minecraft:wooden_sword": 0.4,
+        "minecraft:stone_sword": 0.4,
+        "minecraft:iron_sword": 0.4,
+        "minecraft:diamond_sword": 0.4,
+        "minecraft:golden_sword": 0.4,
+        "minecraft:shears": 0.4
+    },
+    "burn": {
+        "encouragement": 15,
+        "flammability": 100
+    },
+    "resistance": 20,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:cobweb",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:cobweb",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/swords"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:cobweb_string",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/swords"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        }
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:effect",
+                "effect": "movement",
+                "amount": -0.85,
+                "affects": [
+                    {
+                        "type": "minecraft:player",
+                        "flying": true,
+                        "inverse": true
+                    },
+                    {
+                        "type": "#minecraft:spiders",
+                        "inverse": true
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": -1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": -1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": -1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": -1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": -1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": -1,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

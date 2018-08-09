@@ -1,0 +1,11 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "top",    "top",    "top"],
+                [    "middle",    "middle",    "middle"],
+                [    "bottom",    "bottom",    "bottom"]
+            ]
+        }
+    ]
+}

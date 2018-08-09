@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:dispenser",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "copy": "{\"CustomName\"}",
+                            "paste": "{\"display\":{\"Name\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:block/catagory/wood/hit"
+        }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+}

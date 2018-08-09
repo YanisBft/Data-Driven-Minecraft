@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_high_line",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:redstone"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone_torch"
+    },
+    "group": "minecraft:torch"
+}

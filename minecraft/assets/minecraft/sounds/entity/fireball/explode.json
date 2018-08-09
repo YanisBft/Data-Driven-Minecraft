@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:entity/generic/explode"
+        }
+    ],
+    "subtitle": "subtitles.entity.generic.explode"
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/turtle/death1",
+        "minecraft:mob/turtle/death2",
+        "minecraft:mob/turtle/death3"
+    ],
+    "subtitle": "subtitles.entity.turtle.death"
+}

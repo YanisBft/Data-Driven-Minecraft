@@ -1,0 +1,24 @@
+{
+    "item": "minecraft:shield",
+    "enchantments": [
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 0
+}

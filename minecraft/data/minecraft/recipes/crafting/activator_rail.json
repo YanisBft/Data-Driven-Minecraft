@@ -1,0 +1,26 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "rail",    "stick",    "rail"    ],
+                [    "rail",    "torch",    "rail"    ],
+                [    "rail",    "stick",    "rail"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "rail": {
+            "item": "minecraft:iron_ingot"
+        },
+        "torch": {
+            "item": "minecraft:redstone_torch"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:activator_rail",
+        "count": 6
+    }
+}

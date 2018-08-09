@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:stick"
+        },
+        "center": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame"
+    },
+    "group": "minecraft:painting"
+}

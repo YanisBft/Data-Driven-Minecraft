@@ -1,0 +1,36 @@
+{
+    "pick_block": "minecraft:slime_block",
+    "transparent": true,
+    "fall_damage": -1,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/slime_block"
+        }
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "sticky": true
+                    },
+                    "up": {
+                        "sticky": true
+                    },
+                    "north": {
+                        "sticky": true
+                    },
+                    "south": {
+                        "sticky": true
+                    },
+                    "east": {
+                        "sticky": true
+                    },
+                    "west": {
+                        "sticky": true
+                    }
+                }
+            }
+        }
+    ]
+}

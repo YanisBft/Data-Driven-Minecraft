@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/creeper/death"
+    ],
+    "subtitle": "subtitles.entity.creeper.death"
+}

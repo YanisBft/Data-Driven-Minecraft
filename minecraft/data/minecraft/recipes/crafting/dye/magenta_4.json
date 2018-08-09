@@ -1,0 +1,40 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "blue"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "white"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "red"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "red"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "blue": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "white": {
+            "item": "minecraft:bone_meal"
+        },
+        "red": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:magenta_dye",
+        "count": 4
+    },
+    "group": "minecraft:magenta_dye"
+}

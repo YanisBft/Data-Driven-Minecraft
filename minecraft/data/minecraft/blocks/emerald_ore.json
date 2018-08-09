@@ -1,0 +1,115 @@
+{
+    "pick_block": "minecraft:emerald_ore",
+    "hardness": {
+        "minecraft:default": 15,
+        "minecraft:wooden_pickaxe": 7.5,
+        "minecraft:stone_pickaxe": 3.75,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 1.25
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:emerald_ore_emerald_0",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:emerald_ore",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:emerald_ore_emerald_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 1
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:emerald_ore_emerald_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 2
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:emerald_ore_emerald_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 3
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ]
+}

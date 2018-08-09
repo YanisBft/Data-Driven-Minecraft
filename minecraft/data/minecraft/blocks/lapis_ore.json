@@ -1,0 +1,115 @@
+{
+    "pick_block": "minecraft:lapis_ore",
+    "hardness": {
+        "minecraft:default": 15,
+        "minecraft:wooden_pickaxe": 7.5,
+        "minecraft:stone_pickaxe": 1.15,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 1.25
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/lapis_ore_lapis_0",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/lapis_ore",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/lapis_ore_lapis_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 1
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/lapis_ore_lapis_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 2
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/lapis_ore_lapis_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 3
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_bricks",
+        "count": 4
+    }
+}

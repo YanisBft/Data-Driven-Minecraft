@@ -1,0 +1,156 @@
+{
+    "parent": "minecraft:firework_star/2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:gunpowder"
+        },
+        "item2": {
+            "item": "minecraft:fire_charge"
+        },
+        "black": {
+            "item": "minecraft:ink_sack"
+        },
+        "red": {
+            "item": "minecraft:rose_red"
+        },
+        "green": {
+            "item": "minecraft:cactus_green"
+        },
+        "brown": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "blue": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "purple": {
+            "item": "minecraft:purple_dye"
+        },
+        "cyan": {
+            "item": "minecraft:cyan_dye"
+        },
+        "light_gray": {
+            "item": "minecraft:light_gray_dye"
+        },
+        "gray": {
+            "item": "minecraft:gray_dye"
+        },
+        "pink": {
+            "item": "minecraft:pink_dye"
+        },
+        "lime": {
+            "item": "minecraft:lime_dye"
+        },
+        "yellow": {
+            "item": "minecraft:dandelion_yellow"
+        },
+        "light_blue": {
+            "item": "minecraft:light_blue_dye"
+        },
+        "magenta": {
+            "item": "minecraft:magenta_dye"
+        },
+        "orange": {
+            "item": "minecraft:orange_dye"
+        },
+        "white": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "optional_shapes_required": {
+        "min": 1,
+        "max": 1
+    },
+    "result": {
+        "item": "minecraft:firework_star"
+    },
+    "group": "minecraft:firework_star",
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "ingredient": "black",
+            "color": 1644825
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "red",
+            "color": 10040115
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "green",
+            "color": 6717235
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "brown",
+            "color": 6704179
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "blue",
+            "color": 3361970
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "purple",
+            "color": 8339378
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "cyan",
+            "color": 5013401
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "light_gray",
+            "color": 10066329
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "gray",
+            "color": 5000268
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "pink",
+            "color": 15892389
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "lime",
+            "color": 8375321
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "yellow",
+            "color": 15066419
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "light_blue",
+            "color": 6724056
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "magenta",
+            "color": 11685080
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "orange",
+            "color": 14188339
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "white",
+            "color": 16777215
+        },
+        {
+            "function": "minecraft:add_component",
+            "fireworks": {
+                "type": "large_ball"
+            },
+            "overwrite": true
+        }
+    ]
+}

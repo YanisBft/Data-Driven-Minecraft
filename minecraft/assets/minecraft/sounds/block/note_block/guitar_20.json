@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:note/guitar",
+            "pitch": 1.587401
+        }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+}

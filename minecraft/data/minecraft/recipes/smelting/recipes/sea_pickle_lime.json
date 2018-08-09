@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:sea_pickle"
+    },
+    "result": {
+        "item": "minecraft:lime_dye",
+        "xp": 0.2
+    },
+    "cooking_time": 200
+}

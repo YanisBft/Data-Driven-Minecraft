@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/bottom_stripe",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:brown_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:cocoa_beans"
+        }
+    },
+    "result": {
+        "item": "minecraft:brown_banner"
+    },
+    "group": "minecraft:banner_bottom_stripe",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "brown",
+                    "pattern": "bottom_stripe"
+                }
+            }
+        }
+    ]
+}

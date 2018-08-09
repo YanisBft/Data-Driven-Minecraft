@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_button"
+    },
+    "group": "minecraft:button"
+}

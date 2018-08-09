@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:ambient/underwater/underwater_ambience",
+            "volume": 0.65,
+            "preload": true
+        }
+    ]
+}

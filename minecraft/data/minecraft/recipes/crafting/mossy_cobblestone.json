@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:cobblestone"
+        },
+        "item2": {
+            "item": "minecraft:vine"
+        }
+    },
+    "result": {
+        "item": "minecraft:mossy_cobblestone"
+    },
+    "group": "minecraft:mossy_block"
+}

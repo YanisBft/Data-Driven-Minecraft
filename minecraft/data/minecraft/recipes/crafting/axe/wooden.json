@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:axe",
+    "ingredients": {
+        "material": {
+            "tag": "minecraft:planks"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_axe"
+    },
+    "group": "minecraft:axe"
+}

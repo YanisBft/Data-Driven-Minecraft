@@ -1,0 +1,25 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "glass",    "glass",    "glass"    ],
+                [    "glass",    "star",    "glass"    ],
+                [    "obsidian",    "obsidian",    "obsidian"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "glass": {
+            "item": "minecraft:glass"
+        },
+        "obsidian": {
+            "item": "minecraft:obsidian"
+        },
+        "star": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:beacon"
+    }
+}

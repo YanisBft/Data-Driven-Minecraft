@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/spider/say1",
+        "minecraft:mob/spider/say2",
+        "minecraft:mob/spider/say3",
+        "minecraft:mob/spider/say4"
+    ],
+    "subtitle": "subtitles.entity.spider.hurt"
+}

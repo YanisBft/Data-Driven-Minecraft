@@ -1,0 +1,12 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:mob/drowned/water/death1",
+            "volume": 0.9
+        },
+        {
+            "name": "minecraft:mob/drowned/water/death2",
+            "volume": 0.9
+        }
+    ]
+}

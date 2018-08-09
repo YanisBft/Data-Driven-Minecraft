@@ -1,0 +1,22 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "eat",
+            "time": 600,
+            "item": {
+                "name": "minecraft:bowl"
+            },
+            "effects": {
+                "food": 6,
+                "saturation": 7.2
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

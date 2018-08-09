@@ -1,0 +1,354 @@
+{
+    "pick_block": "minecraft:cake",
+    "hardness": {
+        "minecraft:default": 0.75
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/cake",
+            "states": {
+                "bites": 0
+            }
+        }
+    ],
+    "states": {
+        "bites": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:apply_effect",
+                "effect": {
+                    "name": "minecraft:saturation",
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "bites": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "bites": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "bites": "3"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "2"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "bites": "4"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "3"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "bites": "5"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "4"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "bites": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "5"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "bites": "6"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                }
+            }
+        },
+        {
+            "states": {
+                "bites": "0"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "bites": "1"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 3, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 3, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "bites": "2"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 5, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 5, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "bites": "3"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "bites": "4"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 9, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 9, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "bites": "5"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 11, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 11, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "bites": "6"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 13, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 13, 0, 1 ],
+                        "to": [ 15, 8, 15 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

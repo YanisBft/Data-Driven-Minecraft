@@ -1,0 +1,61 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "paper"    ]
+            ]
+        }
+    ],
+    "optional_shapes": [
+        {
+            "items": [
+                [    "gunpowder"    ]
+            ],
+            "min_groups": 1,
+            "max_groups": 3
+        },
+        {
+            "items": [
+                [    "star"    ]
+            ],
+            "max_groups": 1
+        }
+    ],
+    "ingredients": {
+        "paper": {
+            "item": "minecraft:paper"
+        },
+        "gunpowder": {
+            "item": "minecraft:gunpowder"
+        },
+        "star": {
+            "item": "minecraft:firework_star"
+        }
+    },
+    "optional_shapes_required": {
+        "min": 1,
+        "max": 4
+    },
+    "result": {
+        "item": "minecraft:firework_rocket",
+        "count": 3
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "gunpowder",
+            "copy": "Explosion",
+            "paste": "Fireworks.Explosions[0]"
+        },
+        {
+            "function": "minecraft:add_component",
+            "ingredient": "gunpowder",
+            "fireworks": {
+                "flight": 1
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:fireworks"
+    }
+}

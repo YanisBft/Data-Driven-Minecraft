@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:axe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:diamond"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_axe"
+    },
+    "group": "minecraft:axe"
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:music/game/end/end",
+            "stream": true
+        }
+    ]
+}

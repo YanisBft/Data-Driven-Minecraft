@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/chicken/hurt1",
+        "minecraft:mob/chicken/hurt2"
+    ],
+    "subtitle": "subtitles.entity.chicken.hurt"
+}

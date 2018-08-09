@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:note/hat",
+            "pitch": 0.66742
+        }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+}

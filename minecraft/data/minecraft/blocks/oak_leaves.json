@@ -1,0 +1,161 @@
+{
+    "pick_block": "minecraft:oak_leaves",
+    "hardness": {
+        "minecraft:default": 0.35,
+        "minecraft:wooden_sword": 0.2,
+        "minecraft:stone_sword": 0.2,
+        "minecraft:iron_sword": 0.2,
+        "minecraft:diamond_sword": 0.2,
+        "minecraft:golden_sword": 0.2,
+        "minecraft:shears": 0.05
+    },
+    "burn": {
+        "encouragement": 30,
+        "flammability": 60
+    },
+    "blast_resistance": 1,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/oak_leaves_sapling_0",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "invert": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/oak_leaves",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/oak_leaves_sapling_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 1
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/oak_leaves_sapling_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 2
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/oak_leaves_sapling_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 3
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "states": {
+        "distance": {
+            "default": "1",
+            "values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ]
+        },
+        "persistent": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:gold_ore",
+    "hardness": {
+        "minecraft:default": 15,
+        "minecraft:wooden_pickaxe": 7.5,
+        "minecraft:stone_pickaxe": 3.75,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 1.25
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/gold_ore",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                }
+            ]
+        }
+    ]
+}

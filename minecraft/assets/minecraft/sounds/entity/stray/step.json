@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/stray/step1",
+        "minecraft:mob/stray/step2",
+        "minecraft:mob/stray/step3",
+        "minecraft:mob/stray/step4"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.entity.player.levelup"
+}

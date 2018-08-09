@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:gray_dye"
+        },
+        "item2": {
+            "item": "minecraft:white_bed"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_bed"
+    },
+    "group": "minecraft:2_layers_coloring"
+}

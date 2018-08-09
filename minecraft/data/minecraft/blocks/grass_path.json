@@ -1,0 +1,174 @@
+{
+    "pick_block": "minecraft:grass_path",
+    "hardness": {
+        "minecraft:default": 0.9,
+        "minecraft:wooden_shovel": 0.45,
+        "minecraft:stone_shovel": 0.25,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.15,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 3.25,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dirt"
+        }
+    ],
+    "functions": {
+        "minecraft:block_above_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:dirt"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:leaves",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fences",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:cocoa",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:wall_sign",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:wall_banners",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:skeleton_wall_skull",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:wither_skeleton_wall_skull",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:zombie_wall_head",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:player_wall_head",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:creeper_wall_head",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:dragon_wall_head",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "upper"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:wall_torch",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:hopper",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:piston_head",
+                                        "properties": {
+                                            "facing": "down"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:moving_piston",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:tripwire",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 15, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 15, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

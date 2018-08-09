@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.block.dispenser.fail"
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/silverfish/step1",
+        "minecraft:mob/silverfish/step2",
+        "minecraft:mob/silverfish/step3",
+        "minecraft:mob/silverfish/step4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+}

@@ -1,0 +1,11 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:entity/vex/ambient",
+            "volume": 0.8,
+            "pitch": 1.6
+        }
+    ],
+    "subtitle": "subtitles.entity.parrot.imitate.vex"
+}

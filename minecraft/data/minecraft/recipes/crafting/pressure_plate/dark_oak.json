@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:dark_oak_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_oak_pressure_plate"
+    },
+    "group": "minecraft:pressure_plate"
+}

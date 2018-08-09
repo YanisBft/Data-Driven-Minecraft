@@ -1,0 +1,25 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "eat",
+            "time": 600,
+            "item": {
+                "name": "minecraft:bucket"
+            },
+            "effects": {
+                "potion_effects": [
+                    {
+                        "effect": "clear"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

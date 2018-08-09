@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:fence",
+    "ingredients": {
+        "planks": {
+            "item": "minecraft:nether_bricks"
+        },
+        "stick": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_brick_fence",
+        "count": 3
+    },
+    "group": "minecraft:fence"
+}

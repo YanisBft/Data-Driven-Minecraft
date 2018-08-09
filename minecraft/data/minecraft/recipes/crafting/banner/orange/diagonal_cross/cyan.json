@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/diagonal_cross",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:orange_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:cyan_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_banner"
+    },
+    "group": "minecraft:banner_diagonal_cross",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "cyan",
+                    "pattern": "diagonal_cross"
+                }
+            }
+        }
+    ]
+}

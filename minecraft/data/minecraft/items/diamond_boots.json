@@ -1,0 +1,38 @@
+{
+    "stack_size": 1,
+    "durability": 430,
+    "armor_piece": [
+        "boots"
+    ],
+    "attribute_modifiers": [
+        {
+            "attribute": "generic.armor",
+            "slot": "feet",
+            "amount": 3,
+            "operation": "add"
+        },
+        {
+            "attribute": "generic.armorToughness",
+            "slot": "feet",
+            "amount": 3,
+            "operation": "add"
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:worn",
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "damage": {}
+            }
+        },
+        {
+            "function": "minecraft:equip",
+            "sound": "equip",
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

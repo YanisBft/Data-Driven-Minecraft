@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:pickaxe",
+    "ingredients": {
+        "material": {
+            "tag": "minecraft:planks"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_pickaxe"
+    },
+    "group": "minecraft:pickaxe"
+}

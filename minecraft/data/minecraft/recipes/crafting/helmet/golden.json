@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:helmet",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_helmet"
+    },
+    "group": "minecraft:helmet"
+}

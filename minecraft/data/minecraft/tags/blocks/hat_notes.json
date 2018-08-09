@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#minecraft:glass",
+        "#minecraft:glass_panes",
+        "minecraft:beacon",
+        "minecraft:glowstone",
+        "minecraft:sea_lantern"
+    ]
+}

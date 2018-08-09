@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:pink_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:oxeye_daisy"
+        },
+        "item3": {
+            "item": "minecraft:light_blue_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_banner"
+    },
+    "group": "minecraft:banner_flower",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "light_blue",
+                    "pattern": "flower"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:blue_concrete",
+    "hardness": {
+        "minecraft:default": 9,
+        "minecraft:wooden_pickaxe": 1.35,
+        "minecraft:stone_pickaxe": 0.7,
+        "minecraft:iron_pickaxe": 0.45,
+        "minecraft:diamond_pickaxe": 0.35,
+        "minecraft:golden_pickaxe": 0.25
+    },
+    "blast_resistance": 9,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/blue_concrete",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ]
+}

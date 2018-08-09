@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/horse/breathe1",
+        "minecraft:mob/horse/breathe2",
+        "minecraft:mob/horse/breathe3"
+    ],
+    "subtitle": "subtitles.entity.horse.breathe"
+}

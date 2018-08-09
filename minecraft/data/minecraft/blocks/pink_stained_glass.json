@@ -1,0 +1,48 @@
+{
+    "pick_block": "minecraft:pink_stained_glass",
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "blast_resistance": 1.5,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/pink_stained_glass",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "transfer_power": false
+                    }
+                }
+            }
+        }
+    ]
+}

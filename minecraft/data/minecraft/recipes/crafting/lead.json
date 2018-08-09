@@ -1,0 +1,23 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "rope",    "rope"    ],
+                [    "rope",    "slime"    ],
+                [    "",    "",    "rope"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "rope": {
+            "item": "minecraft:string"
+        },
+        "slime": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result": {
+        "item": "minecraft:lead",
+        "count": 2
+    }
+}

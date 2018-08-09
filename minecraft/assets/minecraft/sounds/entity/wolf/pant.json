@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/wolf/panting"
+    ],
+    "subtitle": "subtitles.entity.wolf.ambient"
+}

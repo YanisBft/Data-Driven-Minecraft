@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:block_cross",
+    "ingredients": {
+        "corner": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "center": {
+            "item": "minecraft:prismarine_crystals"
+        }
+    },
+    "result": {
+        "item": "minecraft:sea_lantern"
+    }
+}

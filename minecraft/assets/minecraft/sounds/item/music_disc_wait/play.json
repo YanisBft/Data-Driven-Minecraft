@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:records/wait",
+            "stream": true
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone",
+        "count": 9
+    },
+    "group": "minecraft:gem"
+}

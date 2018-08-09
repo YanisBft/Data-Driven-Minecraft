@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:item/totem/use_totem"
+    ],
+    "subtitle": "subtitles.item.totem_of_undying.use"
+}

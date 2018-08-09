@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/vindication_illager/idle1",
+        "minecraft:mob/vindication_illager/idle2",
+        "minecraft:mob/vindication_illager/idle3",
+        "minecraft:mob/vindication_illager/idle4"
+    ],
+    "subtitle": "subtitles.entity.vindicator.ambient"
+}

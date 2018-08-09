@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:ambient/weather/thunder1",
+        "minecraft:ambient/weather/thunder2",
+        "minecraft:ambient/weather/thunder3"
+    ],
+    "subtitle": "subtitles.entity.lightning_bolt.thunder"
+}

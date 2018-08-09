@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:hoe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:diamond"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_hoe"
+    },
+    "group": "minecraft:hoe"
+}

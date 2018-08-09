@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/horse/donkey/angry1",
+        "minecraft:mob/horse/donkey/angry2"
+    ],
+    "subtitle": "subtitles.entity.donkey.angry"
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:dig/sand1",
+        "minecraft:dig/sand2",
+        "minecraft:dig/sand3",
+        "minecraft:dig/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+}

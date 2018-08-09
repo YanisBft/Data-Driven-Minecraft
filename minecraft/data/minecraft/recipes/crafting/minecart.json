@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:boat",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:minecart"
+    }
+}

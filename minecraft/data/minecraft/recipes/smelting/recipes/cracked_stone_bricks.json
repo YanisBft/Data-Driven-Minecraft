@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:stone_bricks"
+    },
+    "result": {
+        "item": "minecraft:cracked_stone_bricks",
+        "xp": 0.1
+    },
+    "cooking_time": 200
+}

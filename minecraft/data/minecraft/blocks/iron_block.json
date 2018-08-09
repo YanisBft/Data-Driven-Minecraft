@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:iron_block",
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:wooden_pickaxe": 12.5,
+        "minecraft:stone_pickaxe": 1.9,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 2.1
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/iron_block",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ]
+        }
+    ]
+}

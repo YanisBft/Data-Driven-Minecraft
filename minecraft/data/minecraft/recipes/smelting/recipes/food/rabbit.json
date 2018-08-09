@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:rabbit"
+    },
+    "result": {
+        "item": "minecraft:cooked_rabbit",
+        "xp": 0.35
+    },
+    "group": "minecraft:cook_food",
+    "cooking_time": 200
+}

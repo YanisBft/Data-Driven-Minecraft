@@ -1,0 +1,71 @@
+{
+    "item": "minecraft:golden_sword",
+    "group": "minecraft:sword",
+    "enchantments": [
+        {
+            "name": "minecraft:sharpness",
+            "weight": 10,
+            "not_with": [
+                "minecraft:bane_of_arthropods",
+                "minecraft:smite"
+            ],
+            "max_lvl": 5
+        },
+        {
+            "name": "minecraft:bane_of_arthropods",
+            "weight": 5,
+            "not_with": [
+                "minecraft:sharpness",
+                "minecraft:smite"
+            ],
+            "max_lvl": 5
+        },
+        {
+            "name": "minecraft:knockback",
+            "weight": 5,
+            "max_lvl": 2
+        },
+        {
+            "name": "minecraft:smite",
+            "weight": 5,
+            "not_with": [
+                "minecraft:sharpness",
+                "minecraft:bane_of_arthropods"
+            ],
+            "max_lvl": 5
+        },
+        {
+            "name": "minecraft:fire_aspect",
+            "weight": 2,
+            "max_lvl": 2
+        },
+        {
+            "name": "minecraft:looting",
+            "weight": 2,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:sweeping",
+            "weight": 2,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 22
+}

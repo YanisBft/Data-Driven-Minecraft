@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:acacia_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_wood"
+    },
+    "group": "minecraft:wood"
+}

@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/bottom_triangle",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:pink_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:light_gray_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_banner"
+    },
+    "group": "minecraft:banner_bottom_triangle",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "light_gray",
+                    "pattern": "bottom_triangle"
+                }
+            }
+        }
+    ]
+}

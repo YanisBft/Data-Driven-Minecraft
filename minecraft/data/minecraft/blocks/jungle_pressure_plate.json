@@ -1,0 +1,236 @@
+{
+    "pick_block": "minecraft:jungle_pressure_plate",
+    "hardness": {
+        "minecraft:default": 0.75,
+        "minecraft:wooden_axe": 0.4,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.15,
+        "minecraft:diamond_axe": 0.1,
+        "minecraft:golden_axe": 0.1
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/jungle_pressure_plate"
+        }
+    ],
+    "states": {
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "sound": "click_on",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "tag": "minecraft:wooden_pressure_plate_activators"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "time": 20,
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "sound": "click_off",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "tag": "minecraft:wooden_pressure_plate_activators"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "y": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "y": 1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "powered": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 1, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "powered": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 0.5, 15 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

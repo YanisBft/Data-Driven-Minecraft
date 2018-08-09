@@ -1,0 +1,30 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:slow_falling"
+        }
+    },
+    "item": {
+        "item": "minecraft:redstone"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:long_slow_falling"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

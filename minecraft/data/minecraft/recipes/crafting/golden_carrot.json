@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:gold_nugget"
+        },
+        "center": {
+            "item": "minecraft:carrot"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_carrot"
+    },
+    "group": "minecraft:golden_food"
+}

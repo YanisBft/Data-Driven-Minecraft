@@ -1,0 +1,330 @@
+{
+    "pick_block": "minecraft:iron_trapdoor",
+    "hardness": {
+        "minecraft:default": 4.5,
+        "minecraft:iron_pickaxe": 2.25,
+        "minecraft:stone_pickaxe": 1.15,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 0.4
+    },
+    "blast_resistance": 15,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/iron_trapdoor",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ]
+        }
+    ],
+    "states": {
+        "half": {
+            "default": "bottom",
+            "values": [
+                "bottom",
+                "top"
+            ]
+        },
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "open": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": [
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "true",
+                        "powered": "true"
+                    }
+                },
+                "sound": "open",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "false",
+                        "powered": "false"
+                    }
+                },
+                "sound": "close",
+                "conditions": [
+                    {
+                        "receive_power": [
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "half": "bottom",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 4, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 4, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "half": "top",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 12, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 12, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

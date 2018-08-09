@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:chest"
+        },
+        "item2": {
+            "item": "minecraft:tripwire_hook"
+        }
+    },
+    "result": {
+        "item": "minecraft:trapped_chest"
+    }
+}

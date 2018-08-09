@@ -1,0 +1,25 @@
+{
+    "stack_size": 1,
+    "durability": 251,
+    "attribute_modiers": [
+        {
+            "attribute": "generic.attackDamage",
+            "amount": 8.6,
+            "operation": "add",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attackSpeed",
+            "amount": -2.4,
+            "operation": "add",
+            "slot": "mainhand"
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:attack",
+            "increase_stat": true,
+            "consume_item": true
+        }
+    ]
+}

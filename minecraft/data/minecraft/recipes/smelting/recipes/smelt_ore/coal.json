@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:coal_ore"
+    },
+    "result": {
+        "item": "minecraft:coal",
+        "xp": 1
+    },
+    "group": "minecraft:smelt_ore",
+    "cooking_time": 200
+}

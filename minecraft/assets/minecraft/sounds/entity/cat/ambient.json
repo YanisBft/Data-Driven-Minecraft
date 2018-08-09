@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/cat/meow1",
+        "minecraft:mob/cat/meow2",
+        "minecraft:mob/cat/meow3",
+        "minecraft:mob/cat/meow4"
+    ],
+    "subtitle": "subtitles.entity.cat.ambient"
+}

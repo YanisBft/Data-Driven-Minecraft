@@ -1,0 +1,2036 @@
+{
+    "pick_block": "minecraft:brick_stairs",
+    "hardness": {
+        "minecraft:default": 10,
+        "minecraft:wooden_pickaxe": 1.5,
+        "minecraft:stone_pickaxe": 0.75,
+        "minecraft:iron_pickaxe": 0.5,
+        "minecraft:diamond_pickaxe": 0.4,
+        "minecraft:golden_pickaxe": 0.25
+    },
+    "blast_resistance": 4,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/brick_stairs",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "half": {
+            "default": "bottom",
+            "values": [
+                "bottom",
+                "top"
+            ]
+        },
+        "shape": {
+            "default": "straight",
+            "values": [
+                "straight",
+                "inner_left",
+                "inner_right",
+                "outer_left",
+                "outer_right"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "straight"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "east"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "south",
+                                            "shape": "inner_left"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "north",
+                                            "shape": "outer_right"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "west"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "south",
+                                            "shape": "inner_right"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "north",
+                                            "shape": "outer_left"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "straight"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "west"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "north",
+                                            "shape": "inner_left"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "south",
+                                            "shape": "outer_right"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "east"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "north",
+                                            "shape": "inner_right"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "south",
+                                            "shape": "outer_left"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "straight"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "south"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "west",
+                                            "shape": "inner_left"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "east",
+                                            "shape": "outer_right"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                       "facing": "north"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "west",
+                                            "shape": "inner_right"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "east",
+                                            "shape": "outer_left"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "inner_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "east",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_left"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "outer_right"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "bottom",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "half": "top",
+                                        "facing": "west",
+                                        "shape": "straight"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "shape": "straight"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "north"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "east",
+                                            "shape": "inner_left"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "west",
+                                            "shape": "outer_right"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "tag": "minecraft:stairs",
+                                    "properties": {
+                                        "facing": "south"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "facing": "east",
+                                            "shape": "inner_right"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "facing": "west",
+                                            "shape": "outer_left"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "half": "bottom"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "half": "top"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "shape": "straight"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "shape": "straight"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "shape": "straight"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "shape": "straight"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "shape": "inner_left"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    },
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    },
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "shape": "inner_left"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "shape": "inner_left"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "shape": "inner_left"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 16 ]
+                    },
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 16 ]
+                    },
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "shape": "inner_right"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    },
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    },
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "shape": "inner_right"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "shape": "inner_right"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    },
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "shape": "inner_right"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 16 ]
+                    },
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "shape": "outer_left"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "shape": "outer_left"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "shape": "outer_left"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "shape": "outer_left"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "shape": "outer_right"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 0 ],
+                        "to": [ 16, 16, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "shape": "outer_right"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 8 ],
+                        "to": [ 8, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "shape": "outer_right"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 0, 8 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "shape": "outer_right"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 8, 16, 8 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

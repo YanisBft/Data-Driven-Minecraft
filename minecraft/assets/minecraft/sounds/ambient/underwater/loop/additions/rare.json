@@ -1,0 +1,30 @@
+{
+    "sounds": [
+        "minecraft:ambient/underwater/additions/animal1",
+        {
+            "name": "minecraft:ambient/underwater/additions/bass_whale1",
+            "volume": 0.45
+        },
+        {
+            "name": "minecraft:ambient/underwater/additions/bass_whale2",
+            "volume": 0.5
+        },
+        "minecraft:ambient/underwater/additions/earth_crack",
+        {
+            "name": "minecraft:ambient/underwater/additions/crackles1",
+            "volume": 0.7
+        },
+        {
+            "name": "minecraft:ambient/underwater/additions/crackles2",
+            "volume": 1
+        },
+        {
+            "name": "minecraft:ambient/underwater/additions/driplets1",
+            "volume": 0.5
+        },
+        {
+            "name": "minecraft:ambient/underwater/additions/driplets2",
+            "volume": 0.5
+        }
+    ]
+}

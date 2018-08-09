@@ -1,0 +1,16 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:entity/player/attack/crit1",
+            "volume": 0.7
+        },
+        {
+            "name": "minecraft:entity/player/attack/crit2",
+            "volume": 0.7
+        },
+        {
+            "name": "minecraft:entity/player/attack/crit3",
+            "volume": 0.7
+        }
+    ]
+}

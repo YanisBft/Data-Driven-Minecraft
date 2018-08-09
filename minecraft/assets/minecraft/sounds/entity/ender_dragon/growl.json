@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/enderdragon/growl1",
+        "minecraft:mob/enderdragon/growl2",
+        "minecraft:mob/enderdragon/growl3",
+        "minecraft:mob/enderdragon/growl4"
+    ],
+    "subtitle": "subtitles.entity.ender_dragon.growl"
+}

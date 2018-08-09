@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:note/snare",
+            "pitch": 0.594604
+        }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+}

@@ -1,0 +1,774 @@
+{    
+    "pick_block": "minecraft:chest",
+    "hardness": {
+        "minecraft:default": 3.75,
+        "minecraft:wooden_axe": 1.9,
+        "minecraft:stone_axe": 0.95,
+        "minecraft:iron_axe": 0.65,
+        "minecraft:diamond_axe": 0.5,
+        "minecraft:golden_axe": 0.35
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 12.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/chest"
+        },
+        {
+            "table": "minecraft:builtin/inventory"
+        }
+    ],
+    "block_entity": "minecraft:chest",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "type": {
+            "default": "single",
+            "values": [
+                "single",
+                "left",
+                "right"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:chest",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "north": "false",
+                                            "south": "false",
+                                            "east": "false",
+                                            "west": "false"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:walls_torch"
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch"
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "half": "top",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    },
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "upper"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "south",
+                                        "type": "left"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south",
+                                        "type": "right"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "north",
+                                        "type": "right"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north",
+                                        "type": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "north",
+                                        "type": "left"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north",
+                                        "type": "right"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "south",
+                                        "type": "right"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south",
+                                        "type": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "east",
+                                        "type": "right"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east",
+                                        "type": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "west",
+                                        "type": "left"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                                        {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west",
+                                        "type": "right"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "east",
+                                        "type": "left"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east",
+                                        "type": "right"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "type": "single"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:chest",
+                                    "properties": {
+                                        "facing": "west",
+                                        "type": "right"
+                                    },
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west",
+                                        "type": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "type": "single",
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 11, 1 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 11, 1 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "single",
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 15 ],
+                        "to": [ 9, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 15 ],
+                        "to": [ 9, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "single",
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 7 ],
+                        "to": [ 16, 11, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 7 ],
+                        "to": [ 16, 11, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "single",
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 7 ],
+                        "to": [ 1, 11, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 7 ],
+                        "to": [ 1, 11, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "left",
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 0 ],
+                        "to": [ 1, 11, 1 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 0 ],
+                        "to": [ 1, 11, 1 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "left",
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 15 ],
+                        "to": [ 16, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 15 ],
+                        "to": [ 16, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "left",
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 0 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 0 ],
+                        "to": [ 16, 11, 1 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 0 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 0 ],
+                        "to": [ 16, 11, 1 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "left",
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 16 ]
+                    },
+                    {
+                        "from": [ 0, 7, 15 ],
+                        "to": [ 1, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 16 ]
+                    },
+                    {
+                        "from": [ 0, 7, 15 ],
+                        "to": [ 1, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "right",
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 16, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 0 ],
+                        "to": [ 16, 11, 1 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 16, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 0 ],
+                        "to": [ 16, 11, 1 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "right",
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 15 ],
+                        "to": [ 1, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 15 ],
+                        "to": [ 1, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "right",
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 16 ]
+                    },
+                    {
+                        "from": [ 15, 7, 15 ],
+                        "to": [ 16, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 16 ]
+                    },
+                    {
+                        "from": [ 15, 7, 15 ],
+                        "to": [ 16, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "right",
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 0 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 0 ],
+                        "to": [ 1, 11, 1 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 0 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 0 ],
+                        "to": [ 1, 11, 1 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

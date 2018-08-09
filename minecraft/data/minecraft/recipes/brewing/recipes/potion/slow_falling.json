@@ -1,0 +1,30 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:awkward"
+        }
+    },
+    "item": {
+        "item": "minecraft:phantom_membrane"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:slow_falling"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

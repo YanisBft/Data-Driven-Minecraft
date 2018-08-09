@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/bottom_triangle",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:orange_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:orange_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_banner"
+    },
+    "group": "minecraft:banner_bottom_triangle",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "orange",
+                    "pattern": "bottom_triangle"
+                }
+            }
+        }
+    ]
+}

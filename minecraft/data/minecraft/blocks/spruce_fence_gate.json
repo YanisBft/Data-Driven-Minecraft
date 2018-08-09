@@ -1,0 +1,1103 @@
+{    
+    "pick_block": "minecraft:spruce_fence_gate",
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 15,
+    "solid": false,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/spruce_fence_gate"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "in_wall": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "open": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "true"
+                    }
+                },
+                "sound": "open",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "false"
+                    }
+                },
+                "sound": "close",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "true",
+                        "powered": "true"
+                    }
+                },
+                "sound": "open",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "false",
+                        "powered": "false"
+                    }
+                },
+                "sound": "close",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north",
+                                            "in_wall": "true"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south",
+                                            "in_wall": "true"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north",
+                                            "in_wall": "true"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south",
+                                            "in_wall": "true"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east",
+                                            "in_wall": "true"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west",
+                                            "in_wall": "true"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "west"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "west"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east",
+                                            "in_wall": "true"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west",
+                                            "in_wall": "true"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "false",
+                                            "facing": "west"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "in_wall": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:walls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west",
+                                            "in_wall": "true"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "properties": {
+                                            "in_wall": "true",
+                                            "facing": "west"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "in_wall": "false",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 5, 0 ],
+                        "to": [ 9, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 0, 0 ],
+                        "to": [ 9, 24, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "in_wall": "false",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 5, 0 ],
+                        "to": [ 9, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 0, 0 ],
+                        "to": [ 9, 24, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "in_wall": "false",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 5, 7 ],
+                        "to": [ 16, 16, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 7 ],
+                        "to": [ 16, 24, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "in_wall": "false",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 5, 7 ],
+                        "to": [ 16, 16, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 7 ],
+                        "to": [ 16, 24, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "in_wall": "true",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 2, 0 ],
+                        "to": [ 9, 13, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 0, 0 ],
+                        "to": [ 9, 24, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "in_wall": "true",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 2, 0 ],
+                        "to": [ 9, 13, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 7, 0, 0 ],
+                        "to": [ 9, 24, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "in_wall": "true",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 2, 7 ],
+                        "to": [ 16, 13, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 7 ],
+                        "to": [ 16, 24, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "in_wall": "true",
+                "open": "false"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 2, 7 ],
+                        "to": [ 16, 13, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 7 ],
+                        "to": [ 16, 24, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "in_wall": "false",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 5, 0 ],
+                        "to": [ 15, 16, 2 ]
+                    },
+                    {
+                        "from": [ 7, 5, 14 ],
+                        "to": [ 15, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "in_wall": "false",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 5, 0 ],
+                        "to": [ 9, 16, 2 ]
+                    },
+                    {
+                        "from": [ 0, 5, 14 ],
+                        "to": [ 9, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "in_wall": "false",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 5, 7 ],
+                        "to": [ 2, 16, 15 ]
+                    },
+                    {
+                        "from": [ 14, 5, 7 ],
+                        "to": [ 16, 16, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "in_wall": "false",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 5, 0 ],
+                        "to": [ 2, 16, 9 ]
+                    },
+                    {
+                        "from": [ 14, 5, 0 ],
+                        "to": [ 16, 16, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "in_wall": "true",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 7, 2, 0 ],
+                        "to": [ 15, 13, 2 ]
+                    },
+                    {
+                        "from": [ 7, 2, 14 ],
+                        "to": [ 15, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "in_wall": "true",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 2, 0 ],
+                        "to": [ 9, 13, 2 ]
+                    },
+                    {
+                        "from": [ 0, 2, 14 ],
+                        "to": [ 9, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "in_wall": "true",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 2, 7 ],
+                        "to": [ 2, 13, 15 ]
+                    },
+                    {
+                        "from": [ 14, 2, 7 ],
+                        "to": [ 16, 13, 15 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "in_wall": "true",
+                "open": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 2, 0 ],
+                        "to": [ 2, 13, 9 ]
+                    },
+                    {
+                        "from": [ 14, 2, 0 ],
+                        "to": [ 16, 13, 9 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

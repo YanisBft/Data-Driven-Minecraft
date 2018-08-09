@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:3_high_line",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:flint"
+        },
+        "middle": {
+            "item": "minecraft:stick"
+        },
+        "bottom": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "item": "minecraft:arrow",
+        "count": 4
+    }
+}

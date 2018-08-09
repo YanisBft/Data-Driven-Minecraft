@@ -1,0 +1,78 @@
+{
+    "pick_block": "minecraft:magma_block",
+    "hardness": {
+        "minecraft:default": 2.5,
+        "minecraft:wooden_pickaxe": 0.4,
+        "minecraft:stone_pickaxe": 0.2,
+        "minecraft:iron_pickaxe": 0.15,
+        "minecraft:diamond_pickaxe": 0.1,
+        "minecraft:golden_pickaxe": 0.1
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/magma_block",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:hurt",
+                "sides": [
+                    "up"
+                ],
+                "damage": 1.0,
+                "source": "hot_floor",
+                "affect": [
+                    {
+                        "sneaking": true,
+                        "inverse": true
+                    },
+                    {
+                        "enchantment": "minecraft:frost_walker",
+                        "inverse": true
+                    },
+                    {
+                        "effect": "minecraft:fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "type": "#minecraft:fire_resistant_mobs",
+                        "inverse": true
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 3
+                    },
+                    "up": {
+                        "light": 3
+                    },
+                    "north": {
+                        "light": 3
+                    },
+                    "south": {
+                        "light": 3
+                    },
+                    "east": {
+                        "light": 3
+                    },
+                    "west": {
+                        "light": 3
+                    }
+                }
+            }
+        }
+    ]
+}

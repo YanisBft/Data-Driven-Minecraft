@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "copy": "{\"Owner\"}",
+                            "paste": "{\"SkullOwner\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

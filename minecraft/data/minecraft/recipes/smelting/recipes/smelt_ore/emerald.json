@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:emerald_ore"
+    },
+    "result": {
+        "item": "minecraft:emerald",
+        "xp": 1
+    },
+    "group": "minecraft:smelt_ore",
+    "cooking_time": 200
+}

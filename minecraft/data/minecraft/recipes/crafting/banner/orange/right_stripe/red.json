@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/right_stripe",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:orange_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_banner"
+    },
+    "group": "minecraft:banner_right_stripe",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "red",
+                    "pattern": "right_stripe"
+                }
+            }
+        }
+    ]
+}

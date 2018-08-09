@@ -1,0 +1,28 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:throw_item",
+            "sound": "throw",
+            "entity": {
+                "id": "minecraft:potion",
+                "item_tag": "Potion",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

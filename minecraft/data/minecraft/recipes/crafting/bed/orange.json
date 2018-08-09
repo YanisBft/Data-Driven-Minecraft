@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:orange_wool"
+        },
+        "bottom": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_bed"
+    },
+    "group": "minecraft:2_layers"
+}

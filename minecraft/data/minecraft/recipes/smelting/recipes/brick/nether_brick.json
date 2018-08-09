@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:netherrack"
+    },
+    "result": {
+        "item": "minecraft:nether_brick",
+        "xp": 0.1
+    },
+    "group": "minecraft:brick",
+    "cooking_time": 200
+}

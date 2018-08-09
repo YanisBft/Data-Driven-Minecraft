@@ -1,0 +1,71 @@
+{
+    "pick_block": "minecraft:enchanting_table",
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:wooden_pickaxe": 3.75,
+        "minecraft:stone_pickaxe": 1.9,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 0.65
+    },
+    "blast_resistance": 5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/enchanting_table",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "block_entity": "minecraft:enchanting_table",
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:enchanting"
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

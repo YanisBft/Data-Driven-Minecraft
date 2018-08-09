@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_block"
+    },
+    "group": "minecraft:material_block"
+}

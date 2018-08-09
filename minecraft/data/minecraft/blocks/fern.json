@@ -1,0 +1,156 @@
+{
+    "pick_block": "minecraft:fern",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "random_offset": {
+        "x": 1.5,
+        "z": 1.5,
+        "depend_on": [
+            "x",
+            "z"
+        ]
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/seeds_0",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/fern",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/seeds_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 1
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/seeds_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 2
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/seeds_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears",
+                    "inverse": true
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 3
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {
+                            "tag": "minecraft:soil"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1.5, 0, 1.5 ],
+                        "to": [ 14.5, 13, 14.5 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

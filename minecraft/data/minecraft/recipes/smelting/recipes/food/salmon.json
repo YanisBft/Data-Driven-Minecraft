@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:salmon"
+    },
+    "result": {
+        "item": "minecraft:cooked_salmon",
+        "xp": 0.35
+    },
+    "group": "minecraft:cook_food",
+    "cooking_time": 200
+}

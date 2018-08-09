@@ -1,0 +1,17 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:mob/drowned/hurt1",
+            "volume": 0.9
+        },
+        {
+            "name": "minecraft:mob/drowned/hurt2",
+            "volume": 0.9
+        },
+        {
+            "name": "minecraft:mob/drowned/hurt3",
+            "volume": 0.9
+        }
+    ],
+    "subtitle": "subtitles.entity.drowned.hurt"
+}

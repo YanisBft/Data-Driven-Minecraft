@@ -1,0 +1,317 @@
+{
+    "pick_block": "minecraft:torch",
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/torch"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.8,
+                    "z": 0.7,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.8,
+                    "z": 0.7,
+                    "name": "minecraft:smoke",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.8,
+                    "z": 0.3,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.8,
+                    "z": 0.3,
+                    "name": "minecraft:smoke",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.3,
+                    "y": 0.8,
+                    "z": 0.5,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.3,
+                    "y": 0.8,
+                    "z": 0.5,
+                    "name": "minecraft:smoke",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.7,
+                    "y": 0.8,
+                    "z": 0.5,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.7,
+                    "y": 0.8,
+                    "z": 0.5,
+                    "name": "minecraft:smoke",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 14,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5.5, 3, 11 ],
+                        "to": [ 10.5, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5.5, 3, 0 ],
+                        "to": [ 10.5, 13, 5 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 11, 3, 5.5 ],
+                        "to": [ 16, 13, 10.5 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 3, 5.5 ],
+                        "to": [ 5, 13, 10.5 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

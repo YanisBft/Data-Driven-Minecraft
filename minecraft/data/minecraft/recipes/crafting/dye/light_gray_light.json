@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:gray_dye"
+        },
+        "item2": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "result": {
+        "item": "minecraft:light_gray_dye",
+        "count": 2
+    },
+    "group": "minecraft:light_gray_dye"
+}

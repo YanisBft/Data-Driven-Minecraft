@@ -1,0 +1,49 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "rabbit"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "carrot"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "potato"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "mushroom"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "bowl"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "rabbit": {
+            "item": "minecraft:cooked_rabbit"
+        },
+        "carrot": {
+            "item": "minecraft:carrot"
+        },
+        "potato": {
+            "item": "minecraft:potato"
+        },
+        "mushroom": {
+            "tag": "minecraft:mushrooms"
+        },
+        "bowl": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "minecraft:rabbit_stew"
+    }
+}

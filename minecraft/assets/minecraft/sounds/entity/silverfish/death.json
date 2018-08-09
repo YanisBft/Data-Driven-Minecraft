@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/silverfish/kill"
+    ],
+    "subtitle": "subtitles.entity.silverfish.death"
+}

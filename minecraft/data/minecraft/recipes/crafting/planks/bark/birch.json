@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:birch_bark"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:birch_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

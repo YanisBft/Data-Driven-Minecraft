@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:ink_sack"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_terracotta",
+        "count": 8
+    },
+    "group": "minecraft:terracotta_coloring"
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:dig/cloth1",
+        "minecraft:dig/cloth2",
+        "minecraft:dig/cloth3",
+        "minecraft:dig/cloth4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+}

@@ -1,0 +1,14 @@
+{
+    "stack_size": 1,
+    "armor_piece": [
+        "horse_armor"
+    ],
+    "attribute_modifiers": [
+        {
+            "attribute": "generic.armor",
+            "slot": "horse_armor",
+            "amount": 5,
+            "operation": "add"
+        }
+    ]
+}

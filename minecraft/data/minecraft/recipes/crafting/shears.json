@@ -1,0 +1,18 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "ingot"    ],
+                [    "",    "ingot"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "ingot": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:shears"
+    }
+}

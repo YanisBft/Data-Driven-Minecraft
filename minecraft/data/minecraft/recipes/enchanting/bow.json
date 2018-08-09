@@ -1,0 +1,47 @@
+{
+    "item": "minecraft:bow",
+    "enchantments": [
+        {
+            "name": "minecraft:power",
+            "weight": 10,
+            "max_lvl": 5
+        },
+        {
+            "name": "minecraft:flame",
+            "weight": 2
+        },
+        {
+            "name": "minecraft:punch",
+            "weight": 2,
+            "max_lvl": 2
+        },
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:infinity",
+            "weight": 1,
+            "not_with": [
+                "minecraft:mending"
+            ],
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "not_with": [
+                "minecraft:infinity"
+            ],
+            "treasure": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 15
+}

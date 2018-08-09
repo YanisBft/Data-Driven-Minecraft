@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:red_sandstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:cut_red_sandstone",
+        "count": 4
+    },
+    "group": "minecraft:cut_sandstone"
+}

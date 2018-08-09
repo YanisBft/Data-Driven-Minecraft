@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/endermen/portal",
+        "minecraft:mob/endermen/portal2"
+    ],
+    "subtitle": "subtitles.item.chorus_fruit.teleport"
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/zombiepig/zpig1",
+        "minecraft:mob/zombiepig/zpig2",
+        "minecraft:mob/zombiepig/zpig3",
+        "minecraft:mob/zombiepig/zpig4"
+    ],
+    "subtitle": "subtitles.entity.zombie_pigman.ambient"
+}

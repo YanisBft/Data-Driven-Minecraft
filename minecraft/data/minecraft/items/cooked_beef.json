@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "eat",
+            "time": 600,
+            "effects": {
+                "food": 8,
+                "saturation": 12.8
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

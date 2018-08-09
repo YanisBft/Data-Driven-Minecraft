@@ -1,0 +1,24 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "torch",    "dust",    "torch"    ],
+                [    "plate",    "plate",    "plate"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "torch": {
+            "item": "minecraft:redstone_torch"
+        },
+        "dust": {
+            "item": "minecraft:redstone"
+        },
+        "plate": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:repeater"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "values": [
+        "#minecraft:arrows",
+        "#minecraft:fireballs",
+        "#minecraft:pressure_plate_activators",
+        "minecraft:egg",
+        "minecraft:end_crystal",
+        "minecraft:eye_of_ender",
+        "minecraft:firework_rocket",
+        "minecraft:fishing_bobber",
+        "minecraft:item",
+        "minecraft:item_frame",
+        "minecraft:painting",
+        "minecraft:potion",
+        "minecraft:snowball",
+        "minecraft:wither_skull",
+        "minecraft:experience_bottle",
+        "minecraft:experience_orb"
+    ]
+}

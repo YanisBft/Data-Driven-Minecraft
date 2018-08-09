@@ -1,0 +1,17 @@
+{
+    "pick_block": "minecraft:coarse_dirt",
+    "hardness": {
+        "minecraft:default": 0.75,
+        "minecraft:wooden_shovel": 0.4,
+        "minecraft:stone_shovel": 0.2,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.1,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/coarse_dirt"
+        }
+    ]
+}

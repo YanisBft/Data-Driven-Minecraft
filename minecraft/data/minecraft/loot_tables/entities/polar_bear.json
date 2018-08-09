@@ -1,0 +1,107 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:salmon",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "properties": {
+                        "minecraft:is_baby": false
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "properties": {
+                        "minecraft:is_baby": false
+                    }
+                }
+            ]
+        }
+    ]
+}

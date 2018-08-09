@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/horse/zombie/idle1",
+        "minecraft:mob/horse/zombie/idle2",
+        "minecraft:mob/horse/zombie/idle3"
+    ],
+    "subtitle": "subtitles.entity.zombie_horse.ambient"
+}

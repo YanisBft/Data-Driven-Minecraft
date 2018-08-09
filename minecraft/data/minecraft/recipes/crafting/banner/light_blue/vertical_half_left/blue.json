@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/vertical_half_left",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:light_blue_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "item": "minecraft:light_blue_banner"
+    },
+    "group": "minecraft:banner_vertical_half_left",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "blue",
+                    "pattern": "vertical_half_left"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "pick_block": "minecraft:seagrass",
+    "transparent": true,
+    "random_offset": {
+        "x": 2,
+        "z": 2,
+        "depend_on": [
+            "x",
+            "z"
+        ]
+    },
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/seagrass",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ]
+        }
+    ],
+    "can_contain_fluids": [
+        "minecraft:water"
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 13, 14 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

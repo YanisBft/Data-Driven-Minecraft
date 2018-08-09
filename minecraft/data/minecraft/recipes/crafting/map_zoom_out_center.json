@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:paper"
+        },
+        "center": {
+            "item": "minecraft:filled_map",
+            "conditions": {
+                "treassure": false
+            }
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:zoom_map",
+            "zoom_level": -1,
+            "zoom_from": "center"
+        }
+    ],
+    "result": {
+        "item": "minecraft:filled_map"
+    }
+}

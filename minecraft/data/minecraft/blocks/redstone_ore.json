@@ -1,0 +1,345 @@
+{
+    "pick_block": "minecraft:redstone_ore",
+    "hardness": {
+        "minecraft:default": 15,
+        "minecraft:wooden_pickaxe": 7.5,
+        "minecraft:stone_pickaxe": 3.75,
+        "minecraft:iron_pickaxe": 0.75,
+        "minecraft:diamond_pickaxe": 0.6,
+        "minecraft:golden_pickaxe": 1.25
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/redstone_ore_redstone_0",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/redstone_ore",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/redstone_ore_redstone_1",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 1
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/redstone_ore_redstone_2",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 2
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/redstone_ore_redstone_3",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 3
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "states": {
+        "lit": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "lit": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "lit": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:dust",
+                    "count": 3,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dy": 1,
+                    "dz": 1,
+                    "name": "minecraft:dust",
+                    "count": 3,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:dust",
+                    "count": 3,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": 1,
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:dust",
+                    "count": 3,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 1,
+                    "dy": 1,
+                    "dz": 1,
+                    "name": "minecraft:dust",
+                    "count": 3,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "z": 1,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:dust",
+                    "count": 3,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "lit": "true"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 9
+                    },
+                    "up": {
+                        "light": 9
+                    },
+                    "north": {
+                        "light": 9
+                    },
+                    "south": {
+                        "light": 9
+                    },
+                    "east": {
+                        "light": 9
+                    },
+                    "west": {
+                        "light": 9
+                    }
+                }
+            }
+        }
+    ]
+}

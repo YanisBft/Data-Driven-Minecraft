@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:gold_nugget",
+        "count": 9
+    },
+    "group": "minecraft:to_nugget"
+}

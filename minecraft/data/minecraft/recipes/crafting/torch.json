@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_high_line",
+    "ingredients": {
+        "top": {
+            "tag": "minecraft:coal"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:torch",
+        "count": 4
+    },
+    "group": "minecraft:torch"
+}

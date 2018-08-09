@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:note/pling",
+            "pitch": 2
+        }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+}

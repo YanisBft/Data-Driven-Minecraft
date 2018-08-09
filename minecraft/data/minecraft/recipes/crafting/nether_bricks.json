@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:nether_brick"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_bricks"
+    }
+}

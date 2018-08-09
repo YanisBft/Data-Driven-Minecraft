@@ -1,0 +1,21 @@
+{
+    "pick_block": "minecraft:dark_oak_planks",
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 15,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dark_oak_planks"
+        }
+    ]
+}

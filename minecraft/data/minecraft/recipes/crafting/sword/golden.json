@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:3_high_line",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:gold_ingot"
+        },
+        "middle": {
+            "item": "minecraft:gold_ingot"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_sword"
+    },
+    "group": "minecraft:sword"
+}

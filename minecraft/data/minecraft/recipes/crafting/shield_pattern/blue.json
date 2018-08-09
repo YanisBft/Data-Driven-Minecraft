@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:shield",
+            "conditions": {
+                "layers": {
+                    "base": "none"
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:blue_banner"
+        }
+    },
+    "result": {
+        "item": "minecraft:shield"
+    },
+    "group": "minecraft:shield_pattern",
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "ingredient": "item1",
+            "banner": {
+                "base": "blue"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item2",
+            "copy": "BlockEntityTag"
+        }
+    ]
+}

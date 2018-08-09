@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/middle_rhombus",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:purple_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:ink_sack"
+        }
+    },
+    "result": {
+        "item": "minecraft:purple_banner"
+    },
+    "group": "minecraft:banner_middle_rhombus",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "white",
+                    "pattern": "middle_circle"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:entity/fish/flop1",
+            "volume": 0.3
+        },
+        {
+            "name": "minecraft:entity/fish/flop2",
+            "volume": 0.3
+        },
+        {
+            "name": "minecraft:entity/fish/flop3",
+            "volume": 0.3
+        },
+        {
+            "name": "minecraft:entity/fish/flop4",
+            "volume": 0.3
+        }
+    ]
+}

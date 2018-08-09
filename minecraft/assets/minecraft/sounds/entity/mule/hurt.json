@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/horse/donkey/hit1",
+        "minecraft:mob/horse/donkey/hit2",
+        "minecraft:mob/horse/donkey/hit3"
+    ],
+    "subtitle": "subtitles.entity.mule.hurt"
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting",
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:white_wool"
+        },
+        "item2": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_wool"
+    },
+    "group": "minecraft:wool_coloring"
+}

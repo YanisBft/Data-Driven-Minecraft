@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:black_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "item3": {
+            "item": "minecraft:pink_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_banner"
+    },
+    "group": "minecraft:banner_mojang",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "pink",
+                    "pattern": "mojang"
+                }
+            }
+        }
+    ]
+}

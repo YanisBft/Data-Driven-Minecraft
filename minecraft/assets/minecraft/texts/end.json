@@ -1,0 +1,578 @@
+[
+    {
+        "translate": "end.poem.1",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.2",
+        "color": "dark_green",
+        "with": [
+            {
+                "selector": "@s"
+            }
+        ]
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.3",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.4",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.5",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.6",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.7",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.8",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.9",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.10",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.11",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.12",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.13",
+        "color": "dark_aqua",
+        "with": [
+            {
+                "text": "--------",
+                "obfuscated": true
+            },
+            {
+                "text": "--------",
+                "obfuscated": true
+            },
+            {
+                "text": "--------",
+                "obfuscated": true
+            }
+        ]
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.14",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.15",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.16",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.17",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.18",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.19",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.20",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.21",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.22",
+        "color": "dark_green",
+        "with": [
+            {
+                "text": "--------",
+                "obfuscated": true
+            },
+            {
+                "text": "--------",
+                "obfuscated": true
+            },
+            {
+                "text": "--------",
+                "obfuscated": true
+            },
+            {
+                "text": "--------",
+                "obfuscated": true
+            }
+        ]
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.23",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.24",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.25",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.26",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.27",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.28",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.29",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.30",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.31",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.32",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.33",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.34",
+        "color": "dark_green",
+        "with":  [
+            {
+                "selector": "@s"
+            }
+        ]
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.35",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.36",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.37",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.38",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.39",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.40",
+        "color": "dark_green",
+        "with":  [
+            {
+                "selector": "@s"
+            }
+        ]
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.41",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.42",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.43",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.44",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.45",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.46",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.47",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.48",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.49",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.50",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.51",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.52",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.53",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.54",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.55",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.56",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.57",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.58",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.59",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.60",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.61",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.62",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.63",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.64",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.65",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.66",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.67",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.68",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.69",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.70",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.71",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.72",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.73",
+        "color": "dark_green"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.74",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.75",
+        "color": "dark_aqua"
+    },
+    {
+        "text": ""
+    },
+    {
+        "translate": "end.poem.76",
+        "color": "dark_green"
+    }
+]

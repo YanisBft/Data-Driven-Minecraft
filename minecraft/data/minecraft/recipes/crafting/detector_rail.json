@@ -1,0 +1,26 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "rail",    "",    "rail"    ],
+                [    "rail",    "plate",    "rail"    ],
+                [    "rail",    "torch",    "rail"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "rail": {
+            "item": "minecraft:iron_ingot"
+        },
+        "plate": {
+            "item": "minecraft:stone_pressure_plate"
+        },
+        "torch": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:detector_rail",
+        "count": 6
+    }
+}

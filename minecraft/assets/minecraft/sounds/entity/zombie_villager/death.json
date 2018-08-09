@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/zombie_villager/death"
+    ],
+    "subtitle": "subtitles.entity.zombie_villager.death"
+}

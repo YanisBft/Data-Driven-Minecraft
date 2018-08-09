@@ -1,0 +1,128 @@
+{
+    "pick_block": "minecraft:dead_fire_coral_fan",
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dead_fire_coral_fan",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ]
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 4, 4 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 4, 0 ],
+                        "to": [ 16, 12, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 4, 0 ],
+                        "to": [ 16, 12, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 4, 0 ],
+                        "to": [ 12, 12, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

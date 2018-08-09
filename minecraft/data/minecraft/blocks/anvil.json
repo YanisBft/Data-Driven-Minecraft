@@ -1,0 +1,471 @@
+{
+    "pick_block": "minecraft:anvil",
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:wooden_pickaxe": 3.75,
+        "minecraft:stone_pickaxe": 1.9,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 0.65
+    },
+    "blast_resistance": 6000,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/anvil",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:repair"
+            }
+        ],
+        "minecraft:block_below_changed": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:anvil\",Properties:{facing:\"south\"}},HurtEntities:1b}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:anvil\",Properties:{facing:\"north\"}},HurtEntities:1b}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:anvil\",Properties:{facing:\"east\"}},HurtEntities:1b}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:anvil\",Properties:{facing:\"west\"}},HurtEntities:1b}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.2,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:falling_dust",
+                    "count": 3,
+                    "parameters": "minecraft:anvil[facing=south]"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.2,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:falling_dust",
+                    "count": 3,
+                    "parameters": "minecraft:anvil[facing=north]"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.2,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:falling_dust",
+                    "count": 3,
+                    "parameters": "minecraft:anvil[facing=east]"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.2,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:falling_dust",
+                    "count": 3,
+                    "parameters": "minecraft:anvil[facing=west]"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 5, 13 ]
+                    },
+                    {
+                        "from": [ 6, 5, 4 ],
+                        "to": [ 10, 10, 12 ]
+                    },
+                    {
+                        "from": [ 3, 10, 0 ],
+                        "to": [ 13, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 5, 13 ]
+                    },
+                    {
+                        "from": [ 6, 5, 4 ],
+                        "to": [ 10, 10, 12 ]
+                    },
+                    {
+                        "from": [ 3, 10, 0 ],
+                        "to": [ 13, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 5, 13 ]
+                    },
+                    {
+                        "from": [ 6, 5, 4 ],
+                        "to": [ 10, 10, 12 ]
+                    },
+                    {
+                        "from": [ 3, 10, 0 ],
+                        "to": [ 13, 16, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 5, 13 ]
+                    },
+                    {
+                        "from": [ 6, 5, 4 ],
+                        "to": [ 10, 10, 12 ]
+                    },
+                    {
+                        "from": [ 3, 10, 0 ],
+                        "to": [ 13, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 5, 12 ]
+                    },
+                    {
+                        "from": [ 4, 5, 6 ],
+                        "to": [ 12, 10, 10 ]
+                    },
+                    {
+                        "from": [ 0, 10, 3 ],
+                        "to": [ 16, 16, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 5, 12 ]
+                    },
+                    {
+                        "from": [ 4, 5, 6 ],
+                        "to": [ 12, 10, 10 ]
+                    },
+                    {
+                        "from": [ 0, 10, 3 ],
+                        "to": [ 16, 16, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 5, 12 ]
+                    },
+                    {
+                        "from": [ 4, 5, 6 ],
+                        "to": [ 12, 10, 10 ]
+                    },
+                    {
+                        "from": [ 0, 10, 3 ],
+                        "to": [ 16, 16, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 4, 14 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 5, 12 ]
+                    },
+                    {
+                        "from": [ 4, 5, 6 ],
+                        "to": [ 12, 10, 10 ]
+                    },
+                    {
+                        "from": [ 0, 10, 3 ],
+                        "to": [ 16, 16, 13 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

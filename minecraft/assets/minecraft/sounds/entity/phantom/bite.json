@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/phantom/bite1",
+        "minecraft:mob/phantom/bite2"
+    ],
+    "subtitle": "subtitles.entity.phantom.bite"
+}

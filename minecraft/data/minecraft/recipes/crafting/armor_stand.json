@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "body",    "body",    "body"    ],
+                [    "",    "body"    ],
+                [    "body",    "base",    "body"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "body": {
+            "item": "minecraft:stick"
+        },
+        "base": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:armor_stand"
+    }
+}

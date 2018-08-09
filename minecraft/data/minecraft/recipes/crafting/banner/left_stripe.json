@@ -1,0 +1,37 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "banner"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "dye"    ],
+                [    "dye"    ],
+                [    "dye"    ]
+            ],
+            "can_move": false,
+            "can_mirror": false
+        }
+    ],
+    "result": {
+        "item": "minecraft:banner"
+    },
+    "group": "minecraft:banner_left_stripe",
+    "functions": [
+        {
+            "function": "minecraft:copy_component",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "black",
+                    "pattern": "left_stripe"
+                }
+            }
+        }
+    ]
+}

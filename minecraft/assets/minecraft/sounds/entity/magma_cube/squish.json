@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/magmacube/big1",
+        "minecraft:mob/magmacube/big2",
+        "minecraft:mob/magmacube/big3",
+        "minecraft:mob/magmacube/big4"
+    ],
+    "subtitle": "subtitles.entity.magma_cube.squish"
+}

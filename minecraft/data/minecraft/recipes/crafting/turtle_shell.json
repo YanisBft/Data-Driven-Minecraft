@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:helmet",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:scute"
+        }
+    },
+    "result": {
+        "item": "minecraft:turtle_helmet"
+    },
+    "group": "minecraft:helmet"
+}

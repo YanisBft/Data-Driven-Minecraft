@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "top",    "top",    "top"    ],
+                [    "",    "bottom"    ],
+                [    "bottom",    "bottom",    "bottom"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "top": {
+            "item": "minecraft:iron_block"
+        },
+        "bottom": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:anvil"
+    }
+}

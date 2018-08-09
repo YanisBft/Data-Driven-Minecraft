@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": {
+        "item": "minecraft:stone",
+        "xp": 0.1
+    },
+    "cooking_time": 200
+}

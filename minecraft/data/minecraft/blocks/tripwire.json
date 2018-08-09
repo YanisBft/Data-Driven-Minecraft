@@ -1,0 +1,104 @@
+{
+    "pick_block": "minecraft:string",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 20
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/tripwire"
+        }
+    ],
+    "states": {
+        "disarmed": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        },
+        "north": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "south": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "east": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "west": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        },
+        "attached": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

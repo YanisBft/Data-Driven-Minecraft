@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "properties": {
+                        "minecraft:is_baby": false
+                    }
+                }
+            ]
+        }
+    ]
+}

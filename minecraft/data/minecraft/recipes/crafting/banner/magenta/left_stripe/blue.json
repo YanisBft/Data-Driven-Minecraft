@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/left_stripe",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:magenta_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "item": "minecraft:magenta_banner"
+    },
+    "group": "minecraft:banner_left_stripe",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "blue",
+                    "pattern": "left_stripe"
+                }
+            }
+        }
+    ]
+}

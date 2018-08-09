@@ -1,0 +1,50 @@
+{
+    "glowing": true,
+    "functions": [
+        {
+            "function": "minecraft:spawn_entity",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "entity": {
+                "name": "minecraft:ender_crystal",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "name": "minecraft:air"
+                            },
+                            {
+                                "name": "minecraft:fire"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block_face",
+                        "y": -1,
+                        "block": [
+                            {
+                                "name": "minecraft:bedrock"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:ambient/weather/rain1",
+        "minecraft:ambient/weather/rain2",
+        "minecraft:ambient/weather/rain3",
+        "minecraft:ambient/weather/rain4"
+    ],
+    "subtitle": "subtitles.weather.rain"
+}

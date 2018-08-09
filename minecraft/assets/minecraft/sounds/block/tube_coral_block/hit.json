@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:block/catagory/coral_block/hit"
+        }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:entity/fish/swim"
+        }
+    ]
+}

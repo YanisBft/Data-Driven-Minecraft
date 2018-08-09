@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:cube_2",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:cobblestone"
+        },
+        "item2": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:diorite",
+        "count": 2
+    }
+}

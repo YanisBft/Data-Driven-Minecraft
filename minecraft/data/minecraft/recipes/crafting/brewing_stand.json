@@ -1,0 +1,21 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "",    "rod"    ],
+                [    "base",    "base",    "base"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "rod": {
+            "item": "minecraft:blaze_rod"
+        },
+        "base": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:brewing_stand"
+    }
+}

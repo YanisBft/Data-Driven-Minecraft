@@ -1,0 +1,220 @@
+{
+    "pick_block": "minecraft:air",
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "transparent": true,
+    "states": {
+        "xis": {
+            "default": "x",
+            "values": [
+                "x",
+                "z"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5,
+                    "name": "minecraft:portal",
+                    "count": 6
+                }
+            },
+            {
+                "function": "minecraft:transport_entity",
+                "time": 60,
+                "enter_sound": "trigger",
+                "transport_sound": "travel",
+                "dimension": "minecraft:the_nether",
+                "scale_coordinates": 0.125,
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        }
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:transport_entity",
+                "time": 60,
+                "enter_sound": "trigger",
+                "transport_sound": "travel",
+                "dimension": "minecraft:overworld",
+                "scale_coordinates": 8,
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 11,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 11,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 11,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 11,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 11,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 11,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "axis": "x"
+            },
+            "properties": {
+                "need_support": {
+                    "east": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "x"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ],
+                    "west": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "x"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ],
+                    "up": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "x"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ],
+                    "down": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "x"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 6 ],
+                        "to": [ 16, 16, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "axis": "z"
+            },
+            "properties": {
+                "need_support": {
+                    "north": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "z"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ],
+                    "south": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "z"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ],
+                    "up": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "z"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ],
+                    "down": [
+                        {
+                            "name": "minecraft:nether_portal",
+                            "properties": {
+                                "axis": "z"
+                            }
+                        },
+                        {
+                            "name": "minecraft:obsidian"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 6, 0, 0 ],
+                        "to": [ 10, 16, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

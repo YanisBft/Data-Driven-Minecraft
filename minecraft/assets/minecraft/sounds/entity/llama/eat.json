@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/llama/eat1",
+        "minecraft:mob/llama/eat2",
+        "minecraft:mob/llama/eat3"
+    ],
+    "subtitle": "subtitles.entity.llama.eat"
+}

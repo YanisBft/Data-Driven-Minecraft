@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:diorite"
+        },
+        "item2": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:andesite",
+        "count": 2
+    }
+}

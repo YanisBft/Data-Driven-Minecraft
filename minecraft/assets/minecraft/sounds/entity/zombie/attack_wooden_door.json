@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/zombie/wood1",
+        "minecraft:mob/zombie/wood2",
+        "minecraft:mob/zombie/wood3",
+        "minecraft:mob/zombie/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+}

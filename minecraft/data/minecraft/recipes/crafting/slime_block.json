@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result": {
+        "item": "minecraft:slime_block"
+    },
+    "group": "minecraft:material_block"
+}

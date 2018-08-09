@@ -1,0 +1,30 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "eat",
+            "time": 600,
+            "effects": {
+                "food": 4,
+                "saturation": 2.4,
+                "potion_effects": [
+                    {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 0,
+                        "duration": 2400
+                    },
+                    {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 1,
+                        "duration": 100
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

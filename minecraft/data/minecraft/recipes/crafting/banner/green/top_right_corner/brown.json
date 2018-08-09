@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/top_right_corner",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:green_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:cocoa_beans"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_banner"
+    },
+    "group": "minecraft:banner_top_right_corner",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "brown",
+                    "pattern": "top_right_corner"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:long_night_vision"
+        }
+    },
+    "item": {
+        "item": "minecraft:fermented_spider_eye"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "group": "minecraft:inverted_potion",
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:long_invisibility"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

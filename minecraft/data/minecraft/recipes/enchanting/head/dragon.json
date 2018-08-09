@@ -1,0 +1,18 @@
+{
+    "item": "minecraft:ender_dragon_head",
+    "enchantments": [
+        {
+            "name": "minecraft:binding_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 0
+}

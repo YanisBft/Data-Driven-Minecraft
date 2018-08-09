@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/zombie_villager/say1",
+        "minecraft:mob/zombie_villager/say2",
+        "minecraft:mob/zombie_villager/say3"
+    ],
+    "subtitle": "subtitles.entity.zombie_villager.ambient"
+}

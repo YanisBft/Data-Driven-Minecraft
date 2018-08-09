@@ -1,0 +1,319 @@
+{
+    "pick_block": "minecraft:turtle_egg",
+    "hardness": {
+        "minecraft:default": 2
+    },
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/turtle_egg_1",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "eggs": "1"
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/turtle_egg_2",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "eggs": "2"
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/turtle_egg_3",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "eggs": "3"
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/turtle_egg_4",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "states": {
+                "eggs": "4"
+            },
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "states": {
+        "hatch": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2"
+            ],
+            "hidden": true
+        },
+        "eggs": {
+            "default": "1",
+            "values": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "sound": "crack",
+                "block": {
+                    "properties": {
+                        "eggs": "3"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "eggs": "4"
+                                    }
+                                }
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "type": "#minecraft:pressure_plate_activators"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "sound": "crack",
+                "block": {
+                    "properties": {
+                        "eggs": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "eggs": "3"
+                                    }
+                                }
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "type": "#minecraft:pressure_plate_activators"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "sound": "crack",
+                "block": {
+                    "properties": {
+                        "eggs": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "eggs": "2"
+                                    }
+                                }
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "type": "#minecraft:pressure_plate_activators"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "sound": "break",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "eggs": "1"
+                                    }
+                                }
+                            }
+                        ],
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "type": "#minecraft:pressure_plate_activators"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "hatch": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "hatch": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "hatch": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "hatch": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 7, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 7, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

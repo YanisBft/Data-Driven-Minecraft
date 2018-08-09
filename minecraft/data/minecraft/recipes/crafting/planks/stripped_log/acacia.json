@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:stripped_acacia_log"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

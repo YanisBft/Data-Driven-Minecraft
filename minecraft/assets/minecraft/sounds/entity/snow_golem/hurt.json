@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:entity/snowman/hurt1",
+        "minecraft:entity/snowman/hurt2",
+        "minecraft:entity/snowman/hurt3"
+    ],
+    "subtitle": "subtitles.entity.snow_golem.hurt"
+}

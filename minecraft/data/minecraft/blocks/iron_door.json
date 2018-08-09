@@ -1,0 +1,1659 @@
+{
+    "pick_block": "minecraft:iron_door",
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:iron_pickaxe": 3.75,
+        "minecraft:stone_pickaxe": 1.9,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 0.955
+    },
+    "blast_resistance": 25,
+    "transparent": true,
+    "solid": false,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/iron_door",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                }
+            ],
+            "states": {
+                "half": "upper"
+            }
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "half": {
+            "default": "lower",
+            "values": [
+                "lower",
+                "upper"
+            ]
+        },
+        "hinge": {
+            "default": "left",
+            "values": [
+                "right",
+                "left"
+            ]
+        },
+        "open": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "sound": "open",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "false",
+                                        "half": "lower"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": -1,
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "sound": "open",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "false",
+                                        "half": "upper"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "properties": {
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "false",
+                                        "half": "lower"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": -1,
+                        "properties": {
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "false",
+                                        "half": "upper"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:received_power_above_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "sound": "open",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "y": 1
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "false",
+                                        "half": "lower"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "properties": {
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "y": 1
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "false",
+                                        "half": "lower"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:received_power_below_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": -1,
+                        "properties": {
+                            "open": "true",
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "sound": "open",
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "y": -1
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "false",
+                                        "half": "upper"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "powered": "true"
+                        }
+                    },
+                    {
+                        "y": -1,
+                        "properties": {
+                            "powered": "true"
+                        }
+                    }
+                ],
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "y": -1
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "false",
+                                        "half": "upper"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "powered": "false"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "properties": {
+                            "powered": "false"
+                        }
+                    }
+                ],
+                "conditions": [
+                    {
+                        "receive_power": [
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "y": 1,
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "true",
+                                        "half": "lower"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "powered": "false"
+                        }
+                    },
+                    {
+                        "y": -1,
+                        "properties": {
+                            "powered": "false"
+                        }
+                    }
+                ],
+                "conditions": [
+                    {
+                        "receive_power": [
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "y": -1,
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false",
+                                        "powered": "true",
+                                        "half": "upper"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "open": "false",
+                            "powered": "false"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "properties": {
+                            "open": "false",
+                            "powered": "false"
+                        }
+                    }
+                ],
+                "sound": "close",
+                "conditions": [
+                    {
+                        "receive_power": [
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "y": 1,
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "true",
+                                        "half": "lower"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "open": "false",
+                            "powered": "false"
+                        }
+                    },
+                    {
+                        "y": -1,
+                        "properties": {
+                            "open": "false",
+                            "powered": "false"
+                        }
+                    }
+                ],
+                "sound": "close",
+                "conditions": [
+                    {
+                        "receive_power": [
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "y": -1,
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true",
+                                        "powered": "true",
+                                        "half": "upper"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "upper",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {},
+                    "up": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "upper",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "false"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "lower",
+                            "hinge": "right",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "north",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 4, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "south",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 12, 0, 0 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "east",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:iron_door",
+                        "states": {
+                            "facing": "west",
+                            "half": "lower",
+                            "hinge": "left",
+                            "open": "true"
+                        }
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 12 ],
+                        "to": [ 16, 16, 16]
+                    }
+                ]
+            }
+        }
+    ]
+}

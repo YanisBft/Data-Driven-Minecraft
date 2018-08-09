@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:item/bucket/fill1",
+        "minecraft:item/bucket/fill2",
+        "minecraft:item/bucket/fill3"
+    ],
+    "subtitle": "subtitles.item.bucket.fill"
+}

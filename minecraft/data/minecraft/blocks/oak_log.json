@@ -1,0 +1,31 @@
+{
+    "pick_block": "minecraft:oak_log",
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 5
+    },
+    "blast_resistance": 10,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/oak_log"
+        }
+    ],
+    "states": {
+        "axis": {
+            "default": "y",
+            "values": [
+                "x",
+                "y",
+                "z"
+            ]
+        }
+    }
+}

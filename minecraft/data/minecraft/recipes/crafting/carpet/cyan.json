@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:cyan_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_carpet",
+        "count": 3
+    },
+    "group": "minecraft:carpet"
+}

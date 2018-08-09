@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:stairs",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:prismarine_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:prismarine_brick_stairs",
+        "count": 4
+    },
+    "group": "minecraft:stairs"
+}

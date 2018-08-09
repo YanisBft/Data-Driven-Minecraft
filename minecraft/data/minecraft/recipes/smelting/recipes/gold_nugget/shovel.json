@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:golden_shovel"
+    },
+    "result": {
+        "item": "minecraft:gold_nugget",
+        "xp": 0.2
+    },
+    "group": "minecraft:gold_nugget",
+    "cooking_time": 200
+}

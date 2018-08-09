@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:blue_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "item2": {
+            "item": "minecraft:vine"
+        },
+        "item3": {
+            "item": "minecraft:ink_sack"
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_banner"
+    },
+    "group": "minecraft:banner_curly_border",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "black",
+                    "pattern": "curly_border"
+                }
+            }
+        }
+    ]
+}

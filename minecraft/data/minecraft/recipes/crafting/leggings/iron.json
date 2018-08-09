@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:leggings",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_leggings"
+    },
+    "group": "minecraft:leggings"
+}

@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/irongolem/throw"
+    ],
+    "subtitle": "subtitles.entity.iron_golem.attack"
+}

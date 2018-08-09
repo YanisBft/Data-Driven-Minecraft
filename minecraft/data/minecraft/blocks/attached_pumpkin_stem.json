@@ -1,0 +1,245 @@
+{
+    "pick_block": "minecraft:pumpkin_seeds",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "light_needed": {
+        "min": 7
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/pumpkin_seeds"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:pumpkin_stem",
+                    "properties": {
+                        "age": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:pumpkin",
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:pumpkin_stem",
+                    "properties": {
+                        "age": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:pumpkin",
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:pumpkin_stem",
+                    "properties": {
+                        "age": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:pumpkin",
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:pumpkin_stem",
+                    "properties": {
+                        "age": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:pumpkin",
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:farmland"
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, -1, 0 ],
+                        "to": [ 10, 14, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, -1, 6 ],
+                        "to": [ 10, 14, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 6, -1, 6 ],
+                        "to": [ 16, 14, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 6 ],
+                        "to": [ 10, 14, 10 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

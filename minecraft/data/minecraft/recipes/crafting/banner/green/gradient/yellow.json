@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/gradient",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:green_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_banner"
+    },
+    "group": "minecraft:banner_gradient",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "yellow",
+                    "pattern": "gradient"
+                }
+            }
+        }
+    ]
+}

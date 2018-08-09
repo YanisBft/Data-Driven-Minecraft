@@ -1,0 +1,83 @@
+{
+    "pick_block": "minecraft:jack_o_lantern",
+    "hardness": {
+        "minecraft:default": 1.5,
+        "minecraft:wooden_axe": 0.75,
+        "minecraft:stone_axe": 0.4,
+        "minecraft:iron_axe": 0.25,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.15,
+        "minecraft:wooden_sword": 1,
+        "minecraft:stone_sword": 1,
+        "minecraft:iron_sword": 1,
+        "minecraft:diamond_sword": 1,
+        "minecraft:golden_sword": 1
+    },
+    "blast_resistance": 5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/jack_o_lantern"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "light": 15
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "light": 15
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "faces": {
+                    "east": {
+                        "light": 15
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "faces": {
+                    "west": {
+                        "light": 15
+                    }
+                }
+            }
+        }
+    ]
+}

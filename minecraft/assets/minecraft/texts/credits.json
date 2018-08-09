@@ -1,0 +1,452 @@
+[
+    {
+        "text": "===============\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "text": "Minecraft\n",
+        "color": "yellow",
+        "center": true
+    },
+    {
+        "text": "===============\n\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "translate": "credits.minecraft.create",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Markus Persson\n"
+    },
+    {
+        "translate": "credits.minecraft.lead",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Jens Bergensten\n"
+    },
+    {
+        "translate": "credits.minecraft.production",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Daniel Kaplan\n"
+    },
+    {
+        "translate": "credits.minecraft.game_developers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Agnes Larsson\n          Alexander Östman\n          Aron Nieminen\n          Daniel Wustenhoff\n          Erik Broes\n          Erik Bylund\n          Johan Bernhardsson\n          Jon Maiga\n          Maria Lemón\n          Michael Stoyke\n          Mikael Hedberg\n          Måns Olson\n          Nathan Adams\n          Nathan Gilbert\n          Ryan Holtz\n          Sebastian Hindefelt\n          Shoghi Cervantes\n          Thomas Guimbretière\n          Tomas Alaeus\n          Tommaso Checchi\n\n"
+    },
+    {
+        "translate": "credits.minecraft.realms_developers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Alexandre Pretto Nunes\n          Amir Moulavi\n          Christian Westman\n          Daniel Frisk\n          David Marby\n          Leonard Gram\n          Magnus Jäderberg\n          Mats Henricson\n          Philip Vieira\n\n"
+    },
+    {
+        "translate": "credits.minecraft.additional_programming",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Paul Spooner\n          Ryan 'Scaevolus' Hitchman\n          Elliot 'Hippoplatimus' Segal\n\n"
+    },
+    {
+        "translate": "credits.minecraft.assistent_producers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Adrian Östergård\n          Aleksandra Zajac\n          Warren Loo\n\n"
+    },
+    {
+        "translate": "credits.minecraft.realms_lead",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Marc Watson\n\n"
+    },
+    {
+        "translate": "credits.minecraft.realms_coordinator",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Matthew Dryden\n\n"
+    },
+    {
+        "translate": "credits.minecraft.art_director",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Markus Toivonen\n\n"
+    },
+    {
+        "translate": "credits.minecraft.graphics_artists",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Johan Aronson\n          Kristoffer Zetterstrand\n\n"
+    },
+    {
+        "translate": "credits.minecraft.additional_graphics",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Jonatan Pöljö\n          Mariana Graham Ramirez\n          Martin Johansson\n          Ninni Landin\n\n"
+    },
+    {
+        "translate": "credits.minecraft.user_experience",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Tobias Ahlin\n\n"
+    },
+    {
+        "translate": "credits.minecraft.lead_sound",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Samuel Åberg\n\n"
+    },
+    {
+        "translate": "credits.minecraft.sound_design",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Daniel Rosenfeld\n\n"
+    },
+    {
+        "translate": "credits.minecraft.music",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Daniel Rosenfeld\n\n"
+    },
+    {
+        "translate": "credits.minecraft.writing",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Julian Gough\n\n"
+    },
+    {
+        "translate": "credits.minecraft.mo_creatures",
+        "color": "gray"
+    },
+    {
+        "text": "\n          John Olarte (DrZhark)\n          Kent Christian Jensen\n          Dan Roque\n\n"
+    },
+    {
+        "text": "===============\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "text": "Mojang\n",
+        "color": "yellow",
+        "center": true
+    },
+    {
+        "text": "===============\n\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "translate": "credits.mojang.chief_executive",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Jonas Mårtensson\n\n"
+    },
+    {
+        "translate": "credits.mojang.chief_operations",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Vu Bui\n\n"
+    },
+    {
+        "translate": "credits.mojang.chief_finance",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Karin Severinson\n\n"
+    },
+    {
+        "translate": "credits.mojang.brand_director",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Lydia Winters\n\n"
+    },
+    {
+        "translate": "credits.mojang.chief_technology",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Rikard Herlitz\n\n"
+    },
+    {
+        "translate": "credits.mojang.lead_systems",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Kristoffer Jelbring\n\n"
+    },
+    {
+        "translate": "credits.mojang.system_developers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Pär Axelsson\n          Robert Sjödahl\n          Stefan Torstensson\n          Tomas Sommar\n\n"
+    },
+    {
+        "translate": "credits.mojang.customer_support_lead",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Mattias Victorin\n\n"
+    },
+    {
+        "translate": "credits.mojang.customer_support",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Adam Martinsson\n          Amelia Lindroth Henriksson\n          Angehlica Walling\n          Anna Lundgren\n          Antonia Kousathana\n          Carl Johnsson\n          Cim Borg\n          Eliza Hearsum\n          Ellie Ashrafi\n          Jonny Hair\n          Marcus Forss\n          Nasim Derakhshan\n          Patrik Södergren\n          Rui Ribeiro\n          Sarah Mårtensson\n\n"
+    },
+    {
+        "translate": "credits.mojang.director_business",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Patrick Geuder\n\n"
+    },
+    {
+        "translate": "credits.mojang.business_intelligence",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Brynjólfur Erlingsson\n\n"
+    },
+    {
+        "translate": "credits.mojang.production_director",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Olof Carlsson\n\n"
+    },
+    {
+        "translate": "credits.mojang.producers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Hampus Nilsson\n\n"
+    },
+    {
+        "translate": "credits.mojang.project_director",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Ulrika Höjgård\n\n"
+    },
+    {
+        "translate": "credits.mojang.project_managers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Henrik Pettersson\n          Isabella Balk\n          Lisa Kempe\n          Nicolette Suraga\n\n"
+    },
+    {
+        "translate": "credits.mojang.director_creatve_communications",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Owen Jones\n\n"
+    },
+    {
+        "translate": "credits.mojang.creatve_communications_manager",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Martin Davies\n\n"
+    },
+    {
+        "translate": "credits.mojang.creatve_communications_assistant",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Tom Stone\n\n"
+    },
+    {
+        "translate": "credits.mojang.head_community",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Karim Walldén\n\n"
+    },
+    {
+        "translate": "credits.mojang.head_media",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Amelia Dale\n\n"
+    },
+    {
+        "translate": "credits.mojang.office_managers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          David Stuart Dahlgren\n          Mikaela Prim\n          Siri Hoel Andersson\n\n"
+    },
+    {
+        "translate": "credits.mojang.finance_manager",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Marina Kostesic\n\n"
+    },
+    {
+        "translate": "credits.mojang.finance_accountants",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Josefina Axelsson\n\n"
+    },
+    {
+        "translate": "credits.mojang.graphics_artists",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Mattis Grahm\n\n"
+    },
+    {
+        "translate": "credits.mojang.vfx_generalist",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Christian Nordgren\n\n"
+    },
+    {
+        "translate": "credits.mojang.level_designers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Max Herngren\n\n"
+    },
+    {
+        "translate": "credits.mojang.product_designers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Amanda Ström\n          Filip Thoms\n\n"
+    },
+    {
+        "translate": "credits.mojang.enforcement_lead",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Mathias Andersson\n\n"
+    },
+    {
+        "translate": "credits.mojang.enforcement_agents",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Josefin Olsson\n          Matilda Åkerman\n          Olle Personne\n\n"
+    },
+    {
+        "text": "===============\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "text": "Mojang Alumni\n",
+        "color": "yellow",
+        "center": true
+    },
+    {
+        "text": "===============\n\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "translate": "credits.mojang_alumni.chief_executive",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Carl Manneh\n\n"
+    },
+    {
+        "translate": "credits.mojang_alumni.project_director",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Jakob Porsér\n\n"
+    },
+    {
+        "translate": "credits.mojang_alumni.game_developers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Tobias Möllstam\n\n"
+    },
+    {
+        "translate": "credits.mojang_alumni.system_developers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Martin Odhelius\n\n"
+    },
+    {
+        "translate": "credits.mojang_alumni.graphics_artists",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Poi Poi Chen\n\n"
+    },
+    {
+        "translate": "credits.mojang_alumni.customer_support",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Andreas Andersson\n          Andreas Jörgensen\n          Annika Tripke-Lund\n          Anton Albiin\n          Dante Stjernberg\n          David Carlsson\n          Elin Frykholm\n          Emily Richardson\n          Erik Nordberg\n          Fredrik Henriksson\n          Henrik Davallius\n          Henry Shi\n          Joe Liu\n          Kevin Vesterlund\n          Mike Till\n          Rabi Hadad\n          Robert Miskiewicz\n          Robin Cocks\n          Robin Thunström\n\n"
+    },
+    {
+        "translate": "credits.mojang_alumni.office_managers",
+        "color": "gray"
+    },
+    {
+        "text": "\n          Charlotte Wredesjö\n          Jill Curran\n          Linn Hultman\n\n"
+    },
+    {
+        "text": "===============\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "translate": "credits.special_thanks",
+        "color": "yellow",
+        "center": true
+    },
+    {
+        "text": "\n===============\n\n",
+        "color": "white",
+        "center": true
+    },
+    {
+        "text": "          Daniel Brynolf\n          Pontus Hammarberg\n\n\n\n\n\n"
+    },
+    {
+        "translate": "credits.quote",
+        "with": [
+            {
+                "translate": "credits.quote.source",
+                "color": "gray"
+            }
+        ]
+    }
+]

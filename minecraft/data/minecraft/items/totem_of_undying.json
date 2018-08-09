@@ -1,0 +1,34 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "use",
+            "effects": {
+                "health": 1,
+                "potion_effects": [
+                    {
+                        "effect": "clear"
+                    },
+                    {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 1,
+                        "duration": 100
+                    },
+                    {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 1,
+                        "duration": 800
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "damage": {
+                    "death": true
+                }
+            }
+        }
+    ]
+}

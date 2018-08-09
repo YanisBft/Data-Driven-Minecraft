@@ -1,0 +1,118 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "properties": {
+                    "minecraft:size": 0
+                }
+            }
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "properties": {
+                        "minecraft:size": 3
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "properties": {
+                        "minecraft:size": 1
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "properties": {
+                        "minecraft:size": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

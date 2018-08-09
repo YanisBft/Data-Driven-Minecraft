@@ -1,0 +1,80 @@
+{
+    "pick_block": "minecraft:chorus_flower",
+    "hardness": {
+        "minecraft:default": 0.65,
+        "minecraft:wooden_axe": 0.35,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.1,
+        "minecraft:diamond_axe": 0.1,
+        "minecraft:golden_axe": 0.05
+    },
+    "blast_resistance": 2,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/chorus_flower"
+        }
+    ],
+    "states": {
+        "age": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "need_support": {
+                    "down": [
+                        {
+                            "name": "minecraft:chorus_plant",
+                            "properties:": {
+                                "up": "true"
+                            }
+                        },
+                        {
+                            "name": "minecraft:end_stone"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 16, 14 ]
+                    },
+                    {
+                        "from": [ 0, 2, 2 ],
+                        "to": [ 16, 14, 14 ]
+                    },
+                    {
+                        "from": [ 2, 2, 0 ],
+                        "to": [ 14, 14, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 16, 14 ]
+                    },
+                    {
+                        "from": [ 0, 2, 2 ],
+                        "to": [ 16, 14, 14 ]
+                    },
+                    {
+                        "from": [ 2, 2, 0 ],
+                        "to": [ 14, 14, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

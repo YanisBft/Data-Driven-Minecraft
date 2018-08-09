@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/irongolem/death"
+    ],
+    "subtitle": "subtitles.entity.iron_golem.death"
+}

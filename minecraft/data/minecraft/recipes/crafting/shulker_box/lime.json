@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:shulker_box"
+        },
+        "item2": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "item1"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lime_shulker_box"
+    },
+    "group": "minecraft:shulker_box_coloring"
+}

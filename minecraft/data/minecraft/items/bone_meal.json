@@ -1,0 +1,482 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:grass\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:tall_grass"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:fern\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:large_fern"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:lilac\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:lilac"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:peony\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:peony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:rose_bush\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:rose_bush"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:sunflower\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:sunflower"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:sea_grass\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:tall_sea_grass"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:dandelion\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:dandelion"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:poppy\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:poppy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:red_tulip\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:red_tulip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:orange_tulip\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:orange_tulip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:white_tulip\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:white_tulip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:pink_tulip\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:pink_tulip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:oxeye_daisy\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:oxeye_daisy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:azure_bluet\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:azure_bluet"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:allium\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:allium"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity_block",
+            "spawn_entity": {
+                "name": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:blue_orchid\",Count:1b}}"
+            },
+            "increase_stat": true,
+            "consume_item": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:blue_orchid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_entity",
+            "alter_nbt": "{Color:0b}",
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:1b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:2b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:3b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:4b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:5b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:6b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:7b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:8b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:9b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:10b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:11b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:12b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:13b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:14b}"
+                    },
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:sheep",
+                        "nbt": "{Color:15b}"
+                    }
+                ]
+            }
+        }
+    ]
+}

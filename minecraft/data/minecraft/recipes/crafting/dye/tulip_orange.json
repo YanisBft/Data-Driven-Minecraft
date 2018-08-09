@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:orange_tulip"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_dye"
+    },
+    "group": "minecraft:orange_dye"
+}

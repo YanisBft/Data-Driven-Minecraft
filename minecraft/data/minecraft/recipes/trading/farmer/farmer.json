@@ -1,0 +1,192 @@
+{
+    "tiers": [
+        [
+            {
+                "buy": {
+                    "item": "minecraft:wheat",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 18,
+                                "max": 22
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 15,
+                                "max": 19
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:carrot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 15,
+                                "max": 19
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:beetroot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 15,
+                                "max": 19
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald"
+                },
+                "sell": {
+                    "item": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:pumpkin",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 13
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald"
+                },
+                "sell": {
+                    "item": "minecraft:pumpkin_pie",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:melon_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "minecraft:emerald"
+                }
+            },
+            {
+                "buy": {
+                    "item": "minecraft:emerald"
+                },
+                "sell": {
+                    "item": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 7
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:emerald"
+                },
+                "sell": {
+                    "item": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 10
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        [
+            {
+                "buy": {
+                    "item": "minecraft:emerald"
+                },
+                "sell": {
+                    "item": "minecraft:cake"
+                }
+            }
+        ]
+    ]
+}

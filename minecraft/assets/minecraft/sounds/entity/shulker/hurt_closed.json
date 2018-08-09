@@ -1,0 +1,10 @@
+{
+    "sounds": [
+        "minecraft:entity/shulker/hurt_closed1",
+        "minecraft:entity/shulker/hurt_closed2",
+        "minecraft:entity/shulker/hurt_closed3",
+        "minecraft:entity/shulker/hurt_closed4",
+        "minecraft:entity/shulker/hurt_closed5"
+    ],
+    "subtitle": "subtitles.entity.shulker.hurt"
+}

@@ -1,0 +1,12 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:entity/endereye/dead1",
+            "volume": 1.3
+        },
+        {
+            "name": "minecraft:entity/endereye/dead2",
+            "volume": 1.3
+        }
+    ]
+}

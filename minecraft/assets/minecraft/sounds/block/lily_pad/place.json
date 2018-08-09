@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:block/waterlily/place1",
+        "minecraft:block/waterlily/place2",
+        "minecraft:block/waterlily/place3",
+        "minecraft:block/waterlily/place4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+}

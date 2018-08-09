@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:cut_red_sandstone",
+    "hardness": {
+        "minecraft:default": 4,
+        "minecraft:wooden_pickaxe": 0.65,
+        "minecraft:stone_pickaxe": 0.35,
+        "minecraft:iron_pickaxe": 0.2,
+        "minecraft:diamond_pickaxe": 0.2,
+        "minecraft:golden_pickaxe": 0.2
+    },
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/cut_red_sandstone",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ],
+    "blast_resistance": 4
+}

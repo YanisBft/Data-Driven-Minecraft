@@ -1,0 +1,17 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "banner"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "",    "dye"    ],
+                [    "dye",    "",    "dye"    ]
+            ],
+            "can_move": false,
+            "can_mirror": false
+        }
+    ]
+}

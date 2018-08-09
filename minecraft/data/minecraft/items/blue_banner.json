@@ -1,0 +1,1678 @@
+{
+    "block_item": true,
+    "stack_size": 16,
+    "functions": [
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "0"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 168.75,
+                        "max": -168.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "1"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 146.25,
+                        "max": 168.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "2"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 123.75,
+                        "max": 146.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "3"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 101.25,
+                        "max": 123.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "4"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 78.75,
+                        "max": 101.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "5"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 56.25,
+                        "max": 78.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "6"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 33.75,
+                        "max": 56.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "7"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 11.25,
+                        "max": 33.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "8"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -11.25,
+                        "max": 11.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "9"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -33.75,
+                        "max": -11.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "10"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -56.25,
+                        "max": -33.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "11"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -78.75,
+                        "max": -56.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "12"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -101.25,
+                        "max": -78.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "13"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -123.75,
+                        "max": -101.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "14"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -146.25,
+                        "max": -123.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "15"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -168.75,
+                        "max": -146.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "south",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "north"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "west",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "east"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "north",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "south"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_face": "east",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "west"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "0"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 168.75,
+                        "max": -168.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "1"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 146.25,
+                        "max": 168.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "2"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 123.75,
+                        "max": 146.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "3"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 101.25,
+                        "max": 123.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "4"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 78.75,
+                        "max": 101.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "5"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 56.25,
+                        "max": 78.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "6"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 33.75,
+                        "max": 56.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "7"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 11.25,
+                        "max": 33.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "8"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -11.25,
+                        "max": 11.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "9"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -33.75,
+                        "max": -11.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "10"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -56.25,
+                        "max": -33.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "11"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -78.75,
+                        "max": -56.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "12"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -101.25,
+                        "max": -78.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "13"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -123.75,
+                        "max": -101.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "14"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -146.25,
+                        "max": -123.75
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "up",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_banner",
+                "properties": {
+                    "rotation": "15"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -168.75,
+                        "max": -146.25
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "south",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "north"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "west",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "east"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "north",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "south"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_face": "east",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:blue_wall_banner",
+                "properties": {
+                    "facing": "west"
+                },
+                "copy_nbt": [
+                    {
+                        "copy": "BlockEntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

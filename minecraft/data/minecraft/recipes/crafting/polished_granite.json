@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:granite"
+        }
+    },
+    "result": {
+        "item": "minecraft:polished_granite",
+        "count": 4
+    }
+}

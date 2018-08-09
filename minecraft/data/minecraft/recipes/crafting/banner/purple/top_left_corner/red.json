@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/top_left_corner",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:purple_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:purple_banner"
+    },
+    "group": "minecraft:banner_top_left_corner",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "red",
+                    "pattern": "top_left_corner"
+                }
+            }
+        }
+    ]
+}

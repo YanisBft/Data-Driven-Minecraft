@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:rose_red"
+        },
+        "item2": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_dye",
+        "count": 2
+    },
+    "group": "minecraft:orange_dye"
+}

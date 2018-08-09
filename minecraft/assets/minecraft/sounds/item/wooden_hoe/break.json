@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:random/break"
+    ],
+    "subtitle": "subtitles.entity.item.break"
+}

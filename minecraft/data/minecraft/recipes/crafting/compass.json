@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:circle",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:iron_ingot"
+        },
+        "center": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:compass"
+    }
+}

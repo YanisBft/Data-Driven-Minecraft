@@ -1,0 +1,12 @@
+{
+    "sounds": [
+        "minecraft:ambient/underwater/additions/animal2",
+        "minecraft:ambient/underwater/additions/dark1",
+        {
+            "name": "minecraft:ambient/underwater/additions/dark2",
+            "volume": 0.7
+        },
+        "minecraft:ambient/underwater/additions/dark3",
+        "minecraft:ambient/underwater/additions/dark4"
+    ]
+}

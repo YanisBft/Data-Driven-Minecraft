@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/bat/takeoff"
+    ],
+    "subtitle": "subtitles.entity.bat.takeoff"
+}

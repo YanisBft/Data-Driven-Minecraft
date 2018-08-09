@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:block/enderchest/open"
+    ],
+    "subtitle": "subtitles.block.chest.open"
+}

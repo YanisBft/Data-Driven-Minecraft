@@ -1,0 +1,18 @@
+{
+    "item": {
+        "item": "minecraft:iron_boots"
+    },
+    "result": {
+        "item": "minecraft:iron_nugget",
+        "count": 4,
+        "xp": 0.2
+    },
+    "group": "minecraft:iron_nugget",
+    "cooking_time": 200,
+    "functions": [
+        {
+            "function": "minecraft:scale_durability",
+            "tag": "Count"
+        }
+    ]
+}

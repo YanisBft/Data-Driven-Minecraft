@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:stripped_dark_oak_bark"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_oak_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

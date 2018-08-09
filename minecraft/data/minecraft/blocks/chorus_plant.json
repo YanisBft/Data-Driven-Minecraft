@@ -1,0 +1,374 @@
+{
+    "pick_block": "minecraft:chorus_plant",
+    "hardness": {
+        "minecraft:default": 0.65,
+        "minecraft:wooden_axe": 0.35,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.1,
+        "minecraft:diamond_axe": 0.1,
+        "minecraft:golden_axe": 0.05
+    },
+    "blast_resistance": 2,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/chorus_plant"
+        }
+    ],
+    "states": {
+        "north": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "south": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "east": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "west": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "up": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "down": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "north": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {
+                        "name": "minecraft:chorus_plant"
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 0 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 0 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "south": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {
+                        "name": "minecraft:chorus_plant"
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "east": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {
+                        "name": "minecraft:chorus_plant"
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 16, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 16, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "west": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {
+                        "name": "minecraft:chorus_plant"
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 0, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 0, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "up": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "up": [
+                        {
+                            "name": "minecraft:chorus_plant"
+                        },
+                        {
+                            "name": "minecraft:chorus_flower"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "down": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "down": [
+                        {
+                            "name": "minecraft:chorus_plant"
+                        },
+                        {
+                            "name": "minecraft:end_stone"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 13, 12 ]
+                    },
+                    {
+                        "from": [ 3, 4, 4 ],
+                        "to": [ 13, 12, 12 ]
+                    },
+                    {
+                        "from": [ 4, 4, 3 ],
+                        "to": [ 12, 12, 13 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

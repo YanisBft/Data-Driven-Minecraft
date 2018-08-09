@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:entity/leashknot/break1",
+        "minecraft:entity/leashknot/break2",
+        "minecraft:entity/leashknot/break3"
+    ],
+    "subtitle": "subtitles.entity.leash_knot.break"
+}

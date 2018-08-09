@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:circle",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "center": {
+            "item": "minecraft:arrow"
+        }
+    },
+    "result": {
+        "item": "minecraft:spectral_arrow",
+        "count": 2
+    }
+}

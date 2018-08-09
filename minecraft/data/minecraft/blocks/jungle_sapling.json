@@ -1,0 +1,275 @@
+{
+    "pick_block": "minecraft:jungle_sapling",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/jungle_sapling"
+        }
+    ],
+    "states": {
+        "stage": {
+            "default": "0",
+            "values": [
+                "0",
+                "1"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "stage": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "stage": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:generate_structure",
+                "structure": "jungle_tree",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:generate_structure",
+                "structure": "big_jungle_tree",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:junge_sapling",
+                                    "properties": {
+                                        "stage": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {
+                            "tag": "minecraft:soil"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1.5, 0, 1.5 ],
+                        "to": [ 14.5, 13, 14.5 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

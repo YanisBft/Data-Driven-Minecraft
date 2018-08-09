@@ -1,0 +1,20 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:music/game/nether/nether1",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/nether/nether2",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/nether/nether3",
+            "stream": true
+        },
+        {
+            "name": "minecraft:music/game/nether/nether4",
+            "stream": true
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/zombie/metal1",
+        "minecraft:mob/zombie/metal2",
+        "minecraft:mob/zombie/metal3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+}

@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/middle_circle",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:pink_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_banner"
+    },
+    "group": "minecraft:banner_middle_circle",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "red",
+                    "pattern": "middle_circle"
+                }
+            }
+        }
+    ]
+}

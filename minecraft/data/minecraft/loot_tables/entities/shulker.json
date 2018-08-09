@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.5,
+                    "looting_multiplier": 0.0625
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:shulker_shell"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 5
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ]
+        }
+    ]
+}

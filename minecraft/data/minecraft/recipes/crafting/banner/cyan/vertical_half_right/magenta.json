@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/vertical_half_right",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:cyan_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:magenta_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_banner"
+    },
+    "group": "minecraft:banner_vertical_half_right",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "magenta",
+                    "pattern": "vertical_half_right"
+                }
+            }
+        }
+    ]
+}

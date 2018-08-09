@@ -1,0 +1,62 @@
+{
+    "pick_block": "minecraft:infested_mossy_stone_bricks",
+    "hardness": {
+        "minecraft:default": 1.15
+    },
+    "blast_resistance": 3.75,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/mossy_stone_bricks",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "functions": {
+        "minecraft:this_block_changed": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:silverfish"
+                },
+                "conditions": [
+                    {
+                        "destroyed": {
+                            "enchantment": [
+                                {
+                                    "name": "minecraft:silk_touch",
+                                    "inverse": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "name": "minecraft:poof",
+                    "count": 5
+                },
+                "conditions": [
+                    {
+                        "destroyed": {
+                            "enchantment": [
+                                {
+                                    "name": "minecraft:silk_touch",
+                                    "inverse": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

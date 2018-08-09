@@ -1,0 +1,30 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:awkward"
+        }
+    },
+    "item": {
+        "item": "minecraft:glistering_melon_slice"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:healing"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

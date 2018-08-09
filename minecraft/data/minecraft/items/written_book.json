@@ -1,0 +1,14 @@
+{
+    "stack_size": 16,
+    "functions": [
+        {
+            "function": "minecraft:open_gui",
+            "gui": "minecraft:written_book",
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

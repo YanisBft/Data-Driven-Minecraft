@@ -1,0 +1,108 @@
+{
+    "pick_block": "minecraft:dropper",
+    "hardness": {
+        "minecraft:default": 17.5,
+        "minecraft:wooden_pickaxe": 2.65,
+        "minecraft:stone_pickaxe": 1.35,
+        "minecraft:iron_pickaxe": 0.9,
+        "minecraft:diamond_pickaxe": 0.7,
+        "minecraft:golden_pickaxe": 0.45
+    },
+    "blast_resistance": 3.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dropper",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        },
+        {
+            "table": "minecraft:builtin/inventory"
+        }
+    ],
+    "block_entity": "minecraft:dropper",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "up",
+                "down",
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:dispenser"
+            }
+        ],
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

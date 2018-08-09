@@ -1,0 +1,853 @@
+{
+    "pick_block": "minecraft:lever",
+    "hardness": {
+        "minecraft:default": 0.75
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 5
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/lever"
+        }
+    ],
+    "states": {
+        "face": {
+            "default": "wall",
+            "values": [
+                "ceiling",
+                "wall",
+                "floor"
+            ]
+        },
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "sound": "click_on",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "sound": "click_off",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "z": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "y": -1
+                    },
+                    {
+                        "y": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "z": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "y": -1
+                    },
+                    {
+                        "y": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "y": -1
+                    },
+                    {
+                        "y": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "x": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "y": -1
+                    },
+                    {
+                        "y": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "y": -1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "floor"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "y": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "foor"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 4,
+                "positions": {
+                    "y": 1
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "ceiling"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "redstone",
+                "strength": 2,
+                "positions": [
+                    {
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "ceiling"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.8,
+                    "name": "minecraft:dust",
+                    "count": 1,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.2,
+                    "name": "minecraft:dust",
+                    "count": 1,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.2,
+                    "y": 0.5,
+                    "z": 0.5,
+                    "name": "minecraft:dust",
+                    "count": 1,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.8,
+                    "y": 0.5,
+                    "z": 0.5,
+                    "name": "minecraft:dust",
+                    "count": 1,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "wall",
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.2,
+                    "z": 0.5,
+                    "name": "minecraft:dust",
+                    "count": 1,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "floor"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.8,
+                    "z": 0.5,
+                    "name": "minecraft:dust",
+                    "count": 1,
+                    "parameters": "1 0 0 1"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true",
+                                        "face": "ceiling"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 3, 10 ],
+                        "to": [ 11, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 3, 0 ],
+                        "to": [ 11, 13, 6 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 3, 5 ],
+                        "to": [ 6, 13, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 10, 3, 5 ],
+                        "to": [ 16, 13, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "pick_block": "minecraft:ender_chest",
+    "hardness": {
+        "minecraft:default": 112.5,
+        "minecraft:wooden_pickaxe": 16.9,
+        "minecraft:stone_pickaxe": 8.45,
+        "minecraft:iron_pickaxe": 5.65,
+        "minecraft:diamond_pickaxe": 4.25,
+        "minecraft:golden_pickaxe": 2.85
+    },
+    "blast_resistance": 3000,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/ender_chest_obsidian",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/ender_chest",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "block_entity": "minecraft:ender_chest",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5,
+                    "name": "minecraft:portal",
+                    "count": 6
+                }
+            }
+        ],
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "sound": "open",
+                "gui": "minecraft:ender_chest",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    },
+                                    {
+                                        "name": "minecraft:fire"
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb"
+                                    },
+                                    {
+                                        "name": "minecraft:vine",
+                                        "properties": {
+                                            "north": "false",
+                                            "south": "false",
+                                            "east": "false",
+                                            "west": "false"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:walls_torch"
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wall_torch"
+                                    },
+                                    {
+                                        "name": "minecraft:lever"
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons"
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "properties": {
+                                            "face": "floor"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "properties": {
+                                            "half": "top",
+                                            "open": "false"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:tripwire"
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void"
+                                    },
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "upper"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 7,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 7,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 7,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 7,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 7,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 7,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 11, 1 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 0 ],
+                        "to": [ 9, 11, 1 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 15 ],
+                        "to": [ 9, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 7, 7, 15 ],
+                        "to": [ 9, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 7 ],
+                        "to": [ 16, 11, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 15, 7, 7 ],
+                        "to": [ 16, 11, 9 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 7 ],
+                        "to": [ 1, 11, 9 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 14, 15 ]
+                    },
+                    {
+                        "from": [ 0, 7, 7 ],
+                        "to": [ 1, 11, 9 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

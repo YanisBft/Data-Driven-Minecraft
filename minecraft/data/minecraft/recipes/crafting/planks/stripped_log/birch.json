@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:stripped_birch_log"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:birch_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

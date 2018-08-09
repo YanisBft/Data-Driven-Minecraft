@@ -1,0 +1,38 @@
+{
+    "pick_block": "minecraft:jukebox",
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/jukebox"
+        },
+        {
+            "table": "minecraft:builtin/inventory"
+        }
+    ],
+    "block_entity": "minecraft:jukebox",
+    "states": {
+        "has_record": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        
+    }
+}

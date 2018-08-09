@@ -1,0 +1,100 @@
+{
+    "pick_block": "minecraft:end_portal_frame",
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "blast_resistance": -1,
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "east",
+                "south",
+                "west"
+            ]
+        },
+        "eye": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 1
+                    },
+                    "up": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 1,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 13, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "eye": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 13, 16 ]
+                    },
+                    {
+                        "from": [ 4, 13, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 13, 16 ]
+                    },
+                    {
+                        "from": [ 4, 13, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

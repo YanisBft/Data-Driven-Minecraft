@@ -1,0 +1,193 @@
+{
+    "pick_block": "minecraft:activator_rail",
+    "hardness": {
+        "minecraft:default": 1.05,
+        "minecraft:wooden_pickaxe": 0.55,
+        "minecraft:stone_pickaxe": 0.3,
+        "minecraft:iron_pickaxe": 0.2,
+        "minecraft:diamond_pickaxe": 0.15,
+        "minecraft:golden_pickaxe": 0.1
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 5
+    },
+    "blast_resistance": 3.5,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/activator_rail"
+        }
+    ],
+    "states": {
+        "shape": {
+            "default": "north_south",
+            "values": [
+                "north_south",
+                "east_west",
+                "ascending_north",
+                "ascending_south",
+                "ascending_east",
+                "ascending_west"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "shape": "ascending_north"
+            },
+            "properties": {
+                "need_support": {
+                    "north": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "shape": "ascending_south"
+            },
+            "properties": {
+                "need_support": {
+                    "south": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "shape": "ascending_east"
+            },
+            "properties": {
+                "need_support": {
+                    "east": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "shape": "ascending_west"
+            },
+            "properties": {
+                "need_support": {
+                    "west": [
+                        {},
+                        {
+                            "name": "minecraft:hopper"
+                        },
+                        {
+                            "name": "minecraft:cauldron"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

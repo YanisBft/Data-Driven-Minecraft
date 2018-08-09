@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:boots",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_boots"
+    },
+    "group": "minecraft:boots"
+}

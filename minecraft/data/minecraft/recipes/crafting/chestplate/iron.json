@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:chestplate",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_chestplate"
+    },
+    "group": "minecraft:chestplate"
+}

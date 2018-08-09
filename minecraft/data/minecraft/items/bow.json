@@ -1,0 +1,105 @@
+{
+    "stack_size": 1,
+    "durability": 385,
+    "functions": [
+        {
+            "function": "minecraft:shoot_item",
+            "time": 60,
+            "min_time": 10,
+            "max_speed": 20,
+            "charge_slowdown": 0.1,
+            "shoot_sound": "shoot",
+            "entity": {
+                "name": "minecraft:arrow",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "item": {
+                "name": "minecraft:arrow"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        },
+        {
+            "function": "minecraft:shoot_item",
+            "time": 60,
+            "min_time": 10,
+            "max_speed": 20,
+            "charge_slowdown": 0.1,
+            "shoot_sound": "shoot",
+            "entity": {
+                "name": "minecraft:spectral_arrow",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "item": {
+                "name": "minecraft:spectral_arrow"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        },
+        {
+            "function": "minecraft:shoot_item",
+            "time": 60,
+            "min_time": 10,
+            "max_speed": 20,
+            "charge_slowdown": 0.1,
+            "shoot_sound": "shoot",
+            "entity": {
+                "name": "minecraft:arrow",
+                "copy_nbt": [
+                    {
+                        "copy": "Potion",
+                        "paste": "Potion"
+                    },
+                    {
+                        "copy": "CustomPotionColor",
+                        "paste": "CustomPotionColor"
+                    },
+                    {
+                        "copy": "CustomPotionEffects",
+                        "paste": "CustomPotionEffects"
+                    },
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "item": {
+                "name": "minecraft:tipped_arrow"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        }
+    ]
+}

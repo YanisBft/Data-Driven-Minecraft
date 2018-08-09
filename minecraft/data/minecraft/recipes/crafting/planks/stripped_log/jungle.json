@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:stripped_jungle_log"
+            ]
+        }
+    },
+    "result": {
+        "item": "minecraft:jungle_planks",
+        "count": 4
+    },
+    "group": "minecraft:planks"
+}

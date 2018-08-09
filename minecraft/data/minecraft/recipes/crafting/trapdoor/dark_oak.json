@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "bottom": {
+            "item": "minecraft:dark_oak_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_oak_trapdoor",
+        "count": 2
+    },
+    "group": "minecraft:trapdoor"
+}

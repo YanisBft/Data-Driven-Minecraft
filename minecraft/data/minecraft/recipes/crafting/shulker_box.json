@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:3_high_line",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:shulker_shell"
+        },
+        "middle": {
+            "item": "minecraft:chest"
+        },
+        "bottom": {
+            "item": "minecraft:shulker_shell"
+        }
+    },
+    "result": {
+        "item": "minecraft:shulker_box"
+    }
+}

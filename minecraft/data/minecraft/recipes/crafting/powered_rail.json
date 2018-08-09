@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:rail",
+    "ingredients": {
+        "rail": {
+            "item": "minecraft:gold_ingot"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        },
+        "empty1": {
+            
+        },
+        "empty2": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:powered_rail",
+        "count": 6
+    }
+}

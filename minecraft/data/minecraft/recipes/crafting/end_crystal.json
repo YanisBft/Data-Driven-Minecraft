@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:dispenser",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:glass"
+        },
+        "center": {
+            "item": "minecraft:ender_eye"
+        },
+        "bottom": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_crystal"
+    }
+}

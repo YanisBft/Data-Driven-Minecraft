@@ -1,0 +1,198 @@
+{
+    "pick_block": "minecraft:structure_block",
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "blast_resistance": -1,
+    "block_entity": "minecraft:structure_block",
+    "states": {
+        "mode": {
+            "default": "data",
+            "values": [
+                "data",
+                "load",
+                "save",
+                "corner"
+            ]
+        },
+        "powered": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ],
+            "hidden": true
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:structure"
+            }
+        ],
+        "minecraft:nbt_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "mode": "data"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "mode": "data"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "nbt": "{mode:\"DATA\"}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "mode": "load"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "mode": "load"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "nbt": "{mode:\"LOAD\"}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "mode": "save"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "mode": "save"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "nbt": "{mode:\"SAVE\"}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "mode": "corner"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "mode": "corner"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "nbt": "{mode:\"CORNER\"}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone"
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "receive_power": {
+                            "type": "redstone",
+                            "amount": {
+                                "inverse": true
+                            }
+                        },
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

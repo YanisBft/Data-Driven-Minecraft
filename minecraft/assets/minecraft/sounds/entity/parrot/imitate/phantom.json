@@ -1,0 +1,11 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:entity.phantom.ambient",
+            "volume": 0.6,
+            "pitch": 1.7
+        }
+    ],
+    "subtitle": "subtitles.entity.parrot.imitate.phantom"
+}

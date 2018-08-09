@@ -1,0 +1,35 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "paper"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "paper"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "paper"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "leather"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "paper": {
+            "item": "minecraft:paper"
+        },
+        "leather": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "minecraft:book"
+    }
+}

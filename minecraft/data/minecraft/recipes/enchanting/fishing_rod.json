@@ -1,0 +1,33 @@
+{
+    "item": "minecraft:fishing_rod",
+    "enchantments": [
+        {
+            "name": "minecraft:luck_of_the_sea",
+            "weight": 2,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:lure",
+            "weight": 2,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:unbreaking",
+            "weight": 5,
+            "max_lvl": 3
+        },
+        {
+            "name": "minecraft:mending",
+            "weight": 2,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 15
+}

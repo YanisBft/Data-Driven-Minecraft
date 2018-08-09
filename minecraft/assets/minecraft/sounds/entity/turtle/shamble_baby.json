@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/turtle/baby/shamble1",
+        "minecraft:mob/turtle/baby/shamble2",
+        "minecraft:mob/turtle/baby/shamble3",
+        "minecraft:mob/turtle/baby/shamble4"
+    ],
+    "subtitle": "subtitles.entity.turtle.shamble_baby"
+}

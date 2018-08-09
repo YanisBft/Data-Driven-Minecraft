@@ -1,0 +1,31 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:strength"
+        }
+    },
+    "item": {
+        "item": "minecraft:redstone"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "group": "minecraft:extended_potion",
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:long_strength"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

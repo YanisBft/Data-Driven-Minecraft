@@ -1,0 +1,2965 @@
+{
+    "can_walk_on": true,
+    "can_swim": true,
+    "overlay": true,
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:drown",
+                "source": "drown",
+                "entities": {
+                    "tag": "minecraft:water_breathers",
+                    "inverse": true
+                }
+            }
+        ],
+        "minecraft:fuid_below_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "y": -1,
+                    "block": {
+                        "name": "minecraft:cobblestone"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "down": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": {
+                                    "name": "minecraft:flowing_lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "y": -1,
+                    "block": {
+                        "name": "minecraft:obsidian"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "down": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": {
+                                    "name": "minecraft:lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:fluid_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "x": -1,
+                    "block": {
+                        "name": "minecraft:cobblestone"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "east": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": {
+                                    "name": "minecraft:flowing_lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "x": -1,
+                    "block": {
+                        "name": "minecraft:obsidian"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "east": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": {
+                                    "name": "minecraft:lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:fluid_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "x": 1,
+                    "block": {
+                        "name": "minecraft:cobblestone"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "west": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": {
+                                    "name": "minecraft:flowing_lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "x": 1,
+                    "block": {
+                        "name": "minecraft:obsidian"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "west": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": {
+                                    "name": "minecraft:lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:fluid_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "z": -1,
+                    "block": {
+                        "name": "minecraft:cobblestone"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "south": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:flowing_lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "z": -1,
+                    "block": {
+                        "name": "minecraft:obsidian"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "south": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:fluid_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "z": 1,
+                    "block": {
+                        "name": "minecraft:cobblestone"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "north": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:flowing_lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "z": 1,
+                    "block": {
+                        "name": "minecraft:obsidian"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "north": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:lava"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:fluid_changed": [
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "y": -1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "falling": "true",
+                        "level": "8"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            },
+                            {
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -2,
+                                "west": false
+                            },
+                            {
+                                "x": -1,
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -2,
+                                "west": false
+                            },
+                            {
+                                "x": -1,
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 2,
+                                "east": false
+                            },
+                            {
+                                "x": 1,
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 2,
+                                "east": false
+                            },
+                            {
+                                "x": 1,
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -2,
+                                "south": false
+                            },
+                            {
+                                "z": -1,
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -2,
+                                "south": false
+                            },
+                            {
+                                "z": -1,
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 2,
+                                "north": false
+                            },
+                            {
+                                "z": 1,
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 2,
+                                "north": false
+                            },
+                            {
+                                "z": 1,
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_changed": [
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "y": -1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "falling": "true",
+                        "level": "8"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            },
+                            {
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -2,
+                                "west": false
+                            },
+                            {
+                                "x": -1,
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -2,
+                                "west": false
+                            },
+                            {
+                                "x": -1,
+                                "east": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": -1,
+                                "south": false
+                            },
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 2,
+                                "east": false
+                            },
+                            {
+                                "x": 1,
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "y": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 2,
+                                "east": false
+                            },
+                            {
+                                "x": 1,
+                                "west": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "x": 1,
+                                "south": false
+                            },
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            },
+                            {
+                                "y": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -2,
+                                "south": false
+                            },
+                            {
+                                "z": -1,
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -2,
+                                "south": false
+                            },
+                            {
+                                "z": -1,
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "east": false
+                            },
+                            {
+                                "z": -1,
+                                "west": false
+                            },
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            },
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:water"
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 2,
+                                "north": false
+                            },
+                            {
+                                "z": 1,
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "up": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 2,
+                                "north": false
+                            },
+                            {
+                                "z": 1,
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 2,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "east": false
+                            },
+                            {
+                                "z": 1,
+                                "west": false
+                            },
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            },
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:flowing_water",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_water",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

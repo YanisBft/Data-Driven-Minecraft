@@ -1,0 +1,29 @@
+{
+    "potion": {
+        "item": "minecraft:splash_potion"
+    },
+    "item": {
+        "item": "minecraft:dragon_breath"
+    },
+    "result": {
+        "item": "minecraft:lingering_potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:return_items",
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "Potion"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        }
+    ]
+}

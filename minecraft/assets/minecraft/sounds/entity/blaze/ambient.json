@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/blaze/breathe1",
+        "minecraft:mob/blaze/breathe2",
+        "minecraft:mob/blaze/breathe3",
+        "minecraft:mob/blaze/breathe4"
+    ],
+    "subtitle": "subtitles.entity.blaze.ambient"
+}

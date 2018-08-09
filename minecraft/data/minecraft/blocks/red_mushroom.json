@@ -1,0 +1,64 @@
+{
+    "pick_block": "minecraft:red_mushroom",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "light_needed": {
+        "max": 12
+    },
+    "blast_resistance": 1,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/red_mushroom"
+        }
+    ],
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 0, 5 ],
+                        "to": [ 11, 6, 11 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

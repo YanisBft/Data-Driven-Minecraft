@@ -1,0 +1,15 @@
+{
+    "values": [
+        "minecraft:brick_stairs",
+        "minecraft:cobblestone_stairs",
+        "minecraft:dark_prismarine_stairs",
+        "minecraft:nether_brick_stairs",
+        "minecraft:prismarine_brick_stairs",
+        "minecraft:prismarine_stairs",
+        "minecraft:purpur_stairs",
+        "minecraft:quartz_stairs",
+        "minecraft:red_sandstone_stairs",
+        "minecraft:sandstone_stairs",
+        "minecraft:stone_brick_stairs"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/vex/charge1",
+        "minecraft:mob/vex/charge2",
+        "minecraft:mob/vex/charge3"
+    ],
+    "subtitle": "subtitles.entity.vex.charge"
+}

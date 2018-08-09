@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:acacia_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_pressure_plate"
+    },
+    "group": "minecraft:pressure_plate"
+}

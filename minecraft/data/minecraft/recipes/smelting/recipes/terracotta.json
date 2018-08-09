@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:clay"
+    },
+    "result": {
+        "item": "minecraft:terracotta",
+        "xp": 0.35
+    },
+    "cooking_time": 200
+}

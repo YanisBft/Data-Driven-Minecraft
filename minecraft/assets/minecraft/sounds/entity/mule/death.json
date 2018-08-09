@@ -1,0 +1,6 @@
+{
+    "sounds": [
+        "minecraft:mob/horse/donkey/death"
+    ],
+    "subtitle": "subtitles.entity.mule.death"
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:hoe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:iron_ingot"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_hoe"
+    },
+    "group": "minecraft:hoe"
+}

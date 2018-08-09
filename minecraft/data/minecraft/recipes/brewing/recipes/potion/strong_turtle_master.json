@@ -1,0 +1,31 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:turtle_master"
+        }
+    },
+    "item": {
+        "item": "minecraft:glowstone_dust"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "group": "minecraft:strong_potion",
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:strong_turtle_master"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

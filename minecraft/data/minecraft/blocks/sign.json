@@ -1,0 +1,117 @@
+{
+    "pick_block": "minecraft:sign",
+    "hardness": {
+        "minecraft:default": 1.5,
+        "minecraft:wooden_axe": 0.75,
+        "minecraft:stone_axe": 0.4,
+        "minecraft:iron_axe": 0.25,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.15
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/sign"
+        }
+    ],
+    "block_entity": "minecraft:sign",
+    "states": {
+        "rotation": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:run_command",
+                "type": "TextComponent",
+                "tag": "Text1"
+            },
+            {
+                "function": "minecraft:run_command",
+                "type": "TextComponent",
+                "tag": "Text2"
+            },
+            {
+                "function": "minecraft:run_command",
+                "type": "TextComponent",
+                "tag": "Text3"
+            },
+            {
+                "function": "minecraft:run_command",
+                "type": "TextComponent",
+                "tag": "Text4"
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 17.5, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

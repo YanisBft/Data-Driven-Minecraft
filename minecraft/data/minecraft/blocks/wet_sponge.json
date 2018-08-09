@@ -1,0 +1,73 @@
+{
+    "pick_block": "minecraft:wet_sponge",
+    "hardness": {
+        "minecraft:default": 0.9
+    },
+    "blast_resistance": 3,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/wet_sponge"
+        }
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:dripping_water",
+                    "count": 1
+                }
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:dripping_water",
+                    "count": 1
+                }
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dy": 1,
+                    "dz": 1,
+                    "name": "minecraft:dripping_water",
+                    "count": 1
+                }
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": 1,
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:dripping_water",
+                    "count": 1
+                }
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "z": 1,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:dripping_water",
+                    "count": 1
+                }
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 1,
+                    "dy": 1,
+                    "dz": 1,
+                    "name": "minecraft:dripping_water",
+                    "count": 1
+                }
+            }
+        ]
+    }
+}

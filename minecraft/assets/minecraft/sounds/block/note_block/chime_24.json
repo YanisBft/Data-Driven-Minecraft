@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:note/icechime",
+            "pitch": 2
+        }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+}

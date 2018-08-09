@@ -1,0 +1,158 @@
+{
+    "stack_size": 16,
+    "functions": [
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_milk",
+            "item": {
+                "name": "minecraft:milk_bucket"
+            },
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:cow"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_milk",
+            "item": {
+                "name": "minecraft:milk_bucket"
+            },
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "entities": [
+                    {
+                        "position": "looked_at_entity",
+                        "name": "minecraft:mooshroom"
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_water",
+            "item": {
+                "name": "minecraft:water_bucket"
+            },
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:water",
+                        "properties": {
+                            "level": 0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_lava",
+            "item": {
+                "name": "minecraft:lava_bucket"
+            },
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:lava",
+                        "properties": {
+                            "level": 0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_item",
+            "sound": "fill_water",
+            "item": {
+                "name": "minecraft:water_bucket"
+            },
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:cauldron",
+                        "properties": {
+                            "level": 3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "properties": {
+                    "level": 0
+                }
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:cauldron",
+                        "properties": {
+                            "level": 3
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "name": "minecraft:air"
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:water",
+                        "properties": {
+                            "level": 0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block": {
+                "name": "minecraft:air"
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:lava",
+                        "properties": {
+                            "level": 0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

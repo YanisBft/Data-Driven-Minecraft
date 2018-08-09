@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:copy_item",
+    "ingredients": {
+        "copy": {
+            "item": "minecraft:written_book",
+            "conditions": {
+                "generation": {
+                    "min": 0,
+                    "max": 0
+                }
+            }
+        },
+        "to1": {
+            "item": "minecraft:writable_book"
+        },
+        "to2": {
+            "item": "minecraft:writable_book"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_component",
+            "ingredient": "copy"
+        },
+        {
+            "function": "minecraft:return_items",
+            "ingredient": "copy"
+        },
+        {
+            "function": "minecraft:add_component",
+            "ingredient": "to2",
+            "count": 1
+        },
+        {
+            "function": "minecraft:add_component",
+            "ingredient": "copy",
+            "written_book": {
+                "generation": 1
+            },
+            "overwrite": true
+        }
+    ],
+    "result": {
+        "item": "minecraft:written_book"
+    },
+    "group": "minecraft:copy_book"
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:pickaxe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:gold_ingot"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_pickaxe"
+    },
+    "group": "minecraft:pickaxe"
+}

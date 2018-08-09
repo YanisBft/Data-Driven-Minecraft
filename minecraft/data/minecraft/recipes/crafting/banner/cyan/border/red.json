@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:rose_red"
+        },
+        "center": {
+            "item": "minecraft:cyan_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_banner"
+    },
+    "group": "minecraft:banner_border",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "center"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "red",
+                    "pattern": "border"
+                }
+            }
+        }
+    ]
+}

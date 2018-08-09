@@ -1,0 +1,7 @@
+{
+    "sounds": [
+        "minecraft:mob/turtle/egg/egg_break1",
+        "minecraft:mob/turtle/egg/egg_break2"
+    ],
+    "subtitle": "subtitles.turtle.egg_break"
+}

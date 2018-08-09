@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/down_left_stripe",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:gray_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:gray_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_banner"
+    },
+    "group": "minecraft:banner_down_left_stripe",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "gray",
+                    "pattern": "down_left_stripe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "pick_block": "minecraft:red_sand",
+    "hardness": {
+        "minecraft:default": 0.75,
+        "minecraft:wooden_shovel": 0.4,
+        "minecraft:stone_shovel": 0.2,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.1,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/red_sand"
+        }
+    ],
+    "functions": {
+        "minecraft:block_below_changed": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:red_sand\"}}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.2,
+                    "dx": 1,
+                    "dy": 1,
+                    "name": "minecraft:falling_dust",
+                    "count": 3,
+                    "parameters": "minecraft:red_sand"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,246 @@
+{
+    "pick_block": "minecraft:mushroom_stem",
+    "hardness": {
+        "minecraft:default": 0.35,
+        "minecraft:wooden_axe": 0.2,
+        "minecraft:stone_axe": 0.1,
+        "minecraft:iron_axe": 0.05,
+        "minecraft:diamond_axe": 0.05,
+        "minecraft:golden_axe": 0.05
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 5
+    },
+    "blast_resistance": 1,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/mushroom_stem",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ]
+        }
+    ],
+    "states": {
+        "up": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "down": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "north": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "south": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "east": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "west": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:block_above_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "up": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": {
+                                    "name": "minecraft:mushroom_stem"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "up": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_below_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "down": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:mushroom_stem"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "down": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "north": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": {
+                                    "name": "minecraft:mushroom_stem"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "south": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": {
+                                    "name": "minecraft:mushroom_stem"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "east": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": {
+                                    "name": "minecraft:mushroom_stem"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "west": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": {
+                                    "name": "minecraft:mushroom_stem"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

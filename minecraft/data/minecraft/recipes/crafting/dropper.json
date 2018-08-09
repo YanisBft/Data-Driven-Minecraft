@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "outline",    "outline",    "outline"    ],
+                [    "outline",    "",    "outline"    ],
+                [    "outline",    "bottom",    "outline"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:cobblestone"
+        },
+        "bottom": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:dropper"
+    }
+}

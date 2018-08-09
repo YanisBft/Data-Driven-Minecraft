@@ -1,0 +1,259 @@
+{
+    "pick_block": "minecraft:vine",
+    "hardness": {
+        "minecraft:default": 0.35,
+        "minecraft:wooden_axe": 0.2,
+        "minecraft:stone_axe": 0.1,
+        "minecraft:iron_axe": 0.05,
+        "minecraft:diamond_axe": 0.05,
+        "minecraft:golden_axe": 0.05,
+        "minecraft:shears": 0.35
+    },
+    "burn": {
+        "encouragement": 15,
+        "flammability": 100
+    },
+    "blast_resistance": 0,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/vine_north",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            },
+            "states": {
+                "north": "true"
+            }
+        },
+        {
+            "table": "minecraft:blocks/vine_south",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            },
+            "states": {
+                "south": "true"
+            }
+        },
+        {
+            "table": "minecraft:blocks/vine_east",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            },
+            "states": {
+                "east": "true"
+            }
+        },
+        {
+            "table": "minecraft:blocks/vine_west",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            },
+            "states": {
+                "west": "true"
+            }
+        },
+        {
+            "table": "minecraft:blocks/vine_up",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/shears"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            },
+            "states": {
+                "up": "true"
+            }
+        }
+    ],
+    "states": {
+        "north": {
+            "default": "true",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "south": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "east": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "west": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        },
+        "up": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:this_block_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "false",
+                                        "south": "false",
+                                        "east": "false",
+                                        "west": "false",
+                                        "up": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "north": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 15 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "south": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 16, 1 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "east": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 1, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "west": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 15, 0, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "up": "true"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 15, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

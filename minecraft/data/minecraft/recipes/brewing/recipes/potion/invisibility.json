@@ -1,0 +1,30 @@
+{
+    "potion": {
+        "item": "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:night_vision"
+        }
+    },
+    "item": {
+        "item": "minecraft:fermented_spider_eye"
+    },
+    "result": {
+        "item": "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add_component",
+            "potion": {
+                "potion": "minecraft:invisibility"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionEffects"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "CustomPotionColor"
+        }
+    ]
+}

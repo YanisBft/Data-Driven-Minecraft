@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:stripped_oak_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:stripped_oak_wood"
+    },
+    "group": "minecraft:stripped_wood"
+}

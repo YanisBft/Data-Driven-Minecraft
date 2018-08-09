@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/husk/idle1",
+        "minecraft:mob/husk/idle2",
+        "minecraft:mob/husk/idle3"
+    ],
+    "subtitle": "subtitles.entity.husk.ambient"
+}

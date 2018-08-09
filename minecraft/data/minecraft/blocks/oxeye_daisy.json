@@ -1,0 +1,69 @@
+{
+    "pick_block": "minecraft:oxeye_daisy",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "random_offset": {
+        "x": 5,
+        "z": 5,
+        "depend_on": [
+            "x",
+            "z"
+        ]
+    },
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/oxeye_daisy"
+        }
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {
+                            "tag": "minecraft:soil"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 0, 5 ],
+                        "to": [ 11, 9, 11 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

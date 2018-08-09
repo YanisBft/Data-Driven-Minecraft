@@ -1,0 +1,132 @@
+{
+    "pick_block": "minecraft:wither_skeleton_skull",
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "blast_resistance": 5,
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/wither_skeleton_skull"
+        }
+    ],
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 8 ],
+                        "to": [ 12, 11, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 8 ],
+                        "to": [ 12, 11, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 4, 3, 0 ],
+                        "to": [ 12, 11, 8 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 4, 3, 0 ],
+                        "to": [ 12, 11, 8 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 3, 4 ],
+                        "to": [ 8, 11, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 3, 4 ],
+                        "to": [ 8, 11, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 8, 3, 4 ],
+                        "to": [ 16, 11, 12 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 8, 3, 4 ],
+                        "to": [ 16, 11, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

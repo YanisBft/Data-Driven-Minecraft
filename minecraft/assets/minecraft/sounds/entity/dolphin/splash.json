@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/dolphin/splash1",
+        "minecraft:mob/dolphin/splash2",
+        "minecraft:mob/dolphin/splash3"
+    ],
+    "subtitle": "subtitles.entity.dolphin.splash"
+}

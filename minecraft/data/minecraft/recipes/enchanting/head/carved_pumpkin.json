@@ -1,0 +1,18 @@
+{
+    "item": "minecraft:carved_pumpkin",
+    "enchantments": [
+        {
+            "name": "minecraft:binding_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        },
+        {
+            "name": "minecraft:vanishing_curse",
+            "weight": 1,
+            "treasure": true,
+            "secondairy": true
+        }
+    ],
+    "enchantability": 0
+}

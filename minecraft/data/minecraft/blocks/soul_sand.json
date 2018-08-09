@@ -1,0 +1,47 @@
+{
+    "pick_block": "minecraft:soul_sand",
+    "hardness": {
+        "minecraft:default": 0.75,
+        "minecraft:wooden_shovel": 0.4,
+        "minecraft:stone_shovel": 0.2,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.1,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 2.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/soul_sand"
+        }
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:effect",
+                "effect": "movement",
+                "sides": [
+                    "up"
+                ],
+                "amount": -0.15,
+                "affects": [
+                    {
+                        "flying": true,
+                        "inverse": true
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 15, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

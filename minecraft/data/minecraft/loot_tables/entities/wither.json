@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:item_data",
+                            "invulnerable": true,
+                            "despawnable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 50
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ]
+        }
+    ]
+}

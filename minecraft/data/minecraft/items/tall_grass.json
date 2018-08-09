@@ -1,0 +1,177 @@
+{
+    "block_item": true,
+    "functions": [
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:tall_grass",
+                "properties": {
+                    "half": "lower"
+                }
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block",
+                        "y": 1,
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block",
+                        "y": -1,
+                        "block": [
+                            {
+                                "tag": "minecraft:soil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "y": 1,
+            "block": {
+                "name": "minecraft:tall_grass",
+                "properties": {
+                    "half": "upper"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block",
+                        "y": 1,
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block",
+                        "y": -1,
+                        "block": [
+                            {
+                                "name": "minecraft:soil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:tall_grass",
+                "properties": {
+                    "half": "lower"
+                }
+            },
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block_face",
+                        "y": 1,
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block_face",
+                        "y": -1,
+                        "block": [
+                            {
+                                "name": "minecraft:soil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "y": 1,
+            "block": {
+                "name": "minecraft:tall_grass",
+                "properties": {
+                    "half": "upper"
+                }
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block_face",
+                        "y": 1,
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    },
+                    {
+                        "position": "looked_at_block_face",
+                        "y": -1,
+                        "block": [
+                            {
+                                "name": "minecraft:soil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

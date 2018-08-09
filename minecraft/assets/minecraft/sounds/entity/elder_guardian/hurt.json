@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/guardian/elder_hit1",
+        "minecraft:mob/guardian/elder_hit2",
+        "minecraft:mob/guardian/elder_hit3",
+        "minecraft:mob/guardian/elder_hit4"
+    ],
+    "subtitle": "subtitles.entity.elder_guardian.hurt"
+}

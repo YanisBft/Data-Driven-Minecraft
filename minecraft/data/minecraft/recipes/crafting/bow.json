@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "string",    "stick"    ],
+                [    "string",    "",    "stick"    ],
+                [    "string",    "stick"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "string": {
+            "item": "minecraft:string"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:bow"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "pick_block": "minecraft:stone",
+    "hardness": {
+        "minecraft:default": 7.5,
+        "minecraft:wooden_pickaxe": 1.15,
+        "minecraft:stone_pickaxe": 0.6,
+        "minecraft:iron_pickaxe": 0.4,
+        "minecraft:diamond_pickaxe": 0.3,
+        "minecraft:golden_pickaxe": 0.2
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/cobblestone",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/stone",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ],
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ]
+        }
+    ]
+}

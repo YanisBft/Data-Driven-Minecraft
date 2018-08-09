@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:3_high_line",
+    "ingredients": {
+        "top": {
+            "tag": "minecraft:planks"
+        },
+        "middle": {
+            "tag": "minecraft:planks"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_sword"
+    },
+    "group": "minecraft:sword"
+}

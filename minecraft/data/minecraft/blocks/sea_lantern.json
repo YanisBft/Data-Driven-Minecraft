@@ -1,0 +1,111 @@
+{
+    "pick_block": "minecraft:sea_lantern",
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "blast_resistance": 1.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/sea_lantern_dust_0",
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "inverse": true
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/sea_lantern",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/sea_lantern_dust_1",
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 1
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/sea_lantern_dust_2",
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 2
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        },
+        {
+            "table": "minecraft:blocks/sea_lantern_dust_3",
+            "enchantment": [
+                {
+                    "name": "minecraft:fortune",
+                    "level": 3
+                },
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 15
+                    },
+                    "up": {
+                        "light": 15
+                    },
+                    "north": {
+                        "light": 15
+                    },
+                    "south": {
+                        "light": 15
+                    },
+                    "east": {
+                        "light": 15
+                    },
+                    "west": {
+                        "light": 15
+                    }
+                }
+            }
+        }
+    ]
+}

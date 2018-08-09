@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:gold_ingot"
+    },
+    "group": "minecraft:from_nugget"
+}

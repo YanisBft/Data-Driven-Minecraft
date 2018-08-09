@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:records/cat",
+            "stream": true
+        }
+    ]
+}

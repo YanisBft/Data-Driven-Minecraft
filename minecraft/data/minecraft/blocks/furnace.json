@@ -1,0 +1,249 @@
+{
+    "pick_block": "minecraft:furnace",
+    "hardness": {
+        "minecraft:default": 17.5,
+        "minecraft:wooden_pickaxe": 2.65,
+        "minecraft:stone_pickaxe": 1.35,
+        "minecraft:iron_pickaxe": 0.9,
+        "minecraft:diamond_pickaxe": 0.7,
+        "minecraft:golden_pickaxe": 0.45
+    },
+    "blast_resistance": 17.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/furnace",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        },
+        {
+            "table": "minecraft:builtin/inventory"
+        }
+    ],
+    "block_entity": "minecraft:furnace",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        "lit": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:smelting"
+            }
+        ],
+        "minecraft:nbt_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "lit": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "properties": {
+                                            "lit": "false"
+                                        }
+                                    },
+                                    {
+                                        "nbt": "{BurnTime:0s}",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "lit": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true"
+                                    },
+                                    "nbt": "{BurnTime:0s}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true",
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "z": 1,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true",
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 1,
+                    "z": 0.5,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true",
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "z": 0.5,
+                    "name": "minecraft:flame",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "lit": "true",
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "facing": "north",
+                "lit": "true"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "light": 13
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "lit": "true"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "light": 13
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "lit": "true"
+            },
+            "properties": {
+                "faces": {
+                    "east": {
+                        "light": 13
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "lit": "true"
+            },
+            "properties": {
+                "faces": {
+                    "west": {
+                        "light": 13
+                    }
+                }
+            }
+        }
+    ]
+}

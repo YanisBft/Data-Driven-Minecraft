@@ -1,0 +1,292 @@
+{
+    "pick_block": "minecraft:grass_block",
+    "hardness": {
+        "minecraft:default": 0.9,
+        "minecraft:wooden_shovel": 0.45,
+        "minecraft:stone_shovel": 0.25,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.15,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 3,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dirt",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch",
+                    "inverse": true
+                }
+            ]
+        },
+        {
+            "table": "minecraft:blocks/grass_block",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ],
+            "breaker": {
+                "block": false,
+                "entity": false
+            }
+        }
+    ],
+    "states": {
+        "snowy": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:dirt"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:fire",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:mushrooms",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:saplings",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:leaves",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:plants",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:pressure_plates",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:buttons",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:trapdoors",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:lever",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:doors",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fences",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:snow",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:cobweb",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:flower_pots",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:sugar_cane",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:cocoa",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:signs",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:banners",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:skulls",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "upper"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:slime_block",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:mob_spawner",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:panes",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:glass",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:cake",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:brewing_stand",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:cauldron",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:beds",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:torches",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:hopper",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:piston_head",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:moving_piston",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:rails",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:chests",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:tripwire",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:structure_void",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_above_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "snowy": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:snow"
+                                    },
+                                    {
+                                        "name": "minecraft:snow_block"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "snowy": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "snowy": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:snow",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:snow_block",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "snowy": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

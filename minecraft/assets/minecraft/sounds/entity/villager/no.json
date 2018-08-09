@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/villager/no1",
+        "minecraft:mob/villager/no2",
+        "minecraft:mob/villager/no3"
+    ],
+    "subtitle": "subtitles.entity.villager.no"
+}

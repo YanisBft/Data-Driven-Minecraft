@@ -1,0 +1,21 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "copy"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "to1"    ]
+            ]
+        }
+    ],
+    "optional_shapes": [
+        {
+            "items": [
+                [    "to2"    ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "item2": {
+            "item": "minecraft:iron_pickaxe"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ingredients": [
+                "item1",
+                "item2"
+            ],
+            "bonus": 5
+        }
+    ],
+    "result": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "group": "minecraft:repair_tool"
+}

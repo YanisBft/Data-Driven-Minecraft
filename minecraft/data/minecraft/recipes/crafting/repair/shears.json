@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:shears"
+        },
+        "item2": {
+            "item": "minecraft:shears"
+        }
+    },
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ingredients": [
+                "item1",
+                "item2"
+            ],
+            "bonus": 5
+        }
+    ],
+    "result": {
+        "item": "minecraft:shears"
+    },
+    "group": "minecraft:repair_tool"
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:fence",
+    "ingredients": {
+        "planks": {
+            "item": "minecraft:stick"
+        },
+        "stick": {
+            "item": "minecraft:jungle_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:jungle_fence_gate"
+    },
+    "group": "minecraft:fence_gate"
+}

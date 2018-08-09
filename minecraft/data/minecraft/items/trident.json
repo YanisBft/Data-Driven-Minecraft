@@ -1,0 +1,55 @@
+{
+    "stack_size": 1,
+    "durability": 251,
+    "attribute_modiers": [
+        {
+            "attribute": "generic.attackDamage",
+            "amount": 8,
+            "operation": "add",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attackSpeed",
+            "amount": -2.9,
+            "operation": "add",
+            "slot": "mainhand"
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:shoot_item",
+            "time": 60,
+            "min_time": 10,
+            "max_speed": 20,
+            "charge_slowdown": 0.1,
+            "shoot_sound": "throw",
+            "entity": {
+                "name": "minecraft:trident",
+                "item_tag": "Trident",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            },
+            "item": {
+                "name": "minecraft:trident"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true
+            }
+        },
+        {
+            "function": "minecraft:attack",
+            "increase_stat": true,
+            "consume_item": true
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:rose_red"
+        },
+        "item2": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "result": {
+        "item": "minecraft:pink_dye",
+        "count": 2
+    },
+    "group": "minecraft:pink_dye"
+}

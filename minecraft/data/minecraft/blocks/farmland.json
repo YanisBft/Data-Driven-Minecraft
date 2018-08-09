@@ -1,0 +1,59 @@
+{
+    "pick_block": "minecraft:farmland",
+    "hardness": {
+        "minecraft:default": 0.9,
+        "minecraft:wooden_shovel": 0.45,
+        "minecraft:stone_shovel": 0.25,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.15,
+        "minecraft:golden_shovel": 0.1
+    },
+    "blast_resistance": 3,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dirt"
+        }
+    ],
+    "states": {
+        "moisture": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ]
+        }
+    },
+    "functions": {
+        
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 15, 16 ]
+                    }
+                ],
+                "collision_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 15, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

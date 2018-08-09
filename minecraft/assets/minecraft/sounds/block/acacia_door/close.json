@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:block/wooden_door/close1",
+        "minecraft:block/wooden_door/close2",
+        "minecraft:block/wooden_door/close3",
+        "minecraft:block/wooden_door/close4"
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+}

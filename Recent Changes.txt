@@ -1,0 +1,470 @@
+??-??-????:
+* Updated to 18w32a
++ Added dead coral
++ Added water and lava fluid files, flowing variants are yet to come
++ Added solid_faces to conditions
++ Added random offset to all flowers, grass, ferns and seagrass
+* Changed the parenting of recipes to start in the corresponding folder
+! Fixed wrong hitboxes for (previously) default waterlogged blocks
+! Fixed hitboxes of 2 high plants, no longer a full cube
+- Removed the abolity to use {} in a blocks condition for a solid face
+- Removed the type of recipes, just use the folder
+
+19-7-2018:
+* Updated to full 1.13 release/1.13-pre10
+* Changed coral and coral fans now only drop with silk touch (as per the fix of MC-133408)
+* Changed block/note_block/pling to be split up per note, like the other instruments
+! Fixed end poem, credits and splash strings got lost over the course of 17 may to 13 july
+
+13-7-2018:
+* Updated to 1.13pre-8
+! Fixed MC-133408 (dropping with bare hand, like normal coral)
+
+29-6-2018:
+* Updated to 1.13pre-5
++ Added stripped wood from stripped log recipes
+
+27-6-2018:
+* Updated to 1.13pre-4
+
+22-5-2018:
++ added the per-block/item sound events
+* changed portal -> nether_portal
+
+17-5-2018:
+* updated to 18w20b
+
+15-5-2018:
+* updated to 18w20a
+
+9-5-2018:
+* updated to 18w19b
+
+7-6-2017:
+! fixed wrong defaults assumed for explorer map function
+
+7-5-2017:
+* compacted all block files to use the shortest notation
+
+23-4-2018:
+* changed explorer maps function to not mention defaults
+
+21-4-2018:
+* updated to 18w16a
++ added sound event files; sounds.json but rather than the sound events being in the file; they are separate files (block.anvil.break = sounds/block/anvil/break.json)
+
+6-4-2018:
++ added sea pickle and everything related
++ added phantom membrane and everything related
++ added slow falling and everything related
+* updated phantom loot table
+* changed the coral naming to 18w14b
+! fixed a lot of mistakes in the files (Issue #4)
+! fixed some improper tag naming
+
+3-4-2018:
+- removed mushroom block fuel recipes, was a bug in 1.12 and earlier
+
+2-4-2018:
++ added primarine, dark prismarine and prismarine bricks slab and stairs recipe files
++ added block_item option to item files, this says if it uses block translation strings and sound events
+* changed place_block object to only a block id string, the sound event used will now always be <namespace>:block.<block_id>.place
+* changed block file function extend_box to change_box
+* changed sounds from block and item file functions to sound: <event>, and have the sound default to <namespace>:<block|item>.<block_id>.<event>
+* changed the block files' condition object to a list of conditions, if any in the list succeeds, it triggers
+* changed block file functions, now it's a list of functions for each event
+! fixed a number of block files had "default" in the properties list, rather than "properties"
+! fixed sugar cane dealt damage
+! fixed slab group name
+- removed cull_faces, this should be based on transparent: false + model face size (upper slab culls upper slab but not lower slab)
+- removed sounds: {...} from block files; they now default to <namespace>:block.<block_id>.<event>
+
+19-3-2018:
++ added coral fan block, item and loot table files
++ added shipwreck loot tables and structure files
++ added drowned spawn egg and loot table files
++ added coral plant loot tables
+
+7-3-2018:
++ added undyed shulker box, and applied changes related to it
++ added colored dead coral block, item and loot table files
++ added coral plant block, and item files
++ added tropical fish bucket and spawn egg item files
++ added underwater ruins, buried treasure and tropical fish loot tables
++ added translation strings for colored dead coral, coral plants, tropical fish spawn egg/bucket, tropical fish and buried treasure maps
+* changed cartographer map recipes to use the new exploration_map function
+- removed non-colored dead coral block, item and loot table files
+- removed non-colored dead coral translation string
+
+2-3-2018:
++ added coral block, item and loot table files, and added the translation strings
++ added ocean ruins files, renamed the main folder to ocean_ruin, and devided all files in sub-folders
+
+23-2-2018:
+* updated to 18w08b
++ added some more entity tags
+* changed pressure plates and wooden buttons to to use entity tags (for now it's still #namespace:tag)
+! fixed invalid json in the language file
+! fixed bone meal didn't give grass or fern when using on tall grass and large fern
+! fixed bone meal file misformatted
+
+14-2-2018:
+* updated to 18w07a
+- removed water and lava block files
+- removed air item file
+
+30-1-2018:
++ added burn object to block files
++ added instants effects tag
++ added curses and treasures enchantments tags
++ added sun_burnables and healing_hurts entity tags
++ added breeding and taming item tags
+* changed block files' update string to an update object to have control over block_changed in a certain direction
+* changed wood block tag, split up into <type>_wood, wood inherits all of those
+! fixed observers don't look at a certain face for block_changed update
+! fixed almost no blocks look for an update to run certain functions, not even fences
+! fixed gravity affected blocks set Block rather than BlockState
+- removed quotes around nbt data tag names
+- removed the fire block file, due to it being too difficult to represent in the data model
+
+20-1-2018:
++ added enderman_carrables, piston_breaks, piston_no_pulling, piston_unmovables tags
+! fixed buttons tag referenced itself
+! fixed shulker box files were invalid json (missing comma)
+- removed air block file
+- removed piston_push and sticky_pull in favor of tags
+- removed unused item tags
+
+19-1-2018:
++ re-added block files:
+ + add remaining functions:
+  + added alter_block
+  + added spawn_entity
+  + added spawn_particle
+  + added transport_entity
+ + added loot table to global properties
+ + added sounds to the global properties
+ + added state defining to global properties
+ + added block entity linking to global properties
+ + added condition to effect function
+ * changed solid_faces to faces with each face having the following properties: cull_faces, support, sticky, light and transfer_power
+ * changed sticky_push to sticky_pull
+ * changed resistance to blast_resistance
+ * changed hitbox to hit_box
+ * changed boundingbox to collision_box
+ * changed states list to properties
+ * changed functions to be under the global data
+ * changed some blocks:
+  * general
+   * changed faces that allow support to also allow transferring power (in most cases)
+   * changed all faces that fully cover a side of the block and are not transparent to cull the faces of the neighboring blocks
+   * changed blocks where light should come from 1 face to only emit light from that face
+  * dispenser/dropper
+   * changed triggered to powered
+  * pistons
+   + added powered state
+  * structure blocks
+   + added powered state
+  * rail
+   + added powered state
+  * dragon heads
+   + added powered state
+  * powered rail
+   * changed powered=true|false to power=0-15
+ ! fixed some files are the wrong name
+ - removed gravity
+  * changed to spawn_entity function
+ - removed burnability
+  * will later be added as alter_block and spread_block functions
+ - removed piston_push's sticky value
+ - removed sticky_pull's sticky value
+  * changed to a boolean
+ - removed the meta-languages of the properties and need support
+  * changed to properties:[{states:{state:value},properties:{properties}}]
+  * changed to {block:name,properties:{state:value},inverse:true|false}
+ - removed power:state from output_power function
+
+8-1-2018:
++ added recipe advancements for the recipes that the game already has, now using the new recipe files
+ # recipe advancements for recipes that the current game has hardcoded will be added later
+* changed item file block placing to be less tedious
+ # you can get a simple placing of a default block with place_block:{block:"id",sound:"sound"}
+
+20-12-2017:
++ added item frames' ability to be put on floors and ceilings
++ added copy_nbt for item to entity/block
+
+19-12-2017:
++ added igloo/top_white, top_blue and top_brown for different colored beds (like bedrock edition has)
+* updated structure files to 17w50a
+* changed stronghold names to use infested_ instead of egg_
+* changed all entities (except ender crystals) and loot table containers in structures to data blocks, so they can properly change based on seed and difficulty
+* changed end gateway block to a data block so the teleportation coordinates can be set properly
+* changed taiga and savanna villages to use appropriate pressure plates
+* changed the naming of some structure files, now always _1, _2, _3 instead of mixed _1, _2, _3, 1, 2, 3, _b, _c, etc.
+* changed village farms to remove blocks up to 6 blocks above the farm itself
+- removed some duplicate files for mineshafts and villages; different types should share the same file
+
+
+13-12-2017:
++ added the new block loot tables, the block files will be here sooooon
++ added a few item tags related to the block files
+* changed the files to not use # for tags (except for tags)
+! fixed the flowers would not be put in the flower pot
+! fixed shears wouldn't shear a snow golem
+! fixed MC-94094
+
+12-12-2017:
+* Changed tags to be plural
+* Changed tags to use other tags
+
+8-12-2017:
++ added the ability for recipes to use tags
+* changed groups (are now implemented as tags)
+* moved/split some files
+! fixed stick required sticks to craft
+! fixed applying a pattern to banners wanted to return shield_pattern, not shield
+! fixed banner curly_border parrern looked for vines, not vine
+! fixed banner mojang pattern looked for notch_apple, not enchanted_golden_apple
+! fixed typo in fermented spider eye result
+
+1-12-2017:
++ added bark recipes
+* changed the item files to use the replacable group
+! fixed firework star recipes looked for firework_charge
+! fixed missing bark and log fuel recipes for smelting
+
+30-11-2017:
++ added groups.json
+
+28-11-2017:
++ added item json files
+ * not fully complete
+
+19-11-2017:
++ added all wooden pressure plates, trapdoors and buttons
+! fixed a number of files has tabs instead of spaces in a few places
+! fixed outdated sounds.json, credits and laguage file
+- removed commands translation strings, they will be readded when 1.13 is released
+- removed all client assets that were not altered
+
+10-11-2017:
+* updated with the latest info from the flattening
+- temporarely removed the block loot tables and block properties, they'll be back SOOOON 
+
+15-9-2017:
+* updated all advancements files for when the stupid block states are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
+ # only the client assets need updating (models, block state files and probably texture names) but I'm not going to do that myself
+ # the recipe advancements are NOT updated to use mine, that will happen later
+
+12-9-2017:
+* changed all formats and notes to be located in the first folder
+* changed changes and additions.txt to changes, additions, notes and fixes.txt
+* changed entity_loot_table_upgrade.json to entity loot table upgrade.txt
+* changed "resistence" to "resistance"
+! fixed a few mistakes and missing info in the notes/additions
+! fixed every JSON file syntax error
+
+11-9-2017:
+! fixed a number of mistakes
+
+8-9-2017:
+* changed recipes, now use folders and have a type agrgument to make it clear what type of recipe it is
+! fixed some banner recipes had upsingrediente and mingredientdle instead of upside and middle (filter mistake that went unnoticed)
+
+9-6-2017:
+* updated to 1.12 release
+! fixed splashes had nested json in json, still the same format, but no longer nested
+
+14-5-2017:
++ added copy_component function, basically copy_nbt, but less flexability and no nbt phrasing
+* changed the add function in recipes to be called add_component
+* updated to 1.12-pre3
+ ! fixed minecraft:nether/all_effects misses resistance
+ ! fixed minecraft:nether/all_effects misplaced rewards
+! fixed the groups in recipes have tabs in front of them
+! fixed the brewing recipe files were missing quotes behind the item keys
+- removed nbt phrasing in recipes (not the ability to do so)
+
+7-5-2017:
++ added groups to the recipes
+* changed block properties:
+ + added a lot of (empty) functions lists for future functions to be added
+ * changed some properties to no longer be state dependent
+ * changed * to default
+ * changed effects to not_affects
+ * changed effect function to be able to hurt
+ * changed hardned_clay to terracotta
+ ! fixed some need_support values weren't properly upgraded
+ - removed hurt function
+ - removed shrub
+* changed block loot:
+ * changed * to default
+ * changed hardned_clay to terracotta
+ - removed shrub
+* updated to 17w18b
+
+12-4-2017:
+* updated to 17w15a
+- removed TEMP folder
+
+9-4-2017:
++ added output_power, effect and hurt functions to block properties
+* changed block properties to allow * to affect all it's states (lowering file size quite a bit)
+* changed block properties to use the upcomming block/item ids
+* changed ordering of files: split the assets/minecraft folder into client and server
+
+4-4-2017:
+* changed enchanting files, 1 file per item
+* changed trading files, 1 file per career
+* changed trading files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed trading and enchanting recipes to use the upcomming block/item ids
+* changed the lang file a bit, again
+! fixed enchanting and trading format files are invalid json
+
+3-4-2017:
++ added other color bed recipes and block loot tables (copied form PE)
++ added parrot loot table and sounds (and subtitles)
+* changed other loot tables to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed loot tables to use the upcomming block/item ids
+* changed the lang file a bit
+! fixed snowball -> snowball, slimeball -> slimeball (accedentially changed the snowball one instead of slimeball before)
+
+1-4-2017:
+* changed recipes, 1 file per recipe
+* changed brewing files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed recipes to use the upcomming block/item ids
+* updated textures to 17w13b
+! fixed brewing format files are invalid json
+
+27-3-2017:
+* changed block loot files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed block loot files to allow * to affect all it's states (lowering file size quite a bit)
+! fixed block loot format files are invalid json
+! fixed missing fortune conditions for some blocks
+! fixed wrong fortune effect on redstone ore
+
+26-3-2017:
+* changed crafting and smelting files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed crafting and smelting files, split into 1 file per sesulting base item
+! fixed crafting and smelting format files are invalid json
+
+19-3-2017:
++ added bounding and hitboxes to the block properties
+* changed hurt_on_touch to a function, made pushable a string and split it up in piston_push and sticky_push
+! fixed quite broken block properties
+
+10-1-2017:
++ added block_properties (gravity, burnability, hardness, tool damage, light(grass, mushrooms, crops), needing support(crops), etc.)
+ # is not fully complete; to do:
+  + add hitbox models
+  + add boundingbox models
+  + add aditional functions (like slowness on soul sand, and particle spawning)
+  * change the hurt_on_touch to a function
+* changed old wooden slabs to not require a pickaxe
+! fixed completely wrong item drop for (mossy) cobblestone walls
+! fixed missing facing=up and facing=down for command block loot tables
+! fixed stone (brick), (red) sandstone, quartz, purpur and nether brick stairs have no tool condition
+! fixed enchanting table loot table states enchantment (and is named as such)
+! fixed missing silk touch drop for ender chests
+! fixed missing silk touch drop for monster eggs
+- removed piston extension loot table; you can't break it properly anyway (without commands)
+# note will be foccusing more on the entity models now
+# note the planned.txt now shows more details and progress made in files to be uploaded (eg entity models)
+
+24-12-2016:
+* changed the enchanting/enchantability json files quite a bit
+! fixed default crafting recipes file misses coloring values for leather armor/fireworks
+! fixed block loot table for brick stairs has no tool condition
+! fixed bookshelf loot table has no silk touch drop
+
+15-12-2016:
++ added the iron/gold nugget related recipes to furnace and crafting
++ added a note at the recipes (most complx ones are first)
+! fixed the block loot table of activator_rail is named activator_rails
+# note block properties and models are in the make
+
+3-12-2016:
++ added a nbt condition to the block loot tables
++ added plains type village sperately from the default folder(previously called normal)
+* changed structure DataVersion:815 to 1.11 full release (DataVersion:819) so no upgrade path code needs to run on them
+! fixed village structure files have too much/duplicate data
+
+21-11-2015:
+* remade the crafting files:
+ + added item groups
+ + added optional ingredients tag
+ + added add_nbt function
+ + added a few tags that control item group movability
+ + added an id tag to the items, so that functions can target the id instead
+ * changed no slot_x/item_x but an items list, this makes it so recipes don't break if a mod adds a crafting recipe with additional rows on the side
+ * changed repair function
+ - removed multiple recipe files
++ added default en_us.lang, with some chances (see changes.lang)
+
+14-11-2016:
+* changed the mooshroom loot table is now called mooshroom.json instead of mushroom_cow.json (to be consistent with the others, who use the new entity names)
+! fixed some more of files have invalid JSON
+
+8-11-2016:
++ added a lang file for some missing/incorrect/unused strings
+
+3-11-2016:
++ added player loot table (only contains dropping inventory and apple for notch)
+! fixed a number of files have invalid JSON, I did NOT double check each of the loot tables
+
+31-10-2016:
++ added all current files from the jar
+ - removed unused parts of the textures (eg. angry villager particle, villager speach bubble)
+ - removed unused texture files
++ added all current item/block models and block states
+* changed loot tables quite a bit:
+ + added entity_property has_effect
+ + added condition gamemode
+ + added type inventory (if specified it drops it's inventory/gear (inventory is only applicatable to villagers, minecarts with chests/hoppers, falling blocks, (zombie/skeleton) horses, donkeys, mules, llamas)
+ * changed custom_name to name
+ * changed type entity name minecraft:xp_orb to type experience function set_value value X
+ * changed entity_properties to have a data tag tag
+  + added saddle drop for saddled pigs
+  + added chest drop for chested mobs
+  + added wool drops to normal sheep drops
+  - removed colored sheep specific loot tables
+  - removed size for slimes
+  - removed is_baby for all zombie types
+* changed to no longer have mediafire folders, but be a zipped file instead
+* changed organization
+ * made it like the minecraft jar's storage
+! fixed functions and some loot table stuff don't have prefixes
+! fixed fishing rod has no enchantability set
+- removed hoe enchantability
+- removed JSONfied files (options and server properties)
+
+29-10-2016:
++ added more to the Entity_loot_Table_upgrade.json
++ added minecraft_pe_ce.json to the achievements, they have no requirements set (only the mini-game related achievements and awarded all trophies are not in this list)
++ added more achievement functionality to make some of the pe/ce achievements trackabale
++ added all entities to the entity loot tables (inclusing arrows, potions, minecarts, etc.)
+* changed the block list in the achievements format a bit, can now track depending on last interacted block, and check for "2 happens after 1 happened, which happened after 0"
+! fixed shulker boxes lose Lock tag upon breaking and placing
+
+27-10-2016:
++ added structure file mansion/room_big_high_sealed1
+! fixed enchanting had wrong weight for curses
+- removed Panorama files
+
+25-10-2016:
++ added the Decorations tag to the cartographer's exploration map trades
++ added blocks list in the achievements format for detecting whole block configuratons
+* changed normal maps now have a MapColor tag value of 0
+* changed the way to target the player trying to get the achievement in the achievements.json
+! fixed librarian cartographer had the MapColor tag outside the display tag in the exploration map trades
+! fixed exploration maps could be scaled
+- removed head_in_block, feet_in_block and feet_on_block in the achievemnts format, use the blocks list instead.
+
+21-10-2016:
++ re-added the data structure blocks to the end city structues for loot tables only
+* changed DataVersion of all structures to 815
+* changed the end city structures are now rotated to face north
+! fixed some end city structures had no structure voids in them
+! fixed some structures had me set as author, set them to jeb_ instead
+# note the current structure files are now in their final state

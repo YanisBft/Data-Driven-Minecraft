@@ -1,0 +1,21 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:entity/pufferfish/flop1",
+            "volume": 0.3
+        },
+        {
+            "name": "minecraft:entity/pufferfish/flop2",
+            "volume": 0.3
+        },
+        {
+            "name": "minecraft:entity/pufferfish/flop3",
+            "volume": 0.3
+        },
+        {
+            "name": "minecraft:entity/pufferfish/flop4",
+            "volume": 0.3
+        }
+    ],
+    "subtitle": "subtitles.entity.puffer_fish.flop"
+}

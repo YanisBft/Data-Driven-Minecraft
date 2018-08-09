@@ -1,0 +1,84 @@
+{
+    "pick_block": "minecraft:bubble_coral",
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/bubble_coral",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ]
+        }
+    ],
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "time": 80,
+                "block": {
+                    "name": "minecraft:dead_bubble_coral"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "name": "minecraft:empty"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 1, 0, 1 ],
+                        "to": [ 15, 15, 15 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

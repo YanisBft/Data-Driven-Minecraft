@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:cube_2",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:dirt"
+        },
+        "item2": {
+            "item": "minecraft:gravel"
+        }
+    },
+    "result": {
+        "item": "minecraft:coarse_dirt"
+    }
+}

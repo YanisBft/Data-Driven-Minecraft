@@ -1,0 +1,23 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "frame",    "frame",    "frame"    ],
+                [    "frame",    "frame",    "frame"    ],
+                [    "",    "pole"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "frame": {
+            "tag": "minecraft:planks"
+        },
+        "pole": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:sign",
+        "count": 3
+    }
+}

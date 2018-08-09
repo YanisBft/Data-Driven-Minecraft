@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/small_stripes",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:brown_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:gray_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:brown_banner"
+    },
+    "group": "minecraft:banner_small_stripes",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "gray",
+                    "pattern": "small_stripes"
+                }
+            }
+        }
+    ]
+}

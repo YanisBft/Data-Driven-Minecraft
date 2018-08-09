@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        "minecraft:mob/wither_skeleton/idle1",
+        "minecraft:mob/wither_skeleton/idle2",
+        "minecraft:mob/wither_skeleton/idle3"
+    ],
+    "subtitle": "subtitles.entity.wither_skeleton.ambient"
+}

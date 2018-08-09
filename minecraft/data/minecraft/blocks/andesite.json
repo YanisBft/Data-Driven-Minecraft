@@ -1,0 +1,22 @@
+{
+    "pick_block": "minecraft:andesite",
+    "hardness": {
+        "minecraft:default": 7.5,
+        "minecraft:wooden_pickaxe": 1.15,
+        "minecraft:stone_pickaxe": 0.6,
+        "minecraft:iron_pickaxe": 0.4,
+        "minecraft:diamond_pickaxe": 0.3,
+        "minecraft:golden_pickaxe": 0.2
+    },
+    "blast_resistance": 30,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/andesite",
+            "tool": [
+                {
+                    "tag": "minecraft:tool_tiers/pickaxes"
+                }
+            ]
+        }
+    ]
+}

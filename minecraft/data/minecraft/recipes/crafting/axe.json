@@ -1,0 +1,11 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "material",    "material"    ],
+                [    "stick",    "material"    ],
+                [    "stick"    ]
+            ]
+        }
+    ]
+}

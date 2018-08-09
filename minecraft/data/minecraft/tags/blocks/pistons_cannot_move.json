@@ -1,0 +1,22 @@
+{
+    "values": [
+        "#minecraft:chests",
+        "#minecraft:command_blocks",
+        "minecraft:barrier",
+        "minecraft:beacon",
+        "minecraft:bedrock",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:enchanting_table",
+        "minecraft:end_gateway",
+        "minecraft:end_portal",
+        "minecraft:end_portal_frame",
+        "minecraft:furnace",
+        "minecraft:hopper",
+        "minecraft:jukebox",
+        "minecraft:mob_spawner",
+        "minecraft:obsidian",
+        "minecraft:piston_head",
+        "minecraft:structure_block"
+    ]
+}

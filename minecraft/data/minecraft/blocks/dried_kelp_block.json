@@ -1,0 +1,16 @@
+{
+    "pick_block": "minecraft:dried_kelp_block",
+    "hardness": {
+        "minecraft:default": 0.75
+    },
+    "burn": {
+        "encouragement": 30,
+        "flammability": 60
+    },
+    "blast_resistance": 12.5,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dried_kelp_block"
+        }
+    ]
+}

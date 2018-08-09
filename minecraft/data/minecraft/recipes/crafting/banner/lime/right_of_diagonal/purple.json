@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/right_of_diagonal",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:lime_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:purple_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_banner"
+    },
+    "group": "minecraft:banner_right_of_diagonal",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "purple",
+                    "pattern": "right_of_diagonal"
+                }
+            }
+        }
+    ]
+}

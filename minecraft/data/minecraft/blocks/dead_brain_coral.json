@@ -1,0 +1,53 @@
+{
+    "pick_block": "minecraft:dead_brain_coral",
+    "transparent": true,
+    "loot_tables": [
+        {
+            "table": "minecraft:blocks/dead_brain_coral",
+            "enchantment": [
+                {
+                    "name": "minecraft:silk_touch"
+                }
+            ]
+        }
+    ],
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

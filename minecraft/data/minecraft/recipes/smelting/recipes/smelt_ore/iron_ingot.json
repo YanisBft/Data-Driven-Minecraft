@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:iron_ore"
+    },
+    "result": {
+        "item": "minecraft:iron_ingot",
+        "xp": 0.7
+    },
+    "group": "minecraft:smelt_ore",
+    "cooking_time": 200
+}

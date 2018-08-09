@@ -1,0 +1,879 @@
+{
+    "can_walk_on": true,
+    "overlay": true,
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:affect_entity",
+                "effect": "minecraft:burn"
+            },
+            {
+                "function": "minecraft:affect_entity",
+                "effect": "minecraft:hurt",
+                "source": "lava",
+                "entities": {
+                    "tag": "minecraft:fire_resistant",
+                    "inverse": true
+                }
+            }
+        ],
+        "minecraft:fluid_below_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "y": -1,
+                    "block": {
+                        "name": "minecraft:stone"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "down": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:fluid_changed": [
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "y": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "falling": "true",
+                        "level": "8"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            },
+                            {
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_changed": [
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "y": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "falling": "true",
+                        "level": "8"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            },
+                            {
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": false
+                            },
+                            {
+                                "east": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "x": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": false
+                            },
+                            {
+                                "west": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            },
+                            {
+                                "north": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "z": 1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "level": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            },
+                            {
+                                "south": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava",
+                                        "properties": {
+                                            "level": "8"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

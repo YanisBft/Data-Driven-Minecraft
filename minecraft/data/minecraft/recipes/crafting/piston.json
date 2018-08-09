@@ -1,0 +1,28 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "top",    "top",    "top"    ],
+                [    "side",    "center",    "side"    ],
+                [    "side",    "bottom",    "side"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "top": {
+            "tag": "minecraft:planks"
+        },
+        "side": {
+            "item": "minecraft:cobblestone"
+        },
+        "center": {
+            "item": "minecraft:iron_ingot"
+        },
+        "bottom": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:piston"
+    }
+}

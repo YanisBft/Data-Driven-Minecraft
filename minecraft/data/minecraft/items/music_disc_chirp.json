@@ -1,0 +1,34 @@
+{
+    "stack_size": 1,
+    "functions": [
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "play",
+            "block": {
+                "properties": {
+                    "has_record": "true"
+                },
+                "item_tag": "RecordItem"
+            },
+            "consume_item": true,
+            "increase_stat": true,
+            "conditions": {
+                "use_item": true,
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "name": "minecraft:jukebox",
+                                "properties": {
+                                    "has_record": false
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:copy_item",
+    "ingredients": {
+        "copy": {
+            "item": "minecraft:filled_map"
+        },
+        "to1": {
+            "item": "minecraft:map"
+        },
+        "to2": {
+            "item": "minecraft:map"
+        }
+    },
+    "result": {
+        "item": "minecraft:filled_map",
+        "count": 2
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_component",
+            "ingredient": "copy"
+        },
+        {
+            "function": "minecraft:add_component",
+            "ingredient": "to2",
+            "count": 1
+        }
+    ]
+}

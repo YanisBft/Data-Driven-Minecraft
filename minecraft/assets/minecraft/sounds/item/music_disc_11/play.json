@@ -1,0 +1,8 @@
+{
+    "sounds": [
+        {
+            "name": "minecraft:records/11",
+            "stream": true
+        }
+    ]
+}

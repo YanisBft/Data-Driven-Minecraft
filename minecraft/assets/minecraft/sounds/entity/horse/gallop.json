@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        "minecraft:mob/horse/gallop1",
+        "minecraft:mob/horse/gallop2",
+        "minecraft:mob/horse/gallop3",
+        "minecraft:mob/horse/gallop4"
+    ],
+    "subtitle": "subtitles.entity.horse.gallop"
+}

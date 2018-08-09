@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:birch_log"
+    },
+    "result": {
+        "item": "minecraft:charcoal",
+        "xp": 0.15
+    },
+    "group": "minecraft:charcoal",
+    "cooking_time": 200
+}

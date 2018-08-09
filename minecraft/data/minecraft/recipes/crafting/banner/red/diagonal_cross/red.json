@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:banner/diagonal_cross",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:red_banner",
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:red_banner"
+    },
+    "group": "minecraft:banner_diagonal_cross",
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "ingredient": "banner"
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "red",
+                    "pattern": "diagonal_cross"
+                }
+            }
+        }
+    ]
+}
