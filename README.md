@@ -1,4 +1,4 @@
-# MinecraftData [![Build Status](https://travis-ci.org/FVbico/Data-Driven-Minecraft.svg?branch=master)](https://travis-ci.org/FVbico/MinecraftData)
+# Data-Driven-Minecraft [![Build Status](https://travis-ci.org/FVbico/Data-Driven-Minecraft.svg?branch=master)](https://travis-ci.org/FVbico/Data-Driven-Minecraft)
 
 This project's goal is to improve the structure and readability of Minecraft's JSON files in order to maximize the modifiability through resource/data packs and hopefully fix some long-lasting bugs (such as [MC-957](https://bugs.mojang.com/browse/MC-957), for example). The main purpose of these files is for Mojang to implement them at some point.
 
