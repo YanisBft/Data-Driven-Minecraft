@@ -27,11 +27,11 @@
         "minecraft:ender_chest",
         "minecraft:furnace",
         "minecraft:magma_block",
-        "minecraft:mob_spawner",
         "minecraft:nether_brick_fence",
         "minecraft:netherrack",
         "minecraft:observer",
         "minecraft:obsidian",
+        "minecraft:spawner",
         "minecraft:stone_pressure_plate"
     ]
 }

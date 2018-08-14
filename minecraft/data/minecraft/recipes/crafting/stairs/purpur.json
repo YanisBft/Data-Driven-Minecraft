@@ -2,7 +2,7 @@
     "parent": "minecraft:stairs",
     "ingredients": {
         "item": {
-            "item": "minecraft:purpur_block"
+            "tag": "minecraft:purpur_blocks"
         }
     },
     "result": {

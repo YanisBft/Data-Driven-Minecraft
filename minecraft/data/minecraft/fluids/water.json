@@ -13,6 +13,94 @@
                 }
             }
         ],
+        "minecraft:block_below_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "y": 1,
+                    "block": {
+                        "name": "minecraft:bubble_column",
+                        "properties": {
+                            "drag": "true"
+                        }
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "tag": "minecraft:bubble_column_whirlpool_creators"
+                                }
+                            },
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "y": 1,
+                    "block": {
+                        "name": "minecraft:bubble_column",
+                        "properties": {
+                            "drag": "false"
+                        }
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "tag": "minecraft:bubble_column_upwards_creators"
+                                }
+                            },
+                            {
+                                "y": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:fuid_below_changed": [
             {
                 "function": "minecraft:alter_block",
@@ -32,9 +120,14 @@
                         "blocks": [
                             {
                                 "y": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -66,9 +159,14 @@
                         "blocks": [
                             {
                                 "y": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -102,9 +200,14 @@
                         "blocks": [
                             {
                                 "x": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -136,9 +239,14 @@
                         "blocks": [
                             {
                                 "x": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -172,9 +280,14 @@
                         "blocks": [
                             {
                                 "x": 1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -206,9 +319,14 @@
                         "blocks": [
                             {
                                 "x": 1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -242,9 +360,14 @@
                         "blocks": [
                             {
                                 "z": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -276,9 +399,14 @@
                         "blocks": [
                             {
                                 "z": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -312,9 +440,14 @@
                         "blocks": [
                             {
                                 "z": 1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [
@@ -346,9 +479,14 @@
                         "blocks": [
                             {
                                 "z": 1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [

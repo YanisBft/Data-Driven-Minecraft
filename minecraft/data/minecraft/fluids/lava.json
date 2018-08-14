@@ -36,9 +36,14 @@
                         "blocks": [
                             {
                                 "y": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
+                                "block": [
+                                    {
+                                        "name": "minecraft:air"
+                                    },
+                                    {
+                                        "tag": "minecraft:liquids"
+                                    }
+                                ]
                             }
                         ],
                         "fluids": [

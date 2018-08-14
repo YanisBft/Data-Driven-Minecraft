@@ -2,7 +2,7 @@
     "parent": "minecraft:stairs",
     "ingredients": {
         "item": {
-            "item": "minecraft:quartz_block"
+            "tag": "minecraft:quartz_blocks"
         }
     },
     "result": {

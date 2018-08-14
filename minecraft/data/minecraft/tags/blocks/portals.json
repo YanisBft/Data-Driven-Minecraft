@@ -2,6 +2,6 @@
     "values": [
         "minecraft:end_gateway",
         "minecraft:end_portal",
-        "minecraft:portal"
+        "minecraft:nether_portal"
     ]
 }

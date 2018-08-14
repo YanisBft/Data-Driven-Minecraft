@@ -9142,7 +9142,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:bass_notes"
+                                    "tag": "minecraft:note_blocks/bass_creators"
                                 }
                             },
                             {
@@ -9170,7 +9170,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:snare_notes"
+                                    "tag": "minecraft:note_blocks/snare_creators"
                                 }
                             },
                             {
@@ -9198,7 +9198,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:hat_notes"
+                                    "tag": "minecraft:note_blocks/hat_creators"
                                 }
                             },
                             {
@@ -9226,7 +9226,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:bassdrum_notes"
+                                    "tag": "minecraft:note_blocks/bassdrum_creators"
                                 }
                             },
                             {
@@ -9254,7 +9254,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:bell_notes"
+                                    "tag": "minecraft:note_blocks/bell_creators"
                                 }
                             },
                             {
@@ -9282,7 +9282,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:flute_notes"
+                                    "tag": "minecraft:note_blocks/flute_creators"
                                 }
                             },
                             {
@@ -9310,7 +9310,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:chime_notes"
+                                    "tag": "minecraft:note_blocks/chime_creators"
                                 }
                             },
                             {
@@ -9338,7 +9338,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:guitar_notes"
+                                    "tag": "minecraft:note_blocks/guitar_creators"
                                 }
                             },
                             {
@@ -9366,7 +9366,7 @@
                             {
                                 "y": -1,
                                 "block": {
-                                    "tag": "minecraft:xylophone_notes"
+                                    "tag": "minecraft:note_blocks/xylophone_creators"
                                 }
                             },
                             {
@@ -9395,39 +9395,39 @@
                                 "y": -1,
                                 "block": [
                                     {
-                                        "tag": "minecraft:bass_notes",
+                                        "tag": "minecraft:note_blocks/bass_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:snare_notes",
+                                        "tag": "minecraft:note_blocks/snare_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:hat_notes",
+                                        "tag": "minecraft:note_blocks/hat_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:bassdrum_notes",
+                                        "tag": "minecraft:note_blocks/bassdrum_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:bell_notes",
+                                        "tag": "minecraft:note_blocks/bell_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:flute_notes",
+                                        "tag": "minecraft:note_blocks/flute_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:chime_notes",
+                                        "tag": "minecraft:note_blocks/chime_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:guitar_notes",
+                                        "tag": "minecraft:note_blocks/guitar_creators",
                                         "inverse": true
                                     },
                                     {
-                                        "tag": "minecraft:xylophone_notes",
+                                        "tag": "minecraft:note_blocks/xylophone_creators",
                                         "inverse": true
                                     }
                                 ]

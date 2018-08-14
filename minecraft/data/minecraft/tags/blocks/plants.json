@@ -7,6 +7,8 @@
         "minecraft:dead_bush",
         "minecraft:fern",
         "minecraft:grass",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
         "minecraft:large_fern",
         "minecraft:liliac",
         "minecraft:orange_tulio",
@@ -16,8 +18,10 @@
         "minecraft:poppy",
         "minecraft:red_tulip",
         "minecraft:rose_bush",
+        "minecraft:seagrass",
         "minecraft:sunflower",
         "minecraft:tall_grass",
+        "minecraft:tall_seagrass",
         "minecraft:white_tulip"
     ]
 }

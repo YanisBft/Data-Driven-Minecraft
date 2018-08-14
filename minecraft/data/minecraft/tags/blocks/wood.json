@@ -1,10 +1,10 @@
 {
     "values": [
-        "#minecraft:acacia_wood",
-        "#minecraft:birch_wood",
-        "#minecraft:dark_oak_wood",
-        "#minecraft:jungle_wood",
-        "#minecraft:oak_wood",
-        "#minecraft:spruce_wood"
+        "#minecraft:wood/acacia",
+        "#minecraft:wood/birch",
+        "#minecraft:wood/dark_oak",
+        "#minecraft:wood/jungle",
+        "#minecraft:wood/oak",
+        "#minecraft:wood/spruce"
     ]
 }
