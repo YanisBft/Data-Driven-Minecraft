@@ -1,6 +1,9 @@
 {
     "stack_size": 1,
-    "durability": 337,
+    "durability": {
+		"amount": 337,
+		"repair_item": "minecraft:iron_ingot"
+	},
     "functions": [
         {
             "function": "minecraft:block_damage",
@@ -8,10 +11,7 @@
             "block_degree": 90,
             "amount": 1,
             "cooldown": 100,
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "damage": {
                     "weapon": [
                         "#minecraft:tool_tiers/axes"
@@ -24,10 +24,7 @@
             "sound": "block",
             "block_degree": 90,
             "amount": 1,
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "damage": {}
             }
         }

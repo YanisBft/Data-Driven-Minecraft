@@ -1,5 +1,6 @@
 {
     "stack_size": 1,
+    "color": "aqua",
     "functions": [
         {
             "function": "minecraft:alter_block",
@@ -11,10 +12,7 @@
                 },
                 "item_tag": "RecordItem"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",

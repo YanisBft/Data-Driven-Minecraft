@@ -8,7 +8,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -27,7 +26,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -49,7 +47,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -74,7 +71,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -99,7 +95,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -124,7 +119,6 @@
                 }
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -149,7 +143,6 @@
                 }
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -174,7 +167,6 @@
                 }
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",

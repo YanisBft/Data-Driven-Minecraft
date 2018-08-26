@@ -13,12 +13,7 @@
                     "sound": "teleport"
                 }
             },
-            "cooldown": 20,
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
-            }
+            "cooldown": 20
         }
     ]
 }

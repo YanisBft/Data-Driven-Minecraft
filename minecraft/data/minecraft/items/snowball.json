@@ -16,11 +16,6 @@
                         "paste": "CustomName"
                     }
                 ]
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
         }
     ]

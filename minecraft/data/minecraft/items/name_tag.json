@@ -5,7 +5,6 @@
             "position": "looked_at_entity",
             "alter_nbt": "{Jhonny:1b}",
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -21,10 +20,7 @@
             "function": "minecraft:alter_entity",
             "position": "looked_at_entity",
             "alter_name": "item_name",
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity"

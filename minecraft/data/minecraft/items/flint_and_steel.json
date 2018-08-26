@@ -1,16 +1,16 @@
 {
     "stack_size": 1,
-    "durability": 65,
+    "durability": {
+		"amount": 65,
+		"repair_item": "minecraft:gold_ingot"
+	},
     "functions": [
         {
             "function": "minecraft:alter_entity",
             "position": "looked_at_entity",
             "sound": "ignite_creeper",
             "alter_nbt": "{ignited:1b}",
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",

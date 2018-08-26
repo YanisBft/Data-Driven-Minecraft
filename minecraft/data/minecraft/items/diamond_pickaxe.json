@@ -1,6 +1,10 @@
 {
     "stack_size": 1,
-    "durability": 1562,
+    "durability": {
+		"amount": 1562,
+		"repair_item": "minecraft:diamond"
+	},
+    "equipment": "weapon",
     "attribute_modiers": [
         {
             "attribute": "generic.attackSpeed",
@@ -13,13 +17,6 @@
             "amount": 4,
             "operation": "add",
             "slot": "mainhand"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:attack",
-            "increase_stat": true,
-            "consume_item": true
         }
     ]
 }

@@ -1,6 +1,10 @@
 {
     "stack_size": 1,
-    "durability": 251,
+    "durability": {
+		"amount": 251,
+		"repair_item": "minecraft:???",
+        "equipment": "weapon"
+	},
     "attribute_modiers": [
         {
             "attribute": "generic.attackDamage",
@@ -39,17 +43,7 @@
             },
             "item": {
                 "name": "minecraft:trident"
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
-        },
-        {
-            "function": "minecraft:attack",
-            "increase_stat": true,
-            "consume_item": true
         }
     ]
 }

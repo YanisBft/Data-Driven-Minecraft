@@ -7,11 +7,6 @@
             "effects": {
                 "food": 8,
                 "saturation": 4.8
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
         }
     ]

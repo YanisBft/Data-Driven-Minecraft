@@ -1,8 +1,5 @@
 {
     "stack_size": 1,
-    "armor_piece": [
-        "horse_armor"
-    ],
     "attribute_modifiers": [
         {
             "attribute": "generic.armor",

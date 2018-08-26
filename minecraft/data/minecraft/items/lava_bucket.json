@@ -8,7 +8,6 @@
                 "name": "minecraft:bucket"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -30,10 +29,7 @@
                     "level": "0"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -53,7 +49,6 @@
                 "name": "minecraft:bucket"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",
@@ -75,10 +70,7 @@
                     "level": "0"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",

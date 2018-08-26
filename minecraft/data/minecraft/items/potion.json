@@ -8,10 +8,7 @@
             "item": {
                 "name": "minecraft:glass_bottle"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:water\"}"
             }
         },
@@ -22,7 +19,6 @@
                 "name": "minecraft:glass_bottle"
             },
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:water\"}",
                 "blocks": [
                     {
@@ -51,10 +47,7 @@
                     "level": "3"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:water\"}",
                 "blocks": [
                     {
@@ -79,10 +72,7 @@
                     "level": "2"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:water\"}",
                 "blocks": [
                     {
@@ -107,10 +97,7 @@
                     "level": "1"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:water\"}",
                 "blocks": [
                     {
@@ -134,10 +121,7 @@
             "item": {
                 "name": "minecraft:glass_bottle"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:awkward\"}"
             }
         },
@@ -148,10 +132,7 @@
             "item": {
                 "name": "minecraft:glass_bottle"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:thick\"}"
             }
         },
@@ -162,10 +143,7 @@
             "item": {
                 "name": "minecraft:glass_bottle"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:mundane\"}"
             }
         },
@@ -176,10 +154,7 @@
             "item": {
                 "name": "minecraft:glass_bottle"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:empty\"}"
             }
         },
@@ -199,10 +174,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:regeneration\"}"
             }
         },
@@ -222,10 +194,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_regeneration\"}"
             }
         },
@@ -245,10 +214,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
             }
         },
@@ -268,10 +234,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:swiftness\"}"
             }
         },
@@ -291,10 +254,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_swiftness\"}"
             }
         },
@@ -314,10 +274,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
             }
         },
@@ -337,10 +294,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:fire_resistance\"}"
             }
         },
@@ -360,10 +314,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_fire_resistance\"}"
             }
         },
@@ -383,10 +334,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:healing\"}"
             }
         },
@@ -406,10 +354,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_healing\"}"
             }
         },
@@ -429,10 +374,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:night_vision\"}"
             }
         },
@@ -452,10 +394,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_night_vision\"}"
             }
         },
@@ -475,10 +414,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strength\"}"
             }
         },
@@ -498,10 +434,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_strength\"}"
             }
         },
@@ -521,10 +454,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_strength\"}"
             }
         },
@@ -544,10 +474,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:leaping\"}"
             }
         },
@@ -567,10 +494,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_leaping\"}"
             }
         },
@@ -590,10 +514,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_leaping\"}"
             }
         },
@@ -613,10 +534,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:water_breathing\"}"
             }
         },
@@ -636,10 +554,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
             }
         },
@@ -659,10 +574,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:invisibility\"}"
             }
         },
@@ -682,10 +594,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_invisibility\"}"
             }
         },
@@ -705,10 +614,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:luck\"}"
             }
         },
@@ -728,10 +634,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:poison\"}"
             }
         },
@@ -751,10 +654,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_poison\"}"
             }
         },
@@ -774,10 +674,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_poison\"}"
             }
         },
@@ -797,10 +694,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:weakness\"}"
             }
         },
@@ -820,10 +714,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_weakness\"}"
             }
         },
@@ -843,10 +734,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:slowness\"}"
             }
         },
@@ -866,10 +754,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_slowness\"}"
             }
         },
@@ -889,10 +774,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:harming\"}"
             }
         },
@@ -912,10 +794,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_harming\"}"
             }
         },
@@ -940,10 +819,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:turtle_master\"}"
             }
         },
@@ -968,10 +844,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
             }
         },
@@ -996,10 +869,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
             }
         },
@@ -1019,10 +889,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:slow_falling\"}"
             }
         },
@@ -1042,10 +909,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
             }
         }

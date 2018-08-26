@@ -1,4 +1,5 @@
 {
     "glowing": true,
-    "explosion_proof": true
+    "explosion_proof": true,
+    "color": "yellow"
 }

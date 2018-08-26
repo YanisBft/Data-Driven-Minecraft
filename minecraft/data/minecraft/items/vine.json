@@ -12,10 +12,7 @@
                     "north": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -39,10 +36,7 @@
                     "south": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -66,10 +60,7 @@
                     "east": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -93,10 +84,7 @@
                     "west": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -120,10 +108,7 @@
                     "up": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -147,10 +132,7 @@
                     "north": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",
@@ -174,10 +156,7 @@
                     "south": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",
@@ -201,10 +180,7 @@
                     "east": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",
@@ -228,10 +204,7 @@
                     "west": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",
@@ -255,10 +228,7 @@
                     "up": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",

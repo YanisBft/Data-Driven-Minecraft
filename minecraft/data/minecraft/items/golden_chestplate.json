@@ -1,32 +1,16 @@
 {
     "stack_size": 1,
-    "durability": 113,
-    "armor_piece": [
-        "chestplate"
-    ],
+    "durability": {
+		"amount": 113,
+		"repair_item": "minecraft:gold_ingot",
+        "equipment": "armor"
+	},
     "attribute_modifiers": [
         {
             "attribute": "generic.armor",
             "slot": "chest",
             "amount": 5,
             "operation": "add"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:worn",
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "damage": {}
-            }
-        },
-        {
-            "function": "minecraft:equip",
-            "sound": "equip",
-            "conditions": {
-                "use_item": true
-            }
         }
     ]
 }

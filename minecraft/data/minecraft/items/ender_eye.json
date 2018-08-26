@@ -5,7 +5,7 @@
             "position": "user",
             "sound": "launch",
             "entity": {
-                "name": "minecraft:eye_of_ender_signal",
+                "name": "minecraft:eye_of_ender",
                 "copy_nbt": [
                     {
                         "copy": "EntityTag",
@@ -17,10 +17,7 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "dimension": "overworld"
             }
         },
@@ -33,10 +30,7 @@
                     "eye": "true"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "block": [
                     {
                         "position": "looked_at_block",

@@ -1,6 +1,10 @@
 {
     "stack_size": 1,
-    "durability": 33,
+    "durability": {
+		"amount": 33,
+		"repair_item": "minecraft:gold_ingot",
+        "equipment": "weapon"
+	},
     "attribute_modiers": [
         {
             "attribute": "generic.attackSpeed",
@@ -11,11 +15,6 @@
     ],
     "functions": [
         {
-            "function": "minecraft:attack",
-            "increase_stat": true,
-            "consume_item": true
-        },
-        {
             "function": "minecraft:alter_block",
             "position": "looed_at_block",
             "sound": "till_farmland",
@@ -25,10 +24,7 @@
                     "moisture": 0
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -44,10 +40,7 @@
             "block": {
                 "name": "minecraft:dirt"
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",

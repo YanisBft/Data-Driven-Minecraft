@@ -1,4 +1,5 @@
 {
+    "color": "pink",
     "functions": [
         {
             "function": "minecraft:consume",
@@ -29,11 +30,6 @@
                         "duration": 6000
                     }
                 ]
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
         }
     ]

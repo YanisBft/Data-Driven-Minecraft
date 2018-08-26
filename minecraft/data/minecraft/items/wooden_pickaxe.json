@@ -1,6 +1,10 @@
 {
     "stack_size": 1,
-    "durability": 60,
+    "durability": {
+		"amount": 60,
+		"repair_item": "#minecraft:planks",
+        "equipment": "weapon"
+	},
     "attribute_modiers": [
         {
             "attribute": "generic.attackSpeed",
@@ -13,13 +17,6 @@
             "amount": 1,
             "operation": "add",
             "slot": "mainhand"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:attack",
-            "increase_stat": true,
-            "consume_item": true
         }
     ]
 }

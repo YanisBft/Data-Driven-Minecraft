@@ -1,32 +1,16 @@
 {
     "stack_size": 1,
-    "durability": 275,
-    "armor_piece": [
-        "helmet"
-    ],
+    "durability": {
+        "amount": 275,
+        "repair_item": "minecraft:scute",
+        "equipment": "armor"
+    },
     "attribute_modifiers": [
         {
             "attribute": "generic.armor",
             "slot": "head",
             "amount": 2,
             "operation": "add"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:worn",
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "damage": {}
-            }
-        },
-        {
-            "function": "minecraft:equip",
-            "sound": "equip",
-            "conditions": {
-                "use_item": true
-            }
         }
     ]
 }

@@ -1,9 +1,10 @@
 {
     "stack_size": 1,
-    "durability": 364,
-    "armor_piece": [
-        "helmet"
-    ],
+    "durability": {
+		"amount": 364,
+		"repair_item": "minecraft:diamond",
+        "equipment": "armor"
+	},
     "attribute_modifiers": [
         {
             "attribute": "generic.armor",
@@ -16,23 +17,6 @@
             "slot": "head",
             "amount": 2,
             "operation": "add"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:worn",
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "damage": {}
-            }
-        },
-        {
-            "function": "minecraft:equip",
-            "sound": "equip",
-            "conditions": {
-                "use_item": true
-            }
         }
     ]
 }

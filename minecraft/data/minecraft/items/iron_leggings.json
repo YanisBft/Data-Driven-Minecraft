@@ -1,32 +1,16 @@
 {
     "stack_size": 1,
-    "durability": 226,
-    "armor_piece": [
-        "leggings"
-    ],
+    "durability": {
+		"amount": 226,
+		"repair_item": "minecraft:iron_ingot",
+        "equipment": "armor"
+	},
     "attribute_modifiers": [
         {
             "attribute": "generic.armor",
             "slot": "legs",
             "amount": 5,
             "operation": "add"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:worn",
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "damage": {}
-            }
-        },
-        {
-            "function": "minecraft:equip",
-            "sound": "equip",
-            "conditions": {
-                "use_item": true
-            }
         }
     ]
 }

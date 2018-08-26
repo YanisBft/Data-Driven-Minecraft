@@ -1,6 +1,9 @@
 {
     "stack_size": 1,
-    "durability": 238,
+    "durability": {
+		"amount": 238,
+		"repair_item": "minecraft:iron_ingot"
+	},
     "functions": [
         {
             "function": "minecraft:alter_block",
@@ -20,7 +23,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -51,7 +53,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -82,7 +83,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -113,7 +113,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -138,7 +137,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -159,7 +157,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -184,7 +181,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -209,7 +205,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -234,7 +229,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -259,7 +253,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -284,7 +277,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -309,7 +301,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -334,7 +325,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -359,7 +349,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -384,7 +373,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -409,7 +397,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -434,7 +421,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -459,7 +445,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -484,7 +469,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -509,7 +493,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -534,7 +517,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -559,7 +541,6 @@
             "increase_stat": true,
             "consume_item": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",

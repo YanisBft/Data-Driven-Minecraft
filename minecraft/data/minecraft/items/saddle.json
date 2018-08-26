@@ -1,18 +1,12 @@
 {
     "stack_size": 1,
-    "armor_piece": [
-        "horse_saddle"
-    ],
     "functions": [
         {
             "function": "minecraft:alter_entity",
             "position": "looked_at_entity",
-            "sound": "minecraft:entity.pig.saddle",
+            "sound": "saddle_pig",
             "alter_nbt": "{Saddle:1b}",
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",

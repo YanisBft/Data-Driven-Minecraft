@@ -9,7 +9,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -26,7 +25,6 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -43,13 +41,12 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
                         "name": "minecraft:water",
                         "properties": {
-                            "level": 0
+                            "level": "0"
                         }
                     }
                 ]
@@ -63,13 +60,12 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
                         "name": "minecraft:lava",
                         "properties": {
-                            "level": 0
+                            "level": "0"
                         }
                     }
                 ]
@@ -83,13 +79,12 @@
             },
             "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
                         "name": "minecraft:cauldron",
                         "properties": {
-                            "level": 3
+                            "level": "3"
                         }
                     }
                 ]
@@ -100,17 +95,16 @@
             "position": "looked_at_block",
             "block": {
                 "properties": {
-                    "level": 0
+                    "level": "0"
                 }
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
                         "name": "minecraft:cauldron",
                         "properties": {
-                            "level": 3
+                            "level": "3"
                         }
                     }
                 ]
@@ -123,13 +117,12 @@
                 "name": "minecraft:air"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
                         "name": "minecraft:water",
                         "properties": {
-                            "level": 0
+                            "level": "0"
                         }
                     }
                 ]
@@ -142,13 +135,12 @@
                 "name": "minecraft:air"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
                         "name": "minecraft:lava",
                         "properties": {
-                            "level": 0
+                            "level": "0"
                         }
                     }
                 ]

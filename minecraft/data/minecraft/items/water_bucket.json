@@ -8,7 +8,6 @@
                 "name": "minecraft:cod_bucket"
             },
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -28,7 +27,6 @@
                 "name": "minecraft:salmon_bucket"
             },
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -48,7 +46,6 @@
                 "name": "minecraft:pufferfish_bucket"
             },
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -68,7 +65,6 @@
                 "name": "minecraft:tropical_fish_bucket"
             },
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -88,7 +84,6 @@
                 "nbt": "{DeathTime:19}"
             },
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",
@@ -108,7 +103,6 @@
                 "name": "minecraft:bucket"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -128,7 +122,6 @@
                 "name": "minecraft:bucket"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",
@@ -148,7 +141,6 @@
                 "name": "minecraft:bucket"
             },
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -172,10 +164,7 @@
                     "level": "3"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -200,10 +189,7 @@
                     "level": "0"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block",
@@ -225,10 +211,7 @@
                     "level": "0"
                 }
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "blocks": [
                     {
                         "position": "looked_at_block_face",

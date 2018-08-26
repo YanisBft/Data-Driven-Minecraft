@@ -1,25 +1,17 @@
 {
     "stack_size": 1,
-    "durability": 431,
-    "armor_piece": [
-        "chestplate"
-    ],
+    "durability": {
+		"amount": 431,
+		"repair_item": "minecraft:phantom_membrane"
+	},
+    "color": "yellow",
     "functions": [
-        {
-            "function": "minecraft:equip",
-            "sound": "equip",
-            "conditions": {
-                "use_item": true
-            }
-        },
         {
             "function": "minecraft:alter_entity",
             "position": "user",
             "alter_nbt": "{FallFlying:1b}",
             "sound": "flying",
             "cooldown": 20,
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
                 "jump": true,
                 "falling": true,
@@ -32,8 +24,6 @@
             "function": "minecraft:worn",
             "sound": "flying",
             "cooldown": 20,
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
                 "user": {
                     "nbt": "{FallFlying:1b}"

@@ -1,32 +1,16 @@
 {
     "stack_size": 1,
-    "durability": 92,
-    "armor_piece": [
-        "boots"
-    ],
+    "durability": {
+		"amount": 92,
+		"repair_item": "minecraft:gold_ingot",
+        "equipment": "armor"
+	},
     "attribute_modifiers": [
         {
             "attribute": "generic.armor",
             "slot": "feet",
             "amount": 1,
             "operation": "add"
-        }
-    ],
-    "functions": [
-        {
-            "function": "minecraft:worn",
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "damage": {}
-            }
-        },
-        {
-            "function": "minecraft:equip",
-            "sound": "equip",
-            "conditions": {
-                "use_item": true
-            }
         }
     ]
 }

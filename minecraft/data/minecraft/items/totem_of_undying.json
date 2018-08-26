@@ -1,5 +1,6 @@
 {
     "stack_size": 1,
+    "color": "yellow",
     "functions": [
         {
             "function": "minecraft:consume",
@@ -22,8 +23,6 @@
                     }
                 ]
             },
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
                 "damage": {
                     "death": true

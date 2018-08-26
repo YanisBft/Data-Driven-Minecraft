@@ -4,10 +4,7 @@
             "function": "minecraft:alter_entity",
             "position": "looked_at_entity",
             "alter_nbt": "{Color:13b}",
-            "consume_item": true,
-            "increase_stat": true,
             "conditions": {
-                "use_item": true,
                 "entities": [
                     {
                         "position": "looked_at_entity",

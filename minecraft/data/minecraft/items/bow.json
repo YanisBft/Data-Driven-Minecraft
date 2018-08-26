@@ -1,6 +1,9 @@
 {
     "stack_size": 1,
-    "durability": 385,
+    "durability": {
+		"amount": 385,
+		"repair_item": "minecraft:string"
+	},
     "functions": [
         {
             "function": "minecraft:shoot_item",
@@ -24,11 +27,6 @@
             },
             "item": {
                 "name": "minecraft:arrow"
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
         },
         {
@@ -53,11 +51,6 @@
             },
             "item": {
                 "name": "minecraft:spectral_arrow"
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
         },
         {
@@ -94,11 +87,6 @@
             },
             "item": {
                 "name": "minecraft:tipped_arrow"
-            },
-            "consume_item": true,
-            "increase_stat": true,
-            "conditions": {
-                "use_item": true
             }
         }
     ]
