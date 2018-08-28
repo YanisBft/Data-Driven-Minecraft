@@ -3,7 +3,6 @@
     "place_block": {
 		"name": "minecraft:red_shulker_box",
 		"facing_state": {
-		"wall_facing_state": {
 			"name": "facing",
 			"facing": "from_block"
 		}
