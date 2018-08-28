@@ -1,10 +1,10 @@
 {
     "stack_size": 1,
     "durability": {
-		"amount": 33,
-		"repair_item": "minecraft:gold_ingot",
+        "amount": 33,
+        "repair_item": "minecraft:gold_ingot",
         "equipment": "weapon"
-	},
+    },
     "attribute_modiers": [
         {
             "attribute": "generic.attackDamage",
@@ -18,5 +18,5 @@
             "operation": "add",
             "slot": "mainhand"
         }
-    ]\
+    ]
 }
