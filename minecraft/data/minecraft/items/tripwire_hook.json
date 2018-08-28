@@ -1,6 +1,6 @@
 {
-    "block_item": true
-	"stack_size": 16,
+    "block_item": true,
+    "stack_size": 16,
     "place_block": {
 		"name": "minecraft:tripwire_hook",
 		"facing_state": {
