@@ -1,0 +1,293 @@
+{
+	"sounds": {
+		"#open": "open",
+		"#close": "close"
+	},
+	"components": [
+		{
+			"type": "name",
+			"position": [ 8, 6 ]
+		},
+		{
+			"type": "background",
+			"uv": [ 0, 0, 11, 10.375 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.0",
+			"position": [ 7, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.1",
+			"position": [ 25, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.2",
+			"position": [ 43, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.3",
+			"position": [ 61, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.4",
+			"position": [ 79, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.5",
+			"position": [ 97, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.6",
+			"position": [ 115, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.7",
+			"position": [ 133, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.8",
+			"position": [ 151, 17 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.9",
+			"position": [ 7, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.10",
+			"position": [ 25, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.11",
+			"position": [ 43, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.12",
+			"position": [ 61, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.13",
+			"position": [ 79, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.14",
+			"position": [ 97, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.15",
+			"position": [ 115, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.16",
+			"position": [ 133, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.17",
+			"position": [ 151, 36 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.18",
+			"position": [ 7, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.19",
+			"position": [ 25, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.20",
+			"position": [ 43, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.21",
+			"position": [ 61, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.22",
+			"position": [ 79, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.23",
+			"position": [ 97, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.24",
+			"position": [ 115, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.25",
+			"position": [ 133, 55 ]
+		},
+		{
+			"type": "slot",
+			"name": "ender_chest.26",
+			"position": [ 151, 55 ]
+		},
+		{
+			"type": "gui",
+			"name": "minecraft:inventory",
+			"position": [ 0, 71 ]
+		}
+	],
+	"slots": {
+		"ender_chest.0": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 0
+		},
+		"ender_chest.1": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 1
+		},
+		"ender_chest.2": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 2
+		},
+		"ender_chest.3": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 3
+		},
+		"ender_chest.4": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 4
+		},
+		"ender_chest.5": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 5
+		},
+		"ender_chest.6": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 6
+		},
+		"ender_chest.7": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 7
+		},
+		"ender_chest.8": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 8
+		},
+		"ender_chest.9": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 9
+		},
+		"ender_chest.10": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 10
+		},
+		"ender_chest.11": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 11
+		},
+		"ender_chest.12": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 12
+		},
+		"ender_chest.13": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 13
+		},
+		"ender_chest.14": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 14
+		},
+		"ender_chest.15": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 15
+		},
+		"ender_chest.16": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 16
+		},
+		"ender_chest.17": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 17
+		},
+		"ender_chest.18": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 18
+		},
+		"ender_chest.19": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 19
+		},
+		"ender_chest.20": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 20
+		},
+		"ender_chest.21": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 21
+		},
+		"ender_chest.22": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 22
+		},
+		"ender_chest.23": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 23
+		},
+		"ender_chest.24": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 24
+		},
+		"ender_chest.25": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 25
+		},
+		"ender_chest.26": {
+			"save": "entity",
+			"tag": "EnderItems",
+			"number": 26
+		}
+	}
+}

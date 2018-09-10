@@ -74,7 +74,6 @@
         "minecraft:used": [
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:ender_chest",
                 "conditions": [
                     {

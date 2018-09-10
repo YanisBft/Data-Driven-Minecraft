@@ -227,7 +227,6 @@
         "minecraft:used": [
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:shulker_box",
                 "conditions": [
                     {
@@ -395,7 +394,6 @@
             },
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:shulker_box",
                 "conditions": [
                     {
@@ -570,7 +568,6 @@
             },
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:shulker_box",
                 "conditions": [
                     {
@@ -745,7 +742,6 @@
             },
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:shulker_box",
                 "conditions": [
                     {
@@ -920,7 +916,6 @@
             },
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:shulker_box",
                 "conditions": [
                     {
@@ -1009,7 +1004,6 @@
             },
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:shulker_box",
                 "conditions": [
                     {

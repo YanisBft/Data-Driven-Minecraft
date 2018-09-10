@@ -1,7 +1,0 @@
-{
-    "sounds": [
-        "minecraft:block/wooden_door/close",
-        "minecraft:block/wooden_door/open"
-    ],
-    "subtitle": "subtitles.block.chest.locked"
-}

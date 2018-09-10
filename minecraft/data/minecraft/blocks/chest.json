@@ -49,7 +49,6 @@
         "minecraft:used": [
             {
                 "function": "minecraft:open_gui",
-                "sound": "open",
                 "gui": "minecraft:chest",
                 "conditions": [
                     {
