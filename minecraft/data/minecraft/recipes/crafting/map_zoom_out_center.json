@@ -7,7 +7,7 @@
         "center": {
             "item": "minecraft:filled_map",
             "conditions": {
-                "treassure": false
+                "treasure": false
             }
         }
     },
