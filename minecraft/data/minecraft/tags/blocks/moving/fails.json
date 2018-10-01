@@ -14,7 +14,7 @@
         "minecraft:furnace",
         "minecraft:hopper",
         "minecraft:jukebox",
-        "minecraft:mob_spawner",
+        "minecraft:spawner",
         "minecraft:obsidian",
         "minecraft:piston_head",
         "minecraft:structure_block"
