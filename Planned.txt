@@ -4,7 +4,8 @@ JSON:
 list of yet to be created JSON files:
 + biome files (Would list: temperature, cave count/size, veins, structures (including trees, grass, dungeons, villages, etc.), terrain blocks, terrain noise, mobs it can('t) spawn (and method)(Not things like 70% of zombie=husk in deserts, but just Zombie, skeleton, etc and then be combined with spawning.json), NOT water level (only in ocean) that's global)
 + entity files (water-fly-ground, fire resistance, armor points, hostility, ai (giant=none, animal=animal, pathfind, pathfind-water, etc))
-+ gui properties (actions, slots, etc.)
++ enchantment files (behavior, rarity, not allowed combinations, etc.)
++ gui files (actions, slots, etc.)
 + commands.json (feedback strings, arguments, etc.)
  
 List of planned changes:
@@ -25,6 +26,7 @@ List of planned changes:
   + rails
   + doors
   + beds
+ * change the color to rarity string (comon (default), uncomon, rare, epic)
  ! fix chests and trapped chests can't become double chests
  ! fix carved pumpkins and jack o lanterns don't make golems and wither skeleton skulls no wither
  ! fix bone meal does not make (sea)grass/fern tall_(sea)grass/large_fern
@@ -72,6 +74,11 @@ List of planned changes:
    - remove quasi-connectivity
   * pistons
    - remove quasi-connectivity
+* enchantment recipes:
+ + add parenting
+ * change from specifying enchantment details (such as max level, treasure and not allowed combinations), to only enchantments, and it it can only be secondary
+  # will be specified in enchantment files later
+   # Enchamtment weights/rarity: common, uncommon, rare, epic
 
 Structures:
 list of yet to be created structure files:

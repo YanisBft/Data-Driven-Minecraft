@@ -1,4 +1,15 @@
-??-??-????:
+3-10-2018:
++ Added missing ocean momument sponge room and column room structure files
+* Changed incompatible enchantments to enchantment tags
+! Fixed a typo in the treasure room of the ocean monument
+! Fixed some slab/stair recipes cannot be crafted with block variants
+
+10-9-2018:
++ Added basic gui files
++ Added block tags for blocks the wither and dragon cannot destroy
++ Added block tag for the building blocks creative/recipe book tab; others will come later
+
+9-8-2018:
 * Updated to 18w32a
 + Added dead coral
 + Added water and lava fluid files, flowing variants are yet to come
@@ -7,7 +18,7 @@
 * Changed the parenting of recipes to start in the corresponding folder
 ! Fixed wrong hitboxes for (previously) default waterlogged blocks
 ! Fixed hitboxes of 2 high plants, no longer a full cube
-- Removed the abolity to use {} in a blocks condition for a solid face
+- Removed the ability to use {} in a blocks condition for a solid face
 - Removed the type of recipes, just use the folder
 
 19-7-2018:

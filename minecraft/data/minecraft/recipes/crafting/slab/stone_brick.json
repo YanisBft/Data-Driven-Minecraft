@@ -2,7 +2,7 @@
     "parent": "minecraft:1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:stone_bricks"
+            "tag": "minecraft:stone_bricks"
         }
     },
     "result": {
