@@ -1,0 +1,30 @@
+{
+    "components": [
+        {
+            "type": "name",
+            "position": [ 28, 6 ]
+        },
+        {
+            "type": "background",
+            "uv": [ 0, 0, 11, 10.375 ]
+        },
+        {
+            "type": "recipe",
+            "recipe_type": "minecraft:crafting",
+            "objects": {
+                "input": [ 
+                    [ [ 29, 17 ], [ 47, 17 ], [ 65, 17 ] ],
+                    [ [ 29, 35 ], [ 47, 35 ], [ 65, 35 ] ],
+                    [ [ 29, 53 ], [ 47, 57 ], [ 65, 57 ] ]
+                ],
+                "recipe_book": [ 6, 35 ],
+                "output": [ 88, 35 ]
+            }
+        },
+        {
+            "type": "gui",
+            "name": "minecraft:inventory",
+            "position": [ 0, 71 ]
+        }
+    ]
+}

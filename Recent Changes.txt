@@ -1,3 +1,10 @@
+8-10-2018:
++ Added flowing fuid files
+ # Still need to add "flow to hole" behavior, make lava create fire
++ Added crafting table gui file
+! Fixed gui files use tabs
+! Fixed water fluid file had incorrect y+1 block/fluid checks
+
 3-10-2018:
 + Added missing ocean momument sponge room and column room structure files
 * Changed incompatible enchantments to enchantment tags

@@ -69,8 +69,12 @@
                         "level": "8"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
                         "solid_faces": [
                             {
                                 "y": -1,
@@ -105,6 +109,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -151,6 +156,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -197,6 +203,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -243,6 +250,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -273,6 +281,48 @@
                                             "level": "8"
                                         },
                                         "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "y": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "falling": "true",
+                        "level": "8"
+                    }
+                },
+                "time": 5,
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            },
+                            {
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
                                     }
                                 ]
                             }
@@ -289,6 +339,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -336,6 +387,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -383,6 +435,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -430,6 +483,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -480,8 +534,12 @@
                         "level": "8"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
+                        "dimension": {
+                            "name": "minecraft:the_nether"
+                        },
                         "solid_faces": [
                             {
                                 "y": -1,
@@ -516,6 +574,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -562,6 +621,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -608,6 +668,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -654,6 +715,7 @@
                         "level": "7"
                     }
                 },
+                "time": 30,
                 "conditions": [
                     {
                         "dimension": {
@@ -684,6 +746,48 @@
                                             "level": "8"
                                         },
                                         "inverse": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "y": -1,
+                    "name": "minecraft:flowing_lava",
+                    "properties": {
+                        "falling": "true",
+                        "level": "8"
+                    }
+                },
+                "time": 5,
+                "conditions": [
+                    {
+                        "dimension": {
+                            "name": "minecraft:the_nether",
+                            "inverse": true
+                        },
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "up": false
+                            },
+                            {
+                                "down": false
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    },
+                                    {
+                                        "name": "minecraft:flowing_lava"
                                     }
                                 ]
                             }
@@ -700,6 +804,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -747,6 +852,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -794,6 +900,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {
@@ -841,6 +948,7 @@
                         "level": "6"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "dimension": {

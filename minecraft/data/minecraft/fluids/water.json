@@ -17,7 +17,6 @@
             {
                 "function": "minecraft:alter_block",
                 "block": {
-                    "y": 1,
                     "block": {
                         "name": "minecraft:bubble_column",
                         "properties": {
@@ -30,12 +29,19 @@
                         "blocks": [
                             {
                                 "y": -1,
-                                "block": {
-                                    "tag": "minecraft:bubble_column_whirlpool_creators"
-                                }
+                                "block": [
+									{
+                                        "name": "minecraft:bubble_column",
+										"properties": {
+											"drag": "true"
+										}
+                                    },
+                                    {
+										"tag": "minecraft:bubble_column/whirlpool_creators"
+									}
+								]
                             },
                             {
-                                "y": 1,
                                 "block": [
                                     {
                                         "name": "minecraft:air"
@@ -45,14 +51,6 @@
                                     }
                                 ]
                             }
-                        ],
-                        "fluids": [
-                            {
-                                "y": 1,
-                                "fluid": {
-                                    "name": "minecraft:water"
-                                }
-                            }
                         ]
                     }
                 ]
@@ -60,7 +58,6 @@
             {
                 "function": "minecraft:alter_block",
                 "block": {
-                    "y": 1,
                     "block": {
                         "name": "minecraft:bubble_column",
                         "properties": {
@@ -73,12 +70,19 @@
                         "blocks": [
                             {
                                 "y": -1,
-                                "block": {
-                                    "tag": "minecraft:bubble_column_upwards_creators"
-                                }
+                                "block": [
+									{
+                                        "name": "minecraft:bubble_column",
+										"properties": {
+											"drag": "false"
+										}
+                                    },
+                                    {
+										"tag": "minecraft:bubble_column/upwards_creators"
+									}
+								]
                             },
                             {
-                                "y": 1,
                                 "block": [
                                     {
                                         "name": "minecraft:air"
@@ -87,14 +91,6 @@
                                         "tag": "minecraft:liquids"
                                     }
                                 ]
-                            }
-                        ],
-                        "fluids": [
-                            {
-                                "y": 1,
-                                "fluid": {
-                                    "name": "minecraft:water"
-                                }
                             }
                         ]
                     }
@@ -512,6 +508,7 @@
                         "level": "8"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -545,6 +542,7 @@
                     "x": -1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -820,6 +818,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -860,6 +859,7 @@
                     "x": 1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1135,6 +1135,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1175,6 +1176,7 @@
                     "z": -1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1450,6 +1452,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1490,6 +1493,7 @@
                     "z": 1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1765,6 +1769,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1811,6 +1816,7 @@
                         "level": "8"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -1844,6 +1850,7 @@
                     "x": -1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -2119,6 +2126,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -2159,6 +2167,7 @@
                     "x": 1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -2434,6 +2443,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -2474,6 +2484,7 @@
                     "z": -1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -2749,6 +2760,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -2789,6 +2801,7 @@
                     "z": 1,
                     "name": "minecraft:water"
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [
@@ -3064,6 +3077,7 @@
                         "level": "7"
                     }
                 },
+                "time": 5,
                 "conditions": [
                     {
                         "solid_faces": [

@@ -1,295 +1,295 @@
 {
-	"lockable": true,
-	"sounds": {
-		"#open": "open",
-		"#close": "close",
-		"#locked": "locked"
-	},
-	"components": [
-		{
-			"type": "name",
-			"position": [ 8, 6 ]
-		},
-		{
-			"type": "background",
-			"uv": [ 0, 0, 11, 10.375 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.0",
-			"position": [ 7, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.1",
-			"position": [ 25, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.2",
-			"position": [ 43, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.3",
-			"position": [ 61, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.4",
-			"position": [ 79, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.5",
-			"position": [ 97, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.6",
-			"position": [ 115, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.7",
-			"position": [ 133, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.8",
-			"position": [ 151, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.9",
-			"position": [ 7, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.10",
-			"position": [ 25, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.11",
-			"position": [ 43, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.12",
-			"position": [ 61, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.13",
-			"position": [ 79, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.14",
-			"position": [ 97, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.15",
-			"position": [ 115, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.16",
-			"position": [ 133, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.17",
-			"position": [ 151, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.18",
-			"position": [ 7, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.19",
-			"position": [ 25, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.20",
-			"position": [ 43, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.21",
-			"position": [ 61, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.22",
-			"position": [ 79, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.23",
-			"position": [ 97, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.24",
-			"position": [ 115, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.25",
-			"position": [ 133, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.26",
-			"position": [ 151, 55 ]
-		},
-		{
-			"type": "gui",
-			"name": "minecraft:inventory",
-			"position": [ 0, 71 ]
-		}
-	],
-	"slots": {
-		"container.0": {
-			"save": "block",
-			"tag": "Items",
-			"number": 0
-		},
-		"container.1": {
-			"save": "block",
-			"tag": "Items",
-			"number": 1
-		},
-		"container.2": {
-			"save": "block",
-			"tag": "Items",
-			"number": 2
-		},
-		"container.3": {
-			"save": "block",
-			"tag": "Items",
-			"number": 3
-		},
-		"container.4": {
-			"save": "block",
-			"tag": "Items",
-			"number": 4
-		},
-		"container.5": {
-			"save": "block",
-			"tag": "Items",
-			"number": 5
-		},
-		"container.6": {
-			"save": "block",
-			"tag": "Items",
-			"number": 6
-		},
-		"container.7": {
-			"save": "block",
-			"tag": "Items",
-			"number": 7
-		},
-		"container.8": {
-			"save": "block",
-			"tag": "Items",
-			"number": 8
-		},
-		"container.9": {
-			"save": "block",
-			"tag": "Items",
-			"number": 9
-		},
-		"container.10": {
-			"save": "block",
-			"tag": "Items",
-			"number": 10
-		},
-		"container.11": {
-			"save": "block",
-			"tag": "Items",
-			"number": 11
-		},
-		"container.12": {
-			"save": "block",
-			"tag": "Items",
-			"number": 12
-		},
-		"container.13": {
-			"save": "block",
-			"tag": "Items",
-			"number": 13
-		},
-		"container.14": {
-			"save": "block",
-			"tag": "Items",
-			"number": 14
-		},
-		"container.15": {
-			"save": "block",
-			"tag": "Items",
-			"number": 15
-		},
-		"container.16": {
-			"save": "block",
-			"tag": "Items",
-			"number": 16
-		},
-		"container.17": {
-			"save": "block",
-			"tag": "Items",
-			"number": 17
-		},
-		"container.18": {
-			"save": "block",
-			"tag": "Items",
-			"number": 18
-		},
-		"container.19": {
-			"save": "block",
-			"tag": "Items",
-			"number": 19
-		},
-		"container.20": {
-			"save": "block",
-			"tag": "Items",
-			"number": 20
-		},
-		"container.21": {
-			"save": "block",
-			"tag": "Items",
-			"number": 21
-		},
-		"container.22": {
-			"save": "block",
-			"tag": "Items",
-			"number": 22
-		},
-		"container.23": {
-			"save": "block",
-			"tag": "Items",
-			"number": 23
-		},
-		"container.24": {
-			"save": "block",
-			"tag": "Items",
-			"number": 24
-		},
-		"container.25": {
-			"save": "block",
-			"tag": "Items",
-			"number": 25
-		},
-		"container.26": {
-			"save": "block",
-			"tag": "Items",
-			"number": 26
-		}
-	}
+    "lockable": true,
+    "sounds": {
+        "#open": "open",
+        "#close": "close",
+        "#locked": "locked"
+    },
+    "components": [
+        {
+            "type": "name",
+            "position": [ 8, 6 ]
+        },
+        {
+            "type": "background",
+            "uv": [ 0, 0, 11, 10.375 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.0",
+            "position": [ 7, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.1",
+            "position": [ 25, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.2",
+            "position": [ 43, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.3",
+            "position": [ 61, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.4",
+            "position": [ 79, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.5",
+            "position": [ 97, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.6",
+            "position": [ 115, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.7",
+            "position": [ 133, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.8",
+            "position": [ 151, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.9",
+            "position": [ 7, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.10",
+            "position": [ 25, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.11",
+            "position": [ 43, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.12",
+            "position": [ 61, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.13",
+            "position": [ 79, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.14",
+            "position": [ 97, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.15",
+            "position": [ 115, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.16",
+            "position": [ 133, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.17",
+            "position": [ 151, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.18",
+            "position": [ 7, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.19",
+            "position": [ 25, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.20",
+            "position": [ 43, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.21",
+            "position": [ 61, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.22",
+            "position": [ 79, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.23",
+            "position": [ 97, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.24",
+            "position": [ 115, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.25",
+            "position": [ 133, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.26",
+            "position": [ 151, 55 ]
+        },
+        {
+            "type": "gui",
+            "name": "minecraft:inventory",
+            "position": [ 0, 71 ]
+        }
+    ],
+    "slots": {
+        "container.0": {
+            "save": "block",
+            "tag": "Items",
+            "number": 0
+        },
+        "container.1": {
+            "save": "block",
+            "tag": "Items",
+            "number": 1
+        },
+        "container.2": {
+            "save": "block",
+            "tag": "Items",
+            "number": 2
+        },
+        "container.3": {
+            "save": "block",
+            "tag": "Items",
+            "number": 3
+        },
+        "container.4": {
+            "save": "block",
+            "tag": "Items",
+            "number": 4
+        },
+        "container.5": {
+            "save": "block",
+            "tag": "Items",
+            "number": 5
+        },
+        "container.6": {
+            "save": "block",
+            "tag": "Items",
+            "number": 6
+        },
+        "container.7": {
+            "save": "block",
+            "tag": "Items",
+            "number": 7
+        },
+        "container.8": {
+            "save": "block",
+            "tag": "Items",
+            "number": 8
+        },
+        "container.9": {
+            "save": "block",
+            "tag": "Items",
+            "number": 9
+        },
+        "container.10": {
+            "save": "block",
+            "tag": "Items",
+            "number": 10
+        },
+        "container.11": {
+            "save": "block",
+            "tag": "Items",
+            "number": 11
+        },
+        "container.12": {
+            "save": "block",
+            "tag": "Items",
+            "number": 12
+        },
+        "container.13": {
+            "save": "block",
+            "tag": "Items",
+            "number": 13
+        },
+        "container.14": {
+            "save": "block",
+            "tag": "Items",
+            "number": 14
+        },
+        "container.15": {
+            "save": "block",
+            "tag": "Items",
+            "number": 15
+        },
+        "container.16": {
+            "save": "block",
+            "tag": "Items",
+            "number": 16
+        },
+        "container.17": {
+            "save": "block",
+            "tag": "Items",
+            "number": 17
+        },
+        "container.18": {
+            "save": "block",
+            "tag": "Items",
+            "number": 18
+        },
+        "container.19": {
+            "save": "block",
+            "tag": "Items",
+            "number": 19
+        },
+        "container.20": {
+            "save": "block",
+            "tag": "Items",
+            "number": 20
+        },
+        "container.21": {
+            "save": "block",
+            "tag": "Items",
+            "number": 21
+        },
+        "container.22": {
+            "save": "block",
+            "tag": "Items",
+            "number": 22
+        },
+        "container.23": {
+            "save": "block",
+            "tag": "Items",
+            "number": 23
+        },
+        "container.24": {
+            "save": "block",
+            "tag": "Items",
+            "number": 24
+        },
+        "container.25": {
+            "save": "block",
+            "tag": "Items",
+            "number": 25
+        },
+        "container.26": {
+            "save": "block",
+            "tag": "Items",
+            "number": 26
+        }
+    }
 }

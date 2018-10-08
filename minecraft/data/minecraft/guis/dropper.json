@@ -1,113 +1,113 @@
 {
-	"lockable": true,
-	"sounds": {
-		"#locked": "locked"
-	},
-	"components": [
-		{
-			"type": "name",
-			"position": [ 67, 6 ]
-		},
-		{
-			"type": "background",
-			"uv": [ 0, 0, 11, 10.375 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.0",
-			"position": [ 61, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.1",
-			"position": [ 79, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.2",
-			"position": [ 97, 17 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.3",
-			"position": [ 61, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.4",
-			"position": [ 79, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.5",
-			"position": [ 97, 36 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.6",
-			"position": [ 61, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.7",
-			"position": [ 79, 55 ]
-		},
-		{
-			"type": "slot",
-			"name": "container.8",
-			"position": [ 97, 55 ]
-		},
-		{
-			"type": "gui",
-			"name": "minecraft:inventory",
-			"position": [ 0, 71 ]
-		}
-	],
-	"slots": {
-		"container.0": {
-			"save": "block",
-			"tag": "Items",
-			"number": 0
-		},
-		"container.1": {
-			"save": "block",
-			"tag": "Items",
-			"number": 1
-		},
-		"container.2": {
-			"save": "block",
-			"tag": "Items",
-			"number": 2
-		},
-		"container.3": {
-			"save": "block",
-			"tag": "Items",
-			"number": 3
-		},
-		"container.4": {
-			"save": "block",
-			"tag": "Items",
-			"number": 4
-		},
-		"container.5": {
-			"save": "block",
-			"tag": "Items",
-			"number": 5
-		},
-		"container.6": {
-			"save": "block",
-			"tag": "Items",
-			"number": 6
-		},
-		"container.7": {
-			"save": "block",
-			"tag": "Items",
-			"number": 7
-		},
-		"container.8": {
-			"save": "block",
-			"tag": "Items",
-			"number": 8
-		}
-	}
+    "lockable": true,
+    "sounds": {
+        "#locked": "locked"
+    },
+    "components": [
+        {
+            "type": "name",
+            "position": [ 67, 6 ]
+        },
+        {
+            "type": "background",
+            "uv": [ 0, 0, 11, 10.375 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.0",
+            "position": [ 61, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.1",
+            "position": [ 79, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.2",
+            "position": [ 97, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.3",
+            "position": [ 61, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.4",
+            "position": [ 79, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.5",
+            "position": [ 97, 36 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.6",
+            "position": [ 61, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.7",
+            "position": [ 79, 55 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.8",
+            "position": [ 97, 55 ]
+        },
+        {
+            "type": "gui",
+            "name": "minecraft:inventory",
+            "position": [ 0, 71 ]
+        }
+    ],
+    "slots": {
+        "container.0": {
+            "save": "block",
+            "tag": "Items",
+            "number": 0
+        },
+        "container.1": {
+            "save": "block",
+            "tag": "Items",
+            "number": 1
+        },
+        "container.2": {
+            "save": "block",
+            "tag": "Items",
+            "number": 2
+        },
+        "container.3": {
+            "save": "block",
+            "tag": "Items",
+            "number": 3
+        },
+        "container.4": {
+            "save": "block",
+            "tag": "Items",
+            "number": 4
+        },
+        "container.5": {
+            "save": "block",
+            "tag": "Items",
+            "number": 5
+        },
+        "container.6": {
+            "save": "block",
+            "tag": "Items",
+            "number": 6
+        },
+        "container.7": {
+            "save": "block",
+            "tag": "Items",
+            "number": 7
+        },
+        "container.8": {
+            "save": "block",
+            "tag": "Items",
+            "number": 8
+        }
+    }
 }
