@@ -10,7 +10,11 @@
             "table": "minecraft:blocks/player_head"
         }
     ],
-    "block_entity": "minecraft:player_head",
+    "block_entity": "minecraft:skull",
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "states": {
         "facing": {
             "default": "north",
@@ -21,6 +25,27 @@
                 "west"
             ]
         }
+    },
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "properties": [
         {

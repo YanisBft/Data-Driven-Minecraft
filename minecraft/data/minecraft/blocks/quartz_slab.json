@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/quartz_slab",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ],
             "states": [
@@ -30,7 +30,7 @@
             "table": "minecraft:blocks/quartz_slabs",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ],
             "states": [

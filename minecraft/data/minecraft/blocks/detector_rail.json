@@ -19,6 +19,10 @@
             "table": "minecraft:blocks/detector_rail"
         }
     ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "states": {
         "shape": {
             "default": "north_south",
@@ -40,6 +44,25 @@
         }
     },
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:output_power",

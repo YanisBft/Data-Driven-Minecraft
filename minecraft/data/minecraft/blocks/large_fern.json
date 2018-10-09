@@ -18,7 +18,7 @@
             "table": "minecraft:blocks/seeds_0",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -36,7 +36,7 @@
             "table": "minecraft:blocks/large_fern",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "enchantment": [
@@ -57,7 +57,7 @@
             "table": "minecraft:blocks/seeds_1",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -79,7 +79,7 @@
             "table": "minecraft:blocks/seeds_2",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -101,7 +101,7 @@
             "table": "minecraft:blocks/seeds_3",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -120,6 +120,10 @@
             }
         }
     ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "states": {
         "half": {
             "default": "lower",
@@ -128,6 +132,27 @@
                 "upper"
             ]
         }
+    },
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "properties": [
         {

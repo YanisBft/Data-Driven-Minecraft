@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/seagrass",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ]
         }

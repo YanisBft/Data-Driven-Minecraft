@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/chipped_anvil",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

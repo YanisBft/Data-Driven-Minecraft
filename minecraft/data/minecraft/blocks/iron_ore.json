@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/iron_ore",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/1"
                 }
             ]
         }

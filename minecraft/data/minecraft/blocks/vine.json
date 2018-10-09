@@ -20,7 +20,7 @@
             "table": "minecraft:blocks/vine_north",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -35,7 +35,7 @@
             "table": "minecraft:blocks/vine_south",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -50,7 +50,7 @@
             "table": "minecraft:blocks/vine_east",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -65,7 +65,7 @@
             "table": "minecraft:blocks/vine_west",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -80,7 +80,7 @@
             "table": "minecraft:blocks/vine_up",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -91,6 +91,10 @@
                 "up": "true"
             }
         }
+    ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
     ],
     "states": {
         "north": {
@@ -130,6 +134,25 @@
         }
     },
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:this_block_changed": [
             {
                 "function": "minecraft:alter_block",

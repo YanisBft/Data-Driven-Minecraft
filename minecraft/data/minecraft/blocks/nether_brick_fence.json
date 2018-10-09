@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/nether_brick_fence",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

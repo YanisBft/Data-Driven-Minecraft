@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/cobblestone",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ],
             "enchantment": [
@@ -28,7 +28,7 @@
             "table": "minecraft:blocks/stone",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ],
             "enchantment": [

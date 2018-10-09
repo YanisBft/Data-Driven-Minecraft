@@ -13,7 +13,7 @@
             "table": "minecraft:blocks/cut_sandstone",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

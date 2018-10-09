@@ -10,7 +10,7 @@
             "table": "minecraft:blocks/dead_bush_stick",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ]
@@ -19,7 +19,7 @@
             "table": "minecraft:blocks/dead_bush",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -28,6 +28,31 @@
             }
         }
     ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "properties": [
         {
             "properties": {

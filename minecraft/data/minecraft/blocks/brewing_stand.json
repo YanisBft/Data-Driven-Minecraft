@@ -15,7 +15,7 @@
             "table": "minecraft:blocks/brewing_stand",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         },

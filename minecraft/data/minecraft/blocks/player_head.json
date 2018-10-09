@@ -10,7 +10,11 @@
             "table": "minecraft:blocks/player_head"
         }
     ],
-    "block_entity": "minecraft:player_head",
+    "block_entity": "minecraft:skull",
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "states": {
         "rotation": {
             "default": "0",
@@ -33,6 +37,27 @@
                 "15"
             ]
         }
+    },
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "properties": [
         {

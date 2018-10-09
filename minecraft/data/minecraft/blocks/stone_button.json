@@ -14,10 +14,14 @@
             "table": "minecraft:blocks/stone_button",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }
+    ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
     ],
     "states": {
         "face": {
@@ -46,6 +50,25 @@
         }
     },
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:used": [
             {
                 "function": "minecraft:alter_block",

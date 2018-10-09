@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/red_nether_bricks",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

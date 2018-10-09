@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/obsidian",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/best_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/3"
                 }
             ]
         }

@@ -20,7 +20,7 @@
             "table": "minecraft:blocks/birch_leaves_sapling_0",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -35,7 +35,7 @@
             "table": "minecraft:blocks/birch_leaves",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -47,7 +47,7 @@
             "table": "minecraft:blocks/birch_leaves_sapling_1",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -66,7 +66,7 @@
             "table": "minecraft:blocks/birch_leaves_sapling_2",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],
@@ -85,7 +85,7 @@
             "table": "minecraft:blocks/birch_leaves_sapling_3",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears",
+                    "tag": "minecraft:tool_tiers/shears/0",
                     "inverse": true
                 }
             ],

@@ -14,7 +14,7 @@
             "table": "minecraft:emerald_ore_emerald_0",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/2"
                 }
             ],
             "enchantment": [
@@ -32,7 +32,7 @@
             "table": "minecraft:emerald_ore",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/2"
                 }
             ],
             "enchantment": [
@@ -49,7 +49,7 @@
             "table": "minecraft:emerald_ore_emerald_1",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/2"
                 }
             ],
             "enchantment": [
@@ -71,7 +71,7 @@
             "table": "minecraft:emerald_ore_emerald_2",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/2"
                 }
             ],
             "enchantment": [
@@ -93,7 +93,7 @@
             "table": "minecraft:emerald_ore_emerald_3",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/2"
                 }
             ],
             "enchantment": [

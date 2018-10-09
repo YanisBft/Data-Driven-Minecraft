@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/smooth_stone",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

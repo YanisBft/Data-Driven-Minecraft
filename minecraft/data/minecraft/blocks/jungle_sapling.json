@@ -10,6 +10,10 @@
             "table": "minecraft:blocks/jungle_sapling"
         }
     ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "states": {
         "stage": {
             "default": "0",
@@ -21,6 +25,25 @@
         }
     },
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:random_tick": [
             {
                 "function": "minecraft:alter_block",

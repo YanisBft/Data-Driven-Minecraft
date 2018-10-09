@@ -4,11 +4,16 @@
         "minecraft:default": 0.45
     },
     "blast_resistance": 5,
+    "block_entity": "minecraft:skull",
     "transparent": true,
     "loot_tables": [
         {
             "table": "minecraft:blocks/creeper_head"
         }
+    ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
     ],
     "states": {
         "facing": {
@@ -20,6 +25,27 @@
                 "west"
             ]
         }
+    },
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "properties": [
         {

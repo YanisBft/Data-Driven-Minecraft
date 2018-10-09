@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/light_gray_glazed_terracotta",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

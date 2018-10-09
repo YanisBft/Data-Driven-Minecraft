@@ -4,6 +4,10 @@
         "minecraft:default": -1
     },
     "transparent": true,
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "states": {
         "xis": {
             "default": "x",
@@ -14,6 +18,25 @@
         }
     },
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:spawn_particle",

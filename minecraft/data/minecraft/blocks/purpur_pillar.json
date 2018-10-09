@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/purpur_pillar",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/prismarine_stairs",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

@@ -5,10 +5,15 @@
     },
     "blast_resistance": 5,
     "transparent": true,
+    "block_entity": "minecraft:skull",
     "loot_tables": [
         {
             "table": "minecraft:blocks/dragon_head"
         }
+    ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
     ],
     "states": {
         "rotation": {
@@ -41,6 +46,25 @@
         }
     },
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:this_received_power_changed": [
             {
                 "function": "minecraft:alter_block",

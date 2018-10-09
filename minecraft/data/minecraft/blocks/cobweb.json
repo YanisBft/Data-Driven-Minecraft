@@ -20,7 +20,7 @@
             "table": "minecraft:cobweb",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/shears"
+                    "tag": "minecraft:tool_tiers/shears/0"
                 }
             ],
             "breaker": {
@@ -32,7 +32,7 @@
             "table": "minecraft:cobweb",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/swords"
+                    "tag": "minecraft:tool_tiers/swords/0"
                 }
             ],
             "enchantment": [
@@ -49,7 +49,7 @@
             "table": "minecraft:cobweb_string",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/swords"
+                    "tag": "minecraft:tool_tiers/swords/0"
                 }
             ],
             "enchantment": [
@@ -60,7 +60,30 @@
             ]
         }
     ],
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
     "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:effect",

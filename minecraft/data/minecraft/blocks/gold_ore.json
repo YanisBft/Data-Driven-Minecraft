@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/gold_ore",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/better_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/2"
                 }
             ]
         }

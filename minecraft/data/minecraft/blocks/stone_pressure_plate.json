@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/stone_pressure_plate",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }

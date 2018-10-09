@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/lapis_ore_lapis_0",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/1"
                 }
             ],
             "enchantment": [
@@ -32,7 +32,7 @@
             "table": "minecraft:blocks/lapis_ore",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/1"
                 }
             ],
             "enchantment": [
@@ -49,7 +49,7 @@
             "table": "minecraft:blocks/lapis_ore_lapis_1",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/1"
                 }
             ],
             "enchantment": [
@@ -71,7 +71,7 @@
             "table": "minecraft:blocks/lapis_ore_lapis_2",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/1"
                 }
             ],
             "enchantment": [
@@ -93,7 +93,7 @@
             "table": "minecraft:blocks/lapis_ore_lapis_3",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/good_pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/1"
                 }
             ],
             "enchantment": [

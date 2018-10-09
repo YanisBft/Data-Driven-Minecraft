@@ -14,7 +14,7 @@
             "table": "minecraft:blocks/chiseled_stone_bricks",
             "tool": [
                 {
-                    "tag": "minecraft:tool_tiers/pickaxes"
+                    "tag": "minecraft:tool_tiers/pickaxes/0"
                 }
             ]
         }
