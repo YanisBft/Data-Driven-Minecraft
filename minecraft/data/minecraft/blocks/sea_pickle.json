@@ -154,12 +154,6 @@
                         "from": [ 5, 0, 5 ],
                         "to": [ 10, 6, 10 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 5, 0, 5 ],
-                        "to": [ 10, 6, 10 ]
-                    }
                 ]
             }
         },
@@ -169,12 +163,6 @@
             },
             "properties": {
                 "hit_box": [
-                    {
-                        "from": [ 3, 0, 3 ],
-                        "to": [ 12, 6, 12 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 3, 0, 3 ],
                         "to": [ 12, 6, 12 ]
@@ -192,12 +180,6 @@
                         "from": [ 2, 0, 2 ],
                         "to": [ 13, 6, 13 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 2, 0, 2 ],
-                        "to": [ 13, 6, 13 ]
-                    }
                 ]
             }
         },
@@ -207,12 +189,6 @@
             },
             "properties": {
                 "hit_box": [
-                    {
-                        "from": [ 2, 0, 2 ],
-                        "to": [ 14, 6, 14 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 2, 0, 2 ],
                         "to": [ 14, 6, 14 ]
@@ -250,7 +226,8 @@
         },
         {
             "states": {
-                "pickles": "2"
+                "pickles": "2",
+                "waterlogged": "true"
             },
             "properties": {
                 "faces": {
@@ -277,7 +254,8 @@
         },
         {
             "states": {
-                "pickles": "3"
+                "pickles": "3",
+                "waterlogged": "true"
             },
             "properties": {
                 "faces": {
@@ -304,7 +282,8 @@
         },
         {
             "states": {
-                "pickles": "4"
+                "pickles": "4",
+                "waterlogged": "true"
             },
             "properties": {
                 "faces": {

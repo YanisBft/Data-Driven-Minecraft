@@ -37,8 +37,7 @@
     "properties": [
         {
             "states": {
-                "facing": "north",
-                "type": "normal"
+                "facing": "north"
             },
             "properties": {
                 "faces": {
@@ -63,26 +62,7 @@
                         "transfer_power": false
                     }
                 },
-                "need_support": {
-                    "south": {
-                        "name": "minecraft:piston",
-                        "properties": {
-                            "facing": "north",
-                            "extended": "true"
-                        }
-                    }
-                },
                 "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 16, 4 ]
-                    },
-                    {
-                        "from": [ 6, 6, 4 ],
-                        "to": [ 10, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 0, 0, 0 ],
                         "to": [ 16, 16, 4 ]
@@ -96,8 +76,7 @@
         },
         {
             "states": {
-                "facing": "south",
-                "type": "normal"
+                "facing": "south"
             },
             "properties": {
                 "faces": {
@@ -122,26 +101,7 @@
                         "transfer_power": false
                     }
                 },
-                "need_support": {
-                    "north": {
-                        "name": "minecraft:piston",
-                        "properties": {
-                            "facing": "south",
-                            "extended": "true"
-                        }
-                    }
-                },
                 "hit_box": [
-                    {
-                        "from": [ 0, 0, 12 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 6, 6, 0 ],
-                        "to": [ 10, 10, 12 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 0, 0, 12 ],
                         "to": [ 16, 16, 16 ]
@@ -155,8 +115,7 @@
         },
         {
             "states": {
-                "facing": "east",
-                "type": "normal"
+                "facing": "east"
             },
             "properties": {
                 "faces": {
@@ -181,26 +140,7 @@
                         "transfer_power": false
                     }
                 },
-                "need_support": {
-                    "west": {
-                        "name": "minecraft:piston",
-                        "properties": {
-                            "facing": "east",
-                            "extended": "true"
-                        }
-                    }
-                },
                 "hit_box": [
-                    {
-                        "from": [ 12, 0, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 0, 6, 6 ],
-                        "to": [ 12, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 12, 0, 0 ],
                         "to": [ 16, 16, 16 ]
@@ -214,8 +154,7 @@
         },
         {
             "states": {
-                "facing": "west",
-                "type": "normal"
+                "facing": "west"
             },
             "properties": {
                 "faces": {
@@ -240,26 +179,7 @@
                         "transfer_power": false
                     }
                 },
-                "need_support": {
-                    "east": {
-                        "name": "minecraft:piston",
-                        "properties": {
-                            "facing": "west",
-                            "extended": "true"
-                        }
-                    }
-                },
                 "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 4, 16, 16 ]
-                    },
-                    {
-                        "from": [ 4, 6, 6 ],
-                        "to": [ 16, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 0, 0, 0 ],
                         "to": [ 4, 16, 16 ]
@@ -273,8 +193,7 @@
         },
         {
             "states": {
-                "facing": "up",
-                "type": "normal"
+                "facing": "up"
             },
             "properties": {
                 "faces": {
@@ -297,15 +216,6 @@
                     "west": {
                         "support": false,
                         "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "down": {
-                        "name": "minecraft:piston",
-                        "properties": {
-                            "facing": "up",
-                            "extended": "true"
-                        }
                     }
                 },
                 "hit_box": [
@@ -317,23 +227,12 @@
                         "from": [ 6, 0, 6 ],
                         "to": [ 10, 12, 10 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 0, 12, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 6, 0, 6 ],
-                        "to": [ 10, 12, 10 ]
-                    }
                 ]
             }
         },
         {
             "states": {
-                "facing": "down",
-                "type": "normal"
+                "facing": "down"
             },
             "properties": {
                 "faces": {
@@ -358,398 +257,7 @@
                         "transfer_power": false
                     }
                 },
-                "need_support": {
-                    "up": {
-                        "name": "minecraft:piston",
-                        "properties": {
-                            "facing": "down",
-                            "extended": "true"
-                        }
-                    }
-                },
                 "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 4, 16 ]
-                    },
-                    {
-                        "from": [ 6, 4, 6 ],
-                        "to": [ 10, 16, 10 ]
-                    }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 4, 16 ]
-                    },
-                    {
-                        "from": [ 6, 4, 6 ],
-                        "to": [ 10, 16, 10 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "north",
-                "type": "sticky"
-            },
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "sticky": true
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "south": {
-                        "name": "minecraft:sticky_piston",
-                        "properties": {
-                            "facing": "north",
-                            "extended": "true"
-                        }
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 16, 4 ]
-                    },
-                    {
-                        "from": [ 6, 6, 4 ],
-                        "to": [ 10, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 16, 4 ]
-                    },
-                    {
-                        "from": [ 6, 6, 4 ],
-                        "to": [ 10, 10, 16 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "south",
-                "type": "sticky"
-            },
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "sticky": true
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "north": {
-                        "name": "minecraft:sticky_piston",
-                        "properties": {
-                            "facing": "south",
-                            "extended": "true"
-                        }
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 12 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 6, 6, 0 ],
-                        "to": [ 10, 10, 12 ]
-                    }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 0, 0, 12 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 6, 6, 0 ],
-                        "to": [ 10, 10, 12 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "east",
-                "type": "sticky"
-            },
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "sticky": true
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "west": {
-                        "name": "minecraft:sticky_piston",
-                        "properties": {
-                            "facing": "east",
-                            "extended": "true"
-                        }
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 12, 0, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 0, 6, 6 ],
-                        "to": [ 12, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 12, 0, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 0, 6, 6 ],
-                        "to": [ 12, 10, 16 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "west",
-                "type": "sticky"
-            },
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "sticky": true
-                    }
-                },
-                "need_support": {
-                    "east": {
-                        "name": "minecraft:sticky_piston",
-                        "properties": {
-                            "facing": "west",
-                            "extended": "true"
-                        }
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 4, 16, 16 ]
-                    },
-                    {
-                        "from": [ 4, 6, 6 ],
-                        "to": [ 16, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 4, 16, 16 ]
-                    },
-                    {
-                        "from": [ 4, 6, 6 ],
-                        "to": [ 16, 10, 16 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "up",
-                "type": "sticky"
-            },
-            "properties": {
-                "faces": {
-                    "up": {
-                        "sticky": true
-                    },
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "down": {
-                        "name": "minecraft:sticky_piston",
-                        "properties": {
-                            "facing": "up",
-                            "extended": "true"
-                        }
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 12, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 6, 0, 6 ],
-                        "to": [ 10, 12, 10 ]
-                    }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 0, 12, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    },
-                    {
-                        "from": [ 6, 0, 6 ],
-                        "to": [ 10, 12, 10 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "down",
-                "type": "sticky"
-            },
-            "properties": {
-                "faces": {
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "down": {
-                        "sticky": true
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "up": {
-                        "name": "minecraft:sticky_piston",
-                        "properties": {
-                            "facing": "down",
-                            "extended": "true"
-                        }
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 4, 16 ]
-                    },
-                    {
-                        "from": [ 6, 4, 6 ],
-                        "to": [ 10, 16, 10 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 0, 0, 0 ],
                         "to": [ 16, 4, 16 ]
@@ -772,12 +280,6 @@
                         "from": [ 6, 6, 16 ],
                         "to": [ 10, 10, 20 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 6, 6, 16 ],
-                        "to": [ 10, 10, 20 ]
-                    }
                 ]
             }
         },
@@ -788,12 +290,6 @@
             },
             "properties": {
                 "hit_box": [
-                    {
-                        "from": [ 6, 6, -4 ],
-                        "to": [ 10, 10, 0 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 6, 6, -4 ],
                         "to": [ 10, 10, 0 ]
@@ -812,12 +308,6 @@
                         "from": [ -4, 6, 6 ],
                         "to": [ 0, 10, 16 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ -4, 6, 6 ],
-                        "to": [ 0, 10, 16 ]
-                    }
                 ]
             }
         },
@@ -828,12 +318,6 @@
             },
             "properties": {
                 "hit_box": [
-                    {
-                        "from": [ 16, 6, 6 ],
-                        "to": [ 20, 10, 16 ]
-                    }
-                ],
-                "collision_box": [
                     {
                         "from": [ 16, 6, 6 ],
                         "to": [ 20, 10, 16 ]
@@ -852,12 +336,6 @@
                         "from": [ 6, -4, 6 ],
                         "to": [ 10, 0, 10 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 6, -4, 6 ],
-                        "to": [ 10, 0, 10 ]
-                    }
                 ]
             }
         },
@@ -872,13 +350,241 @@
                         "from": [ 6, 16, 6 ],
                         "to": [ 10, 20, 10 ]
                     }
-                ],
-                "collision_box": [
-                    {
-                        "from": [ 6, 16, 6 ],
-                        "to": [ 10, 20, 10 ]
-                    }
                 ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "type": "normal"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {
+                        "name": "minecraft:piston",
+                        "properties": {
+                            "facing": "north",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "type": "normal"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {
+                        "name": "minecraft:piston",
+                        "properties": {
+                            "facing": "south",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "type": "normal"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {
+                        "name": "minecraft:piston",
+                        "properties": {
+                            "facing": "east",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "type": "normal"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {
+                        "name": "minecraft:piston",
+                        "properties": {
+                            "facing": "west",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "up",
+                "type": "normal"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:piston",
+                        "properties": {
+                            "facing": "up",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "down",
+                "type": "normal"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {
+                        "name": "minecraft:piston",
+                        "properties": {
+                            "facing": "down",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "north",
+                "type": "sticky"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "sticky": true
+                    }
+                },
+                "need_support": {
+                    "south": {
+                        "name": "minecraft:sticky_piston",
+                        "properties": {
+                            "facing": "north",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "south",
+                "type": "sticky"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "sticky": true
+                    }
+                },
+                "need_support": {
+                    "north": {
+                        "name": "minecraft:sticky_piston",
+                        "properties": {
+                            "facing": "south",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "east",
+                "type": "sticky"
+            },
+            "properties": {
+                "faces": {
+                    "east": {
+                        "sticky": true
+                    }
+                },
+                "need_support": {
+                    "west": {
+                        "name": "minecraft:sticky_piston",
+                        "properties": {
+                            "facing": "east",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "west",
+                "type": "sticky"
+            },
+            "properties": {
+                "faces": {
+                    "west": {
+                        "sticky": true
+                    }
+                },
+                "need_support": {
+                    "east": {
+                        "name": "minecraft:sticky_piston",
+                        "properties": {
+                            "facing": "west",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "up",
+                "type": "sticky"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "sticky": true
+                    }
+                },
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:sticky_piston",
+                        "properties": {
+                            "facing": "up",
+                            "extended": "true"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "states": {
+                "facing": "down",
+                "type": "sticky"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "sticky": true
+                    }
+                },
+                "need_support": {
+                    "up": {
+                        "name": "minecraft:sticky_piston",
+                        "properties": {
+                            "facing": "down",
+                            "extended": "true"
+                        }
+                    }
+                }
             }
         }
     ]
