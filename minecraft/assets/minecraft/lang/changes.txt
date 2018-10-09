@@ -2,4 +2,4 @@ made all keys lowercased
 ordered alphabetically
 some other minor changes
 
-other strings are mentioned in splashes.json, credits.json, and poem.json
+other strings are mentioned in splashes.json, credits.json, and end.json
