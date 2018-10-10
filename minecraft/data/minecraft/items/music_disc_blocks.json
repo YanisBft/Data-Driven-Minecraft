@@ -1,6 +1,6 @@
 {
     "stack_size": 1,
-    "color": "aqua",
+    "rarity": "rare",
     "functions": [
         {
             "function": "minecraft:alter_block",

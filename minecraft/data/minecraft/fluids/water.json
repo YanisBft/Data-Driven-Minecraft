@@ -11,6 +11,136 @@
                     "tag": "minecraft:water_breathers",
                     "inverse": true
                 }
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:water_drip",
+                    "count": 3
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "down": true
+                            },
+                            {
+                                "y": -1,
+                                "up": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": [
+                                    {
+                                        "tag": "minecraft:imparable",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -0.5,
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:water_drip",
+                    "count": 3
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -2,
+                                "up": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:slabs",
+                                        "properties": {
+                                            "type": "top"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -1,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "y": -1,
+                    "dx": 1,
+                    "dz": 1,
+                    "name": "minecraft:water_drip",
+                    "count": 3
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": -1,
+                                "down": true
+                            },
+                            {
+                                "y": -2,
+                                "up": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:imparable",
+                                        "inverse": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "y": -2,
+                                "fluid": [
+                                    {
+                                        "name": "minecraft:empty"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "minecraft:block_below_changed": [

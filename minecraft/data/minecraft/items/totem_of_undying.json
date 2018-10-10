@@ -1,6 +1,6 @@
 {
     "stack_size": 1,
-    "color": "yellow",
+    "rarity": "uncommon",
     "functions": [
         {
             "function": "minecraft:consume",

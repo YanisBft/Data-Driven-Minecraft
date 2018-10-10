@@ -1,5 +1,5 @@
 {
-    "color": "pink",
+    "rarity": "epic",
     "functions": [
         {
             "function": "minecraft:consume",

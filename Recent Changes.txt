@@ -1,3 +1,11 @@
+10-10-2018:
++ added water and lava dripping through blocks that are not glass and have a solid top face
+* changed the item color to rarity string (comon (default), uncomon, rare, epic)
+! fixed lava flow times for nether and overworld reversed
+! fixed flowing water/lava spreads outward, even when it starts falling
+! fixed water and lava do not disappear if the source is gone
+ # Holy smokes, that makes the flowing water/lava files big.... need to think of a better way; but for now, it IS fixed
+
 8-10-2018:
 + Added flowing fuid files
  # Still need to add "flow to hole" behavior, make lava create fire

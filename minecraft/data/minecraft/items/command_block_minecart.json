@@ -1,6 +1,6 @@
 {
     "stack_size": 1,
-    "color": "pink",
+    "rarity": "epic",
     "functions": [
         {
             "function": "minecraft:alter_entity",

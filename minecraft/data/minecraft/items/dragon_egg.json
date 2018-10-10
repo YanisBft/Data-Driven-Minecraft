@@ -1,5 +1,5 @@
 {
     "block_item": true,
     "place_block": "minecraft:dragon_egg",
-    "color": "pink"
+    "rarity": "epic"
 }

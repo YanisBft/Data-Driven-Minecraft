@@ -4,7 +4,7 @@
 		"amount": 431,
 		"repair_item": "minecraft:phantom_membrane"
 	},
-    "color": "yellow",
+    "rarity": "uncommon",
     "functions": [
         {
             "function": "minecraft:alter_entity",

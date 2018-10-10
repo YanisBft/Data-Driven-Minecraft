@@ -1,5 +1,5 @@
 {
-    "color": "yellow",
+    "rarity": "uncommon",
     "functions": [
         {
             "function": "minecraft:throw_item",

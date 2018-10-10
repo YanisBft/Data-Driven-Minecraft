@@ -1,6 +1,6 @@
 {
     "glowing": true,
-    "color": "aqua",
+    "rarity": "rare",
     "functions": [
         {
             "function": "minecraft:spawn_entity",

@@ -1,5 +1,5 @@
 {
     "block_item": true,
     "place_block": "minecraft:structure_block",
-    "color": "pink"
+    "rarity": "epic"
 }

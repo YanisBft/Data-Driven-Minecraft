@@ -1,5 +1,5 @@
 {
     "block_item": true,
     "place_block": "minecraft:conduit",
-    "color": "aqua"
+    "rarity": "rare"
 }
