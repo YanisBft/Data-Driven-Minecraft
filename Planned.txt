@@ -34,8 +34,9 @@ List of planned changes:
  ! fix banners, armor and shulker boxes cannot be washed clean
 + add weather effects (rain dripping through leaves, snow generating)
 + add fluids
- + add flowing_water and flowing_lava
  + make water and lava drip through blocks that are not glass and have a solid top face (if it's in #slabs and type=top, make it drip appropriately from the middle)
+ * make flowing water and lava only spread to -x if there's not a hole in the +x direction, same with +x -x, -z +z and +z -z-fightning
+ ! fix water and lava do not disappear if the source is gone
 + re-add block files:
  # to finish up:
   + add spread_block function to mushrooms
