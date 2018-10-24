@@ -26,6 +26,7 @@ List of planned changes:
   + rails
   + doors
   + beds
+  + suspicious stew
  ! fix chests and trapped chests can't become double chests
  ! fix carved pumpkins and jack o lanterns don't make golems and wither skeleton skulls no wither
  ! fix bone meal does not make (sea)grass/fern tall_(sea)grass/large_fern
