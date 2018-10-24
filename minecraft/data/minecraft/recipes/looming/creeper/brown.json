@@ -1,0 +1,21 @@
+{
+    "banner": {
+        "tag": "minecraft:banner",
+        "conditions": {
+            "layers": {
+                "max": 15
+            }
+        }
+    },
+    "pattern": {
+        "item": "minecraft:creeper_banner_pattern"
+    },
+    "dye": {
+        "item": "minecraft:brown_dye"
+    },
+    "group": "minecraft:banner_creeper",
+    "add_pattern": {
+        "color": "brown",
+        "pattern": "creeper"
+    }
+}

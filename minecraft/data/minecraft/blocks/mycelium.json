@@ -9,29 +9,6 @@
         "minecraft:golden_shovel": 0.1
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dirt",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/mycelium",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "states": {
         "snowy": {
             "default": "false",

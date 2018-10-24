@@ -13,11 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 15,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/spruce_fence"
-        }
-    ],
     "states": {
         "north": {
             "default": "false",

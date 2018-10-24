@@ -4,11 +4,6 @@
         "minecraft:default": 0.45
     },
     "blast_resistance": 1.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/redstone_lamp"
-        }
-    ],
     "states": {
         "lit": {
             "default": "false",

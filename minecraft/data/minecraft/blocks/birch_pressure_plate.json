@@ -13,11 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/birch_pressure_plate"
-        }
-    ],
     "states": {
         "powered": {
             "default": "false",

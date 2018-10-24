@@ -1,3 +1,6 @@
+24-10-2018:
+* updated to 18w43a
+
 10-10-2018:
 + added water and lava dripping through blocks that are not glass and have a solid top face
 * changed the item color to rarity string (comon (default), uncomon, rare, epic)

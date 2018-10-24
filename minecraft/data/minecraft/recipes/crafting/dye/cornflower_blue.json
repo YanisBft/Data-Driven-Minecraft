@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:cornflower"
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_dye"
+    },
+    "group": "minecraft:blue_dye"
+}

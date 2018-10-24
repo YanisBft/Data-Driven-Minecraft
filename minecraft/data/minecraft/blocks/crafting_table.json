@@ -13,11 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 12.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/crafting_table"
-        }
-    ],
     "functions": {
         "minecraft:used": [
             {

@@ -9,35 +9,6 @@
         "minecraft:golden_pickaxe": 0.2
     },
     "blast_resistance": 30,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/bubble_coral_block",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/dead_bubble_coral_block",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        }
-    ],
     "functions": {
         "minecraft:block_changed": [
             {

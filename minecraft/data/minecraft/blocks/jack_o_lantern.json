@@ -14,11 +14,6 @@
         "minecraft:golden_sword": 1
     },
     "blast_resistance": 5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/jack_o_lantern"
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

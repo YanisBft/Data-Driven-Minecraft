@@ -1,10 +1,5 @@
 {
     "pick_block": "minecraft:end_rod",
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/end_rod"
-        }
-    ],
     "states": {
         "facing": {
             "default": "up",

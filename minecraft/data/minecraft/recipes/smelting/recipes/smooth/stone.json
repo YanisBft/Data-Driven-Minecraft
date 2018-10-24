@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:stone"
+    },
+    "result": {
+        "item": "minecraft:smooth_stone",
+        "xp": 0.1
+    },
+    "group": "minecraft:smooth_block",
+    "cooking_time": 200
+}

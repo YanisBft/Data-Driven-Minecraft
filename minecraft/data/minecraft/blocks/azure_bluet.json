@@ -13,11 +13,6 @@
         ]
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/azure_bluet"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

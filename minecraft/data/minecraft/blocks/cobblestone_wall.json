@@ -9,16 +9,6 @@
         "minecraft:golden_pickaxe": 0.25
     },
     "blast_resistance": 30,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cobblestone_wall",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ],
     "states": {
         "north": {
             "default": "false",

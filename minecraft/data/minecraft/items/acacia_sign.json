@@ -1,0 +1,15 @@
+{
+    "block_item": true,
+    "place_block": {
+		"name": "minecraft:acacia_sign",
+		"facing_state": {
+			"name": "rotation",
+			"facing": "to_user"
+		},
+		"wall_name": "minecraft:acacia_wall_sign",
+		"wall_facing_state": {
+			"name": "facing",
+			"facing": "from_block"
+		}
+	}
+}

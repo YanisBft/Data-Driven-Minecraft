@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:mossy_stone_bricks"
+        },
+        "bottom": {
+            "item": "minecraft:mossy_stone_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:mossy_stone_brick_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

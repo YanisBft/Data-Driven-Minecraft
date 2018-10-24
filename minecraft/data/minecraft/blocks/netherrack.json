@@ -8,15 +8,5 @@
         "minecraft:diamond_pickaxe": 0.1,
         "minecraft:golden_pickaxe": 0.05
     },
-    "blast_resistance": 2,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/netherrack",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ]
+    "blast_resistance": 2
 }

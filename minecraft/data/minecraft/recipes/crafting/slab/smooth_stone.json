@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_layer",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:smooth_stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:smooth_stone_slab",
+        "count": 6
+    },
+    "group": "minecraft:slab"
+}

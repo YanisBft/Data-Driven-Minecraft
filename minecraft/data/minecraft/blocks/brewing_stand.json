@@ -10,19 +10,6 @@
     },
     "blast_resistance": 2.5,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/brewing_stand",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:builtin/inventory"
-        }
-    ],
     "block_entity": "minecraft:brewing_stand",
     "states": {
         "has_bottle_0": {

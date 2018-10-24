@@ -2,7 +2,7 @@
     "parent": "minecraft:2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:dandelion_yellow"
+            "item": "minecraft:yellow_dye"
         },
         "item2": {
             "item": "minecraft:white_bed"

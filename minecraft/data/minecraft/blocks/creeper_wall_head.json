@@ -6,11 +6,6 @@
     "blast_resistance": 5,
     "block_entity": "minecraft:skull",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/creeper_head"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

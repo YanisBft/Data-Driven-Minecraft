@@ -1,55 +1,28 @@
 {
+    "type": "minecraft:fishing",
     "pools": [
         {
-            "rolls": 1,
+            "rolls": 1.0,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:cod",
+                    "type": "minecraft:item",
                     "weight": 60,
-                    "functions": [
-                        {
-                            "function": "minecraft:furnace_smelt",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "properties": {
-                                        "minecraft:on_fire": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "minecraft:cod"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:salmon",
+                    "type": "minecraft:item",
                     "weight": 25,
-                    "functions": [
-                        {
-                            "function": "minecraft:furnace_smelt",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "properties": {
-                                        "minecraft:on_fire": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "minecraft:salmon"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:tropical_fish",
-                    "weight": 2
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:tropical_fish"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:pufferfish",
-                    "weight": 13
+                    "type": "minecraft:item",
+                    "weight": 13,
+                    "name": "minecraft:pufferfish"
                 }
             ]
         }

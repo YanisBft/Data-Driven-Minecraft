@@ -9,11 +9,6 @@
     },
     "blast_resistance": 2.5,
     "fall_damage": 0.2,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/hay_block"
-        }
-    ],
     "states": {
         "axis": {
             "default": "y",

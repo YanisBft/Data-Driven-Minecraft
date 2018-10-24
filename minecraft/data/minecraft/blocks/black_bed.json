@@ -9,14 +9,6 @@
     },
     "blast_resistance": 1,
     "fall_damage": -0.2,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/black_bed",
-            "states": {
-                "part": "head"
-            }
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

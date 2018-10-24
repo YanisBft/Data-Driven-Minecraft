@@ -9,16 +9,6 @@
         "minecraft:golden_pickaxe": 0.65
     },
     "blast_resistance": 6000,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/anvil",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

@@ -9,19 +9,6 @@
             "z"
         ]
     },
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/tall_seagrass",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shears/0"
-                }
-            ],
-            "states": {
-                "half": "upper"
-            }
-        }
-    ],
     "states": {
         "half": {
             "default": "lower",

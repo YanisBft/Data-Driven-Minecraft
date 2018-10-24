@@ -13,11 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/birch_button"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

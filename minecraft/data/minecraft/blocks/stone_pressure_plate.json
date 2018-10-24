@@ -9,16 +9,6 @@
         "minecraft:golden_pickaxe": 0.1
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/stone_pressure_plate",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ],
     "states": {
         "powered": {
             "default": "false",

@@ -1,12 +1,17 @@
 {
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:tripwire_hook",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:tripwire_hook"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
             ]
         }

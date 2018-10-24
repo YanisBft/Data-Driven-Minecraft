@@ -1,11 +1,6 @@
 {
     "pick_block": "minecraft:flower_pot",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/potted_cactus"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

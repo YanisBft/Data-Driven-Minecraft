@@ -8,15 +8,5 @@
         "minecraft:diamond_pickaxe": 0.95,
         "minecraft:golden_pickaxe": 2.1
     },
-    "blast_resistance": 30,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/diamond_block",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/2"
-                }
-            ]
-        }
-    ]
+    "blast_resistance": 30
 }

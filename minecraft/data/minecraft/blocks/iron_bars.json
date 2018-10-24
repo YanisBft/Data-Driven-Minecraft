@@ -10,16 +10,6 @@
     },
     "blast_resistance": 30,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/iron_bars",
-            "tools": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/1"
-                }
-            ]
-        }
-    ],
     "states": {
         "north": {
             "default": "false",

@@ -8,34 +8,5 @@
         "minecraft:diamond_pickaxe": 0.3,
         "minecraft:golden_pickaxe": 0.2
     },
-    "blast_resistance": 30,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cobblestone",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/stone",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        }
-    ]
+    "blast_resistance": 30
 }

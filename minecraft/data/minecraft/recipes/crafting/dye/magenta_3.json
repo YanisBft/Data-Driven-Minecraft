@@ -2,10 +2,10 @@
     "parent": "minecraft:3_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         },
         "item2": {
-            "item": "minecraft:bone_meal"
+            "item": "minecraft:white_dye"
         },
         "item3": {
             "item": "minecraft:pink_dye"

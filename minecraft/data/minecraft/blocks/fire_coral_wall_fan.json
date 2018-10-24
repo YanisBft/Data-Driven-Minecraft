@@ -1,16 +1,6 @@
 {
     "pick_block": "minecraft:fire_coral_fan",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/fire_coral_fan",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

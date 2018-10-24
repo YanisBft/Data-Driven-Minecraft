@@ -1,12 +1,17 @@
 {
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:smooth_quartz",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:smooth_quartz"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
             ]
         }

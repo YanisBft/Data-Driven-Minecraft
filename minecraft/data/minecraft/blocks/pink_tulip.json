@@ -13,11 +13,6 @@
         ]
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/pink_tulip"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

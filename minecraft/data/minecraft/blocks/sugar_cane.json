@@ -1,10 +1,5 @@
 {
     "pick_block": "minecraft:sugar_cane",
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/sugar_cane"
-        }
-    ],
     "states": {
         "age": {
             "default": "0",

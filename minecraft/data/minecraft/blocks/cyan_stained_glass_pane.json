@@ -5,20 +5,6 @@
     },
     "blast_resistance": 1.5,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cyan_stained_glass_pane",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "states": {
         "north": {
             "default": "false",

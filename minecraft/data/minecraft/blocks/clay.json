@@ -8,28 +8,5 @@
         "minecraft:diamond_shovel": 0.15,
         "minecraft:golden_shovel": 0.1
     },
-    "blast_resistance": 3,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/clay_balls",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/clay",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ]
+    "blast_resistance": 3
 }

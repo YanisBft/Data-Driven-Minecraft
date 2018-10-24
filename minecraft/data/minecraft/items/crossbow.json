@@ -1,0 +1,10 @@
+{
+    "stack_size": 1,
+    "durability": {
+		"amount": 385,
+		"repair_item": "minecraft:string"
+	},
+    "functions": [
+        
+    ]
+}

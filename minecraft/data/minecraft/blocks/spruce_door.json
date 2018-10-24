@@ -15,14 +15,6 @@
     "blast_resistance": 15,
     "transparent": true,
     "solid": false,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/spruce_door",
-            "states": {
-                "half": "upper"
-            }
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

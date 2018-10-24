@@ -2,7 +2,7 @@
     "parent": "minecraft:stairs",
     "ingredients": {
         "item": {
-            "tag": "minecraft:red_sandstone"
+            "name": "minecraft:red_sandstone"
         }
     },
     "result": {

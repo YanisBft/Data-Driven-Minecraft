@@ -3,68 +3,6 @@
     "hardness": {
         "minecraft:default": 2
     },
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/turtle_egg_1",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "states": {
-                "eggs": "1"
-            },
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        },
-        {
-            "table": "minecraft:blocks/turtle_egg_2",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "states": {
-                "eggs": "2"
-            },
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        },
-        {
-            "table": "minecraft:blocks/turtle_egg_3",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "states": {
-                "eggs": "3"
-            },
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        },
-        {
-            "table": "minecraft:blocks/turtle_egg_4",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "states": {
-                "eggs": "4"
-            },
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "states": {
         "hatch": {
             "default": "0",

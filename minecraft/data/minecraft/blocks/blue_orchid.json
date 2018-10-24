@@ -13,11 +13,6 @@
         ]
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/blue_orchid"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

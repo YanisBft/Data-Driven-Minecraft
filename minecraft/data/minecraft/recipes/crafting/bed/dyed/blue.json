@@ -2,7 +2,7 @@
     "parent": "minecraft:2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         },
         "item2": {
             "item": "minecraft:white_bed"

@@ -13,11 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 1,
-    "loot_tables": [
-        {
-            "table": "minecraft:daylight_detector"
-        }
-    ],
     "block_entity": "minecraft:daylight_detector",
     "states": {
         "power": {

@@ -13,11 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 4,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/note_block"
-        }
-    ],
     "states": {
         "note": {
             "default": "0",

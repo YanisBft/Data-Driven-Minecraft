@@ -6,11 +6,6 @@
     "blast_resistance": 5,
     "transparent": true,
     "block_entity": "minecraft:skull",
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/wither_skeleton_skull"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

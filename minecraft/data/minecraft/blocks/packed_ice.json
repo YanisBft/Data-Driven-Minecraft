@@ -9,20 +9,6 @@
         "minecraft:golden_pickaxe": 0.1
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/packed_ice",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "functions": {
         
     }

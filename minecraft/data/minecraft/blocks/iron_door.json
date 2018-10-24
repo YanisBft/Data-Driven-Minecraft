@@ -11,19 +11,6 @@
     "blast_resistance": 25,
     "transparent": true,
     "solid": false,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/iron_door",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/1"
-                }
-            ],
-            "states": {
-                "half": "upper"
-            }
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

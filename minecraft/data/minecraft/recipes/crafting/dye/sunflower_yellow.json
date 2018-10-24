@@ -6,8 +6,8 @@
         }
     },
     "result": {
-        "item": "minecraft:dandelion_yellow",
+        "item": "minecraft:yellow_dye",
         "count": 2
     },
-    "group": "minecraft:dandelion_yellow"
+    "group": "minecraft:yellow_dye"
 }

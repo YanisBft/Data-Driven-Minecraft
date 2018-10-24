@@ -5,11 +5,6 @@
         "flammability": 100
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/birch_sapling"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

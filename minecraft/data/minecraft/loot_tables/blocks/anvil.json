@@ -1,12 +1,17 @@
 {
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:anvil",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:anvil"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
             ]
         }

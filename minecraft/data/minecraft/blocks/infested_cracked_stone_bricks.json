@@ -4,20 +4,6 @@
         "minecraft:default": 1.15
     },
     "blast_resistance": 3.75,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cracked_stone_bricks",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "functions": {
         "minecraft:this_block_changed": [
             {

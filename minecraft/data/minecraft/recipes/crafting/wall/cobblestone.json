@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:cobblestone"
+        },
+        "bottom": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:cobblestone_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

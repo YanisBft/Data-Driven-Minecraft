@@ -1,26 +1,29 @@
 {
+    "type": "minecraft:chest",
     "pools": [
         {
             "rolls": {
-                "min": 1,
-                "max": 2
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:arrow",
+                    "type": "minecraft:item",
+                    "weight": 30,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
-                                "min": 2,
-                                "max": 7
+                                "min": 2.0,
+                                "max": 7.0,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ],
-                    "weight": 30
+                    "name": "minecraft:arrow"
                 }
-           ]
+            ]
         }
     ]
 }

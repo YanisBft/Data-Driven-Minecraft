@@ -15,51 +15,6 @@
     },
     "resistance": 20,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:cobweb",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shears/0"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        },
-        {
-            "table": "minecraft:cobweb",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/swords/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        },
-        {
-            "table": "minecraft:cobweb_string",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/swords/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

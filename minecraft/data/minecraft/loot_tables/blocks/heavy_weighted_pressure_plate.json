@@ -1,12 +1,17 @@
 {
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:heavy_weighted_pressure_plate",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:heavy_weighted_pressure_plate"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
             ]
         }

@@ -9,16 +9,6 @@
         "minecraft:golden_pickaxe": 0.2
     },
     "blast_resistance": 7,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/gray_glazed_terracotta",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

@@ -1,31 +1,5 @@
 {
     "pick_block": "minecraft:sea_pickle",
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/sea_pickle_1",
-            "states": {
-                "pickles": "1"
-            }
-        },
-        {
-            "table": "minecraft:blocks/sea_pickle_2",
-            "states": {
-                "pickles": "2"
-            }
-        },
-        {
-            "table": "minecraft:blocks/sea_pickle_3",
-            "states": {
-                "pickles": "3"
-            }
-        },
-        {
-            "table": "minecraft:blocks/sea_pickle_4",
-            "states": {
-                "pickles": "4"
-            }
-        }
-    ],
     "states": {
         "pickles": {
             "default": "1",

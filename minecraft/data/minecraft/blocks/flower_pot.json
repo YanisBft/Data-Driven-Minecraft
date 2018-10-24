@@ -1,10 +1,5 @@
 {
     "pick_block": "minecraft:flower_pot",
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/flower_pot"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

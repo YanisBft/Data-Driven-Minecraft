@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:wither_rose"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_dye"
+    },
+    "group": "minecraft:black_dye"
+}

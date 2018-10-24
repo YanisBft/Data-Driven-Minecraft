@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:diorite"
+        },
+        "bottom": {
+            "item": "minecraft:diorite"
+        }
+    },
+    "result": {
+        "item": "minecraft:diorite_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

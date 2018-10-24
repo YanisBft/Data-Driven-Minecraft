@@ -9,39 +9,6 @@
         "minecraft:golden_pickaxe": 2.85
     },
     "blast_resistance": 3000,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/ender_chest_obsidian",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/ender_chest",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "block_entity": "minecraft:ender_chest",
     "states": {
         "facing": {

@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:1_layer",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:andesite"
+        }
+    },
+    "result": {
+        "item": "minecraft:andesite_slab",
+        "count": 6
+    },
+    "group": "minecraft:slab"
+}

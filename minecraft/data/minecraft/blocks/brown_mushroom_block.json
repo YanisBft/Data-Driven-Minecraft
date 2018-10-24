@@ -13,25 +13,6 @@
         "flammability": 5
     },
     "blast_resistance": 1,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/brown_mushroom_block_mushrooms",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/brown_mushroom_block",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        }
-    ],
     "states": {
         "up": {
             "default": "true",

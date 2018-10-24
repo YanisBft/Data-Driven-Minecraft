@@ -9,11 +9,6 @@
         "minecraft:golden_axe": 0.05
     },
     "blast_resistance": 2,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/chorus_flower"
-        }
-    ],
     "states": {
         "age": {
             "default": "0",

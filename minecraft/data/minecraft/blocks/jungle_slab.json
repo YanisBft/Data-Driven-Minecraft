@@ -13,25 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 15,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/jungle_slab",
-            "states": [
-                {
-                    "type": "bottom"
-                },
-                {
-                    "type": "top"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/jungle_slabs",
-            "states": {
-                "type": "double"
-            }
-        }
-    ],
     "states": {
         "type": {
             "default": "bottom",

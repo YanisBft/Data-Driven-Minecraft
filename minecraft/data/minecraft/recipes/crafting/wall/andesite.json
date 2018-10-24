@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:andesite"
+        },
+        "bottom": {
+            "item": "minecraft:andesite"
+        }
+    },
+    "result": {
+        "item": "minecraft:andesite_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

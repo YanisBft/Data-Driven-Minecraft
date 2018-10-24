@@ -1,0 +1,18 @@
+{
+    "banner": {
+        "tag": "minecraft:banner",
+        "conditions": {
+            "layers": {
+                "max": 15
+            }
+        }
+    },
+    "dye": {
+        "item": "minecraft:cyan_dye"
+    },
+    "group": "minecraft:banner_bottom_triangle_sawtooth",
+    "add_pattern": {
+        "color": "cyan",
+        "pattern": "bottom_triangle_sawtooth"
+    }
+}

@@ -1,16 +1,6 @@
 {
     "pick_block": "minecraft:dead_fire_coral_fan",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dead_fire_coral_fan",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        }
-    ],
     "can_contain_fluids": [
         "minecraft:water",
         "minecraft:empty"

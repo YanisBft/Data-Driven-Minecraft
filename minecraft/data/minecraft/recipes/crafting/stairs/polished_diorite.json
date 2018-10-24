@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:stairs",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:polished_diorite"
+        }
+    },
+    "result": {
+        "item": "minecraft:polished_diorite_stairs",
+        "count": 4
+    },
+    "group": "minecraft:stairs"
+}

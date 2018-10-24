@@ -1,6 +1,6 @@
 {
     "values": [
-        "minecraft:sign",
-        "minecraft:wall_sign"
+        "#minecraft:standing_signs",
+        "#minecraft:wall_signs"
     ]
 }

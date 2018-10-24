@@ -4,11 +4,6 @@
         "minecraft:default": 0.9
     },
     "blast_resistance": 3,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/sponge"
-        }
-    ],
     "functions": {
         
     }

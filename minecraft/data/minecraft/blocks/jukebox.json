@@ -13,14 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 30,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/jukebox"
-        },
-        {
-            "table": "minecraft:builtin/inventory"
-        }
-    ],
     "block_entity": "minecraft:jukebox",
     "states": {
         "has_record": {

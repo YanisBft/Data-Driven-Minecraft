@@ -13,11 +13,6 @@
         "flammability": 60
     },
     "blast_resistance": 5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/lime_banner"
-        }
-    ],
     "block_entity": "minecraft:banner",
     "states": {
         "facing": {

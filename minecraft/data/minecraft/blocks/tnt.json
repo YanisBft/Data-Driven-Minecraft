@@ -4,14 +4,6 @@
         "encouragement": 15,
         "flammability": 100
     },
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/tnt",
-            "states": {
-                "unstable": "false"
-            }
-        }
-    ],
     "states": {
         "unstable": {
             "default": "false",

@@ -1,28 +1,29 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:rotten_flesh",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
                             "function": "minecraft:looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:rotten_flesh"
                 }
             ]
         },
@@ -30,29 +31,36 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:gold_nugget",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
                             "function": "minecraft:looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:gold_nugget"
                 }
             ]
         },
         {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot"
+                }
+            ],
             "conditions": [
                 {
                     "condition": "minecraft:killed_by_player"
@@ -61,68 +69,6 @@
                     "condition": "minecraft:random_chance_with_looting",
                     "chance": 0.025,
                     "looting_multiplier": 0.01
-                }
-            ],
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:gold_ingot",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 5
-                        }
-                    ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                },
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 12
-                        }
-                    ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                },
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": true
-                    }
                 }
             ]
         }

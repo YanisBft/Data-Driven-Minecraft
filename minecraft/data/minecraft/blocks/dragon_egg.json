@@ -4,11 +4,6 @@
         "minecraft:default": 4.5
     },
     "blast_resistance": 45,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dragon_egg"
-        }
-    ],
     "functions": {
         "minecraft:block_below_changed": [
             {

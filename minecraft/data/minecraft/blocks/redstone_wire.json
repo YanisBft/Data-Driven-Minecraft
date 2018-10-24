@@ -1,11 +1,6 @@
 {
     "pick_block": "minecraft:redstone",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/redstone_wire"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

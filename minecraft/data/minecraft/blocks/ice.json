@@ -10,20 +10,6 @@
     },
     "blast_resistance": 2.5,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/ice",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "functions": {
         
     },

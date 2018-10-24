@@ -8,11 +8,6 @@
         "min": 7
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/pumpkin_seeds"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

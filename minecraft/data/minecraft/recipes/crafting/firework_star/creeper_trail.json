@@ -8,29 +8,29 @@
             "item": [
                 "minecraft:skeleton_skull",
                 "minecraft:wither_skeleton_skull",
-                "minecraft:zombie_skull",
-                "minecraft:player_skull",
-                "minecraft:creeper_skull",
-                "minecraft:ender_dragon_skull"
+                "minecraft:zombie_head",
+                "minecraft:player_head",
+                "minecraft:creeper_head",
+                "minecraft:dragon_head"
             ]
         },
         "item3": {
             "item": "minecraft:diamond"
         },
         "black": {
-            "item": "minecraft:ink_sack"
+            "item": "minecraft:black_dye"
         },
         "red": {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:red_dye"
         },
         "green": {
-            "item": "minecraft:cactus_green"
+            "item": "minecraft:green_dye"
         },
         "brown": {
-            "item": "minecraft:cocoa_beans"
+            "item": "minecraft:brown_dye"
         },
         "blue": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         },
         "purple": {
             "item": "minecraft:purple_dye"
@@ -51,7 +51,7 @@
             "item": "minecraft:lime_dye"
         },
         "yellow": {
-            "item": "minecraft:dandelion_yellow"
+            "item": "minecraft:yellow_dye"
         },
         "light_blue": {
             "item": "minecraft:light_blue_dye"
@@ -63,7 +63,7 @@
             "item": "minecraft:orange_dye"
         },
         "white": {
-            "item": "minecraft:bone_meal"
+            "item": "minecraft:white_dye"
         }
     },
     "optional_shapes_required": {

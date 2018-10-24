@@ -1,0 +1,18 @@
+{
+    "banner": {
+        "tag": "minecraft:banner",
+        "conditions": {
+            "layers": {
+                "max": 15
+            }
+        }
+    },
+    "dye": {
+        "item": "minecraft:green_dye"
+    },
+    "group": "minecraft:banner_bottom_left_corner",
+    "add_pattern": {
+        "color": "green",
+        "pattern": "bottom_left_corner"
+    }
+}

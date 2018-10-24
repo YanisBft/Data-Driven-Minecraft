@@ -8,42 +8,5 @@
         "minecraft:diamond_shovel": 0.05,
         "minecraft:golden_shovel": 0.05
     },
-    "blast_resistance": 1,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/snow_block_balls",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shovels"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        },
-        {
-            "table": "minecraft:blocks/snow_block",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shovels"
-                }
-            ],
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ]
+    "blast_resistance": 1
 }

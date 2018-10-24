@@ -1,24 +1,27 @@
 {
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:white_shulker_box",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "minecraft:copy_nbt",
-                            "copy": "Items",
-                            "paste": "BlockEntityTag.Items"
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
                         },
                         {
-                            "function": "minecraft:copy_nbt",
-                            "copy": "CustomName",
-                            "paste": "display.Name"
+                            "function": "minecraft:set_contents",
+                            "entries": [
+                                {
+                                    "type": "minecraft:dynamic",
+                                    "name": "minecraft:contents"
+                                }
+                            ]
                         }
-                    ]
+                    ],
+                    "name": "minecraft:white_shulker_box"
                 }
             ]
         }

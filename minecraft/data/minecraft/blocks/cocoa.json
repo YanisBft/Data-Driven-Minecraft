@@ -18,25 +18,6 @@
         "flammability": 100
     },
     "blast_resistance": 15,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cocoa_ungrown",
-            "states": [
-                {
-                    "age": "0"
-                },
-                {
-                    "age": "1"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/cocoa_grown",
-            "states": {
-                "age": "2"
-            }
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

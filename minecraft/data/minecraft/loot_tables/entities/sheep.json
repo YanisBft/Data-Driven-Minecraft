@@ -1,338 +1,18 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:black_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "black"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:red_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "red"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:green_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "green"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:brown_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "brown"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:blue_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "blue"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:purple_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "purple"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:cyan_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "cyan"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:light_gray_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "light_gray"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:gray_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "gray"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:pink_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "pink"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:lime_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "lime"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:yellow_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "yellow"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:light_blue_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "light_blue"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:magenta_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "magenta"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:orange_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "orange"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:white_wool",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false,
-                        "minecraft:color": "white"
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:mutton",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 1,
-                                "max": 2
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
@@ -340,77 +20,24 @@
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "properties": {
-                                        "minecraft:on_fire": true
-                                    }
+                                    "predicate": {
+                                        "flags": {
+                                            "is_on_fire": true
+                                        }
+                                    },
+                                    "entity": "this"
                                 }
                             ]
                         },
                         {
                             "function": "minecraft:looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0
                             }
                         }
-                    ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false
-                    }
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 3
-                        }
-                    ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                },
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "properties": {
-                        "minecraft:is_baby": false
-                    }
+                    ],
+                    "name": "minecraft:mutton"
                 }
             ]
         }

@@ -8,11 +8,6 @@
         "flammability": 20
     },
     "blast_resistance": 0.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/brown_carpet"
-        }
-    ],
     "properties": [
         {
             "properties": {

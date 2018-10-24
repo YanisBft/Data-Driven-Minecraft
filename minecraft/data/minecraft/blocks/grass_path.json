@@ -9,11 +9,6 @@
         "minecraft:golden_shovel": 0.1
     },
     "blast_resistance": 3.25,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dirt"
-        }
-    ],
     "functions": {
         "minecraft:block_above_changed": [
             {

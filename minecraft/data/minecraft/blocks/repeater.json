@@ -1,11 +1,6 @@
 {
     "pick_block": "minecraft:repeater",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/repeater"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

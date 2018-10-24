@@ -13,25 +13,6 @@
         "flammability": 20
     },
     "blast_resistance": 15,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/spruce_slab",
-            "states": [
-                {
-                    "type": "bottom"
-                },
-                {
-                    "type": "top"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/spruce_slabs",
-            "states": {
-                "type": "double"
-            }
-        }
-    ],
     "states": {
         "type": {
             "default": "bottom",

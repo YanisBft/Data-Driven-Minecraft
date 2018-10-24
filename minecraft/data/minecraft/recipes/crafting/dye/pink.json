@@ -2,10 +2,10 @@
     "parent": "minecraft:2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:red_dye"
         },
         "item2": {
-            "item": "minecraft:bone_meal"
+            "item": "minecraft:white_dye"
         }
     },
     "result": {

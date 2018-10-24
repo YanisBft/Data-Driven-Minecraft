@@ -1,81 +1,86 @@
 {
+    "type": "minecraft:chest",
     "pools": [
         {
             "rolls": {
-                "min": 2,
-                "max": 8
+                "min": 2.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:apple",
+                    "type": "minecraft:item",
                     "weight": 15,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:apple"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:coal",
+                    "type": "minecraft:item",
                     "weight": 15,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 1,
-                                "max": 4
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:coal"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:gold_nugget",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:gold_nugget"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:stone_axe",
-                    "weight": 2
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:stone_axe"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:rotten_flesh",
-                    "weight": 10
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:rotten_flesh"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:emerald",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:wheat",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 2,
-                                "max": 3
+                                "min": 2.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:wheat"
                 }
             ]
         },
@@ -83,9 +88,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:golden_apple",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple"
                 }
             ]
         }

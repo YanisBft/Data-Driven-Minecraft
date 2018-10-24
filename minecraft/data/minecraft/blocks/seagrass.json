@@ -9,16 +9,6 @@
             "z"
         ]
     },
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/seagrass",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shears/0"
-                }
-            ]
-        }
-    ],
     "can_contain_fluids": [
         "minecraft:water"
     ],

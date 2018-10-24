@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:red_sandstone"
+    },
+    "result": {
+        "item": "minecraft:smooth_red_sandstone",
+        "xp": 0.1
+    },
+    "group": "minecraft:smooth_block",
+    "cooking_time": 200
+}

@@ -9,35 +9,6 @@
         "minecraft:golden_pickaxe": 0.25
     },
     "blast_resistance": 30,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/nether_brick_slab",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "states": [
-                {
-                    "type": "bottom"
-                },
-                {
-                    "type": "top"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/nether_brick_slabs",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ],
-            "states": {
-                "type": "double"
-            }
-        }
-    ],
     "states": {
         "type": {
             "default": "bottom",

@@ -9,16 +9,6 @@
         "minecraft:golden_pickaxe": 0.4
     },
     "blast_resistance": 15,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/hopper",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ],
     "block_entity": "minecraft:hopper",
     "states": {
         "facing": {

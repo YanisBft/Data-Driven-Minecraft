@@ -1,0 +1,501 @@
+{
+    "block_item": true,
+    "functions": [
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "north",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": -135
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "east",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -135,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "south",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -45,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "west",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "north",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": -135
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "east",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -135,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "south",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -45,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block_face",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "west",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block_face",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "north",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": -135
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "east",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -135,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "south",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -45,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "lower",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "west",
+                    "half": "bottom"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "north",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": -135
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "east",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -135,
+                        "max": -45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "south",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": -45,
+                        "max": 45
+                    }
+                }
+            }
+        },
+        {
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "block_half": "upper",
+            "sound": "place",
+            "block": {
+                "name": "minecraft:mossy_stone_brick_stairs",
+                "properties": {
+                    "facing": "west",
+                    "half": "top"
+                }
+            },
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "block": [
+                            {
+                                "tag": "minecraft:replaceables"
+                            }
+                        ]
+                    }
+                ],
+                "facing": {
+                    "y": {
+                        "min": 135,
+                        "max": 45
+                    }
+                }
+            }
+        }
+    ]
+}

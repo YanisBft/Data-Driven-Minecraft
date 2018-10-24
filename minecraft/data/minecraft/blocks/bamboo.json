@@ -1,0 +1,140 @@
+{
+    "pick_block": "minecraft:bamboo",
+    "states": {
+        "age": {
+            "default": "0",
+            "values": [
+                "0",
+                "1"
+            ]
+        },
+        "stage": {
+            "default": "0",
+            "values": [
+                "0",
+                "1"
+            ],
+            "hidden": true
+        },
+        "leaves": {
+            "default": "none",
+            "values": [
+                "none",
+                "small",
+                "large"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": [
+                    {
+                        "properties": {
+                            "age": "0"
+                        }
+                    },
+                    {
+                        "y": 1,
+                        "name": "minecraft:bamboo"
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": [
+                        {
+                            "name": "minecraft:bamboo"
+                        },
+                        {
+                            "tag": "minecraft:sand"
+                        },
+                        {
+                            "tag": "minecraft:soil"
+                        }
+                    ]
+                },
+                "hit_box": [
+                    {
+                        "from": [ 2, 0, 2 ],
+                        "to": [ 14, 16, 14 ]
+                    }
+                ],
+                "collision_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

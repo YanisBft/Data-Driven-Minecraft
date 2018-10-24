@@ -13,10 +13,5 @@
         "minecraft:diamond_sword": 1,
         "minecraft:golden_sword": 1
     },
-    "blast_resistance": 5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/pumpkin"
-        }
-    ]
+    "blast_resistance": 5
 }

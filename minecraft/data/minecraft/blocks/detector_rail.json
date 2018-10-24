@@ -14,11 +14,6 @@
     },
     "blast_resistance": 3.5,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/detector_rail"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

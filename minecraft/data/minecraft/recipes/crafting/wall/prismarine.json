@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:prismarine"
+        },
+        "bottom": {
+            "item": "minecraft:prismarine"
+        }
+    },
+    "result": {
+        "item": "minecraft:prismarine_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

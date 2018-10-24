@@ -9,14 +9,4 @@
         "minecraft:golden_pickaxe": 0.25
     },
     "blast_resistance": 9,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/red_concrete",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ]
 }

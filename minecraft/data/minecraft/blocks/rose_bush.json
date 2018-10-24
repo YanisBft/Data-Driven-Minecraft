@@ -13,14 +13,6 @@
         ]
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/rose_bush",
-            "states": {
-                "half": "upper"
-            }
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

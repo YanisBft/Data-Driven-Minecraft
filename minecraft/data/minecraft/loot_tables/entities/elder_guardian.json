@@ -1,28 +1,29 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:prismarine_shard",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 0,
-                                "max": 2
+                                "min": 0.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
                             "function": "minecraft:looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:prismarine_shard"
                 }
             ]
         },
@@ -30,15 +31,14 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:cod",
+                    "type": "minecraft:item",
                     "weight": 3,
                     "functions": [
                         {
                             "function": "minecraft:looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0
                             }
                         },
                         {
@@ -46,32 +46,34 @@
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "properties": {
-                                        "minecraft:on_fire": true
-                                    }
+                                    "predicate": {
+                                        "flags": {
+                                            "is_on_fire": true
+                                        }
+                                    },
+                                    "entity": "this"
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "name": "minecraft:cod"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:prismarine_crystals",
+                    "type": "minecraft:item",
                     "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:looting_enchant",
                             "count": {
-                                "min": 0,
-                                "max": 1
+                                "min": 0.0,
+                                "max": 1.0
                             }
                         }
-                    ]
+                    ],
+                    "name": "minecraft:prismarine_crystals"
                 },
                 {
-                    "type": "empty",
-                    "weight": 1
+                    "type": "minecraft:empty"
                 }
             ]
         },
@@ -79,9 +81,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:wet_sponge",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:wet_sponge"
                 }
             ],
             "conditions": [
@@ -91,6 +92,13 @@
             ]
         },
         {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:gameplay/fishing/fish"
+                }
+            ],
             "conditions": [
                 {
                     "condition": "minecraft:killed_by_player"
@@ -99,34 +107,6 @@
                     "condition": "minecraft:random_chance_with_looting",
                     "chance": 0.025,
                     "looting_multiplier": 0.01
-                }
-            ],
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:gameplay/fishing/fish",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 10
-                        }
-                    ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
                 }
             ]
         }

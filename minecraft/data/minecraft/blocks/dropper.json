@@ -9,19 +9,6 @@
         "minecraft:golden_pickaxe": 0.45
     },
     "blast_resistance": 3.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dropper",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        },
-        {
-            "table": "minecraft:builtin/inventory"
-        }
-    ],
     "block_entity": "minecraft:dropper",
     "states": {
         "facing": {

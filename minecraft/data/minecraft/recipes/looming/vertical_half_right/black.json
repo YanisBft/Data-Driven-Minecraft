@@ -1,0 +1,19 @@
+{
+    "banner": {
+        "tag": "minecraft:banner",
+        "conditions": {
+            "layers": {
+                "max": 15
+            }
+        }
+    },
+    "dye": {
+        "item": "minecraft:black_dye"
+        }
+    },
+    "group": "minecraft:banner_vertical_half_right",
+    "add_pattern": {
+        "color": "black",
+        "pattern": "vertical_half_right"
+    }
+}

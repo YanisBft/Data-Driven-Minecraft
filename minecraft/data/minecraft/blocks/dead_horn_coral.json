@@ -1,16 +1,6 @@
 {
     "pick_block": "minecraft:dead_horn_coral",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dead_horn_coral",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        }
-    ],
     "can_contain_fluids": [
         "minecraft:water",
         "minecraft:empty"

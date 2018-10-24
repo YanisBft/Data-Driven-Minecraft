@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:brick"
+        },
+        "bottom": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "item": "minecraft:brick_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

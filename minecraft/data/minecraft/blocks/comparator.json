@@ -1,11 +1,6 @@
 {
     "pick_block": "minecraft:comparator",
     "transparent": true,
-    "loot_table": [
-        {
-            "table": "minecraft:blocks/comparator"
-        }
-    ],
     "block_entity": "minecraft:comparator",
     "can_contain_fluids": [
         "#minecraft:liquid",

@@ -10,11 +10,6 @@
     },
     "blast_resistance": 30,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/light_gray_shulker_box"
-        }
-    ],
     "block_entity": "minecraft:shulker_box",
     "states": {
         "facing": {

@@ -8,7 +8,7 @@
             "item": "minecraft:gravel"
         },
         "dye": {
-            "item": "minecraft:dandelion_yellow"
+            "item": "minecraft:yellow_dye"
         }
     },
     "result": {

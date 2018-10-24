@@ -1,0 +1,19 @@
+{
+    "banner": {
+        "tag": "minecraft:banner",
+        "conditions": {
+            "layers": {
+                "max": 15
+            }
+        }
+    },
+    "dye": {
+        "item": "minecraft:brown_dye"
+        }
+    },
+    "group": "minecraft:banner_middle_rhombus",
+    "add_pattern": {
+        "color": "brown",
+        "pattern": "middle_rhombus"
+    }
+}

@@ -12,28 +12,5 @@
         "encouragement": 30,
         "flammability": 20
     },
-    "blast_resistance": 7.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/bookshelf_books",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/bookshelf",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ]
+    "blast_resistance": 7.5
 }

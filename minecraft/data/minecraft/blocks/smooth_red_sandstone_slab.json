@@ -1,0 +1,128 @@
+{
+    "pick_block": "minecraft:smooth_red_sandstone_slab",
+    "hardness": {
+        "minecraft:default": 10,
+        "minecraft:wooden_pickaxe": 1.5,
+        "minecraft:stone_pickaxe": 0.75,
+        "minecraft:iron_pickaxe": 0.5,
+        "minecraft:diamond_pickaxe": 0.4,
+        "minecraft:golden_pickaxe": 0.25
+    },
+    "blast_resistance": 30,
+    "states": {
+        "type": {
+            "default": "bottom",
+            "values": [
+                "bottom",
+                "top",
+                "double"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_block_changed": [
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
+                    "name": "minecraft:empty"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            }
+                        ],
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "states": {
+                "type": "bottom"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "type": "top"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 8, 0 ],
+                        "to": [ 16, 16, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

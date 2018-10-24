@@ -3,10 +3,5 @@
     "hardness": {
         "minecraft:default": 1.5
     },
-    "blast_resistance": 5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/nether_wart_block"
-        }
-    ]
+    "blast_resistance": 5
 }

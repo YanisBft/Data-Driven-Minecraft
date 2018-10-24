@@ -35,6 +35,8 @@ List of planned changes:
 + add fluids
  * make flowing water and lava only spread to -x if there's not a hole in the +x direction, same with +x -x, -z +z and +z -z-fightning
 + re-add block files:
+ + add multi-parenting
+  ! if 2 parents overwrite the same property, to top parent takes priority
  # to finish up:
   + add spread_block function to mushrooms
   + add piston behaviour

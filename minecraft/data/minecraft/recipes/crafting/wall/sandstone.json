@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:sandstone"
+        },
+        "bottom": {
+            "item": "minecraft:sandstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:sandstone_wall",
+        "count": 6
+    },
+    "group": "minecraft:wall"
+}

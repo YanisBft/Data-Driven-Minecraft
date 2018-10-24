@@ -9,11 +9,6 @@
         "minecraft:golden_shovel": 0.1
     },
     "blast_resistance": 3,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dirt"
-        }
-    ],
     "states": {
         "moisture": {
             "default": "0",

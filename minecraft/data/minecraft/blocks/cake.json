@@ -4,14 +4,6 @@
         "minecraft:default": 0.75
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cake",
-            "states": {
-                "bites": 0
-            }
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

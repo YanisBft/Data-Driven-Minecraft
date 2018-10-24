@@ -1,0 +1,21 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:alter_entity",
+            "position": "looked_at_block_face",
+            "spawn_entity": {
+                "name": "minecraft:illager_beast",
+                "copy_nbt": [
+                    {
+                        "copy": "EntityTag",
+                        "paste": ""
+                    },
+                    {
+                        "copy": "display.Name",
+                        "paste": "CustomName"
+                    }
+                ]
+            }
+        }
+    ]
+}

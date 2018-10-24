@@ -1,11 +1,6 @@
 {
     "pick_block": "minecraft:kelp",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/kelp"
-        }
-    ],
     "states": {
         "age": {
             "default": "0",
@@ -653,11 +648,6 @@
                     }
                 },
                 "need_support": {
-                    "up": [
-                        {
-                            "name": "minecraft:kelp"
-                        }
-                    ],
                     "down": [
                         {},
                         {

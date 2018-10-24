@@ -13,16 +13,6 @@
         "flammability": 5
     },
     "blast_resistance": 1,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/mushroom_stem",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ]
-        }
-    ],
     "states": {
         "up": {
             "default": "true",

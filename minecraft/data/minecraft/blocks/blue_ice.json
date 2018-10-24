@@ -4,20 +4,6 @@
         "minecraft:default": 4.2
     },
     "blast_resistance": 14,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/blue_ice",
-            "enchantment": [
-                {
-                    "name": "minecraft:silk_touch"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "functions": {
         
     }

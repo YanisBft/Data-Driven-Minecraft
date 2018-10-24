@@ -1,11 +1,6 @@
 {
     "pick_block": "minecraft:kelp",
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/kelp"
-        }
-    ],
     "can_contain_fluids": [
         "minecraft:water"
     ],

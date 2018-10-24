@@ -5,11 +5,6 @@
     },
     "blast_resistance": 15,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/beacon"
-        }
-    ],
     "block_entity": "minecraft:beacon",
     "functions": {
         "minecraft:used": [

@@ -9,11 +9,6 @@
     },
     "blast_resistance": 1,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/brown_mushroom"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

@@ -4,11 +4,6 @@
         "minecraft:default": 0.75
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/sticky_piston"
-        }
-    ],
     "states": {
         "facing": {
             "default": "north",

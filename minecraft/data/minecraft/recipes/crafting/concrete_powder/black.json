@@ -8,7 +8,7 @@
             "item": "minecraft:gravel"
         },
         "dye": {
-            "item": "minecraft:ink_sack"
+            "item": "minecraft:black_dye"
         }
     },
     "result": {

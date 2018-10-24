@@ -15,14 +15,6 @@
     "transparent": true,
     "piston_push": "break",
     "sticky_pull": false,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/lilac",
-            "states": {
-                "half": "upper"
-            }
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

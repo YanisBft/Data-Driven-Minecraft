@@ -9,11 +9,6 @@
         "minecraft:golden_shovel": 0.1
     },
     "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/pink_concrete_powder"
-        }
-    ],
     "functions": {
         "minecraft:tick": [
             {

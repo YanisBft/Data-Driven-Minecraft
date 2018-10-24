@@ -1,0 +1,28 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "stick",    "iron",    "stick"    ],
+                [    "string",    "hook",    "string"    ],
+                [    "",    "stick"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "string": {
+            "item": "minecraft:string"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        },
+        "iron": {
+            "item": "minecraft:iron_ingot"
+        },
+        "hook": {
+            "item": "minecraft:tripwire_hook"
+        }
+    },
+    "result": {
+        "item": "minecraft:crossbow"
+    }
+}

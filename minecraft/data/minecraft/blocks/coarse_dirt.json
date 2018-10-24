@@ -8,10 +8,5 @@
         "minecraft:diamond_shovel": 0.1,
         "minecraft:golden_shovel": 0.1
     },
-    "blast_resistance": 2.5,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/coarse_dirt"
-        }
-    ]
+    "blast_resistance": 2.5
 }

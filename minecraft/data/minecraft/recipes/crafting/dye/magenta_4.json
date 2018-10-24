@@ -23,13 +23,13 @@
     ],
     "ingredients": {
         "blue": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         },
         "white": {
-            "item": "minecraft:bone_meal"
+            "item": "minecraft:white_dye"
         },
         "red": {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:red_dye"
         }
     },
     "result": {

@@ -9,14 +9,4 @@
         "minecraft:golden_pickaxe": 0.1
     },
     "blast_resistance": 4,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/end_stone_bricks",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/pickaxes/0"
-                }
-            ]
-        }
-    ]
 }

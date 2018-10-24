@@ -13,11 +13,6 @@
         "flammability": 5
     },
     "blast_resistance": 10,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/stripped_acacia_log"
-        }
-    ],
     "states": {
         "axis": {
             "default": "y",

@@ -5,11 +5,6 @@
         "flammability": 50
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/potted_blue_orchid"
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

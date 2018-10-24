@@ -5,29 +5,6 @@
         "flammability": 100
     },
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/dead_bush_stick",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shears/0",
-                    "inverse": true
-                }
-            ]
-        },
-        {
-            "table": "minecraft:blocks/dead_bush",
-            "tool": [
-                {
-                    "tag": "minecraft:tool_tiers/shears/0"
-                }
-            ],
-            "breaker": {
-                "block": false,
-                "entity": false
-            }
-        }
-    ],
     "can_contain_fluids": [
         "#minecraft:liquid",
         "minecraft:empty"

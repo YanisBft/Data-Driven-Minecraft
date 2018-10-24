@@ -5,11 +5,6 @@
     },
     "blast_resistance": 2,
     "transparent": true,
-    "loot_tables": [
-        {
-            "table": "minecraft:blocks/cactus"
-        }
-    ],
     "states": {
         "age": {
             "default": "0",
