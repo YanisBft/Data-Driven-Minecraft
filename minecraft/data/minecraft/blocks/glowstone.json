@@ -3,7 +3,7 @@
     "hardness": {
         "minecraft:default": 0.45
     },
-    "blast_resistance": 1.5
+    "blast_resistance": 1.5,
     "properties": [
         {
             "properties": {
