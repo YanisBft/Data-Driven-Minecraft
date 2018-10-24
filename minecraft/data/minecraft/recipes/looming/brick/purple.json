@@ -11,15 +11,7 @@
         "item": "minecraft:purple_dye"
     },
     "group": "minecraft:banner_brick",
-    "functions": [
-        {
-            "function": "minecraft:copy_nbt",
-            "ingredient": "item1"
-        },
-        {
-            "function": "minecraft:add_component",
-        "banner": {
-                "layer": {
+    "add_pattern": {
         "color": "purple",
         "pattern": "brick"
     }

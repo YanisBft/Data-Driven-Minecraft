@@ -11,15 +11,7 @@
         "item": "minecraft:magenta_dye"
     },
     "group": "minecraft:banner_curly_border",
-    "functions": [
-        {
-            "function": "minecraft:copy_nbt",
-            "ingredient": "item1"
-        },
-        {
-            "function": "minecraft:add_component",
-        "banner": {
-                "layer": {
+    "add_pattern": {
         "color": "magenta",
         "pattern": "curly_border"
     }
