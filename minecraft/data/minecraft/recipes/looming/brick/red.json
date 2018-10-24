@@ -7,7 +7,7 @@
             }
         }
     },
-    "dye": 
+    "dye": {
         "item": "minecraft:red_dye"
     },
     "group": "minecraft:banner_brick",

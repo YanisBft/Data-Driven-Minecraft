@@ -7,7 +7,7 @@
             }
         }
     },
-    "dye": 
+    "dye": {
         "item": "minecraft:cacoa_beans"
     },
     "group": "minecraft:banner_brick",
