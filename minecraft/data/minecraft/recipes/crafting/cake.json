@@ -25,7 +25,9 @@
     "functions": [
         {
             "function": "minecraft:return_items",
-            "item": "minecraft:bucket",
+            "item": {
+                "item": "minecraft:bucket",
+            },
             "ingredient": "top"
         }
     ],

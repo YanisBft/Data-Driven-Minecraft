@@ -35,7 +35,7 @@
         "minecraft:used": [
             {
                 "function": "minecraft:open_gui",
-                "gui": "minecraft:dispenser"
+                "gui": "minecraft:dropper"
             }
         ],
         "minecraft:this_received_power_changed": [

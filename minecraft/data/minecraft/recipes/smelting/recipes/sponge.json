@@ -10,8 +10,12 @@
     "functions": [
         {
             "function": "result_items",
-            "replace": "minecraft:bucket",
-            "item": "minecraft:water_bucket"
+            "replace": {
+                "item": "minecraft:bucket"
+            },
+            "item": {
+                "item": "minecraft:water_bucket"
+            }
         }
     ]
 }

@@ -63,97 +63,81 @@
     "functions": [
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "black",
             "color": 1644825
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "red",
             "color": 10040115
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "green",
             "color": 6717235
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "brown",
             "color": 6704179
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "blue",
             "color": 3361970
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "purple",
             "color": 8339378
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "cyan",
             "color": 5013401
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "light_gray",
             "color": 10066329
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "gray",
             "color": 5000268
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "pink",
             "color": 15892389
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "lime",
             "color": 8375321
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "yellow",
             "color": 15066419
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "light_blue",
             "color": 6724056
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "magenta",
             "color": 11685080
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "orange",
             "color": 14188339
         },
         {
             "function": "minecraft:color",
-            "coloring": "minecraft:armor",
             "ingredient": "white",
             "color": 16777215
         },

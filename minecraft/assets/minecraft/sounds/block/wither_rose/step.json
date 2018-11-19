@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:block/catagory/grass/step"
+        }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+}

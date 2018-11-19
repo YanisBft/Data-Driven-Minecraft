@@ -1,0 +1,9 @@
+{
+    "sounds": [
+        {
+            "type": "event",
+            "name": "minecraft:block/furnace/fire_crackle"
+        }
+    ],
+    "subtitle": "subtitles.block.furnace.fire_crackle"
+}

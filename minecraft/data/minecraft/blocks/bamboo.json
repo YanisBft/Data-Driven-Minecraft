@@ -1,5 +1,12 @@
 {
     "pick_block": "minecraft:bamboo",
+    "hardness": {
+        "minecraft:default": 3,
+        "#minecraft:tools/swords/0": 0.33,
+        "#minecraft:tools/axe/0": 0.375,
+        "#minecraft:tools/pickaxe/0": 0.42,
+        "#minecraft:tools/shovel/0": 0.42
+    },
     "states": {
         "age": {
             "default": "0",

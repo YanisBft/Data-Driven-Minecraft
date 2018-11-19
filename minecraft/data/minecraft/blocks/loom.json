@@ -12,6 +12,17 @@
         "encouragement": 5,
         "flammability": 20
     },
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
     "blast_resistance": 12.5,
     "functions": {
         "minecraft:used": [

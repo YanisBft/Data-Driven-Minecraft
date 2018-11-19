@@ -1,0 +1,34 @@
+{
+    "pick_block": "minecraft:barrel",
+    "hardness": {
+        "minecraft:default": 9,
+        "minecraft:wooden_pickaxe": 4.5,
+        "minecraft:stone_pickaxe": 2.25,
+        "minecraft:iron_pickaxe": 1.5,
+        "minecraft:diamond_pickaxe": 1.15,
+        "minecraft:golden_pickaxe": 0.75
+    },
+    "blast_resistance": 30,
+    "block_entity": "minecraft:barrel",
+    "states": {
+        "facing": {
+            "default": "up",
+            "values": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:barrel",
+            }
+        ]
+    }
+}

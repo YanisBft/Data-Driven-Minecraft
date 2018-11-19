@@ -11,6 +11,8 @@ list of yet to be created JSON files:
 List of planned changes:
 * update credits.json
 * change item files
+ + add 1.14 items
+  * correct crossbow (last updated 18w44a)
  + to do functions:
   + grow plants for bone meal
   + apply speed for carrot on a stick
@@ -36,6 +38,8 @@ List of planned changes:
 + add fluids
  * make flowing water and lava only spread to -x if there's not a hole in the +x direction, same with +x -x, -z +z and +z -z-fightning
 + re-add block files:
+ + add 1.14 blocks
+  * correct hitboxes and minig times (last updated 18w44a)
  + add multi-parenting
   ! if 2 parents overwrite the same property, to top parent takes priority
  # to finish up:

@@ -1,0 +1,91 @@
+{
+    "pick_block": "minecraft:lectern",
+    "hardness": {
+        "minecraft:default": 3.75,
+        "minecraft:wooden_axe": 1.9,
+        "minecraft:stone_axe": 0.95,
+        "minecraft:iron_axe": 0.65,
+        "minecraft:diamond_axe": 0.5,
+        "minecraft:golden_axe": 0.35
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "blast_resistance": 12.5,
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:lectern"
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    },
+                    {
+                        "from": [ 4, 2, 4 ],
+                        "to": [ 12, 11, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "north"
+            },
+            "properties": {
+                "hit_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "south"
+            },
+            "properties": {
+                "hit_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "east"
+            },
+            "properties": {
+                "hit_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "facing": "west"
+            },
+            "properties": {
+                "hit_box": [
+                    
+                ]
+            }
+        }
+    ]
+}

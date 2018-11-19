@@ -17,7 +17,7 @@
         "minecraft:used": [
             {
                 "function": "minecraft:open_gui",
-                "gui": "minecraft:crafting"
+                "gui": "minecraft:crafting_table"
             }
         ]
     }

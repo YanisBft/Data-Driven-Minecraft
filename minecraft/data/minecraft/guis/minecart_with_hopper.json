@@ -1,0 +1,69 @@
+{
+    "components": [
+        {
+            "type": "name",
+            "position": [ 8, 6 ]
+        },
+        {
+            "type": "background",
+            "uv": [ 0, 0, 11, 8.3125 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.0",
+            "position": [ 43, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.1",
+            "position": [ 61, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.2",
+            "position": [ 79, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.3",
+            "position": [ 97, 17 ]
+        },
+        {
+            "type": "slot",
+            "name": "container.4",
+            "position": [ 115, 17 ]
+        },
+        {
+            "type": "gui",
+            "name": "minecraft:inventory",
+            "position": [ 0, 31 ]
+        }
+    ],
+    "slots": {
+        "container.0": {
+            "save": "block",
+            "tag": "Items",
+            "number": 0
+        },
+        "container.1": {
+            "save": "block",
+            "tag": "Items",
+            "number": 1
+        },
+        "container.2": {
+            "save": "block",
+            "tag": "Items",
+            "number": 2
+        },
+        "container.3": {
+            "save": "block",
+            "tag": "Items",
+            "number": 3
+        },
+        "container.4": {
+            "save": "block",
+            "tag": "Items",
+            "number": 4
+        }
+    }
+}

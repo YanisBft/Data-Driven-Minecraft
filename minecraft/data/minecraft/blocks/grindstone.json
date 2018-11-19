@@ -1,0 +1,405 @@
+{
+    "pick_block": "minecraft:grindstone",
+    "hardness": {
+        "minecraft:default": 7.5,
+        "minecraft:wooden_pickaxe": 1.15,
+        "minecraft:stone_pickaxe": 0.6,
+        "minecraft:iron_pickaxe": 0.4,
+        "minecraft:diamond_pickaxe": 0.3,
+        "minecraft:golden_pickaxe": 0.2
+    },
+    "blast_resistance": 6000,
+    "states": {
+        "face": {
+            "default": "wall",
+            "values": [
+                "ceiling",
+                "wall",
+                "floor"
+            ]
+        },
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "states": {
+                "face": "wall",
+                "facing": "north"
+            },
+            "properties": {
+                "faces": {
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "south": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 3, 10 ],
+                        "to": [ 11, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "south"
+            },
+            "properties": {
+                "faces": {
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "north": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 3, 0 ],
+                        "to": [ 11, 13, 6 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "east"
+            },
+            "properties": {
+                "faces": {
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "west": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 3, 5 ],
+                        "to": [ 6, 13, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "wall",
+                "facing": "west"
+            },
+            "properties": {
+                "faces": {
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "east": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 10, 3, 5 ],
+                        "to": [ 16, 13, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "north"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "south"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "east"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "floor",
+                "facing": "west"
+            },
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 0, 4 ],
+                        "to": [ 12, 9, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "north"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "south"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "east"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "ceiling",
+                "facing": "west"
+            },
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "up": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 4, 7, 4 ],
+                        "to": [ 12, 16, 12 ]
+                    }
+                ]
+            }
+        }
+    ]
+}
