@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:stone_sword"
+    },
+    "input_2": {
+        "item": "minecraft:stone_sword"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:flint_and_steel"
+    },
+    "input_2": {
+        "item": "minecraft:flint_and_steel"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}

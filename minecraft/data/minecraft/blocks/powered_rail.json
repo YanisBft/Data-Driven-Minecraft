@@ -42,13 +42,7 @@
                 "6",
                 "7",
                 "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "13",
-                "14",
-                "15"
+                "9"
             ]
         }
     },
@@ -65,6 +59,1877 @@
                             {
                                 "fluid": {
                                     "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:this_received_power_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "8"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "redstone"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "8"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 8
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 7
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 6
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "5"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 5
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "4"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 4
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "3"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 3
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 2
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": 1
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "power": "0"
+                    }
+                },
+                "conditions": [
+                    {
+                        "received_power": [
+                            {
+                                "type": "powered_rail",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            },
+                            {
+                                "type": "redstone",
+                                "amount": {
+                                    "inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 8,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "9",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 7,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "8",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 6,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "7",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 5,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "6",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 4,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "5",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 3,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "4",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 2,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "3",
+                                        "shape": "ascending_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1,
+                        "z": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2",
+                                        "shape": "north_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2",
+                                        "shape": "east_west"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": -1
+                    },
+                    {
+                        "z": 1
+                    },
+                    {
+                        "y": -1,
+                        "z": 1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2",
+                                        "shape": "ascending_north"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "y": 1,
+                        "z": 1
+                    },
+                    {
+                        "z": -1
+                    },
+                    {
+                        "y": -1
+                        "z": -1,
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2",
+                                        "shape": "ascending_south"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": 1,
+                        "y": 1
+                    },
+                    {
+                        "x": -1
+                    },
+                    {
+                        "x": -1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2",
+                                        "shape": "ascending_east"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "powered_rail",
+                "strength": 1,
+                "positions": [
+                    {
+                        "x": -1,
+                        "y": 1
+                    },
+                    {
+                        "x": 1
+                    },
+                    {
+                        "x": 1,
+                        "y": -1
+                    }
+                ],
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "power": "2",
+                                        "shape": "ascending_west"
+                                    }
                                 }
                             }
                         ]

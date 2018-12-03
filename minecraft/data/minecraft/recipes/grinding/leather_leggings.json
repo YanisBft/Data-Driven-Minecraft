@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:leather_leggings"
+    },
+    "input_2": {
+        "item": "minecraft:leather_leggings"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}

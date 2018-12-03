@@ -28,6 +28,14 @@
             ]
         }
     },
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:open_gui",
+                "gui": "minecraft:grindstone"
+            }
+        ]
+    },
     "properties": [
         {
             "states": {
