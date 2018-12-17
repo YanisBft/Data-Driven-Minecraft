@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:porkchop"
+    },
+    "result": {
+        "item": "minecraft:cooked_porkchop",
+        "xp": 0.35
+    },
+    "group": "minecraft:cook_food",
+    "cooking_time": 100
+}

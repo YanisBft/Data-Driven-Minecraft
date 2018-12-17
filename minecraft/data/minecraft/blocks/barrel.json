@@ -27,7 +27,7 @@
         "minecraft:used": [
             {
                 "function": "minecraft:open_gui",
-                "gui": "minecraft:barrel",
+                "gui": "minecraft:barrel"
             }
         ]
     }

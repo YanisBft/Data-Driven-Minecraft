@@ -1,0 +1,14 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:consume",
+            "sound": "eat",
+            "time": 600,
+            "effects": {
+                "food": 2,
+                "saturation": 1.2
+            }
+        }
+    ],
+    "place_block": "minecraft:sweet_berry_bush"
+}

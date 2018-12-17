@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:lapis_ore"
+    },
+    "result": {
+        "item": "minecraft:lapis_lazuli",
+        "xp": 0.2
+    },
+    "group": "minecraft:melt_ore",
+    "cooking_time": 100
+}

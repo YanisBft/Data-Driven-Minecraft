@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:gold_ore"
+    },
+    "result": {
+        "item": "minecraft:gold_ingot",
+        "xp": 1
+    },
+    "group": "minecraft:melt_ore",
+    "cooking_time": 100
+}

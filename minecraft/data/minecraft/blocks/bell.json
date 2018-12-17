@@ -12,10 +12,11 @@
     "block_entity": "minecraft:bell",
     "states": {
         "face": {
-            "default": "wall",
+            "default": "floor",
             "values": [
                 "ceiling",
-                "wall",
+                "single_wall",
+                "double_wall",
                 "floor"
             ]
         },
@@ -62,7 +63,7 @@
         },
         {
             "states": {
-                "face": "wall",
+                "face": "single_wall",
                 "facing": "north"
             },
             "properties": {
@@ -79,7 +80,7 @@
         },
         {
             "states": {
-                "face": "wall",
+                "face": "single_wall",
                 "facing": "south"
             },
             "properties": {
@@ -96,7 +97,7 @@
         },
         {
             "states": {
-                "face": "wall",
+                "face": "single_wall",
                 "facing": "east"
             },
             "properties": {
@@ -113,7 +114,7 @@
         },
         {
             "states": {
-                "face": "wall",
+                "face": "single_wall",
                 "facing": "west"
             },
             "properties": {
@@ -123,6 +124,74 @@
                 "hit_box": [
                     {
                         "from": [ 10, 3, 5 ],
+                        "to": [ 16, 13, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "double_wall",
+                "facing": "north"
+            },
+            "properties": {
+                "need_support": {
+                    "south": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 3, 0 ],
+                        "to": [ 11, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "double_wall",
+                "facing": "south"
+            },
+            "properties": {
+                "need_support": {
+                    "north": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 5, 3, 0 ],
+                        "to": [ 11, 13, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "double_wall",
+                "facing": "east"
+            },
+            "properties": {
+                "need_support": {
+                    "west": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 3, 5 ],
+                        "to": [ 16, 13, 11 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "face": "double_wall",
+                "facing": "west"
+            },
+            "properties": {
+                "need_support": {
+                    "east": {}
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 3, 5 ],
                         "to": [ 16, 13, 11 ]
                     }
                 ]

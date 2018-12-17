@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "side",    "end",    "side"    ],
+                [    "side",    "",    "side"    ],
+                [    "side",    "end",    "side"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "end": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "side": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:barrel"
+    }
+}
