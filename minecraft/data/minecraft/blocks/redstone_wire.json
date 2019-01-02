@@ -8872,7 +8872,7 @@
                 ]
             }
         ],
-        "this_received_power_changed": [
+        "minecraft:this_received_power_changed": [
             {
                 "function": "minecraft:alter_block",
                 "block": {
@@ -9714,6 +9714,1436 @@
                                 },
                                 "strength": {
                                     "min": 4
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "north": "side"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections"
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "down": false,
+                                "south": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "north": "up"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": false,
+                                "north": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "north": "none"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "north": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "south": "side"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections"
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "down": false,
+                                "south": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "south": "up"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": false,
+                                "south": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "south": "none"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "south": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "south": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "east": "side"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections"
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "down": false,
+                                "east": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "east": "up"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": false,
+                                "east": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "east": "none"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "east": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "east": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "west": "side"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections"
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "down": false,
+                                "west": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "west": "up"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": false,
+                                "west": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "none"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "west": "none"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "west": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:redstone_connections",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:repeater",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "name": "minecraft:observer",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "y": -1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "side"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire",
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "west": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "up"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "y": 1,
+                                "down": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "y": 1,
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "name": "minecraft:redstone_wire"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "up"
+                                    }
                                 }
                             }
                         ]

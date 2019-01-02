@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:diamond_axe"
+    },
+    "input_2": {
+        "item": "minecraft:diamond_axe"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}

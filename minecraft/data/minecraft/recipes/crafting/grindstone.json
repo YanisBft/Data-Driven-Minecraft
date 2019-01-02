@@ -1,0 +1,24 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "edge",    "stone",    "edge"    ],
+                [    "leg",    "",    "leg"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "edge": {
+            "tag": "minecraft:planks"
+        },
+        "leg": {
+            "item": "minecraft:stick"
+        },
+        "stone": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:grindstone"
+    }
+}

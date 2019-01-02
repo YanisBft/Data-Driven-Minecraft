@@ -1,0 +1,12 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:return_items",
+            "item": "minecraft:bucket"
+        }
+    ],
+    "time": 20000,
+    "item": {
+        "item": "minecraft:lava_bucket"
+    }
+}

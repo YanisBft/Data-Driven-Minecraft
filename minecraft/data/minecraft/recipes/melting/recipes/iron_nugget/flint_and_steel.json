@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:flint_and_steel"
+    },
+    "result": {
+        "item": "minecraft:iron_nugget",
+        "xp": 0.2
+    },
+    "group": "minecraft:iron_nugget",
+    "cooking_time": 100
+}

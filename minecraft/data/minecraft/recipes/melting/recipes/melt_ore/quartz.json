@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:nether_quartz_ore"
+    },
+    "result": {
+        "item": "minecraft:quartz",
+        "xp": 0.2
+    },
+    "group": "minecraft:melt_ore",
+    "cooking_time": 100
+}

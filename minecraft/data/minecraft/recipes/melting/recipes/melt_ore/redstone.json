@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:redstone_ore"
+    },
+    "result": {
+        "item": "minecraft:redstone",
+        "xp": 0.7
+    },
+    "group": "minecraft:melt_ore",
+    "cooking_time": 100
+}

@@ -41,38 +41,25 @@ List of planned changes:
  + add 1.14 blocks
   * correct hitboxes and minig times (last updated 18w44a)
  + add multi-parenting
-  ! if 2 parents overwrite the same property, to top parent takes priority
+  # if 2 parents overwrite the same property, to top parent takes priority
  # to finish up:
   + add spread_block function to mushrooms
   + add piston behaviour
    + add move_blocks function
-  + add dispenser/dropper behaviour
-   # Do via block entity (separate)
   + add leaves decaying behavior
    * change leaves to only decay if there's no log/bark of the same type rather than any log/bark
-  + add remaining redstone wire behavior
-   + add redirecting
   + add melon and pumpkin stems placing melon/pumpkin and getting attached
   + add rail, activator rail, powered rail and detector rail behavior
    + add changing shape
-   + add power transmitting
   + add beacon/conduit functions
-  + add enchantment table leveling up/particles
-   # Do via block entity (separate)
+  + add enchantment table particles
   + add chorus flower/plant growing
   + add ice slipperiness
   + add daylight detector changing power level
   + add dragon egg moving particles
    # re-do moving
-  + add end gateway behavior
-   # Do via block entity (separate)
   + add farmland hydration
   + add weighted pressure plate behavior
-  + add spawner behavior
-   # Do via block entity (separate)
-  + add sponge behavior
-  + add structure block behavior
-   # Do via block entity (separate)
   ! fix beds not placing the user on them
  * change some blocks, again:
   * dispenser/dropper

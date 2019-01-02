@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:golden_hoe"
+    },
+    "input_2": {
+        "item": "minecraft:golden_hoe"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}

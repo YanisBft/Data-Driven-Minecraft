@@ -1,0 +1,93 @@
+{
+    "pick_block": "minecraft:torch",
+    "transparent": true,
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "tag": "minecraft:liquid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "light": 15,
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 6, 0, 6 ],
+                        "to": [ 10, 10, 10 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "hanging": "false"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {}
+                }
+            }
+        },
+        {
+            "states": {
+                "hanging": "true"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {}
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "item": {
+        "item": "minecraft:cod"
+    },
+    "result": {
+        "item": "minecraft:cooked_cod",
+        "xp": 0.35
+    },
+    "group": "minecraft:cook_food",
+    "cooking_time": 100
+}

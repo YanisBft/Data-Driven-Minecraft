@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#minecraft:buttons",
+        "#minecraft:pressure_plates",
+        "minecraft:comparator",
+        "minecraft:detector_rail",
+        "minecraft:powered_rail",
+        "minecraft:redstone_block",
+        "minecraft:redstone_torch",
+        "minecraft:redstone_wall_torch",
+        "minecraft:redstone_wire",
+        "minecraft:trapped_chest",
+        "minecraft:tripwire_hook"
+    ]
+}

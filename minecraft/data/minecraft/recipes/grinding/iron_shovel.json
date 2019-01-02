@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:iron_shovel"
+    },
+    "input_2": {
+        "item": "minecraft:iron_shovel"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}

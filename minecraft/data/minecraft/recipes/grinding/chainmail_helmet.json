@@ -1,0 +1,15 @@
+{
+    "input_1": {
+        "item": "minecraft:chainmail_helmet"
+    },
+    "input_2": {
+        "item": "minecraft:chainmail_helmet"
+    },
+    "repair_bonus": 5,
+    "remove_enchantments": [
+        {
+            "tag": "minecraft:curses",
+            "inverse": true
+        }
+    ]
+}
