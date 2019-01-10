@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:chorus_fruit"
+    },
+    "result": {
+        "item": "minecraft:popped_chorus_fruit"
+    },
+    "cooking_time": 300
+}

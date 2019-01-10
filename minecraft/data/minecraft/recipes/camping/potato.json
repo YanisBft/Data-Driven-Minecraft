@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:potato"
+    },
+    "result": {
+        "item": "minecraft:baked_potato"
+    },
+    "cooking_time": 300
+}

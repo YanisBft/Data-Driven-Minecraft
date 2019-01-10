@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:compatator",
+    "ingredients": {
+        "torch": {
+            "item": "minecraft:stick"
+        },
+        "center": {
+            "tag": "minecraft:coal"
+        },
+        "plate": {
+            "tag": "minecraft:campfire_wood"
+        }
+    },
+    "result": {
+        "item": "minecraft:campfire"
+    }
+}

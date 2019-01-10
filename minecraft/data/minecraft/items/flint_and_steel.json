@@ -2,7 +2,7 @@
     "stack_size": 1,
     "durability": {
 		"amount": 65,
-		"repair_item": "minecraft:gold_ingot"
+		"repair_item": "minecraft:iron_ingot"
 	},
     "functions": [
         {
@@ -16,6 +16,33 @@
                         "position": "looked_at_entity",
                         "name": "minecraft:creeper",
                         "nbt": "{ignited:0b}"
+                    }
+                ]
+            }
+        },
+		{
+            "function": "minecraft:alter_block",
+            "position": "looked_at_block",
+            "sound": "light_campfire",
+            "block": {
+				"properties": {
+					"lit": "true"
+				}
+			},
+            "conditions": {
+                "blocks": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:campfire",
+                        "properties": {
+							"lit": "false"
+						}
+                    }
+                ],
+				"fluids": [
+                    {
+                        "position": "looked_at_block",
+                        "name": "minecraft:air"
                     }
                 ]
             }

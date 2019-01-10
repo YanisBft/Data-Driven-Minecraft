@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:porkchop"
+    },
+    "result": {
+        "item": "minecraft:cooked_porkchop"
+    },
+    "cooking_time": 300
+}

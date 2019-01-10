@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:kelp"
+    },
+    "result": {
+        "item": "minecraft:dried_kelp"
+    },
+    "cooking_time": 300
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:cod"
+    },
+    "result": {
+        "item": "minecraft:cooked_cod"
+    },
+    "cooking_time": 300
+}

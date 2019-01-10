@@ -1,0 +1,22 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "slab",    "slab",    "slab"    ],
+                [    "",    "bookshelf",    ""    ],
+                [    "",    "slab",    ""    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "slab": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "bookshelf": {
+            "item": "minecraft:bookshelf"
+        }
+    },
+    "result": {
+        "item": "minecraft:lectern"
+    }
+}

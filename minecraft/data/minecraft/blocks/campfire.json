@@ -1,0 +1,233 @@
+{
+    "pick_block": "minecraft:campfire",
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+	"block_entity": "minecraft:campfire",
+    "blast_resistance": 15,
+    "states": {
+        "lit": {
+            "default": "true",
+            "values": [
+                "true",
+                "false"
+            ]
+        },
+		"signal_fire": {
+            "default": "false",
+            "values": [
+                "true",
+                "false"
+            ]
+        }
+    },
+    "can_contain_fluids": [
+        "minecraft:water",
+        "minecraft:empty"
+    ],
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:hurt",
+                "sides": [
+                    "up"
+                ],
+                "damage": 1.0,
+                "source": "hot_floor",
+                "affect": [
+                    {
+                        "sneaking": true,
+                        "inverse": true
+                    },
+                    {
+                        "enchantment": "minecraft:frost_walker",
+                        "inverse": true
+                    },
+                    {
+                        "effect": "minecraft:fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "type": "#minecraft:fire_resistant_mobs",
+                        "inverse": true
+                    }
+                ]
+            },
+			{
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5,
+                    "name": "minecraft:campfire_cosy_smoke",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "signal_fire": "false",
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "function": "minecraft:spawn_particle",
+                "particle": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5,
+                    "name": "minecraft:campfire_signal_smoke",
+                    "count": 2
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "signal_fire": "true",
+                                        "lit": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+		"minecraft:this_fluid_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+						"lit": "false"
+					}
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+		"minecraft:block_below_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+						"signal_fire": "true"
+					}
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+								"block": {
+                                    "name": "minecraft:hay_bale"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+						"signal_fire": "false"
+					}
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+								"block": {
+                                    "name": "minecraft:hay_bale",
+									"inverse": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "hit_box": [
+                    {
+                        "from": [ 0, 0, 0 ],
+                        "to": [ 16, 6, 16 ]
+                    }
+                ]
+            }
+        },
+		{
+            "states": {
+				"lit": "true"
+			},
+			"properties": {
+                "faces": {
+                    "up": {
+                        "light": 9
+                    },
+                    "north": {
+                        "light": 9
+                    },
+                    "south": {
+                        "light": 9
+                    },
+                    "east": {
+                        "light": 9
+                    },
+                    "west": {
+                        "light": 9
+                    }
+                }
+            }
+        }
+    ]
+}

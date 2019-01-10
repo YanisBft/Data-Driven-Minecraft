@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:cube_3",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:paper"
+        },
+        "item2": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:cartography_table"
+    }
+}

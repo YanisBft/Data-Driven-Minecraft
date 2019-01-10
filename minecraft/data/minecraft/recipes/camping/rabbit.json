@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:rabbit"
+    },
+    "result": {
+        "item": "minecraft:cooked_rabbit"
+    },
+    "cooking_time": 300
+}

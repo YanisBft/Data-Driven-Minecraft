@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:salmon"
+    },
+    "result": {
+        "item": "minecraft:cooked_salmon"
+    },
+    "cooking_time": 300
+}
