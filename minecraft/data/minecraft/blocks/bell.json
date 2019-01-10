@@ -671,10 +671,10 @@
         },
         {
             "states": {
+                "attachment": "double_wall",
+                "facing": "west"
+            },
             "properties": {
-                "need_support": {
-                    "east": {}
-                },
                 "hit_box": [
                     {
                         "from": [ 0, 3, 5 ],
