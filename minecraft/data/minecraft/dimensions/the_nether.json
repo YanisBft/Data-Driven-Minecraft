@@ -7,7 +7,7 @@
 			}
 		],
 		"biome_source_type": "minecraft:vanilla_layered",
-		"chunk_generator_type": "minecraft:caves",
+		"chunk_generator_type": "minecraft:caves"
 	},
 	"height_limit": {
 		"generation": 127,
