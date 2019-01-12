@@ -1,0 +1,24 @@
+{
+	"generation": {
+		"biomes": [
+			{
+				"name": "minecraft:nether",
+				"weight": 100
+			}
+		],
+		"biome_source_type": "minecraft:vanilla_layered",
+		"chunk_generator_type": "minecraft:caves",
+	},
+	"height_limit": {
+		"generation": 127,
+		"build": 255
+	},
+	"day_night_cycle": false,
+	"weather_cycle": false,
+	"can_use_beds": false,
+	"void_shade": "red",
+	"blocked_fluids": [
+		"minecraft:water",
+		"minecraft:flowing_water"
+	]
+}

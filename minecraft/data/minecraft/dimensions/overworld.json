@@ -1,0 +1,281 @@
+{
+	"generation": {
+		"biomes": [
+			{
+				"name": "minecraft:ocean",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:plains",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:desert",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:mountains",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:forest",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:taiga",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:swamp",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:river",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:frozen_ocean",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:frozen_river",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:snowy_tundra",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:snowy_mountains",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:mushroom_fields",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:mushroom_field_shore",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:beach",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:desert_hills",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:wooded_hills",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:taiga_hills",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:jungle",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:jungle_hills",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:jungle_edge",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:deep_ocean",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:stone_shore",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:snowy_beach",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:birch_forest",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:birch_forest_hills",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:dark_forest",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:snowy_taiga",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:snowy_taiga_hills",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:giant_tree_taiga",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:giant_tree_taiga_hills",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:wooded_mountains",
+				"weight": 3
+			},
+			{
+				"name": "minecraft:savanna",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:savanna_plateau",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:badlands",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:wooded_badlands_plateau",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:badlands_plateau",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:warm_ocean",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:lukewarm_ocean",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:cold_ocean",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:deep_lukewarm_ocean",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:deep_cold_ocean",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:deep_frozen_ocean",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:sunflower_plains",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:desert_lakes",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:gravelly_mountains",
+				"weight": 1.5
+			},
+			{
+				"name": "minecraft:flower_forest",
+				"weight": 2
+			},
+			{
+				"name": "minecraft:taiga_mountains",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:swamp_hills",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:ice_spikes",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:modified_jungle",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:modified_jungle_edge",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:tall_birch_forest",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:tall_birch_hills",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:dark_forest_hills",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:snowy_taiga_mountains",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:giant_spruce_taiga",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:giant_spruce_taiga_hills",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:modified_gravelly_mountains",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:shattered_savanna",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:shattered_savanna_plateau",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:eroded_badlands",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:modified_wooded_badlands_plateau",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:modified_badlands_plateau",
+				"weight": 0.5
+			},
+			{
+				"name": "minecraft:bamboo_jungle",
+				"weight": 1
+			},
+			{
+				"name": "minecraft:bamboo_jungle_hills",
+				"weight": 0.5
+			}
+		],
+		"biome_source_type": "minecraft:vanilla_layered",
+		"chunk_generator_type": "minecraft:surface"
+	},
+	"height_limit": {
+		"generation": 255,
+		"build": 255
+	},
+	"cloud_height": 127,
+	"day_night_cycle": true,
+	"weather_cycle": true,
+	"can_use_beds": true,
+	"void_shade": "black"
+}

@@ -1,0 +1,37 @@
+{
+	"generation": {
+		"biomes": [
+			{
+				"name": "minecraft:the_end",
+				"weight": 80
+			},
+			{
+				"name": "minecraft:small_end_islands",
+				"weight": 5
+			},
+			{
+				"name": "minecraft:end_midlands",
+				"weight": 5
+			},
+			{
+				"name": "minecraft:end_highlands",
+				"weight": 5
+			},
+			{
+				"name": "minecraft:end_barrens",
+				"weight": 5
+			}
+		],
+		"biome_source_type": "minecraft:the_end",
+		"chunk_generator_type": "minecraft:floating_islands"
+	},
+	"height_limit": {
+		"generation": 255,
+		"build": 255
+	},
+	"day_night_cycle": false,
+	"weather_cycle": false,
+	"can_use_beds": false,
+	"sky": "minecraft:textures/environment/end_sky.png",
+	"void_shade": "purple"
+}
