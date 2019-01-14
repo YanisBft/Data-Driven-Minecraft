@@ -74,7 +74,7 @@ List of planned changes:
 
 Structures:
 list of yet to be created structure files:
-+ add assembly json files for naturally generating structures (eg mansion=halls+rooms+walls+roof+...)
++ add jigsaw block usage to all structures
 
 List of planned changes:
 * update the DataVersion to 1.13
@@ -88,23 +88,17 @@ list of yet to be created model files:
 List of planned changes:
 + add seperatly textureable legs, arms, etc. for all entities
  + add fixed textures
-+ add villager, illager and witch hat layer rendering
- + add the hat to the zombie villagers
++ add illager and witch hood layer rendering (romove the texture on the witch)
 * update all textures to jasper's variants
 * change entity texture files to be square so they can be properly used/animated
-* change the particles and paintings into a file for each (like how it was done with blocks and items in 1.5 (add animation to the particles))
+* change the particles, effects and paintings into a file for each (like how it was done with blocks and items in 1.5 (add animation to the particles))
 * change giant texture to steve/alex
 * change the sheep wool and wolf collar texture for 1 per color, instead of hardcoded coloring
 * change sheared sheep to show correct wool color
 * change the villagers/illagers/witch to unfold their arms when they wear a chestplate, or hold something in their hand (only exceptions being vindicator axe and witch potion)
-* change model files to allow default/* to affect all it's states (lowering file size quite a bit)
- * change variant:normal to variant:default
- * remove meta-language
-* update all files when the stupid block states are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
- * models/states/textures
+* remove meta-language of blockstate files
 ! fix MC-1483
 ! fix villager, illager and witch robe cuts off 2 pixels early
-! fix villager, illager and wich arms not mirrored like other mobs
 ! fix leather cap overlay texture not aglined correctly
 ! fix wolf snout has z-fightning
 ! fix horse armor texture not rendering completely on right side of snout
@@ -117,4 +111,3 @@ List of planned changes:
 ! fix small model mistake on the top side of cocoa pods
 ! fix acacia sapling texture doesn't match acacia log color
 ! fix transformation of banner texture to fit on shield
-! fix the totem of undying lacks a proper outline, making it look off in the left hand
