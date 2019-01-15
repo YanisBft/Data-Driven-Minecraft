@@ -1,6 +1,6 @@
 {
     "values": [
-        "#minecraft:best_swords",
+        "#minecraft:tool_tiers/swords/3",
         "minecraft:iron_sword"
     ]
 }

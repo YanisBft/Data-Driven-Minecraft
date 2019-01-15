@@ -1,8 +1,8 @@
 {
     "values": [
         "#minecraft:attacks",
-        "minecraft:knockback",
         "minecraft:fire_aspect",
+        "minecraft:knockback",
         "minecraft:looting",
         "minecraft:sweeping",
         "minecraft:unbreaking"

@@ -1,6 +1,6 @@
 {
     "values": [
-        "minecraft:efficiency",
-        "#minecraft:unenchantable_tools"
+        "#minecraft:unenchantable_tools",
+        "minecraft:efficiency"
     ]
 }

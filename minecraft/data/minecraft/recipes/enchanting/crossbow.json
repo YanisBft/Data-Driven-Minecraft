@@ -1,0 +1,13 @@
+{
+    "item": "minecraft:crossbow",
+    "enchantments": [
+        {
+            "tag": "minecraft:crossbows"
+        },
+        {
+            "tag": "minecraft:secondary_crossbows",
+            "secondary": true
+        }
+    ],
+    "enchantability": 1
+}

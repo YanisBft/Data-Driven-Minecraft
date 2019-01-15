@@ -1,6 +1,6 @@
 {
     "values": [
-        "minecraft:binding_curse",
-        "#minecraft:unenchantable_tools"
+        "#minecraft:unenchantable_tools",
+        "minecraft:binding_curse"
     ]
 }

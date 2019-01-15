@@ -1,6 +1,6 @@
 {
     "values": [
-        "#minecraft:good_swords",
+        "#minecraft:tool_tiers/swords/1",
         "minecraft:golden_sword",
         "minecraft:wooden_sword"
     ]

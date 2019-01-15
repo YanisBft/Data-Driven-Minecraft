@@ -3,9 +3,12 @@
     "group": "minecraft:hoe",
     "enchantments": [
         {
-            "tag": "minecraft:unenchantable_tools",
+            "tag": "minecraft:hoes"
+        },
+        {
+            "tag": "minecraft:secondary_hoes",
             "secondary": true
         }
     ],
-    "enchantability": 0
+    "enchantability": 15
 }

@@ -1,6 +1,6 @@
 {
     "values": [
-        "#minecraft:better_pickaxes",
+        "#minecraft:tool_tiers/pickaxes/2",
         "minecraft:stone_pickaxe"
     ]
 }

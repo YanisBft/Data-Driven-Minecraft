@@ -1,8 +1,8 @@
 {
     "values": [
         "#minecraft:curses",
+        "minecraft:frost_walker",
         "minecraft:mending",
-        "minecraft:thorns",
-        "minecraft:frost_walker"
+        "minecraft:thorns"
     ]
 }

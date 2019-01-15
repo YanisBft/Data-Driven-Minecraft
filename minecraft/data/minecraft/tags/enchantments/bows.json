@@ -1,9 +1,9 @@
 {
     "values": [
-        "minecraft:power",
-        "minecraft:punch",
         "minecraft:flame",
         "minecraft:infinity",
+        "minecraft:power",
+        "minecraft:punch",
         "minecraft:unbreaking"
     ]
 }

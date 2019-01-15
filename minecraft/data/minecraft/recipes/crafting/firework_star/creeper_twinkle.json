@@ -5,14 +5,7 @@
             "name": "minecraft:gunpowder"
         },
         "item2": {
-            "item": [
-                "minecraft:skeleton_skull",
-                "minecraft:wither_skeleton_skull",
-                "minecraft:zombie_head",
-                "minecraft:player_head",
-                "minecraft:creeper_head",
-                "minecraft:dragon_head"
-            ]
+            "tag": "minecraft:heads"
         },
         "item3": {
             "name": "minecraft:glowstone_dust"

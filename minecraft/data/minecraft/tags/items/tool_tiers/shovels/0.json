@@ -1,6 +1,6 @@
 {
     "values": [
-        "#minecraft:good_shovels",
+        "#minecraft:tool_tiers/shovels/1",
         "minecraft:golden_shovel",
         "minecraft:wooden_shovel"
     ]

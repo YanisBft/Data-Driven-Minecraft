@@ -1,8 +1,8 @@
 {
     "values": [
-        "minecraft:loyalty",
-        "minecraft:riptide",
         "minecraft:channeling",
-        "minecraft:impaling"
+        "minecraft:impaling",
+        "minecraft:loyalty",
+        "minecraft:riptide"
     ]
 }

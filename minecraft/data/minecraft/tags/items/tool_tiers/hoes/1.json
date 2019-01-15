@@ -1,6 +1,6 @@
 {
     "values": [
-        "#minecraft:better_hoes",
+        "#minecraft:tool_tiers/hoes/2",
         "minecraft:stone_hoe"
     ]
 }

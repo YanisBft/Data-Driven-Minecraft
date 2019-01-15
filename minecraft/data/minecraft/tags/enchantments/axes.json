@@ -1,8 +1,8 @@
 {
     "values": [
         "minecraft:efficiency",
-        "minecraft:unbreaking",
         "minecraft:fortune",
-        "minecraft:silk_touch"
+        "minecraft:silk_touch",
+        "minecraft:unbreaking"
     ]
 }
