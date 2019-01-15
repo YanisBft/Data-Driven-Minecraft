@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:lapis_lazuli"
+            "name": "minecraft:lapis_lazuli"
         }
     },
     "result": {
-        "item": "minecraft:blue_dye"
+        "name": "minecraft:blue_dye"
     },
     "group": "minecraft:blue_dye"
 }

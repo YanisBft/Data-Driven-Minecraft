@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:helmet",
+    "parent": "minecraft:template/helmet",
     "ingredients": {
         "material": {
-            "item": "minecraft:leather"
+            "name": "minecraft:leather"
         }
     },
     "result": {
-        "item": "minecraft:leather_helmet"
+        "name": "minecraft:leather_helmet"
     },
     "group": "minecraft:helmet"
 }

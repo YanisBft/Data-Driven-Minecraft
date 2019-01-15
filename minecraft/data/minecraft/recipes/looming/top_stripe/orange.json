@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:orange_dye"
     },
-    "group": "minecraft:banner_top_stripe",
+    "group": "minecraft:top_stripe",
     "add_pattern": {
         "color": "orange",
         "pattern": "top_stripe"

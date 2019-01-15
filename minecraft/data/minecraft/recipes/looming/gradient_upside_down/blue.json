@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:blue_dye"
     },
-    "group": "minecraft:banner_gradient_upside_down",
+    "group": "minecraft:gradient_upside_down",
     "add_pattern": {
         "color": "blue",
         "pattern": "gradient_upside_down"

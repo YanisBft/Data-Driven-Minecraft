@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:dried_kelp"
+            "name": "minecraft:dried_kelp"
         }
     },
     "result": {
-        "item": "minecraft:dried_kelp_block"
+        "name": "minecraft:dried_kelp_block"
     },
     "group": "minecraft:material_block"
 }

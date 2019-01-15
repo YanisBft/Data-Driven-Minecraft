@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:blaze_powder"
+            "name": "minecraft:blaze_powder"
         },
         "item2": {
-            "item": "minecraft:slime_ball"
+            "name": "minecraft:slime_ball"
         }
     },
     "result": {
-        "item": "minecraft:magma_cream"
+        "name": "minecraft:magma_cream"
     }
 }

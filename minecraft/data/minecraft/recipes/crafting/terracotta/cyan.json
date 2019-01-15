@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:terracotta"
+            "name": "minecraft:terracotta"
         },
         "center": {
-            "item": "minecraft:cyan_dye"
+            "name": "minecraft:cyan_dye"
         }
     },
     "result": {
-        "item": "minecraft:cyan_terracotta",
+        "name": "minecraft:cyan_terracotta",
         "count": 8
     },
     "group": "minecraft:terracotta_coloring"

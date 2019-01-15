@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:cube_2",
+    "parent": "minecraft:template/cube_2",
     "ingredients": {
         "item1": {
-            "item": "minecraft:nether_wart"
+            "name": "minecraft:nether_wart"
         },
         "item2": {
-            "item": "minecraft:nether_brick"
+            "name": "minecraft:nether_brick"
         }
     },
     "result": {
-        "item": "minecraft:red_nether_bricks"
+        "name": "minecraft:red_nether_bricks"
     }
 }

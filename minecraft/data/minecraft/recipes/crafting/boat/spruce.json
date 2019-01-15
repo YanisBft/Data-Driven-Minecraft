@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:boat",
+    "parent": "minecraft:template/boat",
     "ingredients": {
         "item": {
-            "item": "minecraft:spruce_planks"
+            "name": "minecraft:spruce_planks"
         }
     },
     "result": {
-        "item": "minecraft:spruce_boat"
+        "name": "minecraft:spruce_boat"
     },
     "group": "minecraft:boat"
 }

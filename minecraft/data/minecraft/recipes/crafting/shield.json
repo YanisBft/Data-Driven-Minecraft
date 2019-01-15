@@ -13,10 +13,10 @@
             "tag": "minecraft:planks"
         },
         "front": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         }
     },
     "result": {
-        "item": "minecraft:shield"
+        "name": "minecraft:shield"
     }
 }

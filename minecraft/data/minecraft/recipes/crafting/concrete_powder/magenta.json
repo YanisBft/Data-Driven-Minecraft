@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:concrete_powder",
+    "parent": "minecraft:template/concrete_powder",
     "ingredients": {
         "sand": {
-            "item": "minecraft:sand"
+            "name": "minecraft:sand"
         },
         "gravel": {
-            "item": "minecraft:gravel"
+            "name": "minecraft:gravel"
         },
         "dye": {
-            "item": "minecraft:magenta_dye"
+            "name": "minecraft:magenta_dye"
         }
     },
     "result": {
-        "item": "minecraft:magenta_concrete_powder",
+        "name": "minecraft:magenta_concrete_powder",
         "count": 8
     },
     "group": "minecraft:concrete_powder"

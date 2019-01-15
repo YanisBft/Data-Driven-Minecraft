@@ -10,28 +10,28 @@
     ],
     "ingredients": {
         "top": {
-            "item": "minecraft:milk_bucket"
+            "name": "minecraft:milk_bucket"
         },
         "side": {
-            "item": "minecraft:sugar"
+            "name": "minecraft:sugar"
         },
         "middle": {
-            "item": "minecraft:egg"
+            "name": "minecraft:egg"
         },
         "bottom": {
-            "item": "minecraft:wheat"
+            "name": "minecraft:wheat"
         }
     },
     "functions": [
         {
             "function": "minecraft:return_items",
             "item": {
-                "item": "minecraft:bucket"
+                "name": "minecraft:bucket"
             },
             "ingredient": "top"
         }
     ],
     "result": {
-        "item": "minecraft:cake"
+        "name": "minecraft:cake"
     }
 }

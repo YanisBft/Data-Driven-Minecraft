@@ -9,13 +9,13 @@
     ],
     "ingredients": {
         "rod": {
-            "item": "minecraft:blaze_rod"
+            "name": "minecraft:blaze_rod"
         },
         "base": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         }
     },
     "result": {
-        "item": "minecraft:brewing_stand"
+        "name": "minecraft:brewing_stand"
     }
 }

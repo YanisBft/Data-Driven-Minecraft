@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:blue_orchid"
+            "name": "minecraft:blue_orchid"
         }
     },
     "result": {
-        "item": "minecraft:light_blue_dye"
+        "name": "minecraft:light_blue_dye"
     },
     "group": "minecraft:light_blue_dye"
 }

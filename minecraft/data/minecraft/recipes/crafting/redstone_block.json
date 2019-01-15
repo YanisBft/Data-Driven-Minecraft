@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:redstone_block"
+        "name": "minecraft:redstone_block"
     },
     "group": "minecraft:material_block"
 }

@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:nether_wart"
+            "name": "minecraft:nether_wart"
         }
     },
     "result": {
-        "item": "minecraft:nether_wart_block"
+        "name": "minecraft:nether_wart_block"
     }
 }

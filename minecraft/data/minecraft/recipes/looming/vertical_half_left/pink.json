@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:pink_dye"
     },
-    "group": "minecraft:banner_vertical_half_left",
+    "group": "minecraft:vertical_half_left",
     "add_pattern": {
         "color": "pink",
         "pattern": "vertical_half_left"

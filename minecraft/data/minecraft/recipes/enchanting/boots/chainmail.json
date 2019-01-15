@@ -3,106 +3,11 @@
     "group": "minecraft:boots",
     "enchantments": [
         {
-            "name": "minecraft:protection",
-            "weight": 10,
-            "not_with": [
-                "minecraft:fire_protection",
-                "minecraft:projectile_protection",
-                "minecraft:blast_protection",
-                "minecraft:feather_falling"
-            ],
-            "max_lvl": 4
+            "tag": "minecraft:boots"
         },
         {
-            "name": "minecraft:feather_falling",
-            "weight": 5,
-            "not_with": [
-                "minecraft:protection",
-                "minecraft:fire_protection",
-                "minecraft:projectile_protection",
-                "minecraft:blast_protection"
-            ],
-            "max_lvl": 4
-        },
-        {
-            "name": "minecraft:fire_protection",
-            "weight": 5,
-            "not_with": [
-                "minecraft:protection",
-                "minecraft:projectile_protection",
-                "minecraft:blast_protection",
-                "minecraft:feather_falling"
-            ],
-            "max_lvl": 4
-        },
-        {
-            "name": "minecraft:projectile_protection",
-            "weight": 5,
-            "not_with": [
-                "minecraft:protection",
-                "minecraft:fire_protection",
-                "minecraft:blast_protection",
-                "minecraft:feather_falling"
-            ],
-            "max_lvl": 4
-        },
-        {
-            "name": "minecraft:blast_protection",
-            "weight": 2,
-            "not_with": [
-                "minecraft:protection",
-                "minecraft:fire_protection",
-                "minecraft:projectile_protection",
-                "minecraft:feather_falling"
-            ],
-            "max_lvl": 4
-        },
-        {
-            "name": "minecraft:depth_strider",
-            "weight": 2,
-            "not_with": [
-                "minecraft:frost_walker"
-            ],
-            "max_lvl": 3
-        },
-        {
-            "name": "minecraft:frost_walker",
-            "weight": 2,
-            "treasure": true,
-            "not_with": [
-                "minecraft:depth_strider"
-            ],
-            "max_lvl": 2,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:unbreaking",
-            "weight": 5,
-            "max_lvl": 3
-        },
-        {
-            "name": "minecraft:mending",
-            "weight": 2,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:binding_curse",
-            "weight": 1,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:vanishing_curse",
-            "weight": 1,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:thorns",
-            "weight": 1,
-            "max_lvl": 3,
-            "secondairy": true
+            "name": "minecraft:secondary_boots",
+            "secondary": true
         }
     ],
     "enchantability": 12

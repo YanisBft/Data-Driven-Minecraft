@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
             "item": [
@@ -8,7 +8,7 @@
         }
     },
     "result": {
-        "item": "minecraft:dark_oak_planks",
+        "name": "minecraft:dark_oak_planks",
         "count": 4
     },
     "group": "minecraft:planks"

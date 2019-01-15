@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:chest"
+            "name": "minecraft:chest"
         },
         "item2": {
-            "item": "minecraft:tripwire_hook"
+            "name": "minecraft:tripwire_hook"
         }
     },
     "result": {
-        "item": "minecraft:trapped_chest"
+        "name": "minecraft:trapped_chest"
     }
 }

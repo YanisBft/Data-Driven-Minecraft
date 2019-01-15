@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:red_dye"
+            "name": "minecraft:red_dye"
         },
         "item2": {
-            "item": "minecraft:yellow_dye"
+            "name": "minecraft:yellow_dye"
         }
     },
     "result": {
-        "item": "minecraft:orange_dye",
+        "name": "minecraft:orange_dye",
         "count": 2
     },
     "group": "minecraft:orange_dye"

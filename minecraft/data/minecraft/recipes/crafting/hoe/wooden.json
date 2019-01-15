@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:hoe",
+    "parent": "minecraft:template/hoe",
     "ingredients": {
         "material": {
             "tag": "minecraft:planks"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:wooden_hoe"
+        "name": "minecraft:wooden_hoe"
     },
     "group": "minecraft:hoe"
 }

@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:sign",
+    "parent": "minecraft:template/sign",
     "ingredients": {
         "frame": {
             "name": "minecraft:oak_planks"
         },
         "pole": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:oak_sign",
+        "name": "minecraft:oak_sign",
         "count": 3
     }
 }

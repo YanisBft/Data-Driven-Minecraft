@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:leggings",
+    "parent": "minecraft:template/leggings",
     "ingredients": {
         "material": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "minecraft:diamond_leggings"
+        "name": "minecraft:diamond_leggings"
     },
     "group": "minecraft:leggings"
 }

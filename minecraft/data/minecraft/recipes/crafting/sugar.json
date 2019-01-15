@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:sugar_cane"
+            "name": "minecraft:sugar_cane"
         }
     },
     "result": {
-        "item": "minecraft:sugar"
+        "name": "minecraft:sugar"
     }
 }

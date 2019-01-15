@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:crafting_table"
+        "name": "minecraft:crafting_table"
     }
 }

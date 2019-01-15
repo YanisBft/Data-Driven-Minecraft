@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:dark_prismarine"
+            "name": "minecraft:dark_prismarine"
         }
     },
     "result": {
-        "item": "minecraft:dark_prismarine_slab",
+        "name": "minecraft:dark_prismarine_slab",
         "count": 6
     },
     "group": "minecraft:slab"

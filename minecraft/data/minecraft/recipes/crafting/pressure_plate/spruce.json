@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:2_wide_line",
+    "parent": "minecraft:template/2_wide_line",
     "ingredients": {
         "item": {
-            "item": "minecraft:spruce_planks"
+            "name": "minecraft:spruce_planks"
         }
     },
     "result": {
-        "item": "minecraft:spruce_pressure_plate"
+        "name": "minecraft:spruce_pressure_plate"
     },
     "group": "minecraft:pressure_plate"
 }

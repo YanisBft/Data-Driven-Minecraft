@@ -1,15 +1,15 @@
 {
-    "parent": "outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:glass_pane"
+            "name": "minecraft:glass_pane"
         },
         "center": {
-            "item": "minecraft:orange_dye"
+            "name": "minecraft:orange_dye"
         }
     },
     "result": {
-        "item": "minecraft:orange_stained_glass_pane",
+        "name": "minecraft:orange_stained_glass_pane",
         "count": 8
     },
     "group": "minecraft:dyed_glass_pane"

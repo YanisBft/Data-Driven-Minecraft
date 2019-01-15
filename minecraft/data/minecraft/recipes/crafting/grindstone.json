@@ -12,13 +12,13 @@
             "tag": "minecraft:planks"
         },
         "leg": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "stone": {
-            "item": "minecraft:stone_slab"
+            "name": "minecraft:stone_slab"
         }
     },
     "result": {
-        "item": "minecraft:grindstone"
+        "name": "minecraft:grindstone"
     }
 }

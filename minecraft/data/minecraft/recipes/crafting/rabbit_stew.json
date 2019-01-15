@@ -28,22 +28,22 @@
     ],
     "ingredients": {
         "rabbit": {
-            "item": "minecraft:cooked_rabbit"
+            "name": "minecraft:cooked_rabbit"
         },
         "carrot": {
-            "item": "minecraft:carrot"
+            "name": "minecraft:carrot"
         },
         "potato": {
-            "item": "minecraft:potato"
+            "name": "minecraft:potato"
         },
         "mushroom": {
             "tag": "minecraft:mushrooms"
         },
         "bowl": {
-            "item": "minecraft:bowl"
+            "name": "minecraft:bowl"
         }
     },
     "result": {
-        "item": "minecraft:rabbit_stew"
+        "name": "minecraft:rabbit_stew"
     }
 }

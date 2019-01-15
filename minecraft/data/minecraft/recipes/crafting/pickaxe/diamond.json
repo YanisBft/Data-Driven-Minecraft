@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:pickaxe",
+    "parent": "minecraft:template/pickaxe",
     "ingredients": {
         "material": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:diamond_pickaxe"
+        "name": "minecraft:diamond_pickaxe"
     },
     "group": "minecraft:pickaxe"
 }

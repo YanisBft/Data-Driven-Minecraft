@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:axe",
+    "parent": "minecraft:template/axe",
     "ingredients": {
         "material": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:diamond_axe"
+        "name": "minecraft:diamond_axe"
     },
     "group": "minecraft:axe"
 }

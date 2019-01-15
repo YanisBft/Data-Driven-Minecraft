@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:ender_pearl"
+            "name": "minecraft:ender_pearl"
         },
         "item2": {
-            "item": "minecraft:blaze_powder"
+            "name": "minecraft:blaze_powder"
         }
     },
     "result": {
-        "item": "minecraft:ender_eye"
+        "name": "minecraft:ender_eye"
     }
 }

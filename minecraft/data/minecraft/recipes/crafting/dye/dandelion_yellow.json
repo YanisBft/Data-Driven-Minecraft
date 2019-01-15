@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:dandelion"
+            "name": "minecraft:dandelion"
         }
     },
     "result": {
-        "item": "minecraft:yellow_dye"
+        "name": "minecraft:yellow_dye"
     },
     "group": "minecraft:yellow_dye"
 }

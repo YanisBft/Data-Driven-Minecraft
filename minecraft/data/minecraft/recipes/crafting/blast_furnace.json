@@ -10,16 +10,16 @@
     ],
     "ingredients": {
         "top": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "center": {
-            "item": "minecraft:furnace"
+            "name": "minecraft:furnace"
         },
         "bottom": {
-            "item": "minecraft:smooth_stone"
+            "name": "minecraft:smooth_stone"
         }
     },
     "result": {
-        "item": "minecraft:blast_furnace"
+        "name": "minecraft:blast_furnace"
     }
 }

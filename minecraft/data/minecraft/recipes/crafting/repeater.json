@@ -9,16 +9,16 @@
     ],
     "ingredients": {
         "torch": {
-            "item": "minecraft:redstone_torch"
+            "name": "minecraft:redstone_torch"
         },
         "dust": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         },
         "plate": {
-            "item": "minecraft:stone"
+            "name": "minecraft:stone"
         }
     },
     "result": {
-        "item": "minecraft:repeater"
+        "name": "minecraft:repeater"
     }
 }

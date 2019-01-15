@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:iron_nugget"
+            "name": "minecraft:iron_nugget"
         }
     },
     "result": {
-        "item": "minecraft:iron_ingot"
+        "name": "minecraft:iron_ingot"
     },
     "group": "minecraft:from_nugget"
 }

@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:lime_dye"
     },
-    "group": "minecraft:banner_right_stripe",
+    "group": "minecraft:right_stripe",
     "add_pattern": {
         "color": "lime",
         "pattern": "right_stripe"

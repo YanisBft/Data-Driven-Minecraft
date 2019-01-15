@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:polished_andesite"
+            "name": "minecraft:polished_andesite"
         }
     },
     "result": {
-        "item": "minecraft:polished_andesite_slab",
+        "name": "minecraft:polished_andesite_slab",
         "count": 6
     },
     "group": "minecraft:slab"

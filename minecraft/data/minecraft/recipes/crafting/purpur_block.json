@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:chorus_fruit_popped"
+            "name": "minecraft:chorus_fruit_popped"
         }
     },
     "result": {
-        "item": "minecraft:purpur_block"
+        "name": "minecraft:purpur_block"
     }
 }

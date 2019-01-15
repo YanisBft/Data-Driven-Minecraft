@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:polished_diorite"
+            "name": "minecraft:polished_diorite"
         }
     },
     "result": {
-        "item": "minecraft:polished_diorite_slab",
+        "name": "minecraft:polished_diorite_slab",
         "count": 6
     },
     "group": "minecraft:slab"

@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:red_dye"
     },
-    "group": "minecraft:banner_curly_border",
+    "group": "minecraft:curly_border",
     "add_pattern": {
         "color": "red",
         "pattern": "curly_border"

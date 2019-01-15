@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:stairs",
+    "parent": "minecraft:template/stairs",
     "ingredients": {
         "item": {
-            "item": "minecraft:granite"
+            "name": "minecraft:granite"
         }
     },
     "result": {
-        "item": "minecraft:granite_stairs",
+        "name": "minecraft:granite_stairs",
         "count": 4
     },
     "group": "minecraft:stairs"

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:nether_bricks"
+            "name": "minecraft:nether_bricks"
         }
     },
     "result": {
-        "item": "minecraft:nether_brick_slab",
+        "name": "minecraft:nether_brick_slab",
         "count": 6
     },
     "group": "minecraft:slab"

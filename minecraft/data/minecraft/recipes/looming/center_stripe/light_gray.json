@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:light_gray_dye"
     },
-    "group": "minecraft:banner_center_stripe",
+    "group": "minecraft:center_stripe",
     "add_pattern": {
         "color": "light_gray",
         "pattern": "center_stripe"

@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:sign",
+    "parent": "minecraft:template/sign",
     "ingredients": {
         "frame": {
-            "item": "minecraft:blue_wool"
+            "name": "minecraft:blue_wool"
         },
         "pole": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:blue_banner"
+        "name": "minecraft:blue_banner"
     },
     "group": "minecraft:banner"
 }

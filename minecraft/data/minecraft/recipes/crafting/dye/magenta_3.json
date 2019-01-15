@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:3_items",
+    "parent": "minecraft:template/3_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:blue_dye"
+            "name": "minecraft:blue_dye"
         },
         "item2": {
-            "item": "minecraft:white_dye"
+            "name": "minecraft:white_dye"
         },
         "item3": {
-            "item": "minecraft:pink_dye"
+            "name": "minecraft:pink_dye"
         }
     },
     "result": {
-        "item": "minecraft:magenta_dye",
+        "name": "minecraft:magenta_dye",
         "count": 3
     },
     "group": "minecraft:magenta_dye"

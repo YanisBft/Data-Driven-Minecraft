@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:flint"
+            "name": "minecraft:flint"
         },
         "item2": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         }
     },
     "result": {
-        "item": "minecraft:flint_and_steel"
+        "name": "minecraft:flint_and_steel"
     }
 }

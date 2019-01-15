@@ -1,14 +1,14 @@
 {
-    "parent": "outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
             "tag": "minecraft:planks"
         },
         "center": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:note_block"
+        "name": "minecraft:note_block"
     }
 }

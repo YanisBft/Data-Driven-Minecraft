@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:hoe",
+    "parent": "minecraft:template/hoe",
     "ingredients": {
         "material": {
-            "item": "minecraft:gold_ingot"
+            "name": "minecraft:gold_ingot"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:golden_hoe"
+        "name": "minecraft:golden_hoe"
     },
     "group": "minecraft:hoe"
 }

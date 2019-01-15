@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:diorite"
+            "name": "minecraft:diorite"
         }
     },
     "result": {
-        "item": "minecraft:polished_diorite",
+        "name": "minecraft:polished_diorite",
         "count": 4
     }
 }

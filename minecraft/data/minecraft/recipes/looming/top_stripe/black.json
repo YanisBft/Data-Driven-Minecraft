@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:black_dye"
     },
-    "group": "minecraft:banner_top_stripe",
+    "group": "minecraft:top_stripe",
     "add_pattern": {
         "color": "black",
         "pattern": "top_stripe"

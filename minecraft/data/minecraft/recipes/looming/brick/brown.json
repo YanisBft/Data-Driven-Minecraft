@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:cacoa_beans"
     },
-    "group": "minecraft:banner_brick",
+    "group": "minecraft:brick",
     "add_pattern": {
         "color": "brown",
         "pattern": "brick"

@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:black_dye"
     },
-    "group": "minecraft:banner_down_left_stripe",
+    "group": "minecraft:down_left_stripe",
     "add_pattern": {
         "color": "black",
         "pattern": "down_left_stripe"

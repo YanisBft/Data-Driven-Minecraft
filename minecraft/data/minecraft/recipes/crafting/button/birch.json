@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:birch_planks"
+            "name": "minecraft:birch_planks"
         }
     },
     "result": {
-        "item": "minecraft:birch_button"
+        "name": "minecraft:birch_button"
     },
     "group": "minecraft:button"
 }

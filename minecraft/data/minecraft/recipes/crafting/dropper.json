@@ -10,13 +10,13 @@
     ],
     "ingredients": {
         "outline": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         },
         "bottom": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:dropper"
+        "name": "minecraft:dropper"
     }
 }

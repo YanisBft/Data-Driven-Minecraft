@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "minecraft:diamond_block"
+        "name": "minecraft:diamond_block"
     },
     "group": "minecraft:material_block"
 }

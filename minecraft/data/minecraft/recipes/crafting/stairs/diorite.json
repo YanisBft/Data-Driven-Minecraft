@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:stairs",
+    "parent": "minecraft:template/stairs",
     "ingredients": {
         "item": {
-            "item": "minecraft:diorite"
+            "name": "minecraft:diorite"
         }
     },
     "result": {
-        "item": "minecraft:diorite_stairs",
+        "name": "minecraft:diorite_stairs",
         "count": 4
     },
     "group": "minecraft:stairs"

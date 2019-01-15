@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_layers",
+    "parent": "minecraft:template/2_layers",
     "ingredients": {
         "top": {
-            "item": "minecraft:glass"
+            "name": "minecraft:glass"
         },
         "bottom": {
-            "item": "minecraft:glass"
+            "name": "minecraft:glass"
         }
     },
     "result": {
-        "item": "minecraft:glass_pane",
+        "name": "minecraft:glass_pane",
         "count": 16
     },
     "group": "minecraft:glass_pane"

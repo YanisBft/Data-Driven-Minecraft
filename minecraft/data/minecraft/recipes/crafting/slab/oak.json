@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:oak_planks"
+            "name": "minecraft:oak_planks"
         }
     },
     "result": {
-        "item": "minecraft:oak_slab",
+        "name": "minecraft:oak_slab",
         "count": 6
     },
     "group": "minecraft:slab"

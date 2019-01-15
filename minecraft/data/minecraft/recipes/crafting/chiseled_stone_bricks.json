@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_high_line",
+    "parent": "minecraft:template/2_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:stone_brick_slab"
+            "name": "minecraft:stone_brick_slab"
         },
         "bottom": {
-            "item": "minecraft:stone_brick_slab"
+            "name": "minecraft:stone_brick_slab"
         }
     },
     "result": {
-        "item": "minecraft:chiseled_stone_bricks"
+        "name": "minecraft:chiseled_stone_bricks"
     },
     "group": "minecraft:chiseled_block"
 }

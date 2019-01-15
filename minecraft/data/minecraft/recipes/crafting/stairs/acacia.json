@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:stairs",
+    "parent": "minecraft:template/stairs",
     "ingredients": {
         "item": {
-            "item": "minecraft:acacia_planks"
+            "name": "minecraft:acacia_planks"
         }
     },
     "result": {
-        "item": "minecraft:acacia_stairs",
+        "name": "minecraft:acacia_stairs",
         "count": 4
     },
     "group": "minecraft:stairs"

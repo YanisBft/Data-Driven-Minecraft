@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:helmet",
+    "parent": "minecraft:template/helmet",
     "ingredients": {
         "material": {
-            "item": "minecraft:scute"
+            "name": "minecraft:scute"
         }
     },
     "result": {
-        "item": "minecraft:turtle_helmet"
+        "name": "minecraft:turtle_helmet"
     },
     "group": "minecraft:helmet"
 }

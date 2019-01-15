@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:granite"
+            "name": "minecraft:granite"
         }
     },
     "result": {
-        "item": "minecraft:polished_granite",
+        "name": "minecraft:polished_granite",
         "count": 4
     }
 }

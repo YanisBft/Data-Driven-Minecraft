@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:pink_tulip"
+            "name": "minecraft:pink_tulip"
         }
     },
     "result": {
-        "item": "minecraft:pink_dye"
+        "name": "minecraft:pink_dye"
     },
     "group": "minecraft:pink_dye"
 }

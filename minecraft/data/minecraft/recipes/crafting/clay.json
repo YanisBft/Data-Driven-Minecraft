@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:clay_ball"
+            "name": "minecraft:clay_ball"
         }
     },
     "result": {
-        "item": "minecraft:clay"
+        "name": "minecraft:clay"
     }
 }

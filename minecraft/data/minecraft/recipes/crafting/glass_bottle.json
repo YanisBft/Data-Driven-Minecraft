@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:bucket",
+    "parent": "minecraft:template/bucket",
     "ingredients": {
         "item": {
-            "item": "minecraft:glass"
+            "name": "minecraft:glass"
         }
     },
     "result": {
-        "item": "minecraft:glass_bottle",
+        "name": "minecraft:glass_bottle",
         "count": 3
     }
 }

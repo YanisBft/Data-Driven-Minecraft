@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:rose_bush"
+            "name": "minecraft:rose_bush"
         }
     },
     "result": {
-        "item": "minecraft:red_dye",
+        "name": "minecraft:red_dye",
         "count": 2
     },
     "group": "minecraft:red_dye"

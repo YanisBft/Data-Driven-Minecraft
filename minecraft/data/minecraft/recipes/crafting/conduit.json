@@ -1,14 +1,14 @@
 {
-    "parent": "outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:nautilus_shell"
+            "name": "minecraft:nautilus_shell"
         },
         "center": {
-            "item": "minecraft:heart_of_the_sea"
+            "name": "minecraft:heart_of_the_sea"
         }
     },
     "result": {
-        "item": "minecraft:conduit"
+        "name": "minecraft:conduit"
     }
 }

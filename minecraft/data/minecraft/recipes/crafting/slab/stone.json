@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:stone"
+            "name": "minecraft:stone"
         }
     },
     "result": {
-        "item": "minecraft:stone_slab",
+        "name": "minecraft:stone_slab",
         "count": 6
     },
     "group": "minecraft:slab"

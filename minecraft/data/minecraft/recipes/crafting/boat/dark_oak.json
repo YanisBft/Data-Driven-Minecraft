@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:boat",
+    "parent": "minecraft:template/boat",
     "ingredients": {
         "item": {
-            "item": "minecraft:dark_oak_planks"
+            "name": "minecraft:dark_oak_planks"
         }
     },
     "result": {
-        "item": "minecraft:dark_oak_boat"
+        "name": "minecraft:dark_oak_boat"
     },
     "group": "minecraft:boat"
 }

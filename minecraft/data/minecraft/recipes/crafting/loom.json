@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:cube_3",
+    "parent": "minecraft:template/cube_3",
     "ingredients": {
         "item1": {
-            "item": "minecraft:string"
+            "name": "minecraft:string"
         },
         "item2": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:loom"
+        "name": "minecraft:loom"
     }
 }

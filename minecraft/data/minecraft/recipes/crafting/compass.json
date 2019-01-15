@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:circle",
+    "parent": "minecraft:template/circle",
     "ingredients": {
         "outline": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "center": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:compass"
+        "name": "minecraft:compass"
     }
 }

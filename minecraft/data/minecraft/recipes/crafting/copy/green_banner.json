@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:green_banner",
+            "name": "minecraft:green_banner",
             "conditions": {
                 "layers": {
                     "min": 1
@@ -10,7 +10,7 @@
             }
         },
         "item2": {
-            "item": "minecraft:green_banner",
+            "name": "minecraft:green_banner",
             "conditions": {
                 "layers": {
                     "max": 0
@@ -19,7 +19,7 @@
         }
     },
     "result": {
-        "item": "minecraft:green_banner"
+        "name": "minecraft:green_banner"
     },
     "group": "minecraft:banner_copy",
     "functions": [

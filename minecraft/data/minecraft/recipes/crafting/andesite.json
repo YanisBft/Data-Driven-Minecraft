@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:diorite"
+            "name": "minecraft:diorite"
         },
         "item2": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         }
     },
     "result": {
-        "item": "minecraft:andesite",
+        "name": "minecraft:andesite",
         "count": 2
     }
 }

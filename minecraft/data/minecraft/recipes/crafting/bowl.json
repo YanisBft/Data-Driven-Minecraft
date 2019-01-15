@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:bucket",
+    "parent": "minecraft:template/bucket",
     "ingredients": {
         "item": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:bowl",
+        "name": "minecraft:bowl",
         "count": 4
     }
 }

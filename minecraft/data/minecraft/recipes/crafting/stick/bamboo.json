@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:2_high_line",
+    "parent": "minecraft:template/2_high_line",
     "ingredients": {
         "top": {
             "name": "minecraft:bamboo"
@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:stick"
+        "name": "minecraft:stick"
     },
     "group": "minecraft:stick"
 }

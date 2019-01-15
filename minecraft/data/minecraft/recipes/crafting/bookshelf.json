@@ -1,17 +1,17 @@
 {
-    "parent": "minecraft:3_layers",
+    "parent": "minecraft:template/3_layers",
     "ingredients": {
         "top": {
             "tag": "minecraft:planks"
         },
         "middle": {
-            "item": "minecraft:book"
+            "name": "minecraft:book"
         },
         "bottom": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:bookshelf"
+        "name": "minecraft:bookshelf"
     }
 }

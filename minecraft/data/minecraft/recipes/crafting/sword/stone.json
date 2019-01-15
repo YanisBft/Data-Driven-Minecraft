@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:3_high_line",
+    "parent": "minecraft:template/3_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         },
         "middle": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         },
         "bottom": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:stone_sword"
+        "name": "minecraft:stone_sword"
     },
     "group": "minecraft:sword"
 }

@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:purple_dye"
     },
-    "group": "minecraft:banner_bottom_triangle",
+    "group": "minecraft:bottom_triangle",
     "add_pattern": {
         "color": "purple",
         "pattern": "bottom_triangle"

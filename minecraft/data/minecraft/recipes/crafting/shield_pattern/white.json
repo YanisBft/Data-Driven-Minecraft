@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:shield",
+            "name": "minecraft:shield",
             "conditions": {
                 "layers": {
                     "base": "none"
@@ -10,11 +10,11 @@
             }
         },
         "item2": {
-            "item": "minecraft:white_banner"
+            "name": "minecraft:white_banner"
         }
     },
     "result": {
-        "item": "minecraft:shield"
+        "name": "minecraft:shield"
     },
     "group": "minecraft:shield_pattern",
     "functions": [

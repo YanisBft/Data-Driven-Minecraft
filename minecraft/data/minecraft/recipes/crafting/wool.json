@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:string"
+            "name": "minecraft:string"
         }
     },
     "result": {
-        "item": "minecraft:white_wool"
+        "name": "minecraft:white_wool"
     }
 }

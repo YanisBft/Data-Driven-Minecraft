@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_layers",
+    "parent": "minecraft:template/2_layers",
     "ingredients": {
         "top": {
-            "item": "minecraft:oak_planks"
+            "name": "minecraft:oak_planks"
         },
         "bottom": {
-            "item": "minecraft:oak_planks"
+            "name": "minecraft:oak_planks"
         }
     },
     "result": {
-        "item": "minecraft:oak_trapdoor",
+        "name": "minecraft:oak_trapdoor",
         "count": 2
     },
     "group": "minecraft:trapdoor"

@@ -1,17 +1,17 @@
 {
-    "parent": "minecraft:3_items",
+    "parent": "minecraft:template/3_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:book"
+            "name": "minecraft:book"
         },
         "item2": {
-            "item": "minecraft:feather"
+            "name": "minecraft:feather"
         },
         "item3": {
-            "item": "minecraft:ink_sack"
+            "name": "minecraft:ink_sack"
         }
     },
     "result": {
-        "item": "minecraft:writable_book"
+        "name": "minecraft:writable_book"
     }
 }

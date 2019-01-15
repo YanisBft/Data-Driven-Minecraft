@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:3_high_line",
+    "parent": "minecraft:template/3_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "middle": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "bottom": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:iron_shovel"
+        "name": "minecraft:iron_shovel"
     },
     "group": "minecraft:shovel"
 }

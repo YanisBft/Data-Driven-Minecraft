@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:light_blue_dye"
     },
-    "group": "minecraft:banner_curly_border",
+    "group": "minecraft:curly_border",
     "add_pattern": {
         "color": "light_blue",
         "pattern": "curly_border"

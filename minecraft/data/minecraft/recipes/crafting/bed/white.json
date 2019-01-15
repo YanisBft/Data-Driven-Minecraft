@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_layers",
+    "parent": "minecraft:template/2_layers",
     "ingredients": {
         "top": {
-            "item": "minecraft:white_wool"
+            "name": "minecraft:white_wool"
         },
         "bottom": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:white_bed"
+        "name": "minecraft:white_bed"
     },
     "group": "minecraft:bed"
 }

@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:red_dye"
     },
-    "group": "minecraft:banner_bottom_left_corner",
+    "group": "minecraft:bottom_left_corner",
     "add_pattern": {
         "color": "red",
         "pattern": "bottom_left_corner"

@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:shulker_box"
+            "name": "minecraft:shulker_box"
         },
         "item2": {
-            "item": "minecraft:purple_dye"
+            "name": "minecraft:purple_dye"
         }
     },
     "functions": [
@@ -15,7 +15,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:purple_shulker_box"
+        "name": "minecraft:purple_shulker_box"
     },
     "group": "minecraft:shulker_box_coloring"
 }

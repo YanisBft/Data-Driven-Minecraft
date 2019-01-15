@@ -10,16 +10,16 @@
     ],
     "ingredients": {
         "glass": {
-            "item": "minecraft:glass"
+            "name": "minecraft:glass"
         },
         "obsidian": {
-            "item": "minecraft:obsidian"
+            "name": "minecraft:obsidian"
         },
         "star": {
-            "item": "minecraft:nether_star"
+            "name": "minecraft:nether_star"
         }
     },
     "result": {
-        "item": "minecraft:beacon"
+        "name": "minecraft:beacon"
     }
 }

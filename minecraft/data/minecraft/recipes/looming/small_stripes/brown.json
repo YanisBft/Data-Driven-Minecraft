@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:brown_dye"
     },
-    "group": "minecraft:banner_small_stripes",
+    "group": "minecraft:small_stripes",
     "add_pattern": {
         "color": "brown",
         "pattern": "small_stripes"

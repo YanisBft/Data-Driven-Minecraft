@@ -3,71 +3,11 @@
     "group": "minecraft:axe",
     "enchantments": [
         {
-            "name": "minecraft:efficiency",
-            "weight": 10,
-            "max_lvl": 5
+            "tag": "minecraft:axes"
         },
         {
-            "name": "minecraft:unbreaking",
-            "weight": 5,
-            "max_lvl": 3
-        },
-        {
-            "name": "minecraft:fortune",
-            "weight": 2,
-            "not_with": [
-                "minecraft:silk_touch"
-            ],
-            "max_lvl": 3
-        },
-        {
-            "name": "minecraft:silk_touch",
-            "weight": 1,
-            "not_with": [
-                "minecraft:fortune"
-            ]
-        },
-        {
-            "name": "minecraft:mending",
-            "weight": 2,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:vanishing_curse",
-            "weight": 1,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:sharpness",
-            "weight": 10,
-            "not_with": [
-                "minecraft:bane_of_arthropods",
-                "minecraft:smite"
-            ],
-            "max_lvl": 5,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:bane_of_arthropods",
-            "weight": 5,
-            "not_with": [
-                "minecraft:sharpness",
-                "minecraft:smite"
-            ],
-            "max_lvl": 5,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:smite",
-            "weight": 5,
-            "not_with": [
-                "minecraft:sharpness",
-                "minecraft:bane_of_arthropods"
-            ],
-            "max_lvl": 5,
-            "secondairy": true
+            "tag": "minecraft:secondary_axes",
+            "secondary": true
         }
     ],
     "enchantability": 5

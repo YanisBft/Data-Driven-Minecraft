@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:door",
+    "parent": "minecraft:template/door",
     "ingredients": {
         "item": {
-            "item": "minecraft:jungle_planks"
+            "name": "minecraft:jungle_planks"
         }
     },
     "result": {
-        "item": "minecraft:jungle_door",
+        "name": "minecraft:jungle_door",
         "count": 3
     },
     "group": "minecraft:door"

@@ -10,17 +10,17 @@
     ],
     "ingredients": {
         "outline": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         },
         "center": {
-            "item": "minecraft:bow",
+            "name": "minecraft:bow",
             "durability": 1
         },
         "bottom": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:dispenser"
+        "name": "minecraft:dispenser"
     }
 }

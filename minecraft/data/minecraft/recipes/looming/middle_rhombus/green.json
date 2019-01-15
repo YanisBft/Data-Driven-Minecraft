@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:green_dye"
     },
-    "group": "minecraft:banner_middle_rhombus",
+    "group": "minecraft:middle_rhombus",
     "add_pattern": {
         "color": "green",
         "pattern": "middle_rhombus"

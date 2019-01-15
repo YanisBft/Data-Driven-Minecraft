@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:3_high_line",
+    "parent": "minecraft:template/3_high_line",
     "ingredients": {
         "top": {
             "tag": "minecraft:planks"
         },
         "middle": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "bottom": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:wooden_shovel"
+        "name": "minecraft:wooden_shovel"
     },
     "group": "minecraft:shovel"
 }

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:redstone_block"
+            "name": "minecraft:redstone_block"
         }
     },
     "result": {
-        "item": "minecraft:redstone",
+        "name": "minecraft:redstone",
         "count": 9
     },
     "group": "minecraft:gem"

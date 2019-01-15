@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:3_high_line",
+    "parent": "minecraft:template/3_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "middle": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "bottom": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:tripwire_hook",
+        "name": "minecraft:tripwire_hook",
         "count": 2
     }
 }

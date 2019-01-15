@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:dark_oak_log"
+            "name": "minecraft:dark_oak_log"
         }
     },
     "result": {
-        "item": "minecraft:dark_oak_wood"
+        "name": "minecraft:dark_oak_wood"
     },
     "group": "minecraft:wood"
 }

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:chestplate",
+    "parent": "minecraft:template/chestplate",
     "ingredients": {
         "material": {
-            "item": "minecraft:leather"
+            "name": "minecraft:leather"
         }
     },
     "result": {
-        "item": "minecraft:leather_chestplate"
+        "name": "minecraft:leather_chestplate"
     },
     "group": "minecraft:chestplate"
 }

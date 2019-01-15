@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:light_gray_dye"
     },
-    "group": "minecraft:banner_left_of_upside_down_diagonal",
+    "group": "minecraft:left_of_upside_down_diagonal",
     "add_pattern": {
         "color": "light_gray",
         "pattern": "left_of_upside_down_diagonal"

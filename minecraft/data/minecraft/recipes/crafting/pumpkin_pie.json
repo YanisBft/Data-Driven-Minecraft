@@ -1,17 +1,17 @@
 {
-    "parent": "minecraft:3_items",
+    "parent": "minecraft:template/3_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:pumpkin"
+            "name": "minecraft:pumpkin"
         },
         "item2": {
-            "item": "minecraft:sugar"
+            "name": "minecraft:sugar"
         },
         "item3": {
-            "item": "minecraft:egg"
+            "name": "minecraft:egg"
         }
     },
     "result": {
-        "item": "minecraft:pumpkin_pie"
+        "name": "minecraft:pumpkin_pie"
     }
 }

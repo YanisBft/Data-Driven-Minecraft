@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_layers",
+    "parent": "minecraft:template/2_layers",
     "ingredients": {
         "top": {
-            "item": "minecraft:acacia_planks"
+            "name": "minecraft:acacia_planks"
         },
         "bottom": {
-            "item": "minecraft:acacia_planks"
+            "name": "minecraft:acacia_planks"
         }
     },
     "result": {
-        "item": "minecraft:acacia_trapdoor",
+        "name": "minecraft:acacia_trapdoor",
         "count": 2
     },
     "group": "minecraft:trapdoor"

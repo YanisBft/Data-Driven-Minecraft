@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:circle",
+    "parent": "minecraft:template/circle",
     "ingredients": {
         "outline": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         },
         "center": {
-            "item": "minecraft:glowstone"
+            "name": "minecraft:glowstone"
         }
     },
     "result": {
-        "item": "minecraft:redstone_lamp"
+        "name": "minecraft:redstone_lamp"
     }
 }

@@ -1,63 +1,63 @@
 {
-    "parent": "minecraft:color_armor",
+    "parent": "minecraft:template/color_armor",
     "ingredients": {
         "item": {
-            "item": "minecraft:leather_leggings"
+            "name": "minecraft:leather_leggings"
         },
         "black": {
-            "item": "minecraft:black_dye"
+            "name": "minecraft:black_dye"
         },
         "red": {
-            "item": "minecraft:red_dye"
+            "name": "minecraft:red_dye"
         },
         "green": {
-            "item": "minecraft:green_dye"
+            "name": "minecraft:green_dye"
         },
         "brown": {
-            "item": "minecraft:brown_dye"
+            "name": "minecraft:brown_dye"
         },
         "blue": {
-            "item": "minecraft:blue_dye"
+            "name": "minecraft:blue_dye"
         },
         "purple": {
-            "item": "minecraft:purple_dye"
+            "name": "minecraft:purple_dye"
         },
         "cyan": {
-            "item": "minecraft:cyan_dye"
+            "name": "minecraft:cyan_dye"
         },
         "light_gray": {
-            "item": "minecraft:light_gray_dye"
+            "name": "minecraft:light_gray_dye"
         },
         "gray": {
-            "item": "minecraft:gray_dye"
+            "name": "minecraft:gray_dye"
         },
         "pink": {
-            "item": "minecraft:pink_dye"
+            "name": "minecraft:pink_dye"
         },
         "lime": {
-            "item": "minecraft:lime_dye"
+            "name": "minecraft:lime_dye"
         },
         "yellow": {
-            "item": "minecraft:yellow_dye"
+            "name": "minecraft:yellow_dye"
         },
         "light_blue": {
-            "item": "minecraft:light_blue_dye"
+            "name": "minecraft:light_blue_dye"
         },
         "magenta": {
-            "item": "minecraft:magenta_dye"
+            "name": "minecraft:magenta_dye"
         },
         "orange": {
-            "item": "minecraft:orange_dye"
+            "name": "minecraft:orange_dye"
         },
         "white": {
-            "item": "minecraft:white_dye"
+            "name": "minecraft:white_dye"
         }
     },
     "optional_shapes_required": {
         "min": 1
     },
     "result": {
-        "item": "minecraft:leather_leggings"
+        "name": "minecraft:leather_leggings"
     },
     "group": "minecraft:leather_armor_coloring",
     "functions": [

@@ -1,25 +1,17 @@
 {
-    "shapes": [
-        {
-            "items": [
-                [    "",    "torch"    ],
-                [    "torch",    "center",    "torch"    ],
-                [    "plate",    "plate",    "plate"    ]
-            ]
-        }
-    ],
+    "parent": "minecraft:template/pile",
     "ingredients": {
-        "torch": {
-            "item": "minecraft:redstone_torch"
+        "pile": {
+            "name": "minecraft:redstone_torch"
         },
         "center": {
-            "item": "minecraft:quartz"
+            "name": "minecraft:quartz"
         },
-        "plate": {
-            "item": "minecraft:stone"
+        "base": {
+            "name": "minecraft:stone"
         }
     },
     "result": {
-        "item": "minecraft:comparator"
+        "name": "minecraft:comparator"
     }
 }

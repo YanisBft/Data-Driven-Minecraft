@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:rabbit_hide"
+            "name": "minecraft:rabbit_hide"
         }
     },
     "result": {
-        "item": "minecraft:leather"
+        "name": "minecraft:leather"
     }
 }

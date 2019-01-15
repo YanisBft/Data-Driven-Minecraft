@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:lapis_lazuli"
+            "name": "minecraft:lapis_lazuli"
         }
     },
     "result": {
-        "item": "minecraft:lapis_block"
+        "name": "minecraft:lapis_block"
     },
     "group": "minecraft:material_block"
 }

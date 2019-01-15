@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:pink_dye"
     },
-    "group": "minecraft:banner_square_cross",
+    "group": "minecraft:square_cross",
     "add_pattern": {
         "color": "pink",
         "pattern": "square_cross"

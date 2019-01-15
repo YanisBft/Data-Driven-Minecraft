@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:iron_block"
+            "name": "minecraft:iron_block"
         }
     },
     "result": {
-        "item": "minecraft:iron_ingot",
+        "name": "minecraft:iron_ingot",
         "count": 9
     },
     "group": "minecraft:gem"

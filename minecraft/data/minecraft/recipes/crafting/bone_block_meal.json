@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:bone_block"
+            "name": "minecraft:bone_block"
         }
     },
     "result": {
-        "item": "minecraft:bone_meal",
+        "name": "minecraft:bone_meal",
         "count": 9
     },
     "group": "minecraft:gem"

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:door",
+    "parent": "minecraft:template/door",
     "ingredients": {
         "item": {
-            "item": "minecraft:dark_oak_planks"
+            "name": "minecraft:dark_oak_planks"
         }
     },
     "result": {
-        "item": "minecraft:dark_oak_door",
+        "name": "minecraft:dark_oak_door",
         "count": 3
     },
     "group": "minecraft:door"

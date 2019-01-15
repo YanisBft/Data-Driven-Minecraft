@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:dark_oak_planks"
+            "name": "minecraft:dark_oak_planks"
         }
     },
     "result": {
-        "item": "minecraft:dark_oak_button"
+        "name": "minecraft:dark_oak_button"
     },
     "group": "minecraft:button"
 }

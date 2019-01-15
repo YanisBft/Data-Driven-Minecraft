@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:stairs",
+    "parent": "minecraft:template/stairs",
     "ingredients": {
         "item": {
             "name": "minecraft:red_sandstone"
         }
     },
     "result": {
-        "item": "minecraft:red_sandstone_stairs",
+        "name": "minecraft:red_sandstone_stairs",
         "count": 4
     },
     "group": "minecraft:stairs"

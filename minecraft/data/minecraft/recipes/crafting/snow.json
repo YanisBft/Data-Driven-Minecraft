@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:snow_block"
+            "name": "minecraft:snow_block"
         }
     },
     "result": {
-        "item": "minecraft:snow",
+        "name": "minecraft:snow",
         "count": 6
     }
 }

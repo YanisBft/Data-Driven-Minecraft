@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:cocoa_beans"
+            "name": "minecraft:cocoa_beans"
         }
     },
     "result": {
-        "item": "minecraft:brown_dye"
+        "name": "minecraft:brown_dye"
     },
     "group": "minecraft:brown_dye"
 }

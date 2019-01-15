@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:stripped_jungle_log"
+            "name": "minecraft:stripped_jungle_log"
         }
     },
     "result": {
-        "item": "minecraft:stripped_jungle_wood"
+        "name": "minecraft:stripped_jungle_wood"
     },
     "group": "minecraft:stripped_wood"
 }

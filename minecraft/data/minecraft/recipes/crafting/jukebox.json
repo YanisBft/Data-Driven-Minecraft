@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
             "tag": "minecraft:planks"
         },
         "center": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "minecraft:jukebox"
+        "name": "minecraft:jukebox"
     }
 }

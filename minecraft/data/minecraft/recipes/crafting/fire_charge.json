@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:3_items",
+    "parent": "minecraft:template/3_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:blaze_powder"
+            "name": "minecraft:blaze_powder"
         },
         "item2": {
             "item": [
@@ -11,10 +11,10 @@
             ]
         },
         "item3": {
-            "item": "minecraft:gunpowder"
+            "name": "minecraft:gunpowder"
         }
     },
     "result": {
-        "item": "minecraft:fire_charge"
+        "name": "minecraft:fire_charge"
     }
 }

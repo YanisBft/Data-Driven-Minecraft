@@ -23,13 +23,13 @@
     ],
     "ingredients": {
         "paper": {
-            "item": "minecraft:paper"
+            "name": "minecraft:paper"
         },
         "gunpowder": {
-            "item": "minecraft:gunpowder"
+            "name": "minecraft:gunpowder"
         },
         "star": {
-            "item": "minecraft:firework_star"
+            "name": "minecraft:firework_star"
         }
     },
     "optional_shapes_required": {
@@ -37,7 +37,7 @@
         "max": 4
     },
     "result": {
-        "item": "minecraft:firework_rocket",
+        "name": "minecraft:firework_rocket",
         "count": 3
     },
     "functions": [
@@ -56,6 +56,6 @@
         }
     ],
     "result": {
-        "item": "minecraft:fireworks"
+        "name": "minecraft:fireworks"
     }
 }

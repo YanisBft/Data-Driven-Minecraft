@@ -1,16 +1,15 @@
 {
-    "type": "crafting",
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:white_wool"
+            "name": "minecraft:white_wool"
         },
         "item2": {
-            "item": "minecraft:light_gray_dye"
+            "name": "minecraft:light_gray_dye"
         }
     },
     "result": {
-        "item": "minecraft:light_gray_wool"
+        "name": "minecraft:light_gray_wool"
     },
     "group": "minecraft:wool_coloring"
 }

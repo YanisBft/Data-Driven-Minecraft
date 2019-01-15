@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:3_high_line",
+    "parent": "minecraft:template/3_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         },
         "middle": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "bottom": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:diamond_shovel"
+        "name": "minecraft:diamond_shovel"
     },
     "group": "minecraft:shovel"
 }

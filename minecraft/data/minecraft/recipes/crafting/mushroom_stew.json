@@ -1,17 +1,17 @@
 {
-    "parent": "minecraft:3_items",
+    "parent": "minecraft:template/3_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:red_mushroom"
+            "name": "minecraft:red_mushroom"
         },
         "item2": {
-            "item": "minecraft:brown_mushroom"
+            "name": "minecraft:brown_mushroom"
         },
         "item3": {
-            "item": "minecraft:bowl"
+            "name": "minecraft:bowl"
         }
     },
     "result": {
-        "item": "minecraft:mushroom_stew"
+        "name": "minecraft:mushroom_stew"
     }
 }

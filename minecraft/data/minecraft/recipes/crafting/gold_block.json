@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:gold_ingot"
+            "name": "minecraft:gold_ingot"
         }
     },
     "result": {
-        "item": "minecraft:gold_block"
+        "name": "minecraft:gold_block"
     },
     "group": "minecraft:material_block"
 }

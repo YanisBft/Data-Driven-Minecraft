@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:black_dye"
     },
-    "group": "minecraft:banner_bottom_triangle_sawtooth",
+    "group": "minecraft:bottom_triangle_sawtooth",
     "add_pattern": {
         "color": "black",
         "pattern": "bottom_triangle_sawtooth"

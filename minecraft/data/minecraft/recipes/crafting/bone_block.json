@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:bone_meal"
+            "name": "minecraft:bone_meal"
         }
     },
     "result": {
-        "item": "minecraft:bone_block"
+        "name": "minecraft:bone_block"
     },
     "group": "minecraft:material_block"
 }

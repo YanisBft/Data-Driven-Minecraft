@@ -23,13 +23,13 @@
     ],
     "ingredients": {
         "paper": {
-            "item": "minecraft:paper"
+            "name": "minecraft:paper"
         },
         "leather": {
-            "item": "minecraft:leather"
+            "name": "minecraft:leather"
         }
     },
     "result": {
-        "item": "minecraft:book"
+        "name": "minecraft:book"
     }
 }

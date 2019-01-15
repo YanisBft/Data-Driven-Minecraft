@@ -13,16 +13,16 @@
             "tag": "minecraft:planks"
         },
         "side": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         },
         "center": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "bottom": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:piston"
+        "name": "minecraft:piston"
     }
 }

@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:terracotta"
+            "name": "minecraft:terracotta"
         },
         "center": {
-            "item": "minecraft:green_dye"
+            "name": "minecraft:green_dye"
         }
     },
     "result": {
-        "item": "minecraft:green_terracotta",
+        "name": "minecraft:green_terracotta",
         "count": 8
     },
     "group": "minecraft:terracotta_coloring"

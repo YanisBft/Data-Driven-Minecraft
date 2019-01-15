@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:2_high_line",
+    "parent": "minecraft:template/2_high_line",
     "ingredients": {
         "top": {
             "tag": "minecraft:planks"
@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:stick",
+        "name": "minecraft:stick",
         "count": 4
     },
     "group": "minecraft:stick"

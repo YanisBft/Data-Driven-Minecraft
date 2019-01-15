@@ -10,13 +10,13 @@
     ],
     "ingredients": {
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "string": {
-            "item": "minecraft:string"
+            "name": "minecraft:string"
         }
     },
     "result": {
-        "item": "minecraft:fishing_rod"
+        "name": "minecraft:fishing_rod"
     }
 }

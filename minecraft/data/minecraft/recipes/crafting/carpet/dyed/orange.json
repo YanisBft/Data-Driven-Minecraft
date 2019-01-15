@@ -1,15 +1,15 @@
 {
-    "parent": "outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:carpet"
+            "name": "minecraft:white_carpet"
         },
         "center": {
-            "item": "minecraft:orange_dye"
+            "name": "minecraft:orange_dye"
         }
     },
     "result": {
-        "item": "minecraft:orange_carpet",
+        "name": "minecraft:orange_carpet",
         "count": 8
     },
     "group": "minecraft:dyed_carpet"

@@ -1,21 +1,21 @@
 {
-    "parent": "minecraft:rail",
+    "parent": "minecraft:template/rail",
     "ingredients": {
         "rail": {
-            "item": "minecraft:gold_ingot"
+            "name": "minecraft:gold_ingot"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "empty1": {
             
         },
         "empty2": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:powered_rail",
+        "name": "minecraft:powered_rail",
         "count": 6
     }
 }

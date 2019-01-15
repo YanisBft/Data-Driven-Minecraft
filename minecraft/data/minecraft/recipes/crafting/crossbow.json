@@ -10,19 +10,19 @@
     ],
     "ingredients": {
         "string": {
-            "item": "minecraft:string"
+            "name": "minecraft:string"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "iron": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "hook": {
-            "item": "minecraft:tripwire_hook"
+            "name": "minecraft:tripwire_hook"
         }
     },
     "result": {
-        "item": "minecraft:crossbow"
+        "name": "minecraft:crossbow"
     }
 }

@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:gold_ingot"
+            "name": "minecraft:gold_ingot"
         },
         "center": {
-            "item": "minecraft:apple"
+            "name": "minecraft:apple"
         }
     },
     "result": {
-        "item": "minecraft:golden_apple"
+        "name": "minecraft:golden_apple"
     },
     "group": "minecraft:golden_food"
 }

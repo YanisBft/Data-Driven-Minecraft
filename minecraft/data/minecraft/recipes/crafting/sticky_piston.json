@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_high_line",
+    "parent": "minecraft:template/2_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:slime_ball"
+            "name": "minecraft:slime_ball"
         },
         "bottom": {
-            "item": "minecraft:piston"
+            "name": "minecraft:piston"
         }
     },
     "result": {
-        "item": "minecraft:sticky_piston"
+        "name": "minecraft:sticky_piston"
     }
 }

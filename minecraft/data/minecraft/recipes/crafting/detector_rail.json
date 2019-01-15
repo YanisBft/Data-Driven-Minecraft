@@ -1,26 +1,21 @@
 {
-    "shapes": [
-        {
-            "items": [
-                [    "rail",    "",    "rail"    ],
-                [    "rail",    "plate",    "rail"    ],
-                [    "rail",    "torch",    "rail"    ]
-            ]
-        }
-    ],
+    "parent": "minecraft:template/rail",
     "ingredients": {
         "rail": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
-        "plate": {
-            "item": "minecraft:stone_pressure_plate"
+        "stick": {
+            "name": "minecraft:stone_pressure_plate"
         },
-        "torch": {
-            "item": "minecraft:redstone"
+        "empty1": {
+            
+        },
+        "empty2": {
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:detector_rail",
+        "name": "minecraft:detector_rail",
         "count": 6
     }
 }

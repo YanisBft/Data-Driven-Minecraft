@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:mossy_cobblestone"
+            "name": "minecraft:mossy_cobblestone"
         }
     },
     "result": {
-        "item": "minecraft:mossy_cobblestone_slab",
+        "name": "minecraft:mossy_cobblestone_slab",
         "count": 6
     },
     "group": "minecraft:slab"

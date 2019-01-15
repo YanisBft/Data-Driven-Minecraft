@@ -9,10 +9,10 @@
     ],
     "ingredients": {
         "item": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         }
     },
     "result": {
-        "item": "minecraft:bucket"
+        "name": "minecraft:bucket"
     }
 }

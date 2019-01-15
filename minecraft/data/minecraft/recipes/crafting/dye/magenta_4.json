@@ -23,17 +23,17 @@
     ],
     "ingredients": {
         "blue": {
-            "item": "minecraft:blue_dye"
+            "name": "minecraft:blue_dye"
         },
         "white": {
-            "item": "minecraft:white_dye"
+            "name": "minecraft:white_dye"
         },
         "red": {
-            "item": "minecraft:red_dye"
+            "name": "minecraft:red_dye"
         }
     },
     "result": {
-        "item": "minecraft:magenta_dye",
+        "name": "minecraft:magenta_dye",
         "count": 4
     },
     "group": "minecraft:magenta_dye"

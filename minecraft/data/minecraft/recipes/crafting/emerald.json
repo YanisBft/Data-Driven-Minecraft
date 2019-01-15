@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:emerald_block"
+            "name": "minecraft:emerald_block"
         }
     },
     "result": {
-        "item": "minecraft:emerald",
+        "name": "minecraft:emerald",
         "count": 9
     },
     "group": "minecraft:gem"

@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:obsidian"
+            "name": "minecraft:obsidian"
         },
         "center": {
-            "item": "minecraft:ender_eye"
+            "name": "minecraft:ender_eye"
         }
     },
     "result": {
-        "item": "minecraft:ender_chest"
+        "name": "minecraft:ender_chest"
     }
 }

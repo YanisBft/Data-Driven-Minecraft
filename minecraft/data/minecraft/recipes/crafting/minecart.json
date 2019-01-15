@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:boat",
+    "parent": "minecraft:template/boat",
     "ingredients": {
         "item": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         }
     },
     "result": {
-        "item": "minecraft:minecart"
+        "name": "minecraft:minecart"
     }
 }

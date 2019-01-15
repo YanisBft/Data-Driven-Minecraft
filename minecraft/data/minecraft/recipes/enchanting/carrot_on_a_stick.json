@@ -2,22 +2,8 @@
     "item": "minecraft:carrot_on_a_stick",
     "enchantments": [
         {
-            "name": "minecraft:unbreaking",
-            "weight": 5,
-            "max_lvl": 3,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:mending",
-            "weight": 2,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:vanishing_curse",
-            "weight": 1,
-            "treasure": true,
-            "secondairy": true
+            "tag": "minecraft:unenchantable_tools",
+            "secondary": true
         }
     ],
     "enchantability": 0

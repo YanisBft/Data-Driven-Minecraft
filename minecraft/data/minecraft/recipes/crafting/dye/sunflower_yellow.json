@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:sunflower"
+            "name": "minecraft:sunflower"
         }
     },
     "result": {
-        "item": "minecraft:yellow_dye",
+        "name": "minecraft:yellow_dye",
         "count": 2
     },
     "group": "minecraft:yellow_dye"

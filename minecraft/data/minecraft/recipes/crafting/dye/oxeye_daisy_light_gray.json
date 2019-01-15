@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:oxeye_daisy"
+            "name": "minecraft:oxeye_daisy"
         }
     },
     "result": {
-        "item": "minecraft:light_gray_dye"
+        "name": "minecraft:light_gray_dye"
     },
     "group": "minecraft:light_gray_dye"
 }

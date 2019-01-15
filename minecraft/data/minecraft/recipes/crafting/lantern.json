@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:iron_nugget"
+            "name": "minecraft:iron_nugget"
         },
         "center": {
-            "item": "minecraft:torch"
+            "name": "minecraft:torch"
         }
     },
     "result": {
-        "item": "minecraft:lantern"
+        "name": "minecraft:lantern"
     }
 }

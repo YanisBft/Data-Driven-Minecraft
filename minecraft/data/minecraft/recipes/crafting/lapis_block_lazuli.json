@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:lapis_block"
+            "name": "minecraft:lapis_block"
         }
     },
     "result": {
-        "item": "minecraft:lapis_lazuli",
+        "name": "minecraft:lapis_lazuli",
         "count": 9
     },
     "group": "minecraft:gem"

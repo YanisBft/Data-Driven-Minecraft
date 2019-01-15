@@ -3,41 +3,11 @@
     "group": "minecraft:pickaxe",
     "enchantments": [
         {
-            "name": "minecraft:efficiency",
-            "weight": 10,
-            "max_lvl": 5
+            "tag": "minecraft:mining_tools"
         },
         {
-            "name": "minecraft:unbreaking",
-            "weight": 5,
-            "max_lvl": 3
-        },
-        {
-            "name": "minecraft:fortune",
-            "weight": 2,
-            "not_with": [
-                "minecraft:silk_touch"
-            ],
-            "max_lvl": 3
-        },
-        {
-            "name": "minecraft:silk_touch",
-            "weight": 1,
-            "not_with": [
-                "minecraft:fortune"
-            ]
-        },
-        {
-            "name": "minecraft:mending",
-            "weight": 2,
-            "treasure": true,
-            "secondairy": true
-        },
-        {
-            "name": "minecraft:vanishing_curse",
-            "weight": 1,
-            "treasure": true,
-            "secondairy": true
+            "tag": "minecraft:secondary_enchantable_tools",
+            "secondary": true
         }
     ],
     "enchantability": 15

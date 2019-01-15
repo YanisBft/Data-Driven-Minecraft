@@ -10,14 +10,14 @@
     ],
     "ingredients": {
         "rope": {
-            "item": "minecraft:string"
+            "name": "minecraft:string"
         },
         "slime": {
-            "item": "minecraft:slime_ball"
+            "name": "minecraft:slime_ball"
         }
     },
     "result": {
-        "item": "minecraft:lead",
+        "name": "minecraft:lead",
         "count": 2
     }
 }

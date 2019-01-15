@@ -1,15 +1,15 @@
 {
-    "parent": "outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "center": {
             "tag": "minecraft:wool"
         }
     },
     "result": {
-        "item": "minecraft:painting"
+        "name": "minecraft:painting"
     },
     "group": "minecraft:painting"
 }

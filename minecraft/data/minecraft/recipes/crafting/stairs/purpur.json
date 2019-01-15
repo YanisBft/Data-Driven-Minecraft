@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:stairs",
+    "parent": "minecraft:template/stairs",
     "ingredients": {
         "item": {
             "name": "minecraft:purpur_block"
         }
     },
     "result": {
-        "item": "minecraft:purpur_stairs",
+        "name": "minecraft:purpur_stairs",
         "count": 4
     },
     "group": "minecraft:stairs"

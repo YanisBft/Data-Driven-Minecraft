@@ -1,19 +1,11 @@
 {
-    "shapes": [
-        {
-            "items": [
-                [    "rail",    "empty1",    "rail"    ],
-                [    "rail",    "stick",    "rail"    ],
-                [    "rail",    "empty2",    "rail"    ]
-            ]
-        }
-    ],
+    "parent": "minecraft:template/rail",
     "ingredients": {
         "rail": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         },
         "stick": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "empty1": {
             
@@ -23,7 +15,7 @@
         }
     },
     "result": {
-        "item": "minecraft:rail",
+        "name": "minecraft:rail",
         "count": 16
     }
 }

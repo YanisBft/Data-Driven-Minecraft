@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:light_blue_dye"
     },
-    "group": "minecraft:banner_left_stripe",
+    "group": "minecraft:left_stripe",
     "add_pattern": {
         "color": "light_blue",
         "pattern": "left_stripe"

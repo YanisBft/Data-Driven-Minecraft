@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:sand"
+            "name": "minecraft:sand"
         }
     },
     "result": {
-        "item": "minecraft:sandstone"
+        "name": "minecraft:sandstone"
     },
     "group": "minecraft:sandstone"
 }

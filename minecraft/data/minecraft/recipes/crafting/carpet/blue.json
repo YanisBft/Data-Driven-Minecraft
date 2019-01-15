@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:2_wide_line",
+    "parent": "minecraft:template/2_wide_line",
     "ingredients": {
         "item": {
-            "item": "minecraft:blue_wool"
+            "name": "minecraft:blue_wool"
         }
     },
     "result": {
-        "item": "minecraft:blue_carpet",
+        "name": "minecraft:blue_carpet",
         "count": 3
     },
     "group": "minecraft:carpet"

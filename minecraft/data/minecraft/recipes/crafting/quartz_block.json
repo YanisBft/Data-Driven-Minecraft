@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:quartz"
+            "name": "minecraft:quartz"
         }
     },
     "result": {
-        "item": "minecraft:quartz_block"
+        "name": "minecraft:quartz_block"
     }
 }

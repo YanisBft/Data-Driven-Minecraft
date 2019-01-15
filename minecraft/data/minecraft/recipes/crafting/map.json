@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:paper"
+            "name": "minecraft:paper"
         },
         "center": {
-            "item": "minecraft:compass"
+            "name": "minecraft:compass"
         }
     },
     "result": {
-        "item": "minecraft:map"
+        "name": "minecraft:map"
     }
 }

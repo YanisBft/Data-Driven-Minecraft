@@ -1,11 +1,11 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:prismarine_shard"
+            "name": "minecraft:prismarine_shard"
         }
     },
     "result": {
-        "item": "minecraft:prismarine_bricks"
+        "name": "minecraft:prismarine_bricks"
     }
 }

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:cube",
+    "parent": "minecraft:template/cube",
     "ingredients": {
         "item": {
-            "item": "minecraft:end_stone"
+            "name": "minecraft:end_stone"
         }
     },
     "result": {
-        "item": "minecraft:end_stone_bricks",
+        "name": "minecraft:end_stone_bricks",
         "count": 4
     }
 }

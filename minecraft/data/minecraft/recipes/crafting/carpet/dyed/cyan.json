@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:carpet"
+            "name": "minecraft:white_carpet"
         },
         "center": {
-            "item": "minecraft:cyan_dye"
+            "name": "minecraft:cyan_dye"
         }
     },
     "result": {
-        "item": "minecraft:cyan_carpet",
+        "name": "minecraft:cyan_carpet",
         "count": 8
     },
     "group": "minecraft:dyed_carpet"

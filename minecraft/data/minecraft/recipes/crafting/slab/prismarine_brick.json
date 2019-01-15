@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
-            "item": "minecraft:prismarine_bricks"
+            "name": "minecraft:prismarine_bricks"
         }
     },
     "result": {
-        "item": "minecraft:prismarine_brick_slab",
+        "name": "minecraft:prismarine_brick_slab",
         "count": 6
     },
     "group": "minecraft:slab"

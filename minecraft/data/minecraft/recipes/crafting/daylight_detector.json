@@ -1,17 +1,17 @@
 {
-    "parent": "minecraft:3_layers",
+    "parent": "minecraft:template/3_layers",
     "ingredients": {
         "top": {
-            "item": "minecraft:glass"
+            "name": "minecraft:glass"
         },
         "middle": {
-            "item": "minecraft:quartz"
+            "name": "minecraft:quartz"
         },
         "bottom": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "minecraft:daylight_detector"
+        "name": "minecraft:daylight_detector"
     }
 }

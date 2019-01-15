@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:attacks",
+        "minecraft:knockback",
+        "minecraft:fire_aspect",
+        "minecraft:looting",
+        "minecraft:sweeping",
+        "minecraft:unbreaking"
+    ]
+}

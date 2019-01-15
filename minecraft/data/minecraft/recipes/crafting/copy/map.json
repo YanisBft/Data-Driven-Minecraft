@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:copy_item",
+    "parent": "minecraft:template/copy_item",
     "ingredients": {
         "copy": {
-            "item": "minecraft:filled_map"
+            "name": "minecraft:filled_map"
         },
         "to1": {
-            "item": "minecraft:map"
+            "name": "minecraft:map"
         },
         "to2": {
-            "item": "minecraft:map"
+            "name": "minecraft:map"
         }
     },
     "result": {
-        "item": "minecraft:filled_map",
+        "name": "minecraft:filled_map",
         "count": 2
     },
     "functions": [

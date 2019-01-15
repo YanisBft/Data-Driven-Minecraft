@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:boat",
+    "parent": "minecraft:template/boat",
     "ingredients": {
         "item": {
-            "item": "minecraft:birch_planks"
+            "name": "minecraft:birch_planks"
         }
     },
     "result": {
-        "item": "minecraft:birch_boat"
+        "name": "minecraft:birch_boat"
     },
     "group": "minecraft:boat"
 }

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:dried_kelp_block"
+            "name": "minecraft:dried_kelp_block"
         }
     },
     "result": {
-        "item": "minecraft:dried_kelp",
+        "name": "minecraft:dried_kelp",
         "count": 9
     },
     "group": "minecraft:gem"

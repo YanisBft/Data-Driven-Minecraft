@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:glass"
+            "name": "minecraft:glass"
         },
         "center": {
-            "item": "minecraft:purple_dye"
+            "name": "minecraft:purple_dye"
         }
     },
     "result": {
-        "item": "minecraft:purple_stained_glass",
+        "name": "minecraft:purple_stained_glass",
         "count": 8
     },
     "group": "minecraft:stained_glass"

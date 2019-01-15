@@ -1,18 +1,18 @@
 {
-    "parent": "minecraft:concrete_powder",
+    "parent": "minecraft:template/concrete_powder",
     "ingredients": {
         "sand": {
-            "item": "minecraft:sand"
+            "name": "minecraft:sand"
         },
         "gravel": {
-            "item": "minecraft:gravel"
+            "name": "minecraft:gravel"
         },
         "dye": {
-            "item": "minecraft:lime_dye"
+            "name": "minecraft:lime_dye"
         }
     },
     "result": {
-        "item": "minecraft:lime_concrete_powder",
+        "name": "minecraft:lime_concrete_powder",
         "count": 8
     },
     "group": "minecraft:concrete_powder"

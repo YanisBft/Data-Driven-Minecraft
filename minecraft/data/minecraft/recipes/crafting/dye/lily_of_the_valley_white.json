@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:lily_of_the_valley"
+            "name": "minecraft:lily_of_the_valley"
         }
     },
     "result": {
-        "item": "minecraft:white_dye"
+        "name": "minecraft:white_dye"
     },
     "group": "minecraft:white_dye"
 }

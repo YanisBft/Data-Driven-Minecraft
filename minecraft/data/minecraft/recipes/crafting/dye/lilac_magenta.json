@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:lilac"
+            "name": "minecraft:lilac"
         }
     },
     "result": {
-        "item": "minecraft:magenta_dye",
+        "name": "minecraft:magenta_dye",
         "count": 2
     },
     "group": "minecraft:magenta_dye"

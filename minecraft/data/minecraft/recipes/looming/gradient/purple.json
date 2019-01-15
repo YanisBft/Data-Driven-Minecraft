@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:purple_dye"
     },
-    "group": "minecraft:banner_gradient",
+    "group": "minecraft:gradient",
     "add_pattern": {
         "color": "purple",
         "pattern": "gradient"

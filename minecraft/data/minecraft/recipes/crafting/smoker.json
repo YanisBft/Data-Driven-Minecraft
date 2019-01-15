@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:circle",
+    "parent": "minecraft:template/circle",
     "ingredients": {
         "outline": {
             "tag": "minecraft:logs"
         },
         "center": {
-            "item": "minecraft:furnace"
+            "name": "minecraft:furnace"
         }
     },
     "result": {
-        "item": "minecraft:clock"
+        "name": "minecraft:clock"
     }
 }

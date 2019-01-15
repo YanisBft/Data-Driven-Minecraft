@@ -10,16 +10,16 @@
     ],
     "ingredients": {
         "shell": {
-            "item": "minecraft:cobblestone"
+            "name": "minecraft:cobblestone"
         },
         "front": {
-            "item": "minecraft:quartz"
+            "name": "minecraft:quartz"
         },
         "inside": {
-            "item": "minecraft:redstone"
+            "name": "minecraft:redstone"
         }
     },
     "result": {
-        "item": "minecraft:observer"
+        "name": "minecraft:observer"
     }
 }

@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:paper"
+            "name": "minecraft:paper"
         },
         "item2": {
-            "item": "minecraft:skeleton_skull"
+            "name": "minecraft:skeleton_skull"
         }
     },
     "result": {
-        "item": "minecraft:skull_banner_pattern"
+        "name": "minecraft:skull_banner_pattern"
     },
     "group": "minecraft:banner_pattern"
 }

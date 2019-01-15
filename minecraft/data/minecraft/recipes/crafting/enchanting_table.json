@@ -10,16 +10,16 @@
     ],
     "ingredients": {
         "book": {
-            "item": "minecraft:book"
+            "name": "minecraft:book"
         },
         "corner": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         },
         "table": {
-            "item": "minecraft:obsidian"
+            "name": "minecraft:obsidian"
         }
     },
     "result": {
-        "item": "minecraft:enchanting_table"
+        "name": "minecraft:enchanting_table"
     }
 }

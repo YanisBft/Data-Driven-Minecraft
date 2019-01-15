@@ -13,7 +13,7 @@
     "dye": {
         "item": "minecraft:magenta_dye"
     },
-    "group": "minecraft:banner_flower",
+    "group": "minecraft:flower",
     "add_pattern": {
         "color": "magenta",
         "pattern": "flower"

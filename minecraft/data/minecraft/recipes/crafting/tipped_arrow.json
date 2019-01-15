@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:outline",
+    "parent": "minecraft:template/outline",
     "ingredients": {
         "outline": {
-            "item": "minecraft:arrow"
+            "name": "minecraft:arrow"
         },
         "center": {
-            "item": "minecraft:lingering_potion"
+            "name": "minecraft:lingering_potion"
         }
     },
     "result": {
-        "item": "minecraft:tipped_arrow",
+        "name": "minecraft:tipped_arrow",
         "count": 8
     },
     "functions": [

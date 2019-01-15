@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:green_dye"
     },
-    "group": "minecraft:banner_brick",
+    "group": "minecraft:brick",
     "add_pattern": {
         "color": "green",
         "pattern": "brick"

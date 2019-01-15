@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_high_line",
+    "parent": "minecraft:template/2_high_line",
     "ingredients": {
         "top": {
-            "item": "minecraft:blaze_rod"
+            "name": "minecraft:blaze_rod"
         },
         "bottom": {
-            "item": "minecraft:chorus_fruit_popped"
+            "name": "minecraft:chorus_fruit_popped"
         }
     },
     "result": {
-        "item": "minecraft:end_rod"
+        "name": "minecraft:end_rod"
     }
 }

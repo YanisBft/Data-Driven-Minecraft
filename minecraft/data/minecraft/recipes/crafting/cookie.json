@@ -8,14 +8,14 @@
     ],
     "ingredients": {
         "wheat": {
-            "item": "minecraft:wheat"
+            "name": "minecraft:wheat"
         },
         "chocolate": {
-            "item": "minecraft:cocoa_beans"
+            "name": "minecraft:cocoa_beans"
         }
     },
     "result": {
-        "item": "minecraft:cookie",
+        "name": "minecraft:cookie",
         "count": 8
     }
 }

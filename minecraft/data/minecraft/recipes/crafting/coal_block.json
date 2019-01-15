@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:coal"
+            "name": "minecraft:coal"
         }
     },
     "result": {
-        "item": "minecraft:coal_block"
+        "name": "minecraft:coal_block"
     },
     "group": "minecraft:material_block"
 }

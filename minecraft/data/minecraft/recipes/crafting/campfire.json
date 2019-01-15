@@ -1,17 +1,17 @@
 {
-    "parent": "minecraft:compatator",
+    "parent": "minecraft:template/pile",
     "ingredients": {
-        "torch": {
-            "item": "minecraft:stick"
+        "pile": {
+            "name": "minecraft:stick"
         },
         "center": {
             "tag": "minecraft:coal"
         },
-        "plate": {
+        "base": {
             "tag": "minecraft:campfire_wood"
         }
     },
     "result": {
-        "item": "minecraft:campfire"
+        "name": "minecraft:campfire"
     }
 }

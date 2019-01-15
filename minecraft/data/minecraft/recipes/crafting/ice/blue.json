@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:packed_ice"
+            "name": "minecraft:packed_ice"
         }
     },
     "result": {
-        "item": "minecraft:blue_ice"
+        "name": "minecraft:blue_ice"
     },
     "group": "minecraft:ice"
 }

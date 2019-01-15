@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:stairs",
+    "parent": "minecraft:template/stairs",
     "ingredients": {
         "item": {
-            "item": "minecraft:prismarine"
+            "name": "minecraft:prismarine"
         }
     },
     "result": {
-        "item": "minecraft:prismarine_stairs",
+        "name": "minecraft:prismarine_stairs",
         "count": 4
     },
     "group": "minecraft:stairs"

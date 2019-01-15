@@ -10,13 +10,13 @@
     ],
     "ingredients": {
         "body": {
-            "item": "minecraft:stick"
+            "name": "minecraft:stick"
         },
         "base": {
-            "item": "minecraft:smooth_stone_slab"
+            "name": "minecraft:smooth_stone_slab"
         }
     },
     "result": {
-        "item": "minecraft:armor_stand"
+        "name": "minecraft:armor_stand"
     }
 }

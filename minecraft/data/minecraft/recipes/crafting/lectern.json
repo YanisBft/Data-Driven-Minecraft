@@ -13,10 +13,10 @@
             "tag": "minecraft:wooden_slabs"
         },
         "bookshelf": {
-            "item": "minecraft:bookshelf"
+            "name": "minecraft:bookshelf"
         }
     },
     "result": {
-        "item": "minecraft:lectern"
+        "name": "minecraft:lectern"
     }
 }

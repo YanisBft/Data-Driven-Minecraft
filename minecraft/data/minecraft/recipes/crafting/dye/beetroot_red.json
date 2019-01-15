@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:beetroot"
+            "name": "minecraft:beetroot"
         }
     },
     "result": {
-        "item": "minecraft:red_dye"
+        "name": "minecraft:red_dye"
     },
     "group": "minecraft:red_dye"
 }

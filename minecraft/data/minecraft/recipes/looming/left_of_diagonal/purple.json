@@ -10,7 +10,7 @@
     "dye": {
         "item": "minecraft:purple_dye"
     },
-    "group": "minecraft:banner_left_of_diagonal",
+    "group": "minecraft:left_of_diagonal",
     "add_pattern": {
         "color": "purple",
         "pattern": "left_of_diagonal"

@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:boots",
+    "parent": "minecraft:template/boots",
     "ingredients": {
         "material": {
-            "item": "minecraft:diamond"
+            "name": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "minecraft:diamond_boots"
+        "name": "minecraft:diamond_boots"
     },
     "group": "minecraft:boots"
 }

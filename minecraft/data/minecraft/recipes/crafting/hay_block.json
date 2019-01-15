@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:block",
+    "parent": "minecraft:template/block",
     "ingredients": {
         "item": {
-            "item": "minecraft:wheat"
+            "name": "minecraft:wheat"
         }
     },
     "result": {
-        "item": "minecraft:hay_block"
+        "name": "minecraft:hay_block"
     },
     "group": "minecraft:material_block"
 }

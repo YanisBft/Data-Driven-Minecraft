@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_item",
+    "parent": "minecraft:template/1_item",
     "ingredients": {
         "item": {
-            "item": "minecraft:acacia_planks"
+            "name": "minecraft:acacia_planks"
         }
     },
     "result": {
-        "item": "minecraft:acacia_button"
+        "name": "minecraft:acacia_button"
     },
     "group": "minecraft:button"
 }

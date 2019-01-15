@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:1_layer",
+    "parent": "minecraft:template/1_layer",
     "ingredients": {
         "item": {
             "name": "minecraft:purpur_block"
         }
     },
     "result": {
-        "item": "minecraft:purpur_slab",
+        "name": "minecraft:purpur_slab",
         "count": 6
     },
     "group": "minecraft:slab"

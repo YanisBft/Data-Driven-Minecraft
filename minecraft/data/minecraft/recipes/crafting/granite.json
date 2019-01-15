@@ -1,14 +1,14 @@
 {
-    "parent": "minecraft:2_items",
+    "parent": "minecraft:template/2_items",
     "ingredients": {
         "item1": {
-            "item": "minecraft:diorite"
+            "name": "minecraft:diorite"
         },
         "item2": {
-            "item": "minecraft:quartz"
+            "name": "minecraft:quartz"
         }
     },
     "result": {
-        "item": "minecraft:granite"
+        "name": "minecraft:granite"
     }
 }

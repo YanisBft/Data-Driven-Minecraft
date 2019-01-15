@@ -10,13 +10,13 @@
     ],
     "ingredients": {
         "top": {
-            "item": "minecraft:iron_block"
+            "name": "minecraft:iron_block"
         },
         "bottom": {
-            "item": "minecraft:iron_ingot"
+            "name": "minecraft:iron_ingot"
         }
     },
     "result": {
-        "item": "minecraft:anvil"
+        "name": "minecraft:anvil"
     }
 }

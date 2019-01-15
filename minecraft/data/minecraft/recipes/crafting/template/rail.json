@@ -1,0 +1,11 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "rail",    "empty1",    "rail"    ],
+                [    "rail",    "stick",    "rail"    ],
+                [    "rail",    "empty2",    "rail"    ]
+            ]
+        }
+    ]
+}
