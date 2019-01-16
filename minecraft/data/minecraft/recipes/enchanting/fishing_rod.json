@@ -5,7 +5,7 @@
             "tag": "minecraft:fishing_rods"
         },
         {
-            "tag": "minecraft:secondary_fishing_rods"
+            "tag": "minecraft:secondary_fishing_rods",
             "secondary": true
         }
     ],
