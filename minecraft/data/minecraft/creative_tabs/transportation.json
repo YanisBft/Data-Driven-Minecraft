@@ -1,0 +1,38 @@
+{
+	"name": "item_group.transportation",
+	"icon": {
+		"item": "minecraft:powered_rail"
+	},
+	"items": [
+		{
+			"tag": "minecraft:rails"
+		},
+		{
+			"item": "minecraft:minecart"
+		},
+		{
+			"item": "minecraft:saddle"
+		},
+		{
+			"item": "minecraft:chest_minecart"
+		},
+		{
+			"item": "minecraft:furnace_minecart"
+		},
+		{
+			"item": "minecraft:carrot_on_a_stick"
+		},
+		{
+			"item": "minecraft:tnt_minecart"
+		},
+		{
+			"item": "minecraft:hopper_minecart"
+		},
+		{
+			"item": "minecraft:elytra"
+		},
+		{
+			"tag": "minecraft:boats"
+		}
+	]
+}

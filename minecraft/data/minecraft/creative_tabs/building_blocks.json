@@ -1,0 +1,494 @@
+{
+	"name": "item_group.building_blocks",
+	"icon": {
+		"item": "minecraft:bricks"
+	},
+	"items": [
+		{
+			"item": "minecraft:stone"
+		},
+		{
+			"item": "minecraft:granite"
+		},
+		{
+			"item": "minecraft:polished_granite"
+		},
+		{
+			"item": "minecraft:diorite"
+		},
+		{
+			"item": "minecraft:polished_diorite"
+		},
+		{
+			"item": "minecraft:andesite"
+		},
+		{
+			"item": "minecraft:polished_andesite"
+		},
+		{
+			"item": "minecraft:grass_block"
+		},
+		{
+			"item": "minecraft:dirt"
+		},
+		{
+			"item": "minecraft:coarse_dirt"
+		},
+		{
+			"item": "minecraft:podzol"
+		},
+		{
+			"item": "minecraft:cobblestone"
+		},
+		{
+			"tag": "minecraft:planks"
+		},
+		{
+			"item": "minecraft:bedrock"
+		},
+		{
+			"tag": "minecraft:sand"
+		},
+		{
+			"item": "minecraft:gravel"
+		},
+		{
+			"item": "minecraft:gold_ore"
+		},
+		{
+			"item": "minecraft:iron_ore"
+		},
+		{
+			"item": "minecraft:coal_ore"
+		},
+		{
+			"tag": "minecraft:logs"
+		},
+		{
+			"tag": "minecraft:stripped_logs"
+		},
+		{
+			"tag": "minecraft:stripped_wood"
+		},
+		{
+			"tag": "minecraft:wood"
+		},
+		{
+			"item": "minecraft:sponge"
+		},
+		{
+			"item": "minecraft:wet_sponge"
+		},
+		{
+			"item": "minecraft:glass"
+		},
+		{
+			"item": "minecraft:lapis_ore"
+		},
+		{
+			"item": "minecraft:lapis_block"
+		},
+		{
+			"item": "minecraft:sandstone"
+		},
+		{
+			"item": "minecraft:chiseled_sandstone"
+		},
+		{
+			"item": "minecraft:cut_sandstone"
+		},
+		{
+			"tag": "minecraft:wool"
+		},
+		{
+			"item": "minecraft:gold_block"
+		},
+		{
+			"item": "minecraft:iron_block"
+		},
+		{
+			"tag": "minecraft:wooden_slabs"
+		},
+		{
+			"item": "minecraft:stone_slab"
+		},
+		{
+			"item": "minecraft:smooth_stone_slab"
+		},
+		{
+			"item": "minecraft:sandstone_slab"
+		},
+		{
+			"item": "minecraft:petrified_oak_slab"
+		},
+		{
+			"item": "minecraft:cobblestone_slab"
+		},
+		{
+			"item": "minecraft:brick_slab"
+		},
+		{
+			"item": "minecraft:stone_brick_slab"
+		},
+		{
+			"item": "minecraft:nether_brick_slab"
+		},
+		{
+			"item": "minecraft:quartz_slab"
+		},
+		{
+			"item": "minecraft:red_sandstone_slab"
+		},
+		{
+			"item": "minecraft:purpur_slab"
+		},
+		{
+			"item": "minecraft:prismarine_slab"
+		},
+		{
+			"item": "minecraft:prismarine_brick_slab"
+		},
+		{
+			"item": "minecraft:dark_prismarine_slab"
+		},
+		{
+			"item": "minecraft:smooth_quartz"
+		},
+		{
+			"item": "minecraft:smooth_red_sandstone"
+		},
+		{
+			"item": "minecraft:smooth_sandstone"
+		},
+		{
+			"item": "minecraft:smooth_stone"
+		},
+		{
+			"item": "minecraft:bricks"
+		},
+		{
+			"item": "minecraft:bookshelf"
+		},
+		{
+			"item": "minecraft:mossy_cobblestone"
+		},
+		{
+			"item": "minecraft:obsidian"
+		},
+		{
+			"item": "minecraft:purpur_block"
+		},
+		{
+			"item": "minecraft:purpur_pillar"
+		},
+		{
+			"item": "minecraft:purpur_stairs"
+		},
+		{
+			"item": "minecraft:oak_stairs"
+		},
+		{
+			"item": "minecraft:diamond_ore"
+		},
+		{
+			"item": "minecraft:diamond_block"
+		},
+		{
+			"item": "minecraft:cobblestone_stairs"
+		},
+		{
+			"item": "minecraft:redstone_ore"
+		},
+		{
+			"item": "minecraft:ice"
+		},
+		{
+			"item": "minecraft:snow_block"
+		},
+		{
+			"item": "minecraft:clay"
+		},
+		{
+			"item": "minecraft:pumpkin"
+		},
+		{
+			"item": "minecraft:carved_pumpkin"
+		},
+		{
+			"item": "minecraft:netherrack"
+		},
+		{
+			"item": "minecraft:soul_sand"
+		},
+		{
+			"item": "minecraft:glowstone"
+		},
+		{
+			"item": "minecraft:jack_o_lantern"
+		},
+		{
+			"tag": "minecraft:stone_bricks"
+		},
+		{
+			"item": "minecraft:melon"
+		},
+		{
+			"item": "minecraft:brick_stairs"
+		},
+		{
+			"item": "minecraft:stone_brick_stairs"
+		},
+		{
+			"item": "minecraft:mycelium"
+		},
+		{
+			"item": "minecraft:nether_bricks"
+		},
+		{
+			"item": "minecraft:nether_brick_stairs"
+		},
+		{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:end_stone_bricks"
+		},
+		{
+			"item": "minecraft:sandstone_stairs"
+		},
+		{
+			"item": "minecraft:emerald_ore"
+		},
+		{
+			"item": "minecraft:emerald_block"
+		},
+		{
+			"item": "minecraft:spruce_stairs"
+		},
+		{
+			"item": "minecraft:birch_stairs"
+		},
+		{
+			"item": "minecraft:jungle_stairs"
+		},
+		{
+			"item": "minecraft:nether_quartz_ore"
+		},
+		{
+			"item": "minecraft:chiseled_quartz_block"
+		},
+		{
+			"item": "minecraft:quartz_block"
+		},
+		{
+			"item": "minecraft:quartz_pillar"
+		},
+		{
+			"item": "minecraft:quartz_stairs"
+		},
+		{
+			"tag": "minecraft:stained_terracotta"
+		},
+		{
+			"item": "minecraft:hay_block"
+		},
+		{
+			"item": "minecraft:terracotta"
+		},
+		{
+			"item": "minecraft:coal_block"
+		},
+		{
+			"item": "minecraft:packed_ice"
+		},
+		{
+			"item": "minecraft:acacia_stairs"
+		},
+		{
+			"item": "minecraft:dark_oak_stairs"
+		},
+		{
+			"tag": "minecraft:stained_glass"
+		},
+		{
+			"item": "minecraft:prismarine"
+		},
+		{
+			"item": "minecraft:prismarine_bricks"
+		},
+		{
+			"item": "minecraft:dark_prismarine"
+		},
+		{
+			"item": "minecraft:prismarine_stairs"
+		},
+		{
+			"item": "minecraft:prismarine_brick_stairs"
+		},
+		{
+			"item": "minecraft:dark_prismarine_stairs"
+		},
+		{
+			"item": "minecraft:sea_lantern"
+		},
+		{
+			"item": "minecraft:red_sandstone"
+		},
+		{
+			"item": "minecraft:chiseled_red_sandstone"
+		},
+		{
+			"item": "minecraft:cut_red_sandstone"
+		},
+		{
+			"item": "minecraft:red_sandstone_stairs"
+		},
+		{
+			"item": "minecraft:magma_block"
+		},
+		{
+			"item": "minecraft:nether_wart_block"
+		},
+		{
+			"item": "minecraft:red_nether_bricks"
+		},
+		{
+			"item": "minecraft:bone_block"
+		},
+		{
+			"tag": "minecraft:concrete"
+		},
+		{
+			"tag": "minecraft:concrete_powder"
+		},
+		{
+			"tag": "minecraft:dead_coral_blocks"
+		},
+		{
+			"tag": "minecraft:coral_blocks"
+		},
+		{
+			"item": "minecraft:blue_ice"
+		},
+		{
+			"item": "minecraft:polished_granite_stairs"
+		},
+		{
+			"item": "minecraft:smooth_red_sandstone_stairs"
+		},
+		{
+			"item": "minecraft:mossy_stone_brick_stairs"
+		},
+		{
+			"item": "minecraft:polished_diorite_stairs"
+		},
+		{
+			"item": "minecraft:mossy_cobblestone_stairs"
+		},
+		{
+			"item": "minecraft:end_stone_brick_stairs"
+		},
+		{
+			"item": "minecraft:stone_stairs"
+		},
+		{
+			"item": "minecraft:smooth_sandstone_stairs"
+		},
+		{
+			"item": "minecraft:smooth_quartz_stairs"
+		},
+		{
+			"item": "minecraft:granite_stairs"
+		},
+		{
+			"item": "minecraft:andesite_stairs"
+		},
+		{
+			"item": "minecraft:red_nether_brick_stairs"
+		},
+		{
+			"item": "minecraft:polished_andesite_stairs"
+		},
+		{
+			"item": "minecraft:diorite_stairs"
+		},
+		{
+			"item": "minecraft:polished_granite_slab"
+		},
+		{
+			"item": "minecraft:smooth_red_sandstone_slab"
+		},
+		{
+			"item": "minecraft:mossy_stone_brick_slab"
+		},
+		{
+			"item": "minecraft:polished_diorite_slab"
+		},
+		{
+			"item": "minecraft:mossy_cobblestone_slab"
+		},
+		{
+			"item": "minecraft:end_stone_brick_slab"
+		},
+		{
+			"item": "minecraft:smooth_sandstone_slab"
+		},
+		{
+			"item": "minecraft:smooth_quartz_slab"
+		},
+		{
+			"item": "minecraft:granite_slab"
+		},
+		{
+			"item": "minecraft:andesite_slab"
+		},
+		{
+			"item": "minecraft:red_nether_brick_slab"
+		},
+		{
+			"item": "minecraft:polished_andesite_slab"
+		},
+		{
+			"item": "minecraft:diorite_slab"
+		},
+		{
+			"item": "minecraft:brick_wall"
+		},
+		{
+			"item": "minecraft:prismarine_wall"
+		},
+		{
+			"item": "minecraft:red_sandstone_wall"
+		},
+		{
+			"item": "minecraft:mossy_stone_brick_wall"
+		},
+		{
+			"item": "minecraft:granite_wall"
+		},
+		{
+			"item": "minecraft:stone_brick_wall"
+		},
+		{
+			"item": "minecraft:nether_brick_wall"
+		},
+		{
+			"item": "minecraft:andesite_wall"
+		},
+		{
+			"item": "minecraft:red_nether_brick_wall"
+		},
+		{
+			"item": "minecraft:sandstone_wall"
+		},
+		{
+			"item": "minecraft:end_stone_brick_wall"
+		},
+		{
+			"item": "minecraft:diorite_wall"
+		},
+		{
+			"item": "minecraft:dried_kelp_block"
+		}
+	]
+}

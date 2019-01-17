@@ -1,0 +1,224 @@
+{
+	"name": "item_group.misc",
+	"icon": {
+		"item": "minecraft:lava_bucket"
+	},
+	"items": [
+		{
+			"item": "minecraft:beacon"
+		},
+		{
+			"item": "minecraft:conduit"
+		},
+		{
+			"item": "minecraft:turtle_egg"
+		},
+		{
+			"item": "minecraft:composter"
+		},
+		{
+			"item": "minecraft:scute"
+		},
+		{
+			"tag": "minecraft:coals"
+		},
+		{
+			"item": "minecraft:diamond"
+		},
+		{
+			"item": "minecraft:iron_ingot"
+		},
+		{
+			"item": "minecraft:gold_ingot"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"item": "minecraft:bowl"
+		},
+		{
+			"item": "minecraft:string"
+		},
+		{
+			"item": "minecraft:feather"
+		},
+		{
+			"item": "minecraft:gunpowder"
+		},
+		{
+			"item": "minecraft:wheat_seeds"
+		},
+		{
+			"item": "minecraft:wheat"
+		},
+		{
+			"item": "minecraft:flint"
+		},
+		{
+			"item": "minecraft:bucket"
+		},
+		{
+			"item": "minecraft:water_bucket"
+		},
+		{
+			"item": "minecraft:lava_bucket"
+		},
+		{
+			"item": "minecraft:snowball"
+		},
+		{
+			"item": "minecraft:leather"
+		},
+		{
+			"item": "minecraft:milk_bucket"
+		},
+		{
+			"tag": "minecraft:fish_buckets"
+		},
+		{
+			"item": "minecraft:brick"
+		},
+		{
+			"item": "minecraft:clay_ball"
+		},
+		{
+			"item": "minecraft:sugar_cane"
+		},
+		{
+			"item": "minecraft:kelp"
+		},
+		{
+			"item": "minecraft:bamboo"
+		},
+		{
+			"item": "minecraft:paper"
+		},
+		{
+			"item": "minecraft:book"
+		},
+		{
+			"item": "minecraft:slime_ball"
+		},
+		{
+			"item": "minecraft:egg"
+		},
+		{
+			"item": "minecraft:glowstone_dust"
+		},
+		{
+			"tag": "minecraft:dyes"
+		},
+		{
+			"item": "minecraft:ink_sac"
+		},
+		{
+			"item": "minecraft:cocoa_beans"
+		},
+		{
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"item": "minecraft:bone_meal"
+		},
+		{
+			"item": "minecraft:bone"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:pumpkin_seeds"
+		},
+		{
+			"item": "minecraft:melon_seeds"
+		},
+		{
+			"item": "minecraft:ender_pearl"
+		},
+		{
+			"item": "minecraft:blaze_rod"
+		},
+		{
+			"item": "minecraft:gold_nugget"
+		},
+		{
+			"item": "minecraft:nether_wart"
+		},
+		{
+			"item": "minecraft:ender_eye"
+		},
+		{
+			"tag": "minecraft:spawn_eggs"
+		},
+		{
+			"item": "minecraft:experience_bottle"
+		},
+		{
+			"item": "minecraft:fire_charge"
+		},
+		{
+			"item": "minecraft:writable_book"
+		},
+		{
+			"item": "minecraft:emerald"
+		},
+		{
+			"item": "minecraft:map"
+		},
+		{
+			"item": "minecraft:nether_star"
+		},
+		{
+			"item": "minecraft:firework_rocket"
+		},
+		{
+			"item": "minecraft:firework_star"
+		},
+		{
+			"item": "minecraft:nether_brick"
+		},
+		{
+			"item": "minecraft:quartz"
+		},
+		{
+			"item": "minecraft:prismarine_shard"
+		},
+		{
+			"item": "minecraft:prismarine_crystals"
+		},
+		{
+			"item": "minecraft:rabbit_hide"
+		},
+		{
+			"tag": "minecraft:horse_armors"
+		},
+		{
+			"item": "minecraft:chorus_fruit"
+		},
+		{
+			"item": "minecraft:popped_chorus_fruit"
+		},
+		{
+			"item": "minecraft:beetroot_seeds"
+		},
+		{
+			"item": "minecraft:shulker_shell"
+		},
+		{
+			"item": "minecraft:iron_nugget"
+		},
+		{
+			"tag": "minecraft:music_discs"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:heart_of_the_sea"
+		},
+		{
+			"tag": "minecraft:banner_patterns"
+		}
+	]
+}
