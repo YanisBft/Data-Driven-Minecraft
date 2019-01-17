@@ -1,8 +1,8 @@
 {
-	"name": "item_group.tools",
 	"icon": {
 		"item": "minecraft:iron_axe"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:iron_shovel"
@@ -81,35 +81,35 @@
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:5}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:lure\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:lead"

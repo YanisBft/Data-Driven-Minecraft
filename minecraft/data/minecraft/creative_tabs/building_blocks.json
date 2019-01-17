@@ -1,8 +1,8 @@
 {
-	"name": "item_group.building_blocks",
 	"icon": {
 		"item": "minecraft:bricks"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:stone"

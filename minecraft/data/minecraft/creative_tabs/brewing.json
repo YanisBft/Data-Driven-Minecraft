@@ -1,8 +1,8 @@
 {
-	"name": "item_group.brewing",
 	"icon": {
 		"item": "minecraft:potion"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:ghast_tear"

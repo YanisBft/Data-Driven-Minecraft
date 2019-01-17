@@ -1,8 +1,8 @@
 {
-	"name": "item_group.transportation",
 	"icon": {
 		"item": "minecraft:powered_rail"
 	},
+	"replace": false,
 	"items": [
 		{
 			"tag": "minecraft:rails"

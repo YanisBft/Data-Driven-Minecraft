@@ -1,8 +1,8 @@
 {
-	"name": "item_group.combat",
 	"icon": {
 		"item": "minecraft:golden_sword"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:turtle_helmet"
@@ -90,131 +90,131 @@
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:4}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:4}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:4}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:4}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:4}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:4}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:4}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:4}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:projectile_protection\",lvl:4}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:respiration\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:frost_walker\",lvl:2}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:frost_walker\",lvl:2}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:smite\",lvl:5}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:5}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:2}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:looting\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:sweeping\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:5}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:punch\",lvl:2}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:punch\",lvl:2}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:flame\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:infinity\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:impaling\",lvl:5}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:5}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:riptide\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:channeling\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:channeling\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:multishot\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:quick_charge\",lvl:3}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:quick_charge\",lvl:3}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:piercing\",lvl:4}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}"
+			"nbt": "{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}"
 		},
 		{
 			"item": "minecraft:spectral_arrow"

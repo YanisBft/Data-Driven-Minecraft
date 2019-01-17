@@ -1,8 +1,8 @@
 {
-	"name": "item_group.misc",
 	"icon": {
 		"item": "minecraft:lava_bucket"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:beacon"

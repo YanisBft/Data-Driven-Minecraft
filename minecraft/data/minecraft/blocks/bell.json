@@ -2,7 +2,7 @@
     "pick_block": "minecraft:bell",
     "hardness": {
         "minecraft:default": 25,
-        "minecraft:iron_pickaxe": 3.75,
+        "minecraft:wooden_pickaxe": 3.75,
         "minecraft:stone_pickaxe": 1.9,
         "minecraft:iron_pickaxe": 1.25,
         "minecraft:diamond_pickaxe": 0.95,

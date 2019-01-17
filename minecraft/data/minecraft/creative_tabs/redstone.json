@@ -1,8 +1,8 @@
 {
-	"name": "item_group.redstone",
 	"icon": {
 		"item": "minecraft:redstone"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:dispenser"

@@ -1,8 +1,8 @@
 {
-	"name": "item_group.food",
 	"icon": {
 		"item": "minecraft:apple"
 	},
+	"replace": false,
 	"items": [
 		{
 			"item": "minecraft:apple"

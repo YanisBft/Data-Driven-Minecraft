@@ -1,8 +1,8 @@
 {
-	"name": "item_group.decorations",
 	"icon": {
 		"item": "minecraft:peony"
 	},
+	"replace": false,
 	"items": [
 		{
 			"tag": "minecraft:saplings"
