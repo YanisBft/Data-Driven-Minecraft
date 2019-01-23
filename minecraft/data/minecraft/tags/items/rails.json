@@ -1,9 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "minecraft:rail",
-    "minecraft:powered_rail",
-    "minecraft:detector_rail",
-    "minecraft:activator_rail"
-  ]
+    "values": [
+        "minecraft:activator_rail",
+        "minecraft:detector_rail",
+        "minecraft:powered_rail",
+        "minecraft:rail"
+    ]
 }
