@@ -1,7 +1,7 @@
 {
     "values": [
         "#minecraft:tool_tiers/hoes/1",
-        "minecraft:golden_hoe",
+        "#minecraft:tool_tires/hoes/faster",
         "minecraft:wooden_hoe"
     ]
 }

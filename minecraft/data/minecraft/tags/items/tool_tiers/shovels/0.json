@@ -1,7 +1,7 @@
 {
     "values": [
         "#minecraft:tool_tiers/shovels/1",
-        "minecraft:golden_shovel",
+        "#minecraft:tool_tires/shovels/faster",
         "minecraft:wooden_shovel"
     ]
 }

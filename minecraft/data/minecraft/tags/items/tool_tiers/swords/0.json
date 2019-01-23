@@ -1,7 +1,7 @@
 {
     "values": [
         "#minecraft:tool_tiers/swords/1",
-        "minecraft:golden_sword",
+        "#minecraft:tool_tires/swords/faster",
         "minecraft:wooden_sword"
     ]
 }

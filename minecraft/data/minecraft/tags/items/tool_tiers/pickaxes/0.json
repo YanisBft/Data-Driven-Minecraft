@@ -1,7 +1,7 @@
 {
     "values": [
         "#minecraft:tool_tiers/pickaxes/1",
-        "minecraft:golden_pickaxe",
-        "minecraft:wooden_pickaxe"
+        "#minecraft:tool_tires/pickaxes/faster",
+        "minecraft:wooden_pickaxes"
     ]
 }
