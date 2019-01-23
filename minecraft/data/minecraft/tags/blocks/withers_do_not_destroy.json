@@ -6,7 +6,10 @@
         "minecraft:end_gateway",
         "minecraft:end_portal",
         "minecraft:end_portal_frame",
+        "minecraft:fire",
+        "minecraft:jigsaw",
         "minecraft:moving_piston",
-        "minecraft:fire"
+        "minecraft:structure_block",
+        "minecraft:structure_void"
     ]
 }

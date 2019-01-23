@@ -9,8 +9,11 @@
         "minecraft:end_stone",
         "minecraft:end_stone_bricks",
         "minecraft:fire",
+        "minecraft:jigsaw",
         "minecraft:moving_piston",
         "minecraft:purpur_block",
-        "minecraft:purpur_pillar"
+        "minecraft:purpur_pillar",
+        "minecraft:structure_block",
+        "minecraft:structure_void"
     ]
 }
