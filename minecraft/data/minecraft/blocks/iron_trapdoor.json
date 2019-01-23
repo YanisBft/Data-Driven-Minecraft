@@ -2,7 +2,7 @@
     "pick_block": "minecraft:iron_trapdoor",
     "hardness": {
         "minecraft:default": 4.5,
-        "minecraft:iron_pickaxe": 2.25,
+        "minecraft:wooden_pickaxe": 2.25,
         "minecraft:stone_pickaxe": 1.15,
         "minecraft:iron_pickaxe": 0.75,
         "minecraft:diamond_pickaxe": 0.6,
