@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:red_nether_bricks"
+    },
+    "result": {
+        "item": "minecraft:red_nether_brick_slab",
+        "count": 2
+    },
+    "group": "minecraft:red_nether_bricks"
+}

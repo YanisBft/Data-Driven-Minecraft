@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:granite"
+    },
+    "result": {
+        "item": "minecraft:granite_stairs"
+    },
+    "group": "minecraft:granite"
+}

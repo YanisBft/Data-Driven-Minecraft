@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:stone"
+    },
+    "result": {
+        "item": "minecraft:stone_bricks"
+    },
+    "group": "minecraft:stone"
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:end_stone_bricks"
+    },
+    "result": {
+        "item": "minecraft:end_stone_brick_stairs"
+    },
+    "group": "minecraft:end_stone_bricks"
+}

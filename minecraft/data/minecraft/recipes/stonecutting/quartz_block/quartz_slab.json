@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:quartz_block"
+    },
+    "result": {
+        "item": "minecraft:quartz_slab",
+        "count": 2
+    },
+    "group": "minecraft:quartz_block"
+}

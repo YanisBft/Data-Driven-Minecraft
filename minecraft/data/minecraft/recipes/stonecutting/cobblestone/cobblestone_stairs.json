@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": {
+        "item": "minecraft:cobblestone_stairs"
+    },
+    "group": "minecraft:cobblestone"
+}

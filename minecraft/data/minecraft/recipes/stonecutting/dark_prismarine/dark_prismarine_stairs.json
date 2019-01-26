@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:dark_prismarine"
+    },
+    "result": {
+        "item": "minecraft:dark_prismarine_stairs"
+    },
+    "group": "minecraft:dark_prismarine"
+}

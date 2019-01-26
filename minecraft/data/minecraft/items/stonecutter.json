@@ -1,4 +1,10 @@
 {
     "block_item": true,
-    "place_block": "minecraft:stone"
+    "place_block": {
+		"name": "minecraft:stonecutter",
+		"facing_state": {
+			"name": "facing",
+			"facing": "to_user"
+		}
+	}
 }

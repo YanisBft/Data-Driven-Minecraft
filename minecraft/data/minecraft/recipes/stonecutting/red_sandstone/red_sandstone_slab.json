@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:red_sandstone"
+    },
+    "result": {
+        "item": "minecraft:red_sandstone_slab",
+        "count": 2
+    },
+    "group": "minecraft:red_sandstone"
+}

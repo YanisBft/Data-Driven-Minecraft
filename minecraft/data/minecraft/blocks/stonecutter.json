@@ -9,6 +9,17 @@
         "minecraft:golden_pickaxe": 0.2
     },
     "blast_resistance": 17.5,
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        }
+    },
     "functions": {
         "minecraft:used": [
             {

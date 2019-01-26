@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:red_sandstone"
+    },
+    "result": {
+        "item": "minecraft:cut_red_sandstone"
+    },
+    "group": "minecraft:red_sandstone"
+}

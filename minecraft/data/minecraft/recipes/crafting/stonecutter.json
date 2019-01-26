@@ -1,0 +1,21 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "",    "iron"    ],
+                [    "stone",    "stone",    "stone"    ]
+            ]
+        }
+    ],
+    "ingredients": {
+        "stone": {
+            "name": "minecraft:stone"
+        },
+        "iron": {
+            "name": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "name": "minecraft:stonecutter"
+    }
+}

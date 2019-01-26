@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:quartz_block"
+    },
+    "result": {
+        "item": "minecraft:quartz_pillar"
+    },
+    "group": "minecraft:quartz_block"
+}

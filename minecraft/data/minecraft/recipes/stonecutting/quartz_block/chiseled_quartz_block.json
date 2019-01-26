@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:quartz_block"
+    },
+    "result": {
+        "item": "minecraft:chiseled_quartz_block"
+    },
+    "group": "minecraft:quartz_block"
+}

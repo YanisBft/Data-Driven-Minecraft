@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:sandstone"
+    },
+    "result": {
+        "item": "minecraft:sandstone_wall"
+    },
+    "group": "minecraft:sandstone"
+}

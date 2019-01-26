@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:andesite"
+    },
+    "result": {
+        "item": "minecraft:andesite_wall"
+    },
+    "group": "minecraft:andesite"
+}

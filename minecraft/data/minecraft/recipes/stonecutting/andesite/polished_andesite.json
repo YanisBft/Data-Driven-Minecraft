@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:andesite"
+    },
+    "result": {
+        "item": "minecraft:polished_andesite"
+    },
+    "group": "minecraft:andesite"
+}

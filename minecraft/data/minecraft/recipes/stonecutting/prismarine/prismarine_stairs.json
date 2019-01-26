@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:prismarine"
+    },
+    "result": {
+        "item": "minecraft:prismarine_stairs"
+    },
+    "group": "minecraft:prismarine"
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:purpur_block"
+    },
+    "result": {
+        "item": "minecraft:purpur_stairs"
+    },
+    "group": "minecraft:purpur_block"
+}

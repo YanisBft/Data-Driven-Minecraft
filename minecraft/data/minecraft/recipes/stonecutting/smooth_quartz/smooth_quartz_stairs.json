@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:smooth_quartz"
+    },
+    "result": {
+        "item": "minecraft:smooth_quartz_stairs"
+    },
+    "group": "minecraft:smooth_quartz"
+}

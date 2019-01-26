@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:prismarine"
+    },
+    "result": {
+        "item": "minecraft:prismarine_wall"
+    },
+    "group": "minecraft:prismarine"
+}

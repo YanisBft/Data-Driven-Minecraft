@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:polished_andesite"
+    },
+    "result": {
+        "item": "minecraft:polished_andesite_slab",
+        "count": 2
+    },
+    "group": "minecraft:polished_andesite"
+}

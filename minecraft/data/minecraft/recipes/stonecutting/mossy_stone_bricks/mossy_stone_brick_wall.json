@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:mossy_stone_bricks"
+    },
+    "result": {
+        "item": "minecraft:mossy_stone_brick_wall"
+    },
+    "group": "minecraft:mossy_stone_bricks"
+}

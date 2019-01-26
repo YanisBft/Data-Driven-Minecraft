@@ -1,0 +1,10 @@
+{
+    "item": {
+        "item": "minecraft:diorite"
+    },
+    "result": {
+        "item": "minecraft:polished_diorite_slab",
+        "count": 2
+    },
+    "group": "minecraft:diorite"
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:bricks"
+    },
+    "result": {
+        "item": "minecraft:brick_wall"
+    },
+    "group": "minecraft:bricks"
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:diorite"
+    },
+    "result": {
+        "item": "minecraft:diorite_wall"
+    },
+    "group": "minecraft:diorite"
+}

@@ -3,8 +3,8 @@
         {
             "items": [
                 [    "slab",    "slab",    "slab"    ],
-                [    "",    "bookshelf",    ""    ],
-                [    "",    "slab",    ""    ]
+                [    "",    "bookshelf"    ],
+                [    "",    "slab"   ]
             ]
         }
     ],
