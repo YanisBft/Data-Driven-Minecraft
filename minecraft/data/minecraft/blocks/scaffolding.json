@@ -1,0 +1,389 @@
+{
+    "pick_block": "minecraft:scaffolding",
+    "hardness": {
+        "minecraft:default": 1,
+        "minecraft:wooden_axe": 0.2,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.2,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.2,
+        "minecraft:wooden_sword": 0.625,
+        "minecraft:stone_sword": 0.625,
+        "minecraft:iron_sword": 0.625,
+        "minecraft:diamond_sword": 0.625,
+        "minecraft:golden_sword": 0.625
+    },
+    "blast_resistance": 5,
+	"transparent": true,
+    "can_contain_fluids": [
+        "#minecraft:liquid",
+        "minecraft:empty"
+    ],
+    "states": {
+        "distance": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ]
+        },
+        "bottom": {
+            "default": "false",
+            "values": [
+                "false",
+                "true"
+            ]
+        }
+    },
+	"functions": {
+		"minecraft:block_changed": [
+			{
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block",
+                    "nbt": "{BlockState:{Name:\"minecraft:scaffolding\",Properties:{bottom:\"true\"}}}"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                }
+                            },
+							{
+                                "block": {
+                                    "properties": {
+										"distance": "7"
+									}
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+		],
+		"minecraft:block_below_changed": [
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"distance": "0"
+					}
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"y": -1,
+								"block": {
+									"name": "minecraft:scaffolding",
+									"properties": {
+										"distance": "0"
+									}
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"distance": "1"
+					}
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"y": -1,
+								"block": {
+									"name": "minecraft:scaffolding",
+									"properties": {
+										"distance": "1"
+									}
+								}
+							},
+							{
+								"block": [
+									{
+										"properties": {
+											"distance": "2"
+										}
+									},
+									{
+										"properties": {
+											"distance": "3"
+										}
+									},
+									{
+										"properties": {
+											"distance": "4"
+										}
+									},
+									{
+										"properties": {
+											"distance": "5"
+										}
+									},
+									{
+										"properties": {
+											"distance": "6"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"distance": "2"
+					}
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"y": -1,
+								"block": {
+									"name": "minecraft:scaffolding",
+									"properties": {
+										"distance": "2"
+									}
+								}
+							},
+							{
+								"block": [
+									{
+										"properties": {
+											"distance": "3"
+										}
+									},
+									{
+										"properties": {
+											"distance": "4"
+										}
+									},
+									{
+										"properties": {
+											"distance": "5"
+										}
+									},
+									{
+										"properties": {
+											"distance": "6"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"distance": "3"
+					}
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"y": -1,
+								"block": {
+									"name": "minecraft:scaffolding",
+									"properties": {
+										"distance": "3"
+									}
+								}
+							},
+							{
+								"block": [
+									{
+										"properties": {
+											"distance": "4"
+										}
+									},
+									{
+										"properties": {
+											"distance": "5"
+										}
+									},
+									{
+										"properties": {
+											"distance": "6"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"distance": "4"
+					}
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"y": -1,
+								"block": {
+									"name": "minecraft:scaffolding",
+									"properties": {
+										"distance": "4"
+									}
+								}
+							},
+							{
+								"block": [
+									{
+										"properties": {
+											"distance": "5"
+										}
+									},
+									{
+										"properties": {
+											"distance": "6"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"distance": "5"
+					}
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"y": -1,
+								"block": {
+									"name": "minecraft:scaffolding",
+									"properties": {
+										"distance": "5"
+									}
+								}
+							},
+							{
+								"block": {
+									"properties": {
+										"distance": "6"
+									}
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"bottom": "true"
+					}
+				},
+				"conditions": [
+					{
+						"solid_faces": {
+							"y": -1,
+							"up": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"bottom": "true"
+					}
+				},
+				"conditions": [
+					{
+						"solid_faces": {
+							"y": -1,
+							"up": true
+						}
+					}
+				]
+			}
+		]
+	},
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    {
+						"from": [ 0, 16, 0],
+						"to": [ 16, 16, 16]
+					}
+                ]
+            }
+        },
+        {
+            "states": {
+                "bottom": "true"
+            },
+            "properties": {
+                "collision_box": [
+                    {
+						"from": [ 0, 0, 0],
+						"to": [ 16, 0, 16]
+					}
+                ]
+            }
+        }
+	]
+}

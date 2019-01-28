@@ -1,0 +1,11 @@
+{
+    "shapes": [
+        {
+            "items": [
+                [    "side",    "",    "side"    ],
+                [    "side",    "",    "side"    ],
+                [    "bottom",    "bottom",    "bottom"    ]
+            ]
+        }
+    ]
+}

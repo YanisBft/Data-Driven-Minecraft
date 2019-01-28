@@ -1,4 +1,10 @@
 {
     "block_item": true,
-    "place_block": "minecraft:campfire"
+    "place_block": {
+		"name": "minecraft:campfire",
+		"facing_state": {
+			"name": "facing",
+			"facing": "to_user"
+		}
+	}
 }

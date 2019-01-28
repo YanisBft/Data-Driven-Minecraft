@@ -11,7 +11,16 @@
 	"block_entity": "minecraft:campfire",
     "blast_resistance": 15,
     "states": {
-        "lit": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+		"lit": {
             "default": "true",
             "values": [
                 "true",
@@ -212,19 +221,22 @@
 			"properties": {
                 "faces": {
                     "up": {
-                        "light": 9
+                        "light": 15
+                    },
+                    "down": {
+                        "light": 15
                     },
                     "north": {
-                        "light": 9
+                        "light": 15
                     },
                     "south": {
-                        "light": 9
+                        "light": 15
                     },
                     "east": {
-                        "light": 9
+                        "light": 15
                     },
                     "west": {
-                        "light": 9
+                        "light": 15
                     }
                 }
             }

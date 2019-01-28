@@ -2,9 +2,12 @@
     "values": [
         "#minecraft:chests",
         "#minecraft:command_blocks",
+        "minecraft:barrel",
         "minecraft:barrier",
         "minecraft:beacon",
         "minecraft:bedrock",
+        "minecraft:blast_furnace",
+        "minecraft:campfire",
         "minecraft:dispenser",
         "minecraft:dropper",
         "minecraft:enchanting_table",
@@ -13,10 +16,13 @@
         "minecraft:end_portal_frame",
         "minecraft:furnace",
         "minecraft:hopper",
+        "minecraft:jigsaw",
         "minecraft:jukebox",
-        "minecraft:spawner",
+        "minecraft:lectern",
         "minecraft:obsidian",
         "minecraft:piston_head",
+        "minecraft:smoker",
+        "minecraft:spawner",
         "minecraft:structure_block"
     ]
 }

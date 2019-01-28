@@ -1,0 +1,65 @@
+{
+    "pick_block": "minecraft:composter",
+    "hardness": {
+        "minecraft:default": 10,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
+    },
+    "blast_resistance": 10,
+    "states": {
+        "level": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:this_block_changed": [
+			{
+				"function": "minecraft:alter_block",
+				"block": {
+					"properties": {
+						"level": "8"
+					}
+				},
+				"time": 20,
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"block": {
+									"properties": {
+										"level": "7"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "up": {
+                        "transfer_power": false
+                    }
+                }
+            }
+        }
+    ]
+}

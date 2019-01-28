@@ -2,13 +2,13 @@
     "parent": "minecraft:template/container",
     "ingredients": {
         "side": {
-            "name": "minecraft:iron_ingot"
+            "tag": "minecraft:wooden_fences"
         },
         "bottom": {
-            "name": "minecraft:iron_ingot"
+            "tag": "minecraft:planks"
         }
     },
     "result": {
-        "name": "minecraft:cauldron"
+        "name": "minecraft:composter"
     }
 }
