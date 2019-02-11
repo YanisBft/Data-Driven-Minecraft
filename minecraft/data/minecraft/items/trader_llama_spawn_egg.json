@@ -4,7 +4,7 @@
             "function": "minecraft:alter_entity",
             "position": "looked_at_block_face",
             "spawn_entity": {
-                "name": "minecraft:illager_beast",
+                "name": "minecraft:trader_llama",
                 "copy_nbt": [
                     {
                         "copy": "EntityTag",
