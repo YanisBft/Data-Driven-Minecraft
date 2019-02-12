@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:dragon_egg",
-    "hardness": {
-        "minecraft:default": 4.5
+    "mine_time": {
+        "default": 4.5
     },
     "blast_resistance": 45,
     "functions": {

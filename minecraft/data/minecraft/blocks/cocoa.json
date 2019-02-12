@@ -1,17 +1,24 @@
 {
     "pick_block": "minecraft:cocoa_beans",
-    "hardness": {
-        "minecraft:default": 0.35,
-        "minecraft:wooden_pickaxe": 0.25,
-        "minecraft:stone_pickaxe": 0.2,
-        "minecraft:iron_pickaxe": 0.05,
-        "minecraft:diamond_pickaxe": 0.05,
-        "minecraft:golden_pickaxe": 0.05,
-        "minecraft:wooden_sword": 0.2,
-        "minecraft:stone_sword": 0.2,
-        "minecraft:iron_sword": 0.2,
-        "minecraft:diamond_sword": 0.2,
-        "minecraft:golden_sword": 0.2
+    "mine_time": {
+        "default": 0.35,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            },
+            {
+                "tag": "minecraft:tool_tiers/speed/swords/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.2
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 60,
@@ -19,8 +26,12 @@
     },
     "blast_resistance": 15,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "age": {

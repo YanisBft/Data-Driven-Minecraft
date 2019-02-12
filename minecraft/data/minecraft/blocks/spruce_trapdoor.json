@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:spruce_trapdoor",
-    "hardness": {
-        "minecraft:default": 4.5,
-        "minecraft:wooden_axe": 2.25,
-        "minecraft:stone_axe": 1.15,
-        "minecraft:iron_axe": 0.75,
-        "minecraft:diamond_axe": 0.6,
-        "minecraft:golden_axe": 0.4
+    "mine_time": {
+        "default": 4.5,
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 5,
@@ -48,8 +53,12 @@
         }
     },
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:used": [

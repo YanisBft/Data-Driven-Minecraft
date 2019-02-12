@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:chorus_plant",
-    "hardness": {
-        "minecraft:default": 0.65,
-        "minecraft:wooden_axe": 0.35,
-        "minecraft:stone_axe": 0.2,
-        "minecraft:iron_axe": 0.1,
-        "minecraft:diamond_axe": 0.1,
-        "minecraft:golden_axe": 0.05
+    "mine_time": {
+        "default": 0.65,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 2,
     "states": {

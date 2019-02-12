@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:emerals_block",
-    "hardness": {
-        "minecraft:default": 25,
-        "minecraft:wooden_pickaxe": 12.5,
-        "minecraft:stone_pickaxe": 6.25,
-        "minecraft:iron_pickaxe": 1.25,
-        "minecraft:diamond_pickaxe": 0.95,
-        "minecraft:golden_pickaxe": 2.1
+    "mine_time": {
+        "default": 25,
+        "tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/2"
+        },
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 30
 }

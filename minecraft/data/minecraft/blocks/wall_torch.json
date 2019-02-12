@@ -6,8 +6,12 @@
     },
     "transparent": true,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "facing": {

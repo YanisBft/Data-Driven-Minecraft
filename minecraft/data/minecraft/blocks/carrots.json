@@ -9,8 +9,12 @@
         "min": 7
     },
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "age": {

@@ -1,23 +1,33 @@
 {
     "pick_block": "minecraft:scaffolding",
-    "hardness": {
-        "minecraft:default": 1,
-        "minecraft:wooden_axe": 0.2,
-        "minecraft:stone_axe": 0.2,
-        "minecraft:iron_axe": 0.2,
-        "minecraft:diamond_axe": 0.2,
-        "minecraft:golden_axe": 0.2,
-        "minecraft:wooden_sword": 0.625,
-        "minecraft:stone_sword": 0.625,
-        "minecraft:iron_sword": 0.625,
-        "minecraft:diamond_sword": 0.625,
-        "minecraft:golden_sword": 0.625
+    "mine_time": {
+        "default": 1,
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.2
+                }
+            },
+            {
+                "tag": "minecraft:tool_tiers/speed/swords/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.625
+                }
+            }
+        ]
     },
     "blast_resistance": 5,
 	"transparent": true,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "distance": {

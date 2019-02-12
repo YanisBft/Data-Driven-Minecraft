@@ -1,13 +1,23 @@
 {
     "pick_block": "minecraft:dark_oak_leaves",
-    "hardness": {
-        "minecraft:default": 0.35,
-        "minecraft:wooden_sword": 0.2,
-        "minecraft:stone_sword": 0.2,
-        "minecraft:iron_sword": 0.2,
-        "minecraft:diamond_sword": 0.2,
-        "minecraft:golden_sword": 0.2,
-        "minecraft:shears": 0.05
+    "mine_time": {
+        "default": 0.35,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/swords/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.2
+                }
+            },
+            {
+                "tag": "minecraft:tool_tiers/speed/shears/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.05
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 30,

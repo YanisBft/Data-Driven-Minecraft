@@ -1,8 +1,16 @@
 {
     "pick_block": "minecraft:cyan_wool",
-    "hardness": {
-        "minecraft:default": 1.25,
-        "minecraft:shears": 0.25
+    "mine_time": {
+        "default": 1.25,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/shears/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.25
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 30,

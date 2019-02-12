@@ -2,7 +2,9 @@
     "pick_block": "minecraft:air",
     "transparent": true,
     "can_contain_fluids": [
-        "minecraft:water"
+        {
+            "name": "minecraft:water"
+        }
     ],
     "states": {
         "drag": {

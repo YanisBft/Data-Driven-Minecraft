@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:white_stained_glass",
-    "hardness": {
-        "minecraft:default": 0.45
+    "mine_time": {
+        "default": 0.45
     },
     "blast_resistance": 1.5,
     "transparent": true,

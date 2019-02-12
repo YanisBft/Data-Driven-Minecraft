@@ -1,6 +1,11 @@
 {
     "pick_block": "minecraft:kelp",
     "transparent": true,
+    "can_contain_fluids": [
+        {
+            "name": "minecraft:water"
+        }
+    ],
     "states": {
         "age": {
             "default": "0",
@@ -35,9 +40,6 @@
             "hidden": "true"
         }
     },
-    "can_contain_fluids": [
-        "minecraft:water"
-    ],
     "functions": {
         "minecraft:random_tick": [
             {

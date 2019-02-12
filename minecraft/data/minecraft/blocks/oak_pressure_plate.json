@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:oak_pressure_plate",
-    "hardness": {
-        "minecraft:default": 0.75,
-        "minecraft:wooden_axe": 0.4,
-        "minecraft:stone_axe": 0.2,
-        "minecraft:iron_axe": 0.15,
-        "minecraft:diamond_axe": 0.1,
-        "minecraft:golden_axe": 0.1
+    "mine_time": {
+        "default": 0.75,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 5,

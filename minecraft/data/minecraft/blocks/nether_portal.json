@@ -1,12 +1,16 @@
 {
     "pick_block": "minecraft:air",
-    "hardness": {
-        "minecraft:default": -1
+    "mine_time": {
+        "default": -1
     },
     "transparent": true,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "xis": {

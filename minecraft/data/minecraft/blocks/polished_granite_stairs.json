@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:polished_granite_stairs",
-    "hardness": {
-        "minecraft:default": 10,
-        "minecraft:wooden_pickaxe": 1.5,
-        "minecraft:stone_pickaxe": 0.75,
-        "minecraft:iron_pickaxe": 0.5,
-        "minecraft:diamond_pickaxe": 0.4,
-        "minecraft:golden_pickaxe": 0.25
+    "mine_time": {
+        "default": 7.5,
+        "needed_tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
+        },
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 4,
     "states": {
@@ -38,8 +46,12 @@
         }
     },
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:block_north_changed": [

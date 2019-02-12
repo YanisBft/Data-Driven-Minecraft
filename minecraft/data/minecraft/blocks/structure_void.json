@@ -1,12 +1,16 @@
 {
     "pick_block": "minecraft:structure_void",
-    "hardness": {
-        "minecraft:default": -1
+    "mine_time": {
+        "default": -1
     },
     "blast_resistance": -1,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "functions": {
         "minecraft:this_fluid_changed": [

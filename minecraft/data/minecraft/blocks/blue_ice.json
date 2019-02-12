@@ -1,7 +1,17 @@
 {
     "pick_block": "minecraft:blue_ice",
-    "hardness": {
-        "minecraft:default": 4.2
+    "mine_time": {
+        "default": 4.2,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 14,
     "functions": {

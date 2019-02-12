@@ -3,8 +3,12 @@
     "transparent": true,
     "block_entity": "minecraft:comparator",
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "facing": {

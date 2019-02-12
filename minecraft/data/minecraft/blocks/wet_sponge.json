@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:wet_sponge",
-    "hardness": {
-        "minecraft:default": 0.9
+    "mine_time": {
+        "default": 0.9
     },
     "blast_resistance": 3,
     "functions": {

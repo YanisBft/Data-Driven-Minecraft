@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:black_shulker_box",
-    "hardness": {
-        "minecraft:default": 9,
-        "minecraft:wooden_pickaxe": 4.5,
-        "minecraft:stone_pickaxe": 2.25,
-        "minecraft:iron_pickaxe": 1.5,
-        "minecraft:diamond_pickaxe": 1.15,
-        "minecraft:golden_pickaxe": 0.75
+    "mine_time": {
+        "default": 9,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 30,
     "transparent": true,

@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:prismarine_stairs",
-    "hardness": {
-        "minecraft:default": 7.5,
-        "minecraft:wooden_pickaxe": 1.15,
-        "minecraft:stone_pickaxe": 0.6,
-        "minecraft:iron_pickaxe": 0.4,
-        "minecraft:diamond_pickaxe": 0.3,
-        "minecraft:golden_pickaxe": 0.2
+    "mine_time": {
+        "default": 7.5,
+        "needed_tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
+        },
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 4,
     "states": {
@@ -38,8 +46,12 @@
         }
     },
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:block_north_changed": [

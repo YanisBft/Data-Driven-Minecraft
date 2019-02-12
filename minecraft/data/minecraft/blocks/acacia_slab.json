@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:acacia_slab",
-    "hardness": {
-        "minecraft:default": 3,
-        "minecraft:wooden_axe": 1.5,
-        "minecraft:stone_axe": 0.75,
-        "minecraft:iron_axe": 0.5,
-        "minecraft:diamond_axe": 0.4,
-        "minecraft:golden_axe": 0.25
+    "mine_time": {
+        "default": 3,
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 5,
@@ -24,8 +29,12 @@
         }
     },
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:this_block_changed": [

@@ -2,8 +2,12 @@
     "pick_block": "minecraft:dead_fire_coral",
     "transparent": true,
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "properties": [
         {

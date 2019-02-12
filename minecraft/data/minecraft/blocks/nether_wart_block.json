@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:nether_wart_block",
-    "hardness": {
-        "minecraft:default": 1.5
+    "mine_time": {
+        "default": 1.5
     },
     "blast_resistance": 5
 }

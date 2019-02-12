@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:turtle_egg",
-    "hardness": {
-        "minecraft:default": 2
+    "mine_time": {
+        "default": 2
     },
     "states": {
         "hatch": {

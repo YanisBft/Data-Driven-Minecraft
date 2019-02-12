@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:red_sand",
-    "hardness": {
-        "minecraft:default": 0.75,
-        "minecraft:wooden_shovel": 0.4,
-        "minecraft:stone_shovel": 0.2,
-        "minecraft:iron_shovel": 0.15,
-        "minecraft:diamond_shovel": 0.1,
-        "minecraft:golden_shovel": 0.1
+    "mine_time": {
+        "default": 0.75,
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/shovels/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 2.5,
     "functions": {

@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:yellow_carpet",
-    "hardness": {
-        "minecraft:default": 0.2
+    "mine_time": {
+        "default": 0.2
     },
     "burn": {
         "encouragement": 60,

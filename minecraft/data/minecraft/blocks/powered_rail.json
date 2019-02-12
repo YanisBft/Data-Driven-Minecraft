@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:powered_rail",
-    "hardness": {
-        "minecraft:default": 1.05,
-        "minecraft:wooden_pickaxe": 0.55,
-        "minecraft:stone_pickaxe": 0.3,
-        "minecraft:iron_pickaxe": 0.2,
-        "minecraft:diamond_pickaxe": 0.15,
-        "minecraft:golden_pickaxe": 0.1
+    "mine_time": {
+        "default": 1.05,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 5,
@@ -15,8 +20,12 @@
     "blast_resistance": 3.5,
     "transparent": true,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "shape": {

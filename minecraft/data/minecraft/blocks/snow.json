@@ -1,20 +1,32 @@
 {
     "pick_block": "minecraft:snow",
-    "hardness": {
-        "minecraft:default": 0.5,
-        "minecraft:wooden_shovel": 0.1,
-        "minecraft:stone_shovel": 0.05,
-        "minecraft:iron_shovel": 0.05,
-        "minecraft:diamond_shovel": 0.05,
-        "minecraft:golden_shovel": 0.05
+    "mine_time": {
+        "default": 0.5,
+        "tool": {
+            "tag": "minecraft:tool_tiers/strength/shovels/0"
+        },
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/shovels/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "light_needed": {
         "max": 11
     },
     "blast_resistance": 0.5,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "layers": {

@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:note_block",
-    "hardness": {
-        "minecraft:default": 1.28,
-        "minecraft:wooden_axe": 0.65,
-        "minecraft:stone_axe": 0.35,
-        "minecraft:iron_axe": 0.2,
-        "minecraft:diamond_axe": 0.2,
-        "minecraft:golden_axe": 0.1
+    "mine_time": {
+        "default": 1.28,
+        "tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
+        },
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 5,

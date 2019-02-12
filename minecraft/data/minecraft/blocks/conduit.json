@@ -1,13 +1,27 @@
 {
     "pick_block": "minecraft:conduit",
-    "hardness": {
-        "minecraft:default": 4.5
+    "mine_time": {
+        "default": 4.5,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 15,
     "transparent": true,
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         

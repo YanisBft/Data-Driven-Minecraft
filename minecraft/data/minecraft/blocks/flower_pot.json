@@ -1,8 +1,12 @@
 {
     "pick_block": "minecraft:flower_pot",
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "functions": {
         "minecraft:this_fluid_changed": [

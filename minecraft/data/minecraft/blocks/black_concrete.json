@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:black_concrete",
-    "hardness": {
-        "minecraft:default": 9,
-        "minecraft:wooden_pickaxe": 1.35,
-        "minecraft:stone_pickaxe": 0.7,
-        "minecraft:iron_pickaxe": 0.45,
-        "minecraft:diamond_pickaxe": 0.35,
-        "minecraft:golden_pickaxe": 0.25
+    "mine_time": {
+        "default": 9,
+        "needed_tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
+        },
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 9
 }

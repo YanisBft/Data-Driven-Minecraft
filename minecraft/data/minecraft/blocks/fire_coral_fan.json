@@ -2,8 +2,12 @@
     "pick_block": "minecraft:fire_coral_fan",
     "transparent": true,
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:this_fluid_changed": [

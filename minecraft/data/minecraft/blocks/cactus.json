@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:cactus",
-    "hardness": {
-        "minecraft:default": 0.65
+    "mine_time": {
+        "default": 0.65
     },
     "blast_resistance": 2,
     "transparent": true,

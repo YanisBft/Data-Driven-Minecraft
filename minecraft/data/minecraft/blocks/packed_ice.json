@@ -1,12 +1,17 @@
 {
     "pick_block": "minecraft:packed_ice",
-    "hardness": {
-        "minecraft:default": 0.75,
-        "minecraft:wooden_pickaxe": 0.4,
-        "minecraft:stone_pickaxe": 0.2,
-        "minecraft:iron_pickaxe": 0.15,
-        "minecraft:diamond_pickaxe": 0.1,
-        "minecraft:golden_pickaxe": 0.1
+    "mine_time": {
+        "default": 0.75,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 2.5,
     "functions": {

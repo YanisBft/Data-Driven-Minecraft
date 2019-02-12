@@ -1,13 +1,23 @@
 {
     "pick_block": "minecraft:cobweb",
-    "hardness": {
-        "minecraft:default": 20,
-        "minecraft:wooden_sword": 0.4,
-        "minecraft:stone_sword": 0.4,
-        "minecraft:iron_sword": 0.4,
-        "minecraft:diamond_sword": 0.4,
-        "minecraft:golden_sword": 0.4,
-        "minecraft:shears": 0.4
+    "mine_time": {
+        "default": 20,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/swords/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.4
+                }
+            },
+            {
+                "tag": "minecraft:tool_tiers/speed/shears/0",
+                "effect": {
+                    "operation": "set_mine_time",
+                    "value": 0.4
+                }
+            }
+        ]
     },
     "burn": {
         "encouragement": 15,
@@ -16,8 +26,12 @@
     "resistance": 20,
     "transparent": true,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "functions": {
         "minecraft:this_fluid_changed": [

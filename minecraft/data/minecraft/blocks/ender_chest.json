@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:ender_chest",
-    "hardness": {
-        "minecraft:default": 112.5,
-        "minecraft:wooden_pickaxe": 16.9,
-        "minecraft:stone_pickaxe": 8.45,
-        "minecraft:iron_pickaxe": 5.65,
-        "minecraft:diamond_pickaxe": 4.25,
-        "minecraft:golden_pickaxe": 2.85
+    "mine_time": {
+        "default": 112.5,
+        "tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
+        },
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 3000,
     "block_entity": "minecraft:ender_chest",
@@ -22,8 +30,12 @@
         }
     },
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:tick": [

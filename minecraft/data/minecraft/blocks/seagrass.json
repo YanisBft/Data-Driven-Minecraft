@@ -1,6 +1,5 @@
 {
     "pick_block": "minecraft:seagrass",
-    "transparent": true,
     "random_offset": {
         "x": 2,
         "z": 2,
@@ -9,8 +8,11 @@
             "z"
         ]
     },
+    "transparent": true,
     "can_contain_fluids": [
-        "minecraft:water"
+        {
+            "name": "minecraft:water"
+        }
     ],
     "properties": [
         {

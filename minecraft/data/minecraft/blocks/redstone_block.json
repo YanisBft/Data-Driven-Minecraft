@@ -1,12 +1,20 @@
 {
     "pick_block": "minecraft:redstone_block",
-    "hardness": {
-        "minecraft:default": 25,
-        "minecraft:wooden_pickaxe": 3.75,
-        "minecraft:stone_pickaxe": 1.9,
-        "minecraft:iron_pickaxe": 1.25,
-        "minecraft:diamond_pickaxe": 0.95,
-        "minecraft:golden_pickaxe": 0.65
+    "mine_time": {
+        "default": 25,
+        "tool": {
+            "tag": "minecraft:tool_tiers/strength/pickaxes/2"
+        },
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/2",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 30,
     "functions": {

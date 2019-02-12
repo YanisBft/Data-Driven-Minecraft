@@ -1,8 +1,5 @@
 {
     "pick_block": "minecraft:infested_cracked_stone_bricks",
-    "hardness": {
-        "minecraft:default": 1.15
-    },
     "blast_resistance": 3.75,
     "functions": {
         "minecraft:this_block_changed": [

@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:jigsaw",
-    "hardness": {
-        "minecraft:default": -1
+    "mine_time": {
+        "default": -1
     },
     "blast_resistance": -1,
     "block_entity": "minecraft:jigsaw",

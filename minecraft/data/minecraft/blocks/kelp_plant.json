@@ -2,7 +2,9 @@
     "pick_block": "minecraft:kelp",
     "transparent": true,
     "can_contain_fluids": [
-        "minecraft:water"
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:block_above_changed": [

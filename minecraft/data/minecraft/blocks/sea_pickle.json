@@ -1,5 +1,13 @@
 {
     "pick_block": "minecraft:sea_pickle",
+    "can_contain_fluids": [
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
+    ],
     "states": {
         "pickles": {
             "default": "1",
@@ -18,10 +26,6 @@
             ]
         }
     },
-    "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
-    ],
     "functions": {
         "minecraft:this_fluid_changed": [
             {

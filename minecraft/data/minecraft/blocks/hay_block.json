@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:hay_block",
-    "hardness": {
-        "minecraft:default": 0.75
+    "mine_time": {
+        "default": 0.75
     },
     "burn": {
         "encouragement": 60,

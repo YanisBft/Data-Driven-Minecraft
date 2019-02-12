@@ -1,12 +1,16 @@
 {
     "pick_block": "minecraft:cake",
-    "hardness": {
-        "minecraft:default": 0.75
+    "mine_time": {
+        "default": 0.75
     },
     "blast_resistance": 2.5,
     "can_contain_fluids": [
-        "#minecraft:liquid",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "tag": "minecraft:liquids"
+        }
     ],
     "states": {
         "bites": {

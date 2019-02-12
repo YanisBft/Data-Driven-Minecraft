@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:cyan_stained_glass_pane",
-    "hardness": {
-        "minecraft:default": 0.45
+    "mine_time": {
+        "default": 0.45
     },
     "blast_resistance": 1.5,
     "transparent": true,
@@ -36,8 +36,12 @@
         }
     },
     "can_contain_fluids": [
-        "minecraft:water",
-        "minecraft:empty"
+        {
+            "name": "minecraft:empty"
+        },
+        {
+            "name": "minecraft:water"
+        }
     ],
     "functions": {
         "minecraft:block_north_changed": [

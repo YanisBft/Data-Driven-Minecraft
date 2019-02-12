@@ -1,7 +1,7 @@
 {
     "pick_block": "minecraft:light_blue_bed",
-    "hardness": {
-        "minecraft:default": 0.35
+    "mine_time": {
+        "default": 0.35
     },
     "burn": {
         "encouragement": 30,

@@ -1,7 +1,17 @@
 {
     "pick_block": "minecraft:air",
-    "hardness": {
-        "minecraft:default": 2.5
+    "mine_time": {
+        "default": 2.5,
+		"tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
     },
     "blast_resistance": 2.5,
     "transparent": true,
