@@ -5,7 +5,7 @@
         "tool": {
             "tag": "minecraft:tool_tiers/strength/shovels/0"
         },
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/shovels/0",
                 "effect": {

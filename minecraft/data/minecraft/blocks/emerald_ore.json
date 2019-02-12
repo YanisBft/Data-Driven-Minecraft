@@ -5,7 +5,7 @@
         "tool": {
             "tag": "minecraft:tool_tiers/strength/pickaxes/2"
         },
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/pickaxes/0",
                 "effect": {

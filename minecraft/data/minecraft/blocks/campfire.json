@@ -13,7 +13,7 @@
             }
         ]
     },
-	"block_entity": "minecraft:campfire",
+    "block_entity": "minecraft:campfire",
     "blast_resistance": 15,
     "states": {
         "facing": {
@@ -25,14 +25,14 @@
                 "west"
             ]
         },
-		"lit": {
+        "lit": {
             "default": "true",
             "values": [
                 "true",
                 "false"
             ]
         },
-		"signal_fire": {
+        "signal_fire": {
             "default": "false",
             "values": [
                 "true",
@@ -76,7 +76,7 @@
                     }
                 ]
             },
-			{
+            {
                 "function": "minecraft:spawn_particle",
                 "particle": {
                     "x": 0.5,
@@ -100,7 +100,7 @@
                     }
                 ]
             },
-			{
+            {
                 "function": "minecraft:spawn_particle",
                 "particle": {
                     "x": 0.5,
@@ -125,13 +125,13 @@
                 ]
             }
         ],
-		"minecraft:this_fluid_changed": [
+        "minecraft:this_fluid_changed": [
             {
                 "function": "minecraft:alter_block",
                 "block": {
                     "properties": {
-						"lit": "false"
-					}
+                        "lit": "false"
+                    }
                 },
                 "conditions": [
                     {
@@ -146,20 +146,20 @@
                 ]
             }
         ],
-		"minecraft:block_below_changed": [
+        "minecraft:block_below_changed": [
             {
                 "function": "minecraft:alter_block",
                 "block": {
                     "properties": {
-						"signal_fire": "true"
-					}
+                        "signal_fire": "true"
+                    }
                 },
                 "conditions": [
                     {
                         "blocks": [
                             {
                                 "y": -1,
-								"block": {
+                                "block": {
                                     "name": "minecraft:hay_bale"
                                 }
                             }
@@ -167,21 +167,21 @@
                     }
                 ]
             },
-			{
+            {
                 "function": "minecraft:alter_block",
                 "block": {
                     "properties": {
-						"signal_fire": "false"
-					}
+                        "signal_fire": "false"
+                    }
                 },
                 "conditions": [
                     {
                         "blocks": [
                             {
                                 "y": -1,
-								"block": {
+                                "block": {
                                     "name": "minecraft:hay_bale",
-									"inverse": true
+                                    "inverse": true
                                 }
                             }
                         ]
@@ -223,11 +223,11 @@
                 ]
             }
         },
-		{
+        {
             "states": {
-				"lit": "true"
-			},
-			"properties": {
+                "lit": "true"
+            },
+            "properties": {
                 "faces": {
                     "up": {
                         "light": 15

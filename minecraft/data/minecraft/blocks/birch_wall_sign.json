@@ -2,7 +2,7 @@
     "pick_block": "minecraft:birch_sign",
     "mine_time": {
         "default": 1.5,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/axes/0",
                 "effect": {

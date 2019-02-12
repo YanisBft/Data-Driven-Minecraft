@@ -2,7 +2,7 @@
     "pick_block": "minecraft:acacia_pressure_plate",
     "mine_time": {
         "default": 0.75,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/axes/0",
                 "effect": {

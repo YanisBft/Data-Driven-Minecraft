@@ -2,7 +2,7 @@
     "pick_block": "minecraft:activator_rail",
     "mine_time": {
         "default": 1.05,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/pickaxes/0",
                 "effect": {

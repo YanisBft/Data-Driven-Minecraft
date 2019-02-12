@@ -2,7 +2,7 @@
     "pick_block": "minecraft:fletching_table",
     "mine_time": {
         "default": 3.75,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/axes/0",
                 "effect": {

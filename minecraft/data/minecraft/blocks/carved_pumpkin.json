@@ -11,7 +11,7 @@
                     "nesting": true
                 }
             },
-			{
+            {
                 "tag": "minecraft:tool_tiers/speed/swords/0",
                 "effect": {
                     "operation": "set_mine_time",

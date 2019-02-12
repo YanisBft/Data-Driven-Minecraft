@@ -2,7 +2,7 @@
     "pick_block": "minecraft:farmland",
     "mine_time": {
         "default": 0.9,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/shovels/0",
                 "effect": {

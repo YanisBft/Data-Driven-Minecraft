@@ -2,7 +2,7 @@
     "pick_block": "minecraft:air",
     "mine_time": {
         "default": 2.5,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/pickaxes/0",
                 "effect": {

@@ -2,7 +2,7 @@
     "pick_block": "minecraft:acacia_leaves",
     "mine_time": {
         "default": 0.35,
-		"tools": [
+        "tools": [
             {
                 "tag": "minecraft:tool_tiers/speed/swords/0",
                 "effect": {

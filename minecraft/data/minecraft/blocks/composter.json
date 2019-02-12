@@ -32,29 +32,29 @@
     },
     "functions": {
         "minecraft:this_block_changed": [
-			{
-				"function": "minecraft:alter_block",
-				"block": {
-					"properties": {
-						"level": "8"
-					}
-				},
-				"time": 20,
-				"conditions": [
-					{
-						"blocks": [
-							{
-								"block": {
-									"properties": {
-										"level": "7"
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		]
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "level": "8"
+                    }
+                },
+                "time": 20,
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "level": "7"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "properties": [
         {
