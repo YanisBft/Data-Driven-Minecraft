@@ -1,31 +1,13 @@
 {
+    "parents": [
+        "minecraft:template/gravity_affected"
+    ],
     "pick_block": "minecraft:dragon_egg",
     "mine_time": {
         "default": 4.5
     },
     "blast_resistance": 45,
     "functions": {
-        "minecraft:block_below_changed": [
-            {
-                "function": "minecraft:spawn_entity",
-                "entity": {
-                    "name": "minecraft:falling_block",
-                    "nbt": "{BlockState:{Name:\"minecraft:dragon_egg\"}}"
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "y": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:spawn_particle",

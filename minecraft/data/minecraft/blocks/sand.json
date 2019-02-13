@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/gravity_affected"
+    ],
     "pick_block": "minecraft:sand",
     "mine_time": {
         "default": 0.75,
@@ -15,28 +18,6 @@
     },
     "blast_resistance": 2.5,
     "functions": {
-        "minecraft:block_below_changed": [
-            {
-                "function": "minecraft:spawn_entity",
-                "entity": {
-                    "name": "minecraft:falling_block",
-                    "nbt": "{BlockState:{Name:\"minecraft:sand\"}}"
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "y": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                },
-                                "inverse": true
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:spawn_particle",

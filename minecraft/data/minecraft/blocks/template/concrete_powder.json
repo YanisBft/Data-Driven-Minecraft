@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/gravity_affected"
+    ],
     "mine_time": {
         "default": 0.75,
         "tools": [

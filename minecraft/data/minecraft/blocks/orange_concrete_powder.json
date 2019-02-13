@@ -32,26 +32,6 @@
         ],
         "minecraft:block_below_changed": [
             {
-                "function": "minecraft:spawn_entity",
-                "entity": {
-                    "name": "minecraft:falling_block",
-                    "nbt": "{BlockState:{Name:\"minecraft:orange_concrete_powder\"}}"
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "y": -1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                },
-                                "inverse": true
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "function": "minecraft:alter_block",
                 "block": {
                     "name": "minecraft:orange_concrete"

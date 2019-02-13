@@ -1,0 +1,25 @@
+{
+    "functions": {
+        "minecraft:block_below_changed": [
+            {
+                "function": "minecraft:spawn_entity",
+                "entity": {
+                    "name": "minecraft:falling_block"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "y": -1,
+                                "block": {
+                                    "name": "minecraft:air"
+                                },
+                                "inverse": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
