@@ -1,48 +1,6 @@
 {
-    "pick_block": "minecraft:green_carpet",
-    "mine_time": {
-        "default": 0.2
-    },
-    "burn": {
-        "encouragement": 60,
-        "flammability": 20
-    },
-    "blast_resistance": 0.5,
-    "properties": [
-        {
-            "properties": {
-                "faces": {
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "down": {}
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 1, 16 ]
-                    }
-                ]
-            }
-        }
-    ]
+    "parents": [
+        "minecraft:template/carpet"
+    ],
+    "pick_block": "minecraft:green_carpet"
 }

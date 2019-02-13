@@ -1,34 +1,8 @@
 {
-    "pick_block": "minecraft:flower_pot",
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
+    "parents": [
+        "minecraft:template/liquids_break"
     ],
-    "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
+    "pick_block": "minecraft:flower_pot",
     "properties": [
         {
             "properties": {

@@ -1,9 +1,8 @@
 {
+    "parents": [
+        "minecraft:template/unbreakable"
+    ],
     "pick_block": "minecraft:end_portal_frame",
-    "mine_time": {
-        "default": -1
-    },
-    "blast_resistance": -1,
     "states": {
         "facing": {
             "default": "north",

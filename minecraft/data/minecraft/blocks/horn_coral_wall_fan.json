@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/waterloggable"
+    ],
     "pick_block": "minecraft:horn_coral_fan",
     "transparent": true,
     "states": {
@@ -12,14 +15,6 @@
             ]
         }
     },
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "functions": {
         "minecraft:this_fluid_changed": [
             {

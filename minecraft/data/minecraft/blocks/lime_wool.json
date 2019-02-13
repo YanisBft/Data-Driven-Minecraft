@@ -1,20 +1,6 @@
 {
-    "pick_block": "minecraft:lime_wool",
-    "mine_time": {
-        "default": 1.25,
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/shears/0",
-                "effect": {
-                    "operation": "set_mine_time",
-                    "value": 0.25
-                }
-            }
-        ]
-    },
-    "burn": {
-        "encouragement": 30,
-        "flammability": 60
-    },
-    "resistance": 4
+    "parents": [
+        "minecraft:template/wool"
+    ],
+    "pick_block": "minecraft:lime_wool"
 }

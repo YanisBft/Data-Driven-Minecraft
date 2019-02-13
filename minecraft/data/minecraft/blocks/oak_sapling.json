@@ -1,18 +1,13 @@
 {
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
     "pick_block": "minecraft:oak_sapling",
     "burn": {
         "encouragement": 60,
         "flammability": 100
     },
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "states": {
         "stage": {
             "default": "0",
@@ -22,27 +17,6 @@
             ],
             "hidden": true
         }
-    },
-    "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
     },
     "functions": {
         "minecraft:random_tick": [

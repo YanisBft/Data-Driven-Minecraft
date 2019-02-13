@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/waterloggable"
+    ],
     "pick_block": "minecraft:scaffolding",
     "mine_time": {
         "default": 1,
@@ -21,14 +24,6 @@
     },
     "blast_resistance": 5,
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "states": {
         "distance": {
             "default": "0",

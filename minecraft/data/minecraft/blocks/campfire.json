@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/waterloggable"
+    ],
     "pick_block": "minecraft:campfire",
     "mine_time": {
         "default": 3,
@@ -40,14 +43,6 @@
             ]
         }
     },
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "functions": {
         "minecraft:tick": [
             {

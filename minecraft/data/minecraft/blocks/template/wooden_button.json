@@ -1,0 +1,99 @@
+{
+    "parents": [
+        "minecraft:template/button"
+    ],
+    "mine_time": {
+        "default": 0.75,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 2.5,
+    "functions": {
+        "minecraft:tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "powered": "true"
+                    }
+                },
+                "sound": "click_on",
+                "conditions": [
+                    {
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "tag": "minecraft:wooden_button_activators"
+                                }
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "time": 30,
+                "block": {
+                    "properties": {
+                        "powered": "false"
+                    }
+                },
+                "sound": "click_off",
+                "conditions": [
+                    {
+                        "entities": [
+                            {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "dx": 1,
+                                "dy": 1,
+                                "dz": 1,
+                                "entity": {
+                                    "tag": "minecraft:wooden_button_activators"
+                                },
+                                "inverse": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "powered": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

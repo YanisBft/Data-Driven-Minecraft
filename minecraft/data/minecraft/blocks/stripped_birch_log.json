@@ -1,31 +1,6 @@
 {
-    "pick_block": "minecraft:stripped_birch_log",
-    "mine_time": {
-        "default": 3,
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/axes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "burn": {
-        "encouragement": 5,
-        "flammability": 5
-    },
-    "blast_resistance": 10,
-    "states": {
-        "axis": {
-            "default": "y",
-            "values": [
-                "x",
-                "y",
-                "z"
-            ]
-        }
-    }
+    "parents": [
+        "minecraft:template/wood"
+    ],
+    "pick_block": "minecraft:stripped_birch_log"
 }

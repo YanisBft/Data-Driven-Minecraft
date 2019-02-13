@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
     "pick_block": "minecraft:cobweb",
     "mine_time": {
         "default": 20,
@@ -25,34 +28,7 @@
     },
     "resistance": 20,
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:effect",

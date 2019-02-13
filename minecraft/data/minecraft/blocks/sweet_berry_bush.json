@@ -1,18 +1,13 @@
 {
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
     "pick_block": "minecraft:sweet_berries",
     "burn": {
         "encouragement": 60,
         "flammability": 100
     },
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "states": {
         "age": {
             "default": "0",
@@ -25,25 +20,6 @@
         }
     },
     "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
         "minecraft:tick": [
             {
                 "function": "minecraft:hurt",

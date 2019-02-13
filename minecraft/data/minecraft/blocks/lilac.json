@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
     "pick_block": "minecraft:lilac",
     "burn": {
         "encouragement": 60,
@@ -13,16 +16,6 @@
         ]
     },
     "transparent": true,
-    "piston_push": "break",
-    "sticky_pull": false,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "states": {
         "half": {
             "default": "lower",
@@ -31,27 +24,6 @@
                 "upper"
             ]
         }
-    },
-    "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
     },
     "properties": [
         {

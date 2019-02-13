@@ -1,7 +1,6 @@
 {
-    "pick_block": "minecraft:bedrock",
-    "mine_time": {
-        "default": -1
-    },
-    "blast_resistance": -1
+    "parents": [
+        "minecraft:template/unbreakable"
+    ],
+    "pick_block": "minecraft:bedrock"
 }

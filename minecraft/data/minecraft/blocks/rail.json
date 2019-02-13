@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
     "pick_block": "minecraft:rail",
     "mine_time": {
         "default": 1.05,
@@ -19,14 +22,6 @@
     },
     "blast_resistance": 3.5,
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "states": {
         "shape": {
             "default": "north_south",
@@ -53,25 +48,7 @@
         }
     },
     "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        
     },
     "properties": [
         {

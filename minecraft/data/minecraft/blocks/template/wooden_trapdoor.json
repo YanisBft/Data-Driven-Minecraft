@@ -1,0 +1,71 @@
+{
+    "parents": [
+        "minecraft:template/trapdoor"
+    ],
+    "mine_time": {
+        "default": 4.5,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 15,
+    "functions": {
+        "minecraft:used": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "true"
+                    }
+                },
+                "sound": "open",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "false"
+                    }
+                },
+                "sound": "close",
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

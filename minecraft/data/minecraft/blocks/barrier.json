@@ -1,8 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/unbreakable"
+    ],
     "pick_block": "minecraft:barrier",
-    "mine_time": {
-        "default": -1
-    },
-    "blast_resistance": -1,
     "transparent": true
 }

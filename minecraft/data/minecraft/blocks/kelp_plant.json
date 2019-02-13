@@ -1,11 +1,9 @@
 {
+    "parents": [
+        "minecraft:template/water_inherited"
+    ],
     "pick_block": "minecraft:kelp",
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "functions": {
         "minecraft:block_above_changed": [
             {

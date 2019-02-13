@@ -1,31 +1,6 @@
 {
-    "pick_block": "minecraft:gray_glazed_terracotta",
-    "mine_time": {
-        "default": 7,
-        "needed_tool": {
-            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
-        },
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "blast_resistance": 7,
-    "states": {
-        "facing": {
-            "default": "north",
-            "values": [
-                "north",
-                "south",
-                "east",
-                "west"
-            ]
-        }
-    }
+    "parents": [
+        "minecraft:template/glazed_terracotta"
+    ],
+    "pick_block": "minecraft:gray_glazed_terracotta"
 }

@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
     "pick_block": "minecraft:cocoa_beans",
     "mine_time": {
         "default": 0.35,
@@ -25,14 +28,6 @@
         "flammability": 100
     },
     "blast_resistance": 15,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
-    ],
     "states": {
         "age": {
             "default": "0",
@@ -53,25 +48,6 @@
         }
     },
     "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
         "minecraft:random_tick": [
             {
                 "function": "minecraft:alter_block",

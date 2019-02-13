@@ -1,34 +1,6 @@
 {
-    "pick_block": "minecraft:green_stained_glass",
-    "mine_time": {
-        "default": 0.45
-    },
-    "blast_resistance": 1.5,
-    "transparent": true,
-    "properties": [
-        {
-            "properties": {
-                "faces": {
-                    "down": {
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "transfer_power": false
-                    }
-                }
-            }
-        }
-    ]
+    "parents": [
+        "minecraft:template/glass"
+    ],
+    "pick_block": "minecraft:green_stained_glass"
 }

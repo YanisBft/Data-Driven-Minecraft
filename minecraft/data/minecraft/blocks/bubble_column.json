@@ -1,11 +1,9 @@
 {
+    "parents": [
+        "minecraft:template/water_inherited"
+    ],
     "pick_block": "minecraft:air",
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "states": {
         "drag": {
             "default": "true",

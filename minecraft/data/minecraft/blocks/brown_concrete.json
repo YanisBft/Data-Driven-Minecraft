@@ -1,20 +1,6 @@
 {
-    "pick_block": "minecraft:brown_concrete",
-    "mine_time": {
-        "default": 9,
-        "needed_tool": {
-            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
-        },
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "blast_resistance": 9
+    "parents": [
+        "minecraft:template/concrete"
+    ],
+    "pick_block": "minecraft:brown_concrete"
 }

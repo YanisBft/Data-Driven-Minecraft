@@ -1,14 +1,9 @@
 {
+    "parents": [
+        "minecraft:template/waterloggable"
+    ],
     "pick_block": "minecraft:dead_bubble_coral",
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "properties": [
         {
             "properties": {

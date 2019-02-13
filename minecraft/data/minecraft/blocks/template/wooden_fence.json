@@ -1,0 +1,465 @@
+{
+    "parents": [
+        "minecraft:template/fence"
+    ],
+    "mine_time": {
+        "default": 3,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 15,
+    "functions": {
+        "minecraft:block_north_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "north": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "north": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": -1,
+                                "south": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "north": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_south_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "south": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "south": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "z": 1,
+                                "north": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "z": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "west"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "east"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "south": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_west_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "west": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "east": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "west": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": -1,
+                                "east": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": -1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "west": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:block_east_changed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "east": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences"
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north"
+                                        }
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "west": true
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "east": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "solid_faces": [
+                            {
+                                "x": 1,
+                                "west": false
+                            }
+                        ],
+                        "blocks": [
+                            {
+                                "x": 1,
+                                "block": [
+                                    {
+                                        "tag": "minecraft:wooden_fences",
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "north"
+                                        },
+                                        "inverse": true
+                                    },
+                                    {
+                                        "tag": "minecraft:fence_gates",
+                                        "properties": {
+                                            "facing": "south"
+                                        },
+                                        "inverse": true
+                                    }
+                                ]
+                            },
+                            {
+                                "block": {
+                                    "properties": {
+                                        "east": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

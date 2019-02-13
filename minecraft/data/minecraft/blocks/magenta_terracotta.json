@@ -1,20 +1,6 @@
 {
-    "pick_block": "minecraft:magenta_terracotta",
-    "mine_time": {
-        "default": 6.25,
-        "needed_tool": {
-            "tag": "minecraft:tool_tiers/strength/pickaxes/0"
-        },
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "blast_resistance": 30
+    "parents": [
+        "minecraft:template/terracotta"
+    ],
+    "pick_block": "minecraft:magenta_terracotta"
 }

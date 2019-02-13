@@ -1,4 +1,7 @@
 {    
+    "parents": [
+        "minecraft:template/waterloggable"
+    ],
     "pick_block": "minecraft:trapped_chest",
     "mine_time": {
         "default": 3.75,
@@ -38,14 +41,6 @@
             ]
         }
     },
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "functions": {
         "minecraft:used": [
             {

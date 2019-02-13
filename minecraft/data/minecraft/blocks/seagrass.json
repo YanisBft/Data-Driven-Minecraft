@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/water_inherited"
+    ],
     "pick_block": "minecraft:seagrass",
     "random_offset": {
         "x": 2,
@@ -9,11 +12,6 @@
         ]
     },
     "transparent": true,
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "properties": [
         {
             "properties": {

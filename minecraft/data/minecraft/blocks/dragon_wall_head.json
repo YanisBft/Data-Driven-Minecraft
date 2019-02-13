@@ -1,29 +1,9 @@
 {
-    "pick_block": "minecraft:dragon_head",
-    "mine_time": {
-        "default": 0.45
-    },
-    "blast_resistance": 5,
-    "transparent": true,
-    "block_entity": "minecraft:skull",
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "tag": "minecraft:liquids"
-        }
+    "parents": [
+        "minecraft:template/mob_head"
     ],
+    "pick_block": "minecraft:dragon_head",
     "states": {
-        "facing": {
-            "default": "north",
-            "values": [
-                "north",
-                "south",
-                "east",
-                "west"
-            ]
-        },
         "powered": {
             "default": "false",
             "values": [
@@ -33,25 +13,6 @@
         }
     },
     "functions": {
-        "minecraft:this_fluid_changed": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
-                "conditions": [
-                    {
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "tag": "minecraft:liquid"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
         "minecraft:this_received_power_changed": [
             {
                 "function": "minecraft:alter_block",
@@ -105,149 +66,5 @@
                 ]
             }
         ]
-    },
-    "properties": [
-        {
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                }
-            }
-        },
-        {
-            "states": {
-                "facing": "north",
-                "powered": "false"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 4, 3, 8 ],
-                        "to": [ 12, 11, 16 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "south",
-                "powered": "false"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 4, 3, 0 ],
-                        "to": [ 12, 11, 8 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "east",
-                "powered": "false"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 0, 3, 4 ],
-                        "to": [ 8, 11, 12 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "west",
-                "powered": "false"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 8, 3, 4 ],
-                        "to": [ 16, 11, 12 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "north",
-                "powered": "true"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 4, 3, 8 ],
-                        "to": [ 12, 11, 16 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "south",
-                "powered": "true"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 4, 3, 0 ],
-                        "to": [ 12, 11, 8 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "east",
-                "powered": "true"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 0, 3, 4 ],
-                        "to": [ 8, 11, 12 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "facing": "west",
-                "powered": "true"
-            },
-            "properties": {
-                "hit_box": [
-                    {
-                        "from": [ 8, 3, 4 ],
-                        "to": [ 16, 11, 12 ]
-                    }
-                ]
-            }
-        }
-    ]
+    }
 }

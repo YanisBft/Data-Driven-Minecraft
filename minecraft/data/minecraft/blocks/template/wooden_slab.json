@@ -1,0 +1,23 @@
+{
+    "parents": [
+        "minecraft:template/slab"
+    ],
+    "mine_time": {
+        "default": 3,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
+    },
+    "burn": {
+        "encouragement": 5,
+        "flammability": 20
+    },
+    "blast_resistance": 15
+}

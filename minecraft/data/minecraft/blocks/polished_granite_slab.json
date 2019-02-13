@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/slab"
+    ],
     "pick_block": "minecraft:polished_granite_slab",
     "mine_time": {
         "default": 7.5,
@@ -16,125 +19,5 @@
             }
         ]
     },
-    "blast_resistance": 30,
-    "states": {
-        "type": {
-            "default": "bottom",
-            "values": [
-                "bottom",
-                "top",
-                "double"
-            ]
-        }
-    },
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
-    ],
-    "functions": {
-        "minecraft:this_block_changed": [
-            {
-                "function": "minecraft:alter_fluid",
-                "fluid": {
-                    "name": "minecraft:empty"
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "block": {
-                                    "properties": {
-                                        "type": "double"
-                                    }
-                                }
-                            }
-                        ],
-                        "fluids": [
-                            {
-                                "fluid": {
-                                    "name": "minecraft:water"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "properties": [
-        {
-            "states": {
-                "type": "bottom"
-            },
-            "properties": {
-                "faces": {
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 8, 16 ]
-                    }
-                ]
-            }
-        },
-        {
-            "states": {
-                "type": "top"
-            },
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 8, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    }
-                ]
-            }
-        }
-    ]
+    "blast_resistance": 30
 }

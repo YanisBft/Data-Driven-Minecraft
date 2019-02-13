@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/waterloggable"
+    ],
     "pick_block": "minecraft:ender_chest",
     "mine_time": {
         "default": 112.5,
@@ -29,14 +32,6 @@
             ]
         }
     },
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
-    ],
     "functions": {
         "minecraft:tick": [
             {

@@ -1,0 +1,7 @@
+{
+    "can_contain_fluids": [
+        {
+            "name": "minecraft:water"
+        }
+    ]
+}

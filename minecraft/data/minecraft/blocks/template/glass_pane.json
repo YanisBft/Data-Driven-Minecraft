@@ -1,0 +1,9 @@
+{
+    "parents": [
+        "minecraft:template/pane"
+    ],
+    "mine_time": {
+        "default": 0.45
+    },
+    "blast_resistance": 1.5
+}

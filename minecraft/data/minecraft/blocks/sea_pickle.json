@@ -1,13 +1,8 @@
 {
-    "pick_block": "minecraft:sea_pickle",
-    "can_contain_fluids": [
-        {
-            "name": "minecraft:empty"
-        },
-        {
-            "name": "minecraft:water"
-        }
+    "parents": [
+        "minecraft:template/waterloggable"
     ],
+    "pick_block": "minecraft:sea_pickle",
     "states": {
         "pickles": {
             "default": "1",
