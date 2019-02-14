@@ -3,10 +3,10 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_paper"
+            "minecraft:emerald/paper"
         ],
         "2": [
-            "minecraft:emerald_from_compass"
+            "minecraft:emerald/compass"
         ],
         "3": [
             "minecraft:map"

@@ -3,18 +3,18 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_wheat",
-            "minecraft:emerald_from_potato",
-            "minecraft:emerald_from_carrot",
-            "minecraft:emerald_from_beetroot",
+            "minecraft:emerald/wheat",
+            "minecraft:emerald/potato",
+            "minecraft:emerald/carrot",
+            "minecraft:emerald/beetroot",
             "minecraft:bread"
         ],
         "2": [
-            "minecraft:emerald_from_pumpkin",
+            "minecraft:emerald/pumpkin",
             "minecraft:pumpkin_pie"
         ],
         "3": [
-            "minecraft:emerald_from_melon",
+            "minecraft:emerald/melon",
             "minecraft:apple"
         ],
         "4": [

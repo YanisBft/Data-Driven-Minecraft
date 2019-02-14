@@ -3,7 +3,7 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_leather",
+            "minecraft:emerald/leather",
             "minecraft:leather_leggings"
         ],
         "2": [

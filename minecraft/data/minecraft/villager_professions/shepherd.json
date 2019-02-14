@@ -3,7 +3,7 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_white_wool",
+            "minecraft:emerald/white_wool",
             "minecraft:shears"
         ],
         "2": [

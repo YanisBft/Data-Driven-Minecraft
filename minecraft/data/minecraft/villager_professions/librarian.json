@@ -3,16 +3,16 @@
     "maximum_career_level": 6,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_paper",
+            "minecraft:emerald/paper",
             "minecraft:enchanted_book"
         ],
         "2": [
-            "minecraft:emerald_from_book",
+            "minecraft:emerald/book",
             "minecraft:compass",
             "minecraft:bookshelf"
         ],
         "3": [
-            "minecraft:emerald_from_written_book",
+            "minecraft:emerald/written_book",
             "minecraft:clock",
             "minecraft:glass"
         ],

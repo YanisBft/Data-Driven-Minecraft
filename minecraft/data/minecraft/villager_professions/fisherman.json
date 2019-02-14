@@ -3,8 +3,8 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_string",
-            "minecraft:emerald_from_coal",
+            "minecraft:emerald/string",
+            "minecraft:emerald/coal",
             "minecraft:cooked_cod",
             "minecraft:cooked_salmon"
         ],

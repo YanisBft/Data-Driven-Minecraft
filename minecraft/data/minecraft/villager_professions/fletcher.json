@@ -3,7 +3,7 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_string",
+            "minecraft:emerald/string",
             "minecraft:arrow"
         ],
         "2": [

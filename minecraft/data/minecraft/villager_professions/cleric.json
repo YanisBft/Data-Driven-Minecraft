@@ -3,8 +3,8 @@
     "maximum_career_level": 5,
     "trading_recipes": {
         "1": [
-            "minecraft:emerald_from_rotten_flesh",
-            "minecraft:emerald_from_gold_ingot"
+            "minecraft:emerald/rotten_flesh",
+            "minecraft:emerald/gold_ingot"
         ],
         "2": [
             "minecraft:redstone",
