@@ -26,6 +26,13 @@
                 "up",
                 "down"
             ]
+        },
+        "open": {
+            "default": "false",
+            "values": [
+                "true",
+                "false"
+            ]
         }
     },
     "functions": {
@@ -33,6 +40,52 @@
             {
                 "function": "minecraft:open_gui",
                 "gui": "minecraft:barrel"
+            }
+        ],
+        "minecraft:gui_closed": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "false"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "true"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "minecraft:gui_opened": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "open": "true"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "open": "false"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

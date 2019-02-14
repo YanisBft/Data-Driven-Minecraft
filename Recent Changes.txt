@@ -1,12 +1,80 @@
+14-2-2019:
+* Updated to 19w07a
+- Removed loot tables, they were unaltered
+- Removed accidental "Nieuw textbestand.txt" in looming folder
+! Fixed the recent changes file is heavily outdated
+
+13-2-2019:
++ Added parenting to block files
+
+12-2-2019:
+* Changed hardness of blocks to mine_time with a completely different format, now supporting unknown tool tiers
+* Changed can_contain_fluid of blocks to properly support tags
+
+11-2-2019:
+* Updated to 19w06a
+
+3-2-2019:
+* Changed tool tier's strength and speed into separate tags
+
+28-1-2019:
+* Updated to 19w04b
+
+26-1-2019:
++ Added stonecutter recipes
+* Updated stonecutter's files
+
+23-1-2019:
+* Updated block tags to 19w04a
+* Changed tool tiers to separate tier 0 and faster tier
+
+17-1-2019:
++ Added creative tab content files
+
+16-1-2019:
+! Fixed some JSON errors
+
+15-1-2019:
++ Added tags for enchanting files
+* Changed enchanting files to only list what enchantments can be applied, and it it's secondary, no details about the enchantment itself
+* Changed crafting files to use only template parents, not parents who define a result themselves
+! Fixed wrong tag references for tool tiers
+! Fixed creeper firework rocket recipe does not use a tag
+
+14-1-2019:
+* Changed dimension files to not list each biome separately, but use a tag; weight will be in biome files
+
+13-1-2019:
+* Added dimension files
+
+10-1-2019:
+* Updated to 19w02a
++ Added campfire recipes
+
+2-1-2019:
++ Re-added language files that were accidentally removed
+
+17-12-2018:
+* Updated to 19w49a
++ Added melting and smoking recipes
+
+3-12-2018:
++ Added redstone wire redirecting
++ Added rail powering
++ Added grindstone recipes
+
+19-11-2018:
+* Updated to 18w44a
+
 24-10-2018:
-* updated to 18w43a
+* Updated to 18w43a
 
 10-10-2018:
-+ added water and lava dripping through blocks that are not glass and have a solid top face
-* changed the item color to rarity string (comon (default), uncomon, rare, epic)
-! fixed lava flow times for nether and overworld reversed
-! fixed flowing water/lava spreads outward, even when it starts falling
-! fixed water and lava do not disappear if the source is gone
++ Added water and lava dripping through blocks that are not glass and have a solid top face
+* Changed the item color to rarity string (comon (default), uncomon, rare, epic)
+! Fixed lava flow times for nether and overworld reversed
+! Fixed flowing water/lava spreads outward, even when it starts falling
+! Fixed water and lava do not disappear if the source is gone
  # Holy smokes, that makes the flowing water/lava files big.... need to think of a better way; but for now, it IS fixed
 
 8-10-2018:

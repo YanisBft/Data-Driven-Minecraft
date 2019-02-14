@@ -39,9 +39,7 @@ List of planned changes:
  * make flowing water and lava only spread to -x if there's not a hole in the +x direction, same with +x -x, -z +z and +z -z-fightning
 + re-add block files:
  + add 1.14 blocks
-  * correct hitboxes and minig times (last updated 18w44a)
- + add multi-parenting
-  # if 2 parents overwrite the same property, to top parent takes priority
+  * correct hitboxes and mining times of 1.14 blocks
  # to finish up:
   + add spread_block function to mushrooms
   + add piston behaviour
@@ -66,18 +64,11 @@ List of planned changes:
    - remove quasi-connectivity
   * pistons
    - remove quasi-connectivity
-* enchantment recipes:
- + add parenting
- * change from specifying enchantment details (such as max level, treasure and not allowed combinations), to only enchantments, and it it can only be secondary
-  # will be specified in enchantment files later
-   # Enchamtment weights/rarity: common, uncommon, rare, epic
 
 Structures:
-list of yet to be created structure files:
-+ add jigsaw block usage to all structures
-
 List of planned changes:
-* update the DataVersion to 1.13
++ add jigsaw block usage to all structures
+* update the DataVersion to 1.14
 * split all palette versions of shipwrecks into separate files
 
 
@@ -88,22 +79,21 @@ list of yet to be created model files:
 List of planned changes:
 + add seperatly textureable legs, arms, etc. for all entities
  + add fixed textures
-+ add illager and witch hood layer rendering (romove the texture on the witch)
-* update all textures to jasper's variants
++ add illager and witch hood layer rendering (remove the texture on the witch)
 * change entity texture files to be square so they can be properly used/animated
-* change the particles, effects and paintings into a file for each (like how it was done with blocks and items in 1.5 (add animation to the particles))
+* change the effects and paintings into a file for each (like how it was done with blocks and items in 1.5)
 * change giant texture to steve/alex
 * change the sheep wool and wolf collar texture for 1 per color, instead of hardcoded coloring
 * change sheared sheep to show correct wool color
-* change the villagers/illagers/witch to unfold their arms when they wear a chestplate, or hold something in their hand (only exceptions being vindicator axe and witch potion)
+* change the villagers/illagers/witch/wandering trader to unfold their arms when they wear a chestplate, or hold something in their hand (only exceptions being vindicator axe, witch potion and wandering trader potion and milk)
 * remove meta-language of blockstate files
 ! fix MC-1483
-! fix villager, illager and witch robe cuts off 2 pixels early
+! fix villager, illager, witch and wandering trader robe cuts off 2 pixels early
 ! fix leather cap overlay texture not aglined correctly
 ! fix wolf snout has z-fightning
 ! fix horse armor texture not rendering completely on right side of snout
 ! fix redstone wire overlay has no line textures
-! fix redstone wire doesn't have a texture on the block sides (slime block/barrier) (down side and the outer sides when going up)
+! fix redstone wire doesn't have a texture on the bottom sides (slime block/barrier) (down side and the outer sides when going up)
 ! fix redstone wire cross has the entire side line covering the cross; make the cross cover both lines instead
 ! fix arrow texture is not the same when shooting from the left or from the right (down vs up)
 ! fix top of snowy grass texture doesn't use the snow texture
