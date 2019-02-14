@@ -1,11 +1,13 @@
 14-2-2019:
 * Updated to 19w07a
++ Added pillager outpost structure files
 - Removed loot tables, they were unaltered
-- Removed accidental "Nieuw textbestand.txt" in looming folder
+- Removed accidental "Nieuw textdocument.txt" in looming folder
 ! Fixed the recent changes file is heavily outdated
 
 13-2-2019:
 + Added parenting to block files
++ Added 1.14 village structure files
 
 12-2-2019:
 * Changed hardness of blocks to mine_time with a completely different format, now supporting unknown tool tiers
