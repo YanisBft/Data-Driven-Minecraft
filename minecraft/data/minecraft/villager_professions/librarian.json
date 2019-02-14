@@ -2,28 +2,28 @@
     "has_profession_texture_layer": true,
     "maximum_career_level": 6,
     "trading_recipes": {
-        "1": {
+        "1": [
             "minecraft:emerald_from_paper",
             "minecraft:enchanted_book"
-        },
-        "2": {
+        ],
+        "2": [
             "minecraft:emerald_from_book",
             "minecraft:compass",
             "minecraft:bookshelf"
-        },
-        "3": {
+        ],
+        "3": [
             "minecraft:emerald_from_written_book",
             "minecraft:clock",
             "minecraft:glass"
-        },
-        "4": {
+        ],
+        "4": [
             "minecraft:enchanted_book"
-        },
-        "5": {
+        ],
+        "5": [
             "minecraft:enchanted_book"
-        },
-        "6": {
+        ],
+        "6": [
             "minecraft:name_tag"
-        }
+        ]
     }
 }

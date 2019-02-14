@@ -2,11 +2,11 @@
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
     "trading_recipes": {
-        "1": {
+        "1": [
             "minecraft:emerald_from_white_wool",
             "minecraft:shears"
-        },
-        "2": {
+        ],
+        "2": [
             "minecraft:white_wool",
             "minecraft:orange_wool",
             "minecraft:magenta_wool",
@@ -23,6 +23,6 @@
             "minecraft:green_wool",
             "minecraft:red_wool",
             "minecraft:black_wool"
-        }
+        ]
     }
 }

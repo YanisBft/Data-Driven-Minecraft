@@ -2,15 +2,15 @@
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
     "trading_recipes": {
-        "1": {
+        "1": [
             "minecraft:emerald_from_leather",
             "minecraft:leather_leggings"
-        },
-        "2": {
+        ],
+        "2": [
             "minecraft:leather_chestplate"
-        },
-        "3": {
+        ],
+        "3": [
             "minecraft:saddle"
-        }
+        ]
     }
 }

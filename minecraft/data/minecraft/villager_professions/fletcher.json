@@ -2,13 +2,13 @@
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
     "trading_recipes": {
-        "1": {
+        "1": [
             "minecraft:emerald_from_string",
             "minecraft:arrow"
-        },
-        "2": {
+        ],
+        "2": [
             "minecraft:bow",
             "minecraft:flint"
-        }
+        ]
     }
 }
