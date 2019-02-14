@@ -5,7 +5,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cooked_porkchop"
+        "item": "minecraft:cooked_porkchop",
         "count": {
             "min": 5,
             "max": 7

@@ -5,7 +5,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:arrow"
+        "item": "minecraft:arrow",
         "count": {
             "min": 8,
             "max": 12

@@ -5,7 +5,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cookie"
+        "item": "minecraft:cookie",
         "count": {
             "min": 6,
             "max": 10

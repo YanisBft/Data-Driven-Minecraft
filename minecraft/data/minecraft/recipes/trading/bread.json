@@ -5,7 +5,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bread"
+        "item": "minecraft:bread",
         "count": {
             "min": 2,
             "max": 4
