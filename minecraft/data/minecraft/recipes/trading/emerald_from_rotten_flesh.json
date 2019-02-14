@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:rotten_flesh",
+            "count": {
+                "min": 36,
+                "max": 40
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

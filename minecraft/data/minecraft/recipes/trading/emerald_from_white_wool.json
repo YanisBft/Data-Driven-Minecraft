@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:white_wool",
+            "count": {
+                "min": 16,
+                "max": 22
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:carrot",
+            "count": {
+                "min": 15,
+                "max": 19
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

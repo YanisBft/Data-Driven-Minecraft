@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 4,
+                "max": 6
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:iron_helmet"
+    }
+}

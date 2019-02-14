@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 2,
+                "max": 4
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:leather_leggings"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:porkchop",
+            "count": {
+                "min": 14,
+                "max": 18
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 11,
+                "max": 15
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:chainmail_chestplate"
+    }
+}

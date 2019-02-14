@@ -1,0 +1,18 @@
+{
+    "ingredients": [
+        {
+            "item": "minecraft:gravel",
+            "count": 10
+        },
+        {
+            "item": "minecraft:emerald"
+        }
+    ],
+    "result": {
+        "item": "minecraft:flint",
+        "count": {
+            "min": 6,
+            "max": 10
+        }
+    }
+}

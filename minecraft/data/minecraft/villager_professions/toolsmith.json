@@ -1,0 +1,18 @@
+{
+    "has_profession_texture_layer": true,
+    "maximum_career_level": 5,
+    "trading_recipes": {
+        "1": {
+            "minecraft:emerald_from_coal",
+            "minecraft:iron_shovel"
+        },
+        "2": {
+            "minecraft:emerald_from_iron_ingot",
+            "minecraft:iron_pickaxe"
+        },
+        "3": {
+            "minecraft:emerald_from_diamond",
+            "minecraft:diamond_pickaxe"
+        }
+    }
+}

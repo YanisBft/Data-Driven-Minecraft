@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:coal",
+            "count": {
+                "min": 16,
+                "max": 24
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

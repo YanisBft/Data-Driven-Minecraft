@@ -1,0 +1,17 @@
+{
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 20,
+                "max": 22
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:name_tag"
+    }
+}

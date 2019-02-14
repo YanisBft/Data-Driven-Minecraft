@@ -1,0 +1,11 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:written_book",
+            "count": 2
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ingredients": [
+        {
+            "item": "minecraft:salmon",
+            "count": 6
+        },
+        {
+            "item": "minecraft:emerald"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cooked_salmon",
+        "count": 6
+    }
+}

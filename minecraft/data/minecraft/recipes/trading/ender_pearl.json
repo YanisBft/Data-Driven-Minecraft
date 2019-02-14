@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 4,
+                "max": 7
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:ender_pearl"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 5,
+                "max": 19
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:leather_chestplate",
+        "functions": [
+            {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                    "min": 1,
+                    "max": 30
+                },
+                "treasure": true,
+                "per_level_random_cost": 10,
+                "per_level_cost": 3,
+                "treasure_multiplier": 2
+            }
+        ]
+    }
+}

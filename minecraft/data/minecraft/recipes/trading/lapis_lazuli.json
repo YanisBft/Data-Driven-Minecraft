@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:emerald"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lapis_lazuli"
+        "count": {
+            "min": 1,
+            "max": 2
+        }
+    }
+}

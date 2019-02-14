@@ -1,0 +1,25 @@
+{
+    "ingredients": [
+        {
+            "item": "minecraft:compass"
+        },
+        {
+            "item": "minecraft:emerald",
+            "count": {
+                "min": 12,
+                "max": 20
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:filled_map",
+        "functions": [
+            {
+                "function": "minecraft:exploration_map",
+                "destination": "ocean_monument",
+                "decoration": "monument",
+                "zoom": 1
+            }
+        ]
+    }
+}

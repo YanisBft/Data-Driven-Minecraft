@@ -1,0 +1,15 @@
+{
+    "ingredients": [
+        {
+            "item": "minecraft:cod",
+            "count": 6
+        },
+        {
+            "item": "minecraft:emerald"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cooked_cod",
+        "count": 6
+    }
+}

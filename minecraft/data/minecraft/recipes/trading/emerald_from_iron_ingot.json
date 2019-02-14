@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:iron_ingot",
+            "count": {
+                "min": 7,
+                "max": 9
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}

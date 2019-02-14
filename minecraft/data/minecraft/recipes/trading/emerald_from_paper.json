@@ -1,0 +1,14 @@
+{
+    "ingredients": [
+		{
+            "item": "minecraft:paper",
+            "count": {
+                "min": 24,
+                "max": 36
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:emerald"
+    }
+}
