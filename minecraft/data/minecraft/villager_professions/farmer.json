@@ -1,27 +1,27 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "trading_recipes": {
-        "1": [
+    "trading_recipes": [
+        [
             "minecraft:emerald/wheat",
             "minecraft:emerald/potato",
             "minecraft:emerald/carrot",
             "minecraft:emerald/beetroot",
             "minecraft:bread"
         ],
-        "2": [
+        [
             "minecraft:emerald/pumpkin",
             "minecraft:pumpkin_pie"
         ],
-        "3": [
+        [
             "minecraft:emerald/melon",
             "minecraft:apple"
         ],
-        "4": [
+        [
             "minecraft:cookie"
         ],
-        "5": [
+        [
             "minecraft:cake"
         ]
-    }
+    ]
 }

@@ -1,21 +1,21 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "trading_recipes": {
-        "1": [
+    "trading_recipes": [
+        [
             "minecraft:emerald/rotten_flesh",
             "minecraft:emerald/gold_ingot"
         ],
-        "2": [
+        [
             "minecraft:redstone",
             "minecraft:lapis_lazuli"
         ],
-        "3": [
+        [
             "minecraft:ender_pearl",
             "minecraft:glowstone"
         ],
-        "4": [
+        [
             "minecraft:experience_bottle"
         ]
-    }
+    ]
 }

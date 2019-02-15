@@ -1,19 +1,19 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "trading_recipes": {
-        "1": [
+    "trading_recipes": [
+        [
             "minecraft:emerald/paper"
         ],
-        "2": [
+        [
             "minecraft:emerald/compass"
         ],
-        "3": [
+        [
             "minecraft:map"
         ],
-        "4": [
+        [
             "minecraft:ocean_monument_exploration_map",
             "minecraft:woodland_mansion_exploration_map"
         ]
-    }
+    ]
 }

@@ -1,15 +1,15 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "trading_recipes": {
-        "1": [
+    "trading_recipes": [
+        [
             "minecraft:emerald/string",
             "minecraft:emerald/coal",
             "minecraft:cooked_cod",
             "minecraft:cooked_salmon"
         ],
-        "2": [
+        [
             "minecraft:fishing_rod"
         ]
-    }
+    ]
 }
