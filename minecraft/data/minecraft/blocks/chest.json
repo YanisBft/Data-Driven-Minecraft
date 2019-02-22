@@ -2,5 +2,5 @@
     "parents": [
         "minecraft:template/doubleable_chest"
     ],
-    "pick_block": "minecraft:chest",
+    "pick_block": "minecraft:chest"
 }
