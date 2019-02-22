@@ -1,0 +1,12 @@
+{
+    "states": {
+        "axis": {
+            "default": "y",
+            "values": [
+                "x",
+                "y",
+                "z"
+            ]
+        }
+    }
+}

@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/axis"
+    ],
     "pick_block": "minecraft:bone_block",
     "mine_time": {
         "default": 10,
@@ -16,15 +19,5 @@
             }
         ]
     },
-    "blast_resistance": 10,
-    "states": {
-        "axis": {
-            "default": "y",
-            "values": [
-                "x",
-                "y",
-                "z"
-            ]
-        }
-    }
+    "blast_resistance": 10
 }

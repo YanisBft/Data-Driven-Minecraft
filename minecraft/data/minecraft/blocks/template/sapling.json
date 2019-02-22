@@ -1,36 +1,38 @@
 {
-    "parent": [
-        "minecraft:template/age_15"
+    "parents": [
+        "minecraft:template/liquids_break"
     ],
-    "pick_block": "minecraft:sugar_cane",
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "transparent": true,
+    "states": {
+        "stage": {
+            "default": "0",
+            "values": [
+                "0",
+                "1"
+            ],
+            "hidden": true
+        }
+    },
     "functions": {
         "minecraft:random_tick": [
             {
                 "function": "minecraft:alter_block",
-                "block": [
-                    {
-                        "properties": {
-                            "age": "0"
-                        }
-                    },
-                    {
-                        "y": 1,
-                        "name": "minecraft:sugar_cane"
+                "block": {
+                    "properties": {
+                        "stage": "1"
                     }
-                ],
+                },
                 "conditions": [
                     {
                         "blocks": [
                             {
-                                "y": 1,
-                                "block": {
-                                    "name": "minecraft:air"
-                                }
-                            },
-                            {
                                 "block": {
                                     "properties": {
-                                        "age": "15"
+                                        "stage": "0"
                                     }
                                 }
                             }
@@ -72,20 +74,14 @@
                 "need_support": {
                     "down": [
                         {
-                            "name": "minecraft:sugar_cane"
-                        },
-                        {
-                            "tag": "minecraft:sand"
-                        },
-                        {
                             "tag": "minecraft:soil"
                         }
                     ]
                 },
                 "hit_box": [
                     {
-                        "from": [ 2, 0, 2 ],
-                        "to": [ 14, 16, 14 ]
+                        "from": [ 1.5, 0, 1.5 ],
+                        "to": [ 14.5, 13, 14.5 ]
                     }
                 ],
                 "collision_box": [

@@ -1,19 +1,8 @@
 {
+    "parents": [
+        "minecraft:template/ice"
+    ],
     "pick_block": "minecraft:air",
-    "mine_time": {
-        "default": 2.5,
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "blast_resistance": 2.5,
     "transparent": true,
     "states": {
         "age": {
@@ -94,6 +83,25 @@
             {
                 "function": "minecraft:alter_block",
                 "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "3"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_fluid",
+                "fluid": {
                     "name": "minecraft:water"
                 },
                 "conditions": [
@@ -115,100 +123,204 @@
             {
                 "function": "minecraft:alter_block",
                 "block": {
+                    "name": "minecraft:air"
+                },
+                "conditions": [
+                    {
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "fluids": [
+                            {
+                                "x": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "fluids": [
+                            {
+                                "x": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "x": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "fluids": [
+                            {
+                                "z": 1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            },
+                            {
+                                "z": -1,
+                                "fluid": {
+                                    "name": "minecraft:water"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "function": "minecraft:alter_fluid",
+                "fluid": {
                     "name": "minecraft:water"
                 },
                 "conditions": [
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "x": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             },
                             {
                                 "z": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             }
                         ]
                     },
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "x": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             },
                             {
                                 "z": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             }
                         ]
                     },
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "x": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             },
                             {
                                 "z": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             }
                         ]
                     },
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "x": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             },
                             {
                                 "z": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             }
                         ]
                     },
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "x": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             },
                             {
                                 "x": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             }
                         ]
                     },
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "z": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             },
                             {
                                 "z": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water"
                                 }
                             }

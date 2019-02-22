@@ -1,128 +1,16 @@
 {
     "parents": [
-        "minecraft:template/liquids_break"
+        "minecraft:template/crops_3"
     ],
     "pick_block": "minecraft:nether_wart",
-    "burn": {
-        "encouragement": 60,
-        "flammability": 100
-    },
-    "transparent": true,
-    "states": {
-        "age": {
-            "default": "0",
-            "values": [
-                "0",
-                "1",
-                "2",
-                "3"
-            ]
-        }
-    },
-    "functions": {
-        "minecraft:random_tick": [
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "properties": {
-                        "age": "1"
-                    }
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "block": {
-                                    "properties": {
-                                        "age": "0"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "properties": {
-                        "age": "2"
-                    }
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "block": {
-                                    "properties": {
-                                        "age": "1"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "properties": {
-                        "age": "3"
-                    }
-                },
-                "conditions": [
-                    {
-                        "blocks": [
-                            {
-                                "block": {
-                                    "properties": {
-                                        "age": "2"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
     "properties": [
         {
             "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
                 "need_support": {
                     "down": {
                         "name": "minecraft:soul_sand"
                     }
-                },
-                "collision_box": [
-                    
-                ]
+                }
             }
         },
         {

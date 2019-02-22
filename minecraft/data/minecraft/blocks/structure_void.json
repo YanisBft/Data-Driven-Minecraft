@@ -3,10 +3,6 @@
         "minecraft:template/liquids_break"
     ],
     "pick_block": "minecraft:structure_void",
-    "mine_time": {
-        "default": -1
-    },
-    "blast_resistance": -1,
     "properties": [
         {
             "properties": {

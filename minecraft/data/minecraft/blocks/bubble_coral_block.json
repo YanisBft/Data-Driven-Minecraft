@@ -18,7 +18,7 @@
     },
     "blast_resistance": 30,
     "functions": {
-        "minecraft:block_changed": [
+        "minecraft:fluid_changed": [
             {
                 "function": "minecraft:alter_block",
                 "time": 80,
@@ -27,45 +27,45 @@
                 },
                 "conditions": [
                     {
-                        "blocks": [
+                        "fluids": [
                             {
                                 "x": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water",
                                     "inverse": true
                                 }
                             },
                             {
                                 "x": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water",
                                     "inverse": true
                                 }
                             },
                             {
                                 "y": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water",
                                     "inverse": true
                                 }
                             },
                             {
                                 "y": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water",
                                     "inverse": true
                                 }
                             },
                             {
                                 "z": 1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water",
                                     "inverse": true
                                 }
                             },
                             {
                                 "z": -1,
-                                "block": {
+                                "fluid": {
                                     "name": "minecraft:water",
                                     "inverse": true
                                 }

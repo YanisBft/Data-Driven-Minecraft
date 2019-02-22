@@ -1,0 +1,95 @@
+{
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "random_offset": {
+        "x": 1,
+        "z": 1,
+        "depend_on": [
+            "x",
+            "z"
+        ]
+    },
+    "transparent": true,
+    "states": {
+        "half": {
+            "default": "lower",
+            "values": [
+                "lower",
+                "upper"
+            ]
+        }
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "half": "lower"
+            },
+            "properties": {
+                "need_support": {
+                    "up": {
+                        "properties": {
+                            "half": "upper"
+                        }
+                    },
+                    "down": [
+                        {
+                            "tag": "minecraft:soil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "states": {
+                "half": "upper"
+            },
+            "properties": {
+                "need_support": {
+                    "down": {
+                        "properties": {
+                            "half": "lower"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

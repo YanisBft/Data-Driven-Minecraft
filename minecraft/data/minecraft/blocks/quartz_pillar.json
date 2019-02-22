@@ -1,4 +1,7 @@
 {
+    "parents": [
+        "minecraft:template/axis"
+    ],
     "pick_block": "minecraft:quartz_pillar",
     "mine_time": {
         "default": 4,
@@ -16,15 +19,5 @@
             }
         ]
     },
-    "blast_resistance": 4,
-    "states": {
-        "axis": {
-            "default": "y",
-            "values": [
-                "x",
-                "y",
-                "z"
-            ]
-        }
-    }
+    "blast_resistance": 4
 }

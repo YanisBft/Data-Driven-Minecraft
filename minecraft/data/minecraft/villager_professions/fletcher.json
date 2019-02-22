@@ -1,6 +1,7 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
+    "workstation_block": "minecraft:fletching_table",
     "trading_recipes": [
         [
             "minecraft:emerald/string",

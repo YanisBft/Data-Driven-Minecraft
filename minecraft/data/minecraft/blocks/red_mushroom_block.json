@@ -1,67 +1,8 @@
 {
+    "parents": [
+        "minecraft:template/mushroom_block"
+    ],
     "pick_block": "minecraft:red_mushroom_block",
-    "mine_time": {
-        "default": 0.35,
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/axes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "burn": {
-        "encouragement": 5,
-        "flammability": 5
-    },
-    "blast_resistance": 1,
-    "states": {
-        "up": {
-            "default": "true",
-            "values": [
-                "false",
-                "true"
-            ]
-        },
-        "down": {
-            "default": "true",
-            "values": [
-                "false",
-                "true"
-            ]
-        },
-        "north": {
-            "default": "true",
-            "values": [
-                "false",
-                "true"
-            ]
-        },
-        "south": {
-            "default": "true",
-            "values": [
-                "false",
-                "true"
-            ]
-        },
-        "east": {
-            "default": "true",
-            "values": [
-                "false",
-                "true"
-            ]
-        },
-        "west": {
-            "default": "true",
-            "values": [
-                "false",
-                "true"
-            ]
-        }
-    },
     "functions": {
         "minecraft:block_above_changed": [
             {

@@ -1,20 +1,6 @@
 {
-    "pick_block": "minecraft:packed_ice",
-    "mine_time": {
-        "default": 0.75,
-        "tools": [
-            {
-                "tag": "minecraft:tool_tiers/speed/pickaxes/0",
-                "effect": {
-                    "operation": "divide_player_mine_speed",
-                    "value": 2,
-                    "nesting": true
-                }
-            }
-        ]
-    },
-    "blast_resistance": 2.5,
-    "functions": {
-        
-    }
+    "parents": [
+        "minecraft:template/ice"
+    ],
+    "pick_block": "minecraft:packed_ice"
 }

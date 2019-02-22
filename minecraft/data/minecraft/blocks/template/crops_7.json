@@ -1,0 +1,323 @@
+{
+    "parents": [
+        "minecraft:template/liquids_break"
+    ],
+    "burn": {
+        "encouragement": 60,
+        "flammability": 100
+    },
+    "transparent": true,
+    "light_needed": {
+        "min": 7
+    },
+    "states": {
+        "age": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ]
+        }
+    },
+    "functions": {
+        "minecraft:random_tick": [
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "1"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "0"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "2"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "1"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "3"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "2"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "4"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "3"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "5"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "4"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "6"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "5"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:alter_block",
+                "block": {
+                    "properties": {
+                        "age": "7"
+                    }
+                },
+                "conditions": [
+                    {
+                        "blocks": [
+                            {
+                                "block": {
+                                    "properties": {
+                                        "age": "6"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "properties": {
+                "faces": {
+                    "down": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "up": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "north": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "south": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "east": {
+                        "support": false,
+                        "transfer_power": false
+                    },
+                    "west": {
+                        "support": false,
+                        "transfer_power": false
+                    }
+                },
+                "need_support": {
+                    "down": {
+                        "name": "minecraft:farmland"
+                    }
+                },
+                "collision_box": [
+                    
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "0"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 1, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "1"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 2, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "2"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 3, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "3"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 4, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "4"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 5, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "5"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 6, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "6"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 7, 16 ]
+                    }
+                ]
+            }
+        },
+        {
+            "states": {
+                "age": "7"
+            },
+            "properties": {
+                "hit_box": [
+                    {
+                        "from": [ 0, -1, 0 ],
+                        "to": [ 16, 8, 16 ]
+                    }
+                ]
+            }
+        }
+    ]
+}
