@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:template/rail",
+    "ingredients": {
+        "rail": {
+            "name": "minecraft:leather"
+        },
+        "stick": {
+            "name": "minecraft:leather"
+        },
+        "empty1": {
+            
+        },
+        "empty2": {
+            
+        }
+    },
+    "result": {
+        "name": "minecraft:leather_horse_armor"
+    }
+}

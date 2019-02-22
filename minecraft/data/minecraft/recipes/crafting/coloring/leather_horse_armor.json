@@ -1,0 +1,149 @@
+{
+    "parent": "minecraft:template/color_armor",
+    "ingredients": {
+        "item": {
+            "name": "minecraft:leather_horse_armor"
+        },
+        "black": {
+            "name": "minecraft:black_dye"
+        },
+        "red": {
+            "name": "minecraft:red_dye"
+        },
+        "green": {
+            "name": "minecraft:green_dye"
+        },
+        "brown": {
+            "name": "minecraft:brown_dye"
+        },
+        "blue": {
+            "name": "minecraft:blue_dye"
+        },
+        "purple": {
+            "name": "minecraft:purple_dye"
+        },
+        "cyan": {
+            "name": "minecraft:cyan_dye"
+        },
+        "light_gray": {
+            "name": "minecraft:light_gray_dye"
+        },
+        "gray": {
+            "name": "minecraft:gray_dye"
+        },
+        "pink": {
+            "name": "minecraft:pink_dye"
+        },
+        "lime": {
+            "name": "minecraft:lime_dye"
+        },
+        "yellow": {
+            "name": "minecraft:yellow_dye"
+        },
+        "light_blue": {
+            "name": "minecraft:light_blue_dye"
+        },
+        "magenta": {
+            "name": "minecraft:magenta_dye"
+        },
+        "orange": {
+            "name": "minecraft:orange_dye"
+        },
+        "white": {
+            "name": "minecraft:white_dye"
+        }
+    },
+    "optional_shapes_required": {
+        "min": 1
+    },
+    "result": {
+        "name": "minecraft:leather_horse_armor"
+    },
+    "group": "minecraft:leather_armor_coloring",
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "ingredient": "black",
+            "color": 1644825
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "red",
+            "color": 10040115
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "green",
+            "color": 6717235
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "brown",
+            "color": 6704179
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "blue",
+            "color": 3361970
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "purple",
+            "color": 8339378
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "cyan",
+            "color": 5013401
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "light_gray",
+            "color": 10066329
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "gray",
+            "color": 5000268
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "pink",
+            "color": 15892389
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "lime",
+            "color": 8375321
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "yellow",
+            "color": 15066419
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "light_blue",
+            "color": 6724056
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "magenta",
+            "color": 11685080
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "orange",
+            "color": 14188339
+        },
+        {
+            "function": "minecraft:color",
+            "ingredient": "white",
+            "color": 16777215
+        },
+        {
+            "function": "minecraft:copy_component",
+            "ingredient": "item"
+        }
+    ]
+}

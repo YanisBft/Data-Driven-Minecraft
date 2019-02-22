@@ -1,4 +1,5 @@
 22-2-2019:
+* Updated to 19w08a/b
 + Added block parents: age_15, attached_stem, axis, crops_3, crops_7, doubleable_chest, ice, large_flower, mushroom_block, sapling, stem, and stone
 + Added workstation block field to villager profession files
 ! Structure void had wrong mine time and blast resistance
