@@ -1,0 +1,134 @@
+{
+    "paintings": [
+        {
+            "name": "minecraft:alban",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:aztec",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:aztec2",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:bomb",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:burning_skull",
+            "width": 64,
+            "height": 64
+        },
+        {
+            "name": "minecraft:bust",
+            "width": 32,
+            "height": 32
+        },
+        {
+            "name": "minecraft:courbet",
+            "width": 32,
+            "height": 16
+        },
+        {
+            "name": "minecraft:creebet",
+            "width": 32,
+            "height": 16
+        },
+        {
+            "name": "minecraft:donkey_kong",
+            "width": 64,
+            "height": 48
+        },
+        {
+            "name": "minecraft:fighters",
+            "width": 64,
+            "height": 32
+        },
+        {
+            "name": "minecraft:graham",
+            "width": 16,
+            "height": 32
+        },
+        {
+            "name": "minecraft:kebab",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:match",
+            "width": 32,
+            "height": 32
+        },
+        {
+            "name": "minecraft:plant",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:pigscene",
+            "width": 64,
+            "height": 64
+        },
+        {
+            "name": "minecraft:pointer",
+            "width": 64,
+            "height": 64
+        },
+        {
+            "name": "minecraft:pool",
+            "width": 32,
+            "height": 16
+        },
+        {
+            "name": "minecraft:sea",
+            "width": 32,
+            "height": 16
+        },
+        {
+            "name": "minecraft:skeleton",
+            "width": 64,
+            "height": 48
+        },
+        {
+            "name": "minecraft:skull_and_roses",
+            "width": 32,
+            "height": 32
+        },
+        {
+            "name": "minecraft:stage",
+            "width": 32,
+            "height": 32
+        },
+        {
+            "name": "minecraft:sunset",
+            "width": 32,
+            "height": 16
+        },
+        {
+            "name": "minecraft:void",
+            "width": 32,
+            "height": 32
+        },
+        {
+            "name": "minecraft:wanderer",
+            "width": 16,
+            "height": 32
+        },
+        {
+            "name": "minecraft:wasteland",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "minecraft:wither",
+            "width": 32,
+            "height": 32
+        }
+    ]
+}
