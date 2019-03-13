@@ -1,0 +1,10 @@
+{
+    "color": ,
+    "effects": [
+        {
+            "effect": "minecraft:strength",
+            "amplifier": 0,
+            "duration": 3600
+        }
+    ]
+}

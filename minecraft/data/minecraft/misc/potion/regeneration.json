@@ -1,0 +1,10 @@
+{
+    "color": ,
+    "effects": [
+        {
+            "effect": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 900
+        }
+    ]
+}

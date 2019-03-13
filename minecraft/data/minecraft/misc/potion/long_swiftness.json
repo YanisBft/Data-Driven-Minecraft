@@ -1,0 +1,10 @@
+{
+    "color": ,
+    "effects": [
+        {
+            "effect": "minecraft:swiftness",
+            "amplifier": 0,
+            "duration": 9600
+        }
+    ]
+}

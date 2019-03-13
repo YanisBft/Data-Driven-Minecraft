@@ -1,4 +1,11 @@
 {
     "block_item": true,
-    "place_block": "minecraft:grass_block"
+    "place_block": "minecraft:grass_block",
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "tintindex": true,
+            "default": 
+        }
+    ]
 }

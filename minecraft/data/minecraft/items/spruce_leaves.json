@@ -1,4 +1,11 @@
 {
     "block_item": true,
-    "place_block": "minecraft:spruce_leaves"
+    "place_block": "minecraft:spruce_leaves",
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "tintindex": true,
+            "default": 
+        }
+    ]
 }

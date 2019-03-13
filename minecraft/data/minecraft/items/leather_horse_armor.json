@@ -7,5 +7,13 @@
             "amount": 3,
             "operation": "add"
         }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "texture": "layer0",
+            "default": 9788987,
+            "overwrite_nbt": "display.Color"
+        }
     ]
 }

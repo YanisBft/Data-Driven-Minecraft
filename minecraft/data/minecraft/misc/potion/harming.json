@@ -1,0 +1,10 @@
+{
+    "color": ,
+    "effects": [
+        {
+            "effect": "minecraft:instant_damage",
+            "amplifier": 0,
+            "duration": 0
+        }
+    ]
+}
