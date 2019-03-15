@@ -2,13 +2,13 @@
     "parent": "minecraft:template/table",
     "ingredients": {
         "item": {
-            "name": "minecraft:paper"
+            "name": "minecraft:flint"
         },
         "table": {
             "tag": "minecraft:planks"
         }
     },
     "result": {
-        "name": "minecraft:cartography_table"
+        "name": "minecraft:fletching_table"
     }
 }
