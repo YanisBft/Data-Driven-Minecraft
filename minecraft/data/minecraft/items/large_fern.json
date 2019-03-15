@@ -4,7 +4,7 @@
         {
             "function": "minecraft:color",
             "tintindex": true,
-            "default": 
+            "default": 65536
         },
         {
             "function": "minecraft:alter_block",

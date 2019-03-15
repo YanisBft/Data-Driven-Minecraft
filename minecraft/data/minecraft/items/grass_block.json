@@ -5,7 +5,7 @@
         {
             "function": "minecraft:color",
             "tintindex": true,
-            "default": 
+            "default": 65536
         }
     ]
 }
