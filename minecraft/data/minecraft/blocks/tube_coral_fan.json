@@ -2,7 +2,7 @@
     "parents": [
         "minecraft:template/coral_fan"
     ],
-    "pick_block": "minecraft:tube_coral_fan"
+    "pick_block": "minecraft:tube_coral_fan",
     "functions": {
         "minecraft:this_fluid_changed": [
             {
