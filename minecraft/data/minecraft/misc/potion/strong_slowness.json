@@ -3,8 +3,8 @@
     "effects": [
         {
             "effect": "minecraft:slowness",
-            "amplifier": 0,
-            "duration": 1800
+            "amplifier": 3,
+            "duration": 400
         }
     ]
 }
