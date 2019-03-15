@@ -1,5 +1,5 @@
 {
-    "mine_time": {
+    "mine_time_span": {
         "default": 9,
         "tools": [
             {
@@ -44,7 +44,7 @@
                         "to": [ 16, 16, 16 ]
                     }
                 ],
-                "time": 20
+                "time_span": 20
             }
         ],
         "minecraft:gui_opened": [
@@ -62,7 +62,7 @@
                         "to": [ 24, 16, 16 ]
                     }
                 ],
-                "time": 20,
+                "time_span": 20,
                 "conditions": [
                     {
                         "blocks": [
@@ -91,7 +91,7 @@
                         "to": [ 16, 16, 16 ]
                     }
                 ],
-                "time": 20,
+                "time_span": 20,
                 "conditions": [
                     {
                         "blocks": [
@@ -120,7 +120,7 @@
                         "to": [ 16, 16, 24 ]
                     }
                 ],
-                "time": 20,
+                "time_span": 20,
                 "conditions": [
                     {
                         "blocks": [
@@ -149,7 +149,7 @@
                         "to": [ 16, 16, 16 ]
                     }
                 ],
-                "time": 20,
+                "time_span": 20,
                 "conditions": [
                     {
                         "blocks": [
@@ -178,7 +178,7 @@
                         "to": [ 16, 24, 16 ]
                     }
                 ],
-                "time": 20,
+                "time_span": 20,
                 "conditions": [
                     {
                         "blocks": [
@@ -207,7 +207,7 @@
                         "to": [ 16, 16, 16 ]
                     }
                 ],
-                "time": 20,
+                "time_span": 20,
                 "conditions": [
                     {
                         "blocks": [

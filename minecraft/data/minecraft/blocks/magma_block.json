@@ -21,7 +21,7 @@
         "minecraft:tick": [
             {
                 "function": "minecraft:hurt",
-                "sides": [
+                "faces": [
                     "up"
                 ],
                 "damage": 1.0,
@@ -40,7 +40,7 @@
                         "inverse": true
                     },
                     {
-                        "type": "#minecraft:fire_resistant_mobs",
+                        "tag": "minecraft:fire_resistant_mobs",
                         "inverse": true
                     }
                 ]

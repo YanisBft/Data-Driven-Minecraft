@@ -41,7 +41,7 @@
                         "inverse": true
                     },
                     {
-                        "type": "#minecraft:spiders",
+                        "tag": "minecraft:spiders",
                         "inverse": true
                     }
                 ]

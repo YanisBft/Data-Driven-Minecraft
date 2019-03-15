@@ -10,10 +10,7 @@
     "functions": {
         "minecraft:this_fluid_changed": [
             {
-                "function": "minecraft:alter_block",
-                "block": {
-                    "name": "minecraft:air"
-                },
+                "function": "minecraft:break",
                 "conditions": [
                     {
                         "fluids": [

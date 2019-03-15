@@ -43,8 +43,8 @@
     "functions": {
         "minecraft:this_received_power_changed": [
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "true",
@@ -80,8 +80,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "true",
@@ -117,8 +117,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "powered": "true"
@@ -151,8 +151,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "powered": "true"
@@ -187,8 +187,8 @@
         ],
         "minecraft:received_power_above_changed": [
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "true",
@@ -225,8 +225,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "powered": "true"
@@ -262,8 +262,8 @@
         ],
         "minecraft:received_power_below_changed": [
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "true",
@@ -300,8 +300,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "powered": "true"
@@ -337,8 +337,8 @@
         ],
         "minecraft:received_power_changed": [
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "powered": "false"
@@ -383,8 +383,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "powered": "false"
@@ -429,8 +429,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "false",
@@ -478,8 +478,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "false",

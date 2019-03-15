@@ -77,7 +77,7 @@
                                         }
                                     },
                                     {
-                                        "name": "minecraft:walls_torch"
+                                        "name": "minecraft:wall_torch"
                                     },
                                     {
                                         "name": "minecraft:redstone_wall_torch"

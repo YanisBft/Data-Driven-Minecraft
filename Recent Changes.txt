@@ -1,3 +1,8 @@
+15-3-2019:
++ Added coral, coral_block, coral_fan, coral_wall_fan and infested_block block templates
+* Changed painting format to have 2 lists of 2 ints, size and offset
+! Fixed some issues with block files, getting rid of function ambiguity and the last # for tag usage
+
 13-2-1019:
 + Added painting misc files
 + Added misc_file field to the item format, in order to interpret misc files for potions

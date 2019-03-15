@@ -566,8 +566,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "name": "minecraft:kelp_plant"
                     },

@@ -23,8 +23,8 @@
     "functions": {
         "minecraft:used": [
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "true"
@@ -54,8 +54,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "true"
@@ -85,8 +85,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "false"
@@ -116,8 +116,8 @@
                 ]
             },
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "open": "false"
