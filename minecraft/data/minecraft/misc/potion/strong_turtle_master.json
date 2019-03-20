@@ -1,0 +1,15 @@
+{
+    "color": 7952477,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 5,
+            "duration": 1800
+        },
+        {
+            "effect": "minecraft:resistance",
+            "amplifier": 5,
+            "duration": 1800
+        }
+    ]
+}

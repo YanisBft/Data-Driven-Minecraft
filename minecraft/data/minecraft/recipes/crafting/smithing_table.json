@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:template/table",
+    "ingredients": {
+        "item": {
+            "name": "minecraft:iron_ingot"
+        },
+        "table": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "name": "minecraft:smithing_table"
+    }
+}

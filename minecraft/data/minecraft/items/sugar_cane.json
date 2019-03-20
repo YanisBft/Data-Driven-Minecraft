@@ -1,4 +1,11 @@
 {
     "block_item": true,
-    "place_block": "minecraft:sugar_cane"
+    "place_block": "minecraft:sugar_cane",
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "tintindex": true,
+            "default": 65536
+        }
+    ]
 }

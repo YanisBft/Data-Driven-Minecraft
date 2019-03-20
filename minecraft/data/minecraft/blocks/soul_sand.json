@@ -19,7 +19,7 @@
             {
                 "function": "minecraft:effect",
                 "effect": "movement",
-                "sides": [
+                "faces": [
                     "up"
                 ],
                 "amount": -0.15,

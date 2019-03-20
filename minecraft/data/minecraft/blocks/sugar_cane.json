@@ -6,8 +6,8 @@
     "functions": {
         "minecraft:random_tick": [
             {
-                "function": "minecraft:alter_block",
-                "block": [
+                "function": "minecraft:alter_blocks",
+                "blocks": [
                     {
                         "properties": {
                             "age": "0"

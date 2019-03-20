@@ -1,3 +1,24 @@
+15-3-2019:
+* Updated to 19w11a/b
++ Added coral, coral_block, coral_fan, coral_wall_fan and infested_block block templates
+* Changed painting format to have 2 lists of 2 ints, size and offset
+! Fixed some issues with block files, getting rid of function ambiguity and the last # for tag usage
+
+13-2-1019:
++ Added painting misc files
++ Added misc_file field to the item format, in order to interpret misc files for potions
++ Added color function to item files
+* Changed the painting and fuel files to be 1 file per painting/item, so the file name represents the ID (also better for overwriting)
+* Changed the format of the brewing fuel file again
+* Changed villager professions to be in the misc folder
+- Removed petrified oak slab from fuel
+
+12-2-2019:
++ Added painting file
+* Changed recipe fuel files to be in the misc folder, rather than recipes
+* Changed the smelting, melting and smoking fuel files into 1 file
+* changed the format of the brewing fuel file
+
 22-2-2019:
 * Updated to 19w08a/b
 + Added block parents: age_15, attached_stem, axis, crops_3, crops_7, doubleable_chest, ice, large_flower, mushroom_block, sapling, stem, and stone

@@ -1,0 +1,10 @@
+{
+    "color": 8356754,
+    "effects": [
+        {
+            "effect": "minecraft:invisibility",
+            "amplifier": 0,
+            "duration": 3600
+        }
+    ]
+}

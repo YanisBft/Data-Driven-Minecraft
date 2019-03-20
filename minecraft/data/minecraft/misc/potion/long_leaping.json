@@ -1,0 +1,10 @@
+{
+    "color": 2293580,
+    "effects": [
+        {
+            "effect": "minecraft:jump_boost",
+            "amplifier": 0,
+            "duration": 9600
+        }
+    ]
+}

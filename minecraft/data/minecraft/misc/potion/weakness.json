@@ -1,0 +1,10 @@
+{
+    "color": 4738376,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+            "amplifier": 0,
+            "duration": 1800
+        }
+    ]
+}

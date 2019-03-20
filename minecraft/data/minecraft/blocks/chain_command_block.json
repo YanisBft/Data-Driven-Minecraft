@@ -90,7 +90,7 @@
             },
             {
                 "function": "minecraft:run_command",
-                "type": "Command",
+                "type": "String",
                 "tag": "Command",
                 "conditions": [
                     {

@@ -1,0 +1,10 @@
+{
+    "color": 3381504,
+    "effects": [
+        {
+            "effect": "minecraft:luck",
+            "amplifier": 0,
+            "duration": 6000
+        }
+    ]
+}

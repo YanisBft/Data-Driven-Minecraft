@@ -1,0 +1,10 @@
+{
+    "color": 8171462,
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 1800
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "color": 14981690,
+    "effects": [
+        {
+            "effect": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 9600
+        }
+    ]
+}

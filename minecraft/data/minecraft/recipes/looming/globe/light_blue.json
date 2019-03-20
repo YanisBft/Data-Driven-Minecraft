@@ -1,0 +1,21 @@
+{
+    "banner": {
+        "tag": "minecraft:banner",
+        "conditions": {
+            "layers": {
+                "max": 15
+            }
+        }
+    },
+    "pattern": {
+        "item": "minecraft:globe_banner_pattern"
+    },
+    "dye": {
+        "item": "minecraft:light_blue_dye"
+    },
+    "group": "minecraft:globe",
+    "add_pattern": {
+        "color": "light_blue",
+        "pattern": "globe"
+    }
+}

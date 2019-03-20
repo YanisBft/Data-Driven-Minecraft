@@ -1,45 +1,6 @@
 {
-    "pick_block": "minecraft:infested_cobblestone",
-    "blast_resistance": 3.75,
-    "functions": {
-        "minecraft:this_block_changed": [
-            {
-                "function": "minecraft:spawn_entity",
-                "entity": {
-                    "name": "minecraft:silverfish"
-                },
-                "conditions": [
-                    {
-                        "destroyed": {
-                            "enchantment": [
-                                {
-                                    "name": "minecraft:silk_touch",
-                                    "inverse": true
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            {
-                "function": "minecraft:spawn_particle",
-                "particle": {
-                    "name": "minecraft:poof",
-                    "count": 5
-                },
-                "conditions": [
-                    {
-                        "destroyed": {
-                            "enchantment": [
-                                {
-                                    "name": "minecraft:silk_touch",
-                                    "inverse": true
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        ]
-    }
+    "parents": [
+        "minecraft:template/infested_block"
+    ],
+    "pick_block": "minecraft:infested_cobblestone"
 }

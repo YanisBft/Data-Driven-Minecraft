@@ -1,6 +1,21 @@
 {
+    "misc_file": {
+        "type": "potion",
+        "tag": "Potion",
+        "default": "minecraft:empty",
+        "read": {
+            "color": "#color",
+            "effects": "#effects"
+        }
+    },
     "stack_size": 1,
     "functions": [
+        {
+            "function": "minecraft:color",
+            "texture": "layer1",
+            "default": "#color",
+            "overwrite_nbt": "CustomPotionColor"
+        },
         {
             "function": "minecraft:throw_item",
             "sound": "throw",

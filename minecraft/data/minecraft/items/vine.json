@@ -1,6 +1,12 @@
 {
     "block_item": true,
+    "place_block": "minecraft:dark_oak_leaves",
     "functions": [
+        {
+            "function": "minecraft:color",
+            "tintindex": true,
+            "default": 4764952
+        },
         {
             "function": "minecraft:alter_block",
             "position": "looked_at_block",

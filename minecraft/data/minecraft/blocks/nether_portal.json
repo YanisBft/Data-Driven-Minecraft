@@ -30,7 +30,7 @@
             },
             {
                 "function": "minecraft:transport_entity",
-                "time": 60,
+                "time_span": 60,
                 "enter_sound": "trigger",
                 "transport_sound": "travel",
                 "dimension": "minecraft:the_nether",
@@ -46,7 +46,7 @@
             },
             {
                 "function": "minecraft:transport_entity",
-                "time": 60,
+                "time_span": 60,
                 "enter_sound": "trigger",
                 "transport_sound": "travel",
                 "dimension": "minecraft:overworld",

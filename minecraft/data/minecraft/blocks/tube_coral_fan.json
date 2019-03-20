@@ -1,9 +1,8 @@
 {
     "parents": [
-        "minecraft:template/waterloggable"
+        "minecraft:template/coral_fan"
     ],
     "pick_block": "minecraft:tube_coral_fan",
-    "transparent": true,
     "functions": {
         "minecraft:this_fluid_changed": [
             {
@@ -25,49 +24,5 @@
                 ]
             }
         ]
-    },
-    "properties": [
-        {
-            "properties": {
-                "faces": {
-                    "down": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "up": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "north": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "south": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "east": {
-                        "support": false,
-                        "transfer_power": false
-                    },
-                    "west": {
-                        "support": false,
-                        "transfer_power": false
-                    }
-                },
-                "need_support": {
-                    "down": {}
-                },
-                "hit_box": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 3, 16 ]
-                    }
-                ],
-                "collision_box": [
-                    
-                ]
-            }
-        }
-    ]
+    }
 }

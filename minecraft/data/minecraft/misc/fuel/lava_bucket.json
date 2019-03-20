@@ -1,0 +1,5 @@
+{
+    "item": "minecraft:lava_bucket",
+    "time": 20000,
+    "return_item": "minecraft:bucket"
+}

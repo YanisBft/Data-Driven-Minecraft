@@ -1,0 +1,10 @@
+{
+    "color": 16773073,
+    "effects": [
+        {
+            "effect": "minecraft:slow_falling",
+            "amplifier": 0,
+            "duration": 180
+        }
+    ]
+}

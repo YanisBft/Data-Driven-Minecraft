@@ -1,0 +1,10 @@
+{
+    "color": 16262179,
+    "effects": [
+        {
+            "effect": "minecraft:instant_health",
+            "amplifier": 1,
+            "duration": 0
+        }
+    ]
+}

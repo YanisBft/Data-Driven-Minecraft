@@ -53,7 +53,7 @@
                                 "dy": 1,
                                 "dz": 1,
                                 "entity": {
-                                    "type": "#minecraft:pressure_plate_activators"
+                                    "tag": "minecraft:pressure_plate_activators"
                                 }
                             }
                         ]
@@ -88,7 +88,7 @@
                                 "dy": 1,
                                 "dz": 1,
                                 "entity": {
-                                    "type": "#minecraft:pressure_plate_activators"
+                                    "tag": "minecraft:pressure_plate_activators"
                                 }
                             }
                         ]
@@ -123,7 +123,7 @@
                                 "dy": 1,
                                 "dz": 1,
                                 "entity": {
-                                    "type": "#minecraft:pressure_plate_activators"
+                                    "tag": "minecraft:pressure_plate_activators"
                                 }
                             }
                         ]
@@ -156,7 +156,7 @@
                                 "dy": 1,
                                 "dz": 1,
                                 "entity": {
-                                    "type": "#minecraft:pressure_plate_activators"
+                                    "tag": "minecraft:pressure_plate_activators"
                                 }
                             }
                         ]
