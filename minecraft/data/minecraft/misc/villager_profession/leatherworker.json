@@ -1,7 +1,9 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "workstation_block": "minecraft:cauldron",
+    "workstation_block": {
+        "tag": "minecraft:leatherworker_poi"
+    },
     "trading_recipes": [
         [
             "minecraft:emerald/leather",

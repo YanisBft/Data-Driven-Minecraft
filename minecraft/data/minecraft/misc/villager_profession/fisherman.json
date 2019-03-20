@@ -1,7 +1,9 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "workstation_block": "minecraft:barrel",
+    "workstation_block": {
+        "tag": "minecraft:fisherman_poi"
+    },
     "trading_recipes": [
         [
             "minecraft:emerald/string",
