@@ -1,0 +1,7 @@
+{
+    "display_name": "doMobSpawning",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

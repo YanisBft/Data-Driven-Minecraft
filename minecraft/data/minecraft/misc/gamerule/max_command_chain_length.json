@@ -1,0 +1,7 @@
+{
+    "display_name": "maxCommandChainLength",
+    "value": {
+        "type": "integer",
+        "default": "65536"
+    }
+}

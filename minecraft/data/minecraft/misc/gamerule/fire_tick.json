@@ -1,0 +1,7 @@
+{
+    "display_name": "doFireTick",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}
