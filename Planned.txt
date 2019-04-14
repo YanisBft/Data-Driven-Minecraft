@@ -3,7 +3,7 @@ JSON:
 Needs updating:
 * sound json files
 
-Needs work:
+Needs merging (#4):
 * enchantment files (behavior, rarity, not allowed combinations, etc.)
 
 Wanted JSON files:
