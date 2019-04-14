@@ -1,0 +1,13 @@
+{
+    "items": {
+        "primary": [
+            "minecraft:trident"
+        ],
+        "secondary": []
+    },
+    "max_level": 3,
+    "weight": 5,
+    "incompatibilities": [
+        "minecraft:riptide"
+    ]
+}
