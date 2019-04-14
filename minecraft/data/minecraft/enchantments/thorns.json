@@ -1,12 +1,12 @@
 {
     "items": {
         "primary": [
-            "#minecraft:chestplates"
+            "#minecraft:equipment/chestplates"
         ],
         "secondary": [
-            "#minecraft:boots",
-            "#minecraft:helmets",
-            "#minecraft:leggings"
+            "#minecraft:equipment/boots",
+            "#minecraft:equipment/helmets",
+            "#minecraft:equipment/leggings"
         ]
     },
     "max_level": 3,

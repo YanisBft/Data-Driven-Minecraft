@@ -1,7 +1,7 @@
 {
     "items": {
         "primary": [
-            "#minecraft:helmets"
+            "#minecraft:equipment/helmets"
         ],
         "secondary": []
     },
