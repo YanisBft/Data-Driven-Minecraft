@@ -1,0 +1,16 @@
+{
+    "items": {
+        "primary": [],
+        "secondary": [
+            "#minecraft:equipment/armor",
+            "#minecraft:equipment/headwear",
+            "#minecraft:equipment/tools",
+            "#minecraft:equipment/weapons",
+            "minecraft:elytra",
+            "minecraft:shield"
+        ]
+    },
+    "max_level": 1,
+    "weight": 1,
+    "incompatibilities": []
+}
