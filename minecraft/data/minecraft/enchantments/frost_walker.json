@@ -1,0 +1,13 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:boots"
+        ],
+        "secondary": []
+    },
+    "max_level": 2,
+    "weight": 1,
+    "incompatibilities": [
+        "#minecraft:walkers"
+    ]
+}
