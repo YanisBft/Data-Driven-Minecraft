@@ -1,10 +1,10 @@
 {
     "items": {
         "primary": [
-            "#minecraft:items/equipment/swords"
+            "#minecraft:equipment/swords"
         ],
         "secondary": [
-            "#minecraft:items/equipment/axes"
+            "#minecraft:equipment/axes"
         ]
     },
     "max_level": 5,
