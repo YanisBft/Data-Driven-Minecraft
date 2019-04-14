@@ -8,6 +8,6 @@
     "max_level": 1,
     "weight": 1,
     "incompatibilities": [
-        "minecraft:mending"
+        "#minecraft:protectors"
     ]
 }
