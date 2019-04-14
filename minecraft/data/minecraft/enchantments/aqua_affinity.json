@@ -1,0 +1,11 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:helmets"
+        ],
+        "secondary": []
+    },
+    "max_level": 1,
+    "weight": 2,
+    "incompatibilities": []
+}
