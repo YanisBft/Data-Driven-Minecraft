@@ -1,0 +1,11 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:items/equipment/swords"
+        ],
+        "secondary": []
+    },
+    "max_level": 2,
+    "weight": 5,
+    "incompatibilities": []
+}
