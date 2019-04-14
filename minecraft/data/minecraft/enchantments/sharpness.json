@@ -1,0 +1,16 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:items/equipment/swords"
+        ],
+        "secondary": [
+            "#minecraft:items/equipment/axes"
+        ]
+    },
+    "max_level": 5,
+    "weight": 10,
+    "incompatibilities": [
+        "minecraft:bane_of_athropods",
+        "minecraft:smite"
+    ]
+}
