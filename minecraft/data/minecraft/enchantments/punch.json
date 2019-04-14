@@ -1,0 +1,11 @@
+{
+    "items": {
+        "primary": [
+            "minecraft:bow"
+        ],
+        "secondary": []
+    },
+    "max_level": 2,
+    "weight": 2,
+    "incompatibilities": []
+}
