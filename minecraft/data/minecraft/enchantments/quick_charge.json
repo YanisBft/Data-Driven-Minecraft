@@ -1,0 +1,11 @@
+{
+    "items": {
+        "primary": [
+            "minecraft:crossbow"
+        ],
+        "secondary": []
+    },
+    "max_level": 3,
+    "weight": undefined, // needs weight
+    "incompatibilities": []
+}
