@@ -6,7 +6,7 @@
             "#minecraft:equipment/shovels"
         ],
         "secondary": [
-            "minecraft:shears",
+            "minecraft:shears"
         ]
     },
     "max_level": 5,
