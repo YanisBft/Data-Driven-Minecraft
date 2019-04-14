@@ -8,9 +8,9 @@
         ]
     },
     "max_level": 5,
-    "weight": 10,
+    "weight": 5,
     "incompatibilities": [
-        "minecraft:bane_of_arthropods",
+        "minecraft:sharpness",
         "minecraft:smite"
     ]
 }
