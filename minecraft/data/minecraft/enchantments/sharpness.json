@@ -10,7 +10,6 @@
     "max_level": 5,
     "weight": 10,
     "incompatibilities": [
-        "minecraft:bane_of_arthropods",
-        "minecraft:smite"
+        "#minecraft:attacks"
     ]
 }

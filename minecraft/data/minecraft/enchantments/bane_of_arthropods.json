@@ -10,7 +10,6 @@
     "max_level": 5,
     "weight": 5,
     "incompatibilities": [
-        "minecraft:sharpness",
-        "minecraft:smite"
+        "#minecraft:attacks"
     ]
 }
