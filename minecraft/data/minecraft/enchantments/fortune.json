@@ -1,0 +1,15 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/axes",
+            "#minecraft:equipment/pickaxes",
+            "#minecraft:equipment/shovels"
+        ],
+        "secondary": []
+    },
+    "max_level": 3,
+    "weight": 2,
+    "incompatibilities": [
+        "minecraft:silk_touch"
+    ]
+}
