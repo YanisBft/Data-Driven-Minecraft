@@ -1,3 +1,10 @@
+14-4-2019 (Pending):
++ Added enchantment files
++ Added a couple of new equipment tags for weapons and tools
+
+13-4-2019:
++ Added globe banner patterns
+
 15-3-2019:
 * Updated to 19w11a/b
 + Added coral, coral_block, coral_fan, coral_wall_fan and infested_block block templates
