@@ -1,0 +1,7 @@
+{
+    "display_name": "doLimitedCrafting",
+    "value": {
+        "type": "boolean",
+        "default": "false"
+    }
+}

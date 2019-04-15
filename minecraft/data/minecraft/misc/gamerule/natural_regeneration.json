@@ -1,0 +1,7 @@
+{
+    "display_name": "naturalRegeneration",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

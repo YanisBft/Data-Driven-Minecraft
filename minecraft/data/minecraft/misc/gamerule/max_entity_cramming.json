@@ -1,0 +1,7 @@
+{
+    "display_name": "maxEntityCramming",
+    "value": {
+        "type": "integer",
+        "default": "24"
+    }
+}

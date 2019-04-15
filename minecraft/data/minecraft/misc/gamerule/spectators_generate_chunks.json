@@ -1,0 +1,7 @@
+{
+    "display_name": "spectatorsGenerateChunks",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

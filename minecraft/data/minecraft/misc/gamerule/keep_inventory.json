@@ -1,0 +1,7 @@
+{
+    "display_name": "keepInventory",
+    "value": {
+        "type": "boolean",
+        "default": "false"
+    }
+}

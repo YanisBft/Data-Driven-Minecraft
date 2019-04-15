@@ -1,0 +1,7 @@
+{
+    "display_name": "doMobLoot",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}
