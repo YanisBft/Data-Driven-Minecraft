@@ -1,9 +1,7 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "workstation_block": {
-        "tag": "minecraft:shepherd_poi"
-    },
+    "workstation_block": "minecraft:loom",
     "trading_recipes": [
         [
             "minecraft:emerald/white_wool",

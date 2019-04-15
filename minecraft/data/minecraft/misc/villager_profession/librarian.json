@@ -1,9 +1,7 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 6,
-    "workstation_block": {
-        "tag": "minecraft:librarian_poi"
-    },
+    "workstation_block": "minecraft:lectern",
     "trading_recipes": [
         [
             "minecraft:emerald/paper",
