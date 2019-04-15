@@ -125,13 +125,10 @@
 			"item": "minecraft:ender_chest"
 		},
 		{
-			"item": "minecraft:cobblestone_wall"
+			"item": "minecraft:walls"
 		},
 		{
-			"item": "minecraft:mossy_cobblestone_wall"
-		},
-		{
-			"tag": "minecraft:anvil"
+			"tag": "minecraft:anvils"
 		},
 		{
 			"tag": "minecraft:carpets"

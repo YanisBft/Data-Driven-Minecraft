@@ -1,0 +1,8 @@
+{
+    "items": [
+        "minecraft:book"
+    ],
+    "return_item": "minecraft:enchanted_book",
+    "store_enchantments": true,
+    "value": 1
+}
