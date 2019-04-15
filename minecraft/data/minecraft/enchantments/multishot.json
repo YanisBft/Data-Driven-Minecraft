@@ -1,0 +1,15 @@
+{
+    "items": {
+        "primary": [
+            "minecraft:crossbow"
+        ],
+        "secondary": []
+    },
+    "max_level": 1,
+    "weight": 3,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": [
+        "minecraft:piercing"
+    ]
+}

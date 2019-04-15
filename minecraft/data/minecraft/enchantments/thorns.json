@@ -1,0 +1,17 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/chestplates"
+        ],
+        "secondary": [
+            "#minecraft:equipment/boots",
+            "#minecraft:equipment/helmets",
+            "#minecraft:equipment/leggings"
+        ]
+    },
+    "max_level": 3,
+    "weight": 1,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": []
+}

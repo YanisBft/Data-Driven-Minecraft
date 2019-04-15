@@ -1,0 +1,17 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/axes",
+            "#minecraft:equipment/pickaxes",
+            "#minecraft:equipment/shovels"
+        ],
+        "secondary": []
+    },
+    "max_level": 1,
+    "weight": 1,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": [
+        "minecraft:fortune"
+    ]
+}

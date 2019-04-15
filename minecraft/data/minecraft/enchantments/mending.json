@@ -1,0 +1,18 @@
+{
+    "items": {
+        "primary": [],
+        "secondary": [
+            "#minecraft:equipment/wearables",
+            "#minecraft:equipment/tools",
+            "#minecraft:equipment/weapons",
+            "minecraft:shield"
+        ]
+    },
+    "max_level": 1,
+    "weight": 2,
+    "treasure": true,
+    "curse": false,
+    "incompatibilities": [
+        "minecraft:infinity"
+    ]
+}
