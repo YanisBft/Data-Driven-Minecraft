@@ -11,5 +11,7 @@
     },
     "max_level": 3,
     "weight": 1,
+    "treasure": false,
+    "curse": false,
     "incompatibilities": []
 }

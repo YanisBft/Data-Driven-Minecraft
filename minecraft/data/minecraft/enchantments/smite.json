@@ -9,6 +9,8 @@
     },
     "max_level": 5,
     "weight": 5,
+    "treasure": false,
+    "curse": false,
     "incompatibilities": [
         "#minecraft:attacks"
     ]

@@ -6,7 +6,9 @@
         "secondary": []
     },
     "max_level": 1,
-    "weight": undefined, // needs weight
+    "weight": 3,
+    "treasure": false,
+    "curse": false,
     "incompatibilities": [
         "minecraft:piercing"
     ]

@@ -6,6 +6,8 @@
         "secondary": []
     },
     "max_level": 3,
-    "weight": undefined, // needs weight
+    "weight": 10,
+    "treasure": false,
+    "curse": false,
     "incompatibilities": []
 }

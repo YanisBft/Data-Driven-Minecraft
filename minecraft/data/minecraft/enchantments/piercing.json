@@ -6,7 +6,9 @@
         "secondary": []
     },
     "max_level": 4,
-    "weight": undefined, // needs weight
+    "weight": 30,
+    "treasure": false,
+    "curse": false,
     "incompatibilities": [
         "minecraft:multishot"
     ]
