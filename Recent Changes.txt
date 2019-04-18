@@ -1,4 +1,4 @@
-14-4-2019 (Pending):
+15-4-2019:
 + Added enchantment files
 + Added a couple of new equipment tags for weapons and tools
 
