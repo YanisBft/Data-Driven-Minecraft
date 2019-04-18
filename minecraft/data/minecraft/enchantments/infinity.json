@@ -10,6 +10,6 @@
     "treasure": false,
     "curse": false,
     "incompatibilities": [
-        "minecraft:mending"
+        "#minecraft:arrow_incompatibilities"
     ]
 }

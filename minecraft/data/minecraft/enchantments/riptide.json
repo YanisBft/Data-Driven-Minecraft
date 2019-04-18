@@ -10,7 +10,7 @@
     "treasure": false,
     "curse": false,
     "incompatibilities": [
-        "minecraft:channeling",
-        "minecraft:loyalty"
+        "#minecraft:channeling_riptide",
+        "#minecraft:loyalty_riptide"
     ]
 }

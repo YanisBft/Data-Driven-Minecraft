@@ -13,6 +13,6 @@
     "treasure": true,
     "curse": false,
     "incompatibilities": [
-        "minecraft:infinity"
+        "#minecraft:arrow_incompatibilities"
     ]
 }

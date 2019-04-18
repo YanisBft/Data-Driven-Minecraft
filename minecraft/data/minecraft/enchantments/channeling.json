@@ -10,6 +10,6 @@
     "treasure": false,
     "curse": false,
     "incompatibilities": [
-        "minecraft:riptide"
+        "#minecraft:channeling_riptide"
     ]
 }
