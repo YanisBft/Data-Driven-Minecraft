@@ -1,0 +1,43 @@
+{
+    "ban": {
+        "type": "literal",
+        "children" {
+            "targets": {
+                "type": "argument",
+                "parser": "minecraft:game_profile",
+                "children": {
+                    "reason": {
+                        "type": "argument",
+                        "parser": "minecraft:message",
+                        "executable": true,
+                        "actions": [
+                            {
+                                "type": "minecraft:add_to_file",
+                                "file": "banned-players.json",
+                                "feedback": "commands.ban.success"
+                            },
+                            {
+                                "type": "minecraft:disconnect",
+                                "target_argument": "targets",
+                                "message": "multiplayer.disconnect.banned"
+                            }
+                        ]
+                    }
+                },
+                "executable": true,
+                "actions": [
+                    {
+                        "type": "minecraft:add_to_file",
+                        "file": "banned-players.json",
+                        "feedback": "commands.ban.success"
+                    },
+                    {
+                        "type": "minecraft:disconnect",
+                        "target_argument": "targets",
+                        "message": "multiplayer.disconnect.banned"
+                    }
+                ]
+            }
+        }
+    }
+}
