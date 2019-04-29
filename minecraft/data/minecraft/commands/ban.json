@@ -1,7 +1,7 @@
 {
     "ban": {
         "type": "literal",
-        "children" {
+        "children": {
             "targets": {
                 "type": "argument",
                 "parser": "minecraft:game_profile",
