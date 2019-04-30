@@ -1,7 +1,7 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 6,
-    "workstation_block": "minecraft:lectern",
+    "job_site_block": "minecraft:lectern",
     "trading_recipes": [
         [
             "minecraft:emerald/paper",

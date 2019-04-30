@@ -1,0 +1,7 @@
+{
+    "display_name": "disableElytraMovementCheck",
+    "value": {
+        "type": "boolean",
+        "default": "false"
+    }
+}

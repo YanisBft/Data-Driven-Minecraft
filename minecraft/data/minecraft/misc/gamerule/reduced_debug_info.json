@@ -1,0 +1,7 @@
+{
+    "display_name": "reducedDebugInfo",
+    "value": {
+        "type": "boolean",
+        "default": "false"
+    }
+}

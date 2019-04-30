@@ -1,7 +1,7 @@
 {
     "has_profession_texture_layer": true,
     "maximum_career_level": 5,
-    "workstation_block": "minecraft:brewing_stand",
+    "job_site_block": "minecraft:brewing_stand",
     "trading_recipes": [
         [
             "minecraft:emerald/rotten_flesh",

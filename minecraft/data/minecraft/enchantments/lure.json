@@ -1,0 +1,13 @@
+{
+    "items": {
+        "primary": [
+            "minecraft:fishing_rod"
+        ],
+        "secondary": []
+    },
+    "max_level": 3,
+    "weight": 2,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": []
+}

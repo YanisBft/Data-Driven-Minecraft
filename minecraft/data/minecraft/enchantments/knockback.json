@@ -1,0 +1,13 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/swords"
+        ],
+        "secondary": []
+    },
+    "max_level": 2,
+    "weight": 5,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": []
+}

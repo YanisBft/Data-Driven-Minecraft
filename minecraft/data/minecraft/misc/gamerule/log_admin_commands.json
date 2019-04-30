@@ -1,0 +1,7 @@
+{
+    "display_name": "logAdminCommands",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

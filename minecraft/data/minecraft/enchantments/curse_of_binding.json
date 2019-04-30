@@ -1,0 +1,15 @@
+{
+    "items": {
+        "primary": [],
+        "secondary": [
+            "#minecraft:equipment/armor",
+            "#minecraft:equipment/headwear",
+            "minecraft:elytra"
+        ]
+    },
+    "max_level": 1,
+    "weight": 1,
+    "treasure": true,
+    "curse": true,
+    "incompatibilities": []
+}

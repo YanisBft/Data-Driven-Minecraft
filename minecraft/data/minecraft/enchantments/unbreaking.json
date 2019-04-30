@@ -1,0 +1,28 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/armor",
+            "#minecraft:equipment/axes",
+            "#minecraft:equipment/bows",
+            "#minecraft:equipment/pickaxes",
+            "#minecraft:equipment/shovels",
+            "#minecraft:equipment/swords",
+            "minecraft:fishing_rod",
+            "minecraft:trident",
+            "minecraft:turtle_shell"
+        ],
+        "secondary": [
+            "#minecraft:equipment/hoes",
+            "minecraft:carrot_on_a_stick",
+            "minecraft:elytra",
+            "minecraft:flint_and_steel",
+            "minecraft:shield",
+            "minecraft:shears"
+        ]
+    },
+    "max_level": 3,
+    "weight": 5,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": []
+}

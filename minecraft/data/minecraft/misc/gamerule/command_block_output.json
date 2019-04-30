@@ -1,0 +1,7 @@
+{
+    "display_name": "commandBlockOutput",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

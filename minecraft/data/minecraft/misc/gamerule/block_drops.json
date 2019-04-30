@@ -1,0 +1,7 @@
+{
+    "display_name": "doTileDrops",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

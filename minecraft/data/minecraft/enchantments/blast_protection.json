@@ -1,0 +1,15 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/armor"
+        ],
+        "secondary": []
+    },
+    "max_level": 4,
+    "weight": 2,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": [
+        "#minecraft:protectors"
+    ]
+}

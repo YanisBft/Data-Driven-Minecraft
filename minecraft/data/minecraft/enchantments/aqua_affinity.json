@@ -1,0 +1,13 @@
+{
+    "items": {
+        "primary": [
+            "#minecraft:equipment/helmets"
+        ],
+        "secondary": []
+    },
+    "max_level": 1,
+    "weight": 2,
+    "treasure": false,
+    "curse": false,
+    "incompatibilities": []
+}

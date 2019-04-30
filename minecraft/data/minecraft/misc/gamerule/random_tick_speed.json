@@ -1,0 +1,7 @@
+{
+    "display_name": "randomTickSpeed",
+    "value": {
+        "type": "integer",
+        "default": "3"
+    }
+}
