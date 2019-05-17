@@ -1,0 +1,7 @@
+{
+    "pool": "items",
+    "increase": "item_used",
+    "conditions": {
+        "durability": 0
+    }
+}

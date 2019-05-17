@@ -1,0 +1,4 @@
+{
+    "type": "statistic",
+    "source": "minecraft.killed:minecraft.player"
+}

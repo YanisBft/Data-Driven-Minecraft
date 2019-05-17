@@ -1,0 +1,4 @@
+{
+    "pool": "entities",
+    "increase": "entity_killed_player"
+}

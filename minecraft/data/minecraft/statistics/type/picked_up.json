@@ -1,0 +1,10 @@
+{
+    "pool": "items",
+    "increase": "collide_with_entity",
+    "conditions": {
+        "type": "minecraft:item",
+        "nbt": {
+            "Item.id": "VALUE"
+        }
+    }
+}
