@@ -1,21 +1,57 @@
 {
-    "functions": [
-        {
-            "function": "minecraft:alter_entity",
-            "position": "looked_at_block_face",
-            "spawn_entity": {
-                "name": "minecraft:donkey",
-                "copy_nbt": [
-                    {
-                        "copy": "EntityTag",
-                        "paste": ""
-                    },
-                    {
-                        "copy": "display.Name",
-                        "paste": "CustomName"
-                    }
-                ]
-            }
-        }
-    ]
+	"nbt_mapping": {
+		"EntityData": "$EntityData",
+        "display.Name": "$Name"
+	},
+	"spawn_entities": {
+		"entity": [
+			{
+				"name": "minecraft:donkey",
+				"nbt_to_mapping": {
+                    "": "$EntityData",
+                    "CustomName": "$Name"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"target_entity": {
+					"name": "minecraft:donkey"
+				},
+				"entity": [
+					{
+						"name": "minecraft:donkey",
+						"nbt": "{Age:-24000}",
+						"nbt_to_mapping": {
+                            "": "$EntityData",
+                            "CustomName": "$Name"
+						}
+					}
+				]
+			}
+		]
+	},
+	"block_interaction": [
+		{
+			"block": {
+				"name": "minecraft:spawner"
+			},
+			"actions": [
+				{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"nbt": "{SpawnData:{id:'minecraft:donkey'},SpawnPotentials:[{Weight:1,Entity:{id:'minecraft:donkey'}}]}",
+						"nbt_to_mapping": {
+                            "SpawnData": "$EntityData",
+							"SpawnPotentials[0].Entity": "$EntityData"
+						}
+					}
+				],
+			],
+			"item": {
+				"name": "minecraft:air"
+			}
+		}
+	]
 }

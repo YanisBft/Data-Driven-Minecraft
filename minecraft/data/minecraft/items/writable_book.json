@@ -1,9 +1,0 @@
-{
-    "stack_size": 1,
-    "functions": [
-        {
-            "function": "minecraft:open_gui",
-            "gui": "minecraft:book_and_quill"
-        }
-    ]
-}

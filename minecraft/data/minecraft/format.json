@@ -1,0 +1,312 @@
+{
+	"block_item": bool,
+	"explosion_resistant": bool,
+	"misc_file": [
+		{
+			"type": "",
+			"nbt": "",
+			"default": "",
+			"mapping": {
+				"": "$"
+			}
+		}
+	],
+	"nbt_mapping": {
+		"": "$"
+	},
+	"coloring": [
+		x
+	],
+	"consumable": {
+		"time": x,
+		"return_item": "",
+		"saturation": x,
+		"food": x,
+		"effects": [
+			{
+				"name": "",
+				"amplifier": x,
+				"ambient": bool,
+				"show_particles": bool,
+				"show_icon": bool
+			}
+		],
+		"clear_existing_effects": bool
+	},
+	"place_blocks": {
+		"block": [
+			{
+				"name": "",
+				"properties": {
+					"": ""
+				},
+				"nbt": "",
+				"nbt_to_mapping": {
+					"": "$"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"face": [""],
+				"facing": [""],
+				"side": [""],
+				"target_entity": {
+					"name": "",
+					"nbt": ""
+				},
+				"block": [
+					{
+						"name": "",
+						"properties": {
+							"": ""
+						},
+						"nbt": "",
+						"nbt_to_mapping": {
+							"": "$"
+						}
+					}
+				]
+			}
+		],
+		"requirements": [
+			requirements
+		]
+	},
+	"place_fluids": {
+		"fluid": [
+			{
+				"name": "",
+				"properties": {
+					"": ""
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"face": [""],
+				"facing": [""],
+				"side": [""],
+				"target_entity": {
+					"name": "",
+					"nbt": ""
+				},
+				"fluid": [
+					{
+						"name": "",
+						"properties": {
+							"": ""
+						}
+					}
+				]
+			}
+		],
+		"requirements": [
+			requirements
+		]
+	},
+	"spawn_entities": {
+		"entity": [
+			{
+				"name": "",
+				"nbt": "",
+				"nbt_to_mapping": {
+					"": "$"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"face": [""],
+				"facing": [""],
+				"side": [""],
+				"target_entity": {
+					"name": "",
+					"nbt": ""
+				},
+				"entity": [
+					{
+						"name": "",
+						"nbt": "",
+						"nbt_to_mapping": {
+							"": "$"
+						}
+					}
+				]
+			}
+		],
+		"requirements": [
+			requirements
+		]
+	},
+	"block_interaction": [
+		{
+			"block": {
+				"name": "",
+				"properties": {
+					"": ""
+				},
+				"nbt": ""
+			},
+			"actions": [
+				block function
+			]
+		}
+	],
+	"fluid_interaction": [
+		{
+			"fluid": {
+				"name": "",
+				"properties": {
+					"": ""
+				}
+			},
+			"actions": [
+				fluid function
+			]
+		}
+	],
+	"entity_interaction": [
+		{
+			"entity": {
+				"name": "",
+				"nbt": ""
+			},
+			"actions": [
+				entity function
+			]
+		}
+	]
+}
+
+requirements
+{
+	"blocks": [
+		{
+			"x": x,
+			"y": x,
+			"z": x,
+			"block": [
+				{
+					"name": "",
+					"tag": "",
+					"properties": {
+						"": ""
+					},
+					"nbt": "",
+					"inverse": bool
+				}
+			]
+		}
+	],
+	"fluids": [
+		{
+			"x": x,
+			"y": x,
+			"z": x,
+			"fluid": [
+				{
+					"name": "",
+					"tag": "",
+					"properties": {
+						"": ""
+					},
+					"inverse": bool
+				}
+			]
+		}
+	],
+	"entities": [
+		{
+			"x": x,
+			"y": x,
+			"z": x,
+			"dx": x,
+			"dy": x,
+			"dz": x,
+			"entity": [
+				{
+					"name": "",
+					"tag": "",
+					"nbt": "",
+					"inverse": bool
+				}
+			]
+		}
+	],
+	"light": {
+		"min": x,
+		"max": x,
+		"inverse": bool
+	}
+}
+
+
+block function
+{
+	"function": "minecraft:alter_blocks",
+	"blocks": [
+		{
+			"x": x,
+			"y": x,
+			"z": x
+			"name": "",
+			"properties": {
+				"": ""
+			},
+			"nbt": "",
+			"nbt_to_mapping": {
+				"": "$"
+			}
+		}
+	],
+	"item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"": "$"
+		}
+	}
+}
+
+fluid function
+{
+	"function": "minecraft:alter_fluids",
+	"fluids": [
+		{
+			"x": x,
+			"y": x,
+			"z": x
+			"name": "",
+			"properties": {
+				"": ""
+			}
+		}
+	],
+	"item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"": "$"
+		}
+	}
+}
+
+entity function
+{
+	"function": "minecraft:alter_entity",
+	"entity": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"": "$"
+		}
+	},
+	"item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"": "$"
+		}
+	}
+}

@@ -1,21 +1,57 @@
 {
-    "functions": [
-        {
-            "function": "minecraft:alter_entity",
-            "position": "looked_at_block_face",
-            "spawn_entity": {
-                "name": "minecraft:rabbit",
-                "copy_nbt": [
-                    {
-                        "copy": "EntityTag",
-                        "paste": ""
-                    },
-                    {
-                        "copy": "display.Name",
-                        "paste": "CustomName"
-                    }
-                ]
-            }
-        }
-    ]
+	"nbt_mapping": {
+		"EntityData": "$EntityData",
+        "display.Name": "$Name"
+	},
+	"spawn_entities": {
+		"entity": [
+			{
+				"name": "minecraft:rabbit",
+				"nbt_to_mapping": {
+                    "": "$EntityData",
+                    "CustomName": "$Name"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"target_entity": {
+					"name": "minecraft:rabbit"
+				},
+				"entity": [
+					{
+						"name": "minecraft:rabbit",
+						"nbt": "{Age:-24000}",
+						"nbt_to_mapping": {
+                            "": "$EntityData",
+                            "CustomName": "$Name"
+						}
+					}
+				]
+			}
+		]
+	},
+	"block_interaction": [
+		{
+			"block": {
+				"name": "minecraft:spawner"
+			},
+			"actions": [
+				{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"nbt": "{SpawnData:{id:'minecraft:rabbit'},SpawnPotentials:[{Weight:1,Entity:{id:'minecraft:rabbit'}}]}",
+						"nbt_to_mapping": {
+                            "SpawnData": "$EntityData",
+							"SpawnPotentials[0].Entity": "$EntityData"
+						}
+					}
+				],
+			],
+			"item": {
+				"name": "minecraft:air"
+			}
+		}
+	]
 }

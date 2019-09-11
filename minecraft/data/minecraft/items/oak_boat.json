@@ -1,24 +1,18 @@
 {
-    "stack_size": 1,
-    "functions": [
-        {
-            "function": "minecraft:alter_entity",
-            "position": "looked_at_block_face",
-            "spawn_entity": {
-                "name": "minecraft:boat",
-                "facing": "from_user",
-                "nbt": "{Type:\"oak\"}",
-                "copy_nbt": [
-                    {
-                        "copy": "EntityTag",
-                        "paste": ""
-                    },
-                    {
-                        "copy": "display.Name",
-                        "paste": "CustomName"
-                    }
-                ]
-            }
-        }
-    ]
+	"nbt_mapping": {
+		"EntityData": "$EntityData",
+        "display.Name": "$Name"
+	},
+	"spawn_entities": {
+		"entity": [
+			{
+				"name": "minecraft:boat",
+				"nbt": "{Type:'oak'}",
+				"nbt_to_mapping": {
+                    "": "$EntityData",
+                    "CustomName": "$Name"
+				}
+			}
+		]
+	}
 }
