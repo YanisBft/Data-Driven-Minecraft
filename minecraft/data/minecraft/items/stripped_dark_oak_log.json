@@ -1,0 +1,37 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:stripped_dark_oak_log",
+				"properties": {
+					"axis": "y"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"face": ["north","south"],
+				"block": [
+					{
+						"name": "minecraft:stripped_dark_oak_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				]
+			},
+			{
+				"face": ["east","west"],
+				"block": [
+					{
+						"name": "minecraft:stripped_dark_oak_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				]
+			}
+		]
+	}
+}

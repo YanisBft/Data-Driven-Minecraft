@@ -1,0 +1,37 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:hay_block",
+				"properties": {
+					"axis": "y"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"face": ["north","south"],
+				"block": [
+					{
+						"name": "minecraft:hay_block",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				]
+			},
+			{
+				"face": ["east","west"],
+				"block": [
+					{
+						"name": "minecraft:hay_block",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				]
+			}
+		]
+	}
+}

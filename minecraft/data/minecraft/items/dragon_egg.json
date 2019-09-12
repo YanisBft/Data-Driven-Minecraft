@@ -1,0 +1,11 @@
+{
+	"block_item": true,
+	"rarity": "epic",
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:dragon_egg"
+			}
+		]
+	}
+}

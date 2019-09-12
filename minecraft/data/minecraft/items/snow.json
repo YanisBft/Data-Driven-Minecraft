@@ -1,0 +1,167 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:snow",
+				"properties": {
+					"layers": "1"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "1"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "2"
+					}
+				}
+			},
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "2"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "3"
+					}
+				}
+			},
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "3"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "4"
+					}
+				}
+			},
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "4"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "5"
+					}
+				}
+			},
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "5"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "6"
+					}
+				}
+			},
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "6"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "7"
+					}
+				}
+			},
+			{
+				"target_block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "7"
+					}
+				},
+				"block": {
+					"name": "mincraft:snow",
+					"properties": {
+						"layers": "8"
+					}
+				}
+			}
+		],
+		"requirements": [
+			{
+				"blocks": [
+					{
+						"block": {
+							"name": "minecraft:snow",
+							"properties": {
+								"layers": "8"
+							},
+							"inverse": true
+						}
+					}
+				],
+				"solid_faces": [
+					{
+						"y": -1,
+						"faces": {
+							"up": true
+						}
+					}
+				]
+			}
+		]
+	},
+	"block_interactions": [
+		{
+			"function": "minecraft:alter_blocks",
+			"blocks": [
+				{
+					"y": 1,
+					"name": "minecraft:snow",
+					"properties": {
+						"layers": "1"
+					}
+				}
+			],
+			"item": {
+				"name": "minecraft:air"
+			},
+			"requirements": [
+				{
+					"blocks": [
+						{
+							"block": {
+								"name": "minecraft:snow",
+								"properties": {
+									"layers": "8"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

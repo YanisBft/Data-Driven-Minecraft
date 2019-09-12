@@ -1,0 +1,22 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:green_carpet"
+			}
+		],
+		"requirements": [
+			{
+				"solid_faces": [
+					{
+						"y": -1,
+						"faces": {
+							"up": true
+						}
+					}
+				]
+			}
+		]
+	}
+}

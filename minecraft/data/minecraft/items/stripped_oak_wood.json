@@ -1,0 +1,37 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:stripped_oak_wood",
+				"properties": {
+					"axis": "y"
+				}
+			}
+		],
+		"overwrites": [
+			{
+				"face": ["north","south"],
+				"block": [
+					{
+						"name": "minecraft:stripped_oak_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				]
+			},
+			{
+				"face": ["east","west"],
+				"block": [
+					{
+						"name": "minecraft:stripped_oak_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:blue_terracotta"
+			}
+		]
+	}
+}

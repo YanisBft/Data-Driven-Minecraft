@@ -1,0 +1,16 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:jungle_fence",
+				"properties": {
+					"east": "false",
+					"north": "false",
+					"south": "false",
+					"west": "false"
+				}
+			}
+		]
+	}
+}

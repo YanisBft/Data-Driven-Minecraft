@@ -1,0 +1,17 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:red_sandstone_wall",
+				"properties": {
+					"east": "false",
+					"north": "false",
+					"south": "false",
+					"up": "true",
+					"west": "false"
+				}
+			}
+		]
+	}
+}

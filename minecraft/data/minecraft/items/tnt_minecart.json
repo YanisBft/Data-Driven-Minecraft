@@ -1,0 +1,30 @@
+{
+	"nbt_mapping": {
+		"EntityData": "$EntityData",
+        "display.Name": "$Name"
+	},
+	"spawn_entities": {
+		"entity": [
+			{
+				"name": "minecraft:tnt_minecart",
+				"nbt_to_mapping": {
+                    "": "$EntityData",
+                    "CustomName": "$Name"
+				}
+			}
+		],
+		"requirements": [
+			{
+				"blocks": [
+					{
+						"block": [
+							{
+								"tag": "minecraft:rails"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

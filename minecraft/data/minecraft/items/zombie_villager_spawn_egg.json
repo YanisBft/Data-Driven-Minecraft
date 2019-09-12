@@ -47,8 +47,8 @@
 							"SpawnPotentials[0].Entity": "$EntityData"
 						}
 					}
-				],
-			],
+				}
+            ],
 			"item": {
 				"name": "minecraft:air"
 			}

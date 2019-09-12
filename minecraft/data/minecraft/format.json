@@ -1,5 +1,6 @@
 {
 	"block_item": bool,
+	"rarity": "",
 	"explosion_resistant": bool,
 	"misc_file": [
 		{
@@ -16,6 +17,17 @@
 	},
 	"coloring": [
 		x
+	],
+	"attribute_modifiers": [
+		{
+			"slot": "",
+			"attribute_name": "",
+			"name": "",
+			"amount": x,
+			"operation": x,
+			"uuid_least": x,
+			"uuid_most": x
+		}
 	],
 	"consumable": {
 		"time": x,
@@ -55,6 +67,14 @@
 					"name": "",
 					"nbt": ""
 				},
+				"target_block": {
+					"name": "",
+					"tag": "",
+					"properties": {
+						"": ""
+					},
+					"nbt": ""
+				},
 				"block": [
 					{
 						"name": "",
@@ -87,6 +107,14 @@
 				"face": [""],
 				"facing": [""],
 				"side": [""],
+				"target_block": {
+					"name": "",
+					"tag": "",
+					"properties": {
+						"": ""
+					},
+					"nbt": ""
+				},
 				"target_entity": {
 					"name": "",
 					"nbt": ""
@@ -120,6 +148,14 @@
 				"face": [""],
 				"facing": [""],
 				"side": [""],
+				"target_block": {
+					"name": "",
+					"tag": "",
+					"properties": {
+						"": ""
+					},
+					"nbt": ""
+				},
 				"target_entity": {
 					"name": "",
 					"nbt": ""
@@ -199,6 +235,21 @@ requirements
 			]
 		}
 	],
+	"solid_faces": [
+		{
+			"x": x,
+			"y": x,
+			"z": x,
+			"faces": {
+				"down": bool,
+				"east": bool,
+				"north": bool,
+				"south": bool,
+				"up": bool,
+				"west": bool
+			}
+		}
+	],
 	"fluids": [
 		{
 			"x": x,
@@ -249,7 +300,7 @@ block function
 		{
 			"x": x,
 			"y": x,
-			"z": x
+			"z": x,
 			"name": "",
 			"properties": {
 				"": ""
@@ -266,7 +317,10 @@ block function
 		"nbt_to_mapping": {
 			"": "$"
 		}
-	}
+	},
+	"requirements": [
+		requirements
+	]
 }
 
 fluid function
@@ -276,7 +330,7 @@ fluid function
 		{
 			"x": x,
 			"y": x,
-			"z": x
+			"z": x,
 			"name": "",
 			"properties": {
 				"": ""
@@ -289,7 +343,10 @@ fluid function
 		"nbt_to_mapping": {
 			"": "$"
 		}
-	}
+	},
+	"requirements": [
+		requirements
+	]
 }
 
 entity function
@@ -308,5 +365,8 @@ entity function
 		"nbt_to_mapping": {
 			"": "$"
 		}
-	}
+	},
+	"requirements": [
+		requirements
+	]
 }

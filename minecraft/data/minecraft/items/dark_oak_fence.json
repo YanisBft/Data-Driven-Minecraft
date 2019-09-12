@@ -1,0 +1,16 @@
+{
+	"block_item": true,
+	"place_blocks": {
+		"block": [
+			{
+				"name": "minecraft:dark_oak_fence",
+				"properties": {
+					"east": "false",
+					"north": "false",
+					"south": "false",
+					"west": "false"
+				}
+			}
+		]
+	}
+}
