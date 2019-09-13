@@ -1,0 +1,40 @@
+{
+    "pick_block": "minecraft:bee_hive",
+    "mine_time": {
+        "default": 10,
+        "tools": [
+            {
+                "tag": "minecraft:tool_tiers/speed/axes/0",
+                "effect": {
+                    "operation": "divide_player_mine_speed",
+                    "value": 2,
+                    "nesting": true
+                }
+            }
+        ]
+    },
+    "blast_resistance": 10,
+    "block_entity": "minecraft:beehive",
+    "states": {
+        "facing": {
+            "default": "north",
+            "values": [
+                "north",
+                "east",
+                "south",
+                "west"
+            ]
+        },
+        "honey_level": {
+            "default": "0",
+            "values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+            ]
+        }
+    }
+}
