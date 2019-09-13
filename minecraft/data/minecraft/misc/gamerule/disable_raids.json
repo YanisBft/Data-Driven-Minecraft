@@ -1,0 +1,7 @@
+{
+    "display_name": "disableRaids",
+    "value": {
+        "type": "boolean",
+        "default": "false"
+    }
+}
