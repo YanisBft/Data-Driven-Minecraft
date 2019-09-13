@@ -219,6 +219,9 @@
         },
         {
             "tag": "minecraft:banner_patterns"
+        },
+        {
+            "item": "minecraft:honeycomb"
         }
     ]
 }

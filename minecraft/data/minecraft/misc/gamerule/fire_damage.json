@@ -1,0 +1,7 @@
+{
+    "display_name": "fireDamage",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

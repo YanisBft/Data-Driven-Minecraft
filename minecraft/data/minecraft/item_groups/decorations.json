@@ -243,6 +243,12 @@
         },
         {
             "item": "minecraft:campfire"
+        },
+        {
+            "item": "minecraft:bee_nest"
+        },
+        {
+            "item": "minecraft:bee_hive"
         }
     ]
 }

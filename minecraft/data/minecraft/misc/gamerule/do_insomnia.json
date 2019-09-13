@@ -1,0 +1,7 @@
+{
+    "display_name": "doInsomnia",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

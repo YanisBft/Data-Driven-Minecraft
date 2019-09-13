@@ -1,0 +1,7 @@
+{
+    "display_name": "drowningDamage",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}

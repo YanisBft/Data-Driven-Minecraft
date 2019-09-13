@@ -1,0 +1,7 @@
+{
+    "display_name": "fallDamage",
+    "value": {
+        "type": "boolean",
+        "default": "true"
+    }
+}
