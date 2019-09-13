@@ -1,0 +1,139 @@
+{
+	"block_item": true,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_fluid_face"
+						},
+						"name": "minecraft:lily_pad"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_fluid_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"fluids": [
+							{
+								"location": {
+									"start": "looked_at_fluid_face",
+									"y": -1
+								},
+								"fluid": [
+									{
+										"tag": "minecraft:water"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:lily_pad"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"fluids": [
+							{
+								"location": {
+									"start": "looked_at_block",
+									"y": -1
+								},
+								"fluid": [
+									{
+										"tag": "minecraft:water"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face"
+						},
+						"name": "minecraft:lily_pad"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"fluids": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": -1
+								},
+								"fluid": [
+									{
+										"tag": "minecraft:water"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

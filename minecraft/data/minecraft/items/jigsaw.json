@@ -1,0 +1,5 @@
+{
+	"parent": "minecraft:templates/block_facing_6",
+	"block_item": true,
+	"rarity": "epic"
+}

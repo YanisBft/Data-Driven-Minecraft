@@ -1,10 +1,4 @@
 {
-	"block_item": true,
-	"place_blocks": {
-		"block": [
-			{
-				"name": "minecraft:structure_void"
-			}
-		]
-	}
+	"parent": "minecraft:templates/block",
+	"block_item": true
 }

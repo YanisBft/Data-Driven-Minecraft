@@ -1,37 +1,4 @@
 {
-	"block_item": true,
-	"place_blocks": {
-		"block": [
-			{
-				"name": "minecraft:jungle_log",
-				"properties": {
-					"axis": "y"
-				}
-			}
-		],
-		"overwrites": [
-			{
-				"face": ["north","south"],
-				"block": [
-					{
-						"name": "minecraft:jungle_log",
-						"properties": {
-							"axis": "z"
-						}
-					}
-				]
-			},
-			{
-				"face": ["east","west"],
-				"block": [
-					{
-						"name": "minecraft:jungle_log",
-						"properties": {
-							"axis": "x"
-						}
-					}
-				]
-			}
-		]
-	}
+	"parent": "minecraft:templates/block_axis",
+	"block_item": true
 }

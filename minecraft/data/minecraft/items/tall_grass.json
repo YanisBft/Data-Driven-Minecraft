@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/tall_flower",
+	"block_item": true
+}

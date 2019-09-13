@@ -1,19 +1,48 @@
+to add:
+* items
+* chorus plant/flower
+* turtle egg
+* coral fans
+* sea pickle
+* mushrooms (non-blocks)
+* banners
+* pumpkins and jack o'lantern
+* slabs
+* stairs
+* beds
+* chests (non-ender)
+* heads/skulls
+* lantern
+* scaffolding
+* signs
+* torches
+* doors
+* hopper
+* tripwire hook
+* trapdoors
+
 {
-	"block_item": bool,
+	"parent": "",
+	"block_item": bool, (unset=template, true=block translation string, false=item translation string)
 	"rarity": "",
 	"explosion_resistant": bool,
-	"misc_file": [
-		{
-			"type": "",
-			"nbt": "",
-			"default": "",
-			"mapping": {
-				"": "$"
+	"mappings": {
+		"misc_file": {
+			"": { (misc file folder to read files from)
+				"nbt": "", (the nbt that saves the file to use, IE tag.Potion)
+				"default": "",
+				"mapping": {
+					"$": ""
+				}
 			}
+		},
+		"nbt": { (starting in item root)
+			"$": ""
+		},
+		"default": {
+			"$": ?
+			"$": "$"
 		}
-	],
-	"nbt_mapping": {
-		"": "$"
 	},
 	"coloring": [
 		x
@@ -45,183 +74,147 @@
 		],
 		"clear_existing_effects": bool
 	},
-	"place_blocks": {
-		"block": [
-			{
-				"name": "",
-				"properties": {
-					"": ""
-				},
-				"nbt": "",
-				"nbt_to_mapping": {
-					"": "$"
-				}
-			}
+	"functions": {
+		"hold": [
+			hold functions
 		],
-		"overwrites": [
-			{
-				"face": [""],
-				"facing": [""],
-				"side": [""],
-				"target_entity": {
-					"name": "",
-					"nbt": ""
-				},
-				"target_block": {
-					"name": "",
-					"tag": "",
-					"properties": {
-						"": ""
-					},
-					"nbt": ""
-				},
-				"block": [
-					{
-						"name": "",
-						"properties": {
-							"": ""
-						},
-						"nbt": "",
-						"nbt_to_mapping": {
-							"": "$"
-						}
-					}
-				]
-			}
-		],
-		"requirements": [
-			requirements
+		"use": [
+			use functions (always alternatives)
 		]
-	},
-	"place_fluids": {
-		"fluid": [
-			{
-				"name": "",
-				"properties": {
-					"": ""
-				}
-			}
-		],
-		"overwrites": [
-			{
-				"face": [""],
-				"facing": [""],
-				"side": [""],
-				"target_block": {
-					"name": "",
-					"tag": "",
-					"properties": {
-						"": ""
-					},
-					"nbt": ""
-				},
-				"target_entity": {
-					"name": "",
-					"nbt": ""
-				},
-				"fluid": [
-					{
-						"name": "",
-						"properties": {
-							"": ""
-						}
-					}
-				]
-			}
-		],
-		"requirements": [
-			requirements
-		]
-	},
-	"spawn_entities": {
-		"entity": [
-			{
-				"name": "",
-				"nbt": "",
-				"nbt_to_mapping": {
-					"": "$"
-				}
-			}
-		],
-		"overwrites": [
-			{
-				"face": [""],
-				"facing": [""],
-				"side": [""],
-				"target_block": {
-					"name": "",
-					"tag": "",
-					"properties": {
-						"": ""
-					},
-					"nbt": ""
-				},
-				"target_entity": {
-					"name": "",
-					"nbt": ""
-				},
-				"entity": [
-					{
-						"name": "",
-						"nbt": "",
-						"nbt_to_mapping": {
-							"": "$"
-						}
-					}
-				]
-			}
-		],
-		"requirements": [
-			requirements
-		]
-	},
-	"block_interaction": [
+	}
+}
+
+hold functions
+{
+	"function": "minecraft:attract_entities",
+	"entities": [
 		{
-			"block": {
-				"name": "",
-				"properties": {
-					"": ""
-				},
-				"nbt": ""
-			},
-			"actions": [
-				block function
-			]
+			"name": "",
+			"nbt": "",
+			"nbt_to_mapping": {
+				"", "$"
+			}
 		}
 	],
-	"fluid_interaction": [
-		{
-			"fluid": {
-				"name": "",
-				"properties": {
-					"": ""
-				}
-			},
-			"actions": [
-				fluid function
-			]
-		}
-	],
-	"entity_interaction": [
-		{
-			"entity": {
-				"name": "",
-				"nbt": ""
-			},
-			"actions": [
-				entity function
-			]
-		}
+	"distance": {
+		"min": x,
+		"max": x
+	},
+	"duration": {
+		"min": x,
+		"max": x
+	},
+	"conditions": [
+		conditions
 	]
 }
 
-requirements
+use functions
 {
+	"function": "minecraft:alter_blocks",
 	"blocks": [
 		{
-			"x": x,
-			"y": x,
-			"z": x,
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": z,
+				"face": ["down","east","north","south","up","west"],
+				"half": ["top","bottom","left","right","front","back"]
+			},
+			"name": "",
+			"properties": {
+				"": ""
+			},
+			"nbt": "",
+			"nbt_to_mapping": {
+				"": "$"
+			}
+		}
+	],
+	"conditions": [
+		conditions
+	]
+}
+
+{
+	"function": "minecraft:alter_fluids",
+	"fluids": [
+		{
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": z,
+				"face": ["down","east","north","south","up","west"],
+				"half": ["top","bottom","left","right","front","back"]
+			},
+			"name": "",
+			"properties": {
+				"": ""
+			},
+			"nbt": "",
+			"nbt_to_mapping": {
+				"": "$"
+			}
+		}
+	],
+	"conditions": [
+		conditions
+	]
+}
+
+{
+	"function": "minecraft:alter_entities",
+	"entities": [
+		{
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": z,
+				"dx": x,
+				"dy": y,
+				"dz": z,
+				"distance": {
+					"min": x,
+					"max": x
+				}
+			},
+			"name": "",
+			"properties": {
+				"": ""
+			},
+			"nbt": "",
+			"nbt_to_mapping": {
+				"": "$"
+			}
+		}
+	],
+	"conditions": [
+		conditions
+	]
+}
+
+conditions
+{
+	"item": {
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		},
+		"inverse": bool
+	},
+	"blocks": [
+		{
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": z,
+				"face": ["down","east","north","south","up","west"],
+				"half": ["top","bottom","left","right","front","back"]
+			},
 			"block": [
 				{
 					"name": "",
@@ -230,16 +223,12 @@ requirements
 						"": ""
 					},
 					"nbt": "",
+					"nbt_to_mapping": {
+						"": "$"
+					},
 					"inverse": bool
 				}
-			]
-		}
-	],
-	"solid_faces": [
-		{
-			"x": x,
-			"y": x,
-			"z": x,
+			],
 			"faces": {
 				"down": bool,
 				"east": bool,
@@ -250,12 +239,17 @@ requirements
 			}
 		}
 	],
-	"fluids": [
+	"liquids": [
 		{
-			"x": x,
-			"y": x,
-			"z": x,
-			"fluid": [
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": z,
+				"face": ["down","east","north","south","up","west"],
+				"half": ["top","bottom","left","right","front","back"]
+			},
+			"liquid": [
 				{
 					"name": "",
 					"tag": "",
@@ -269,104 +263,44 @@ requirements
 	],
 	"entities": [
 		{
-			"x": x,
-			"y": x,
-			"z": x,
-			"dx": x,
-			"dy": x,
-			"dz": x,
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": z,
+				"dx": x,
+				"dy": y,
+				"dz": z,
+				"distance": {
+					"min": x,
+					"max": x
+				}
+			},
 			"entity": [
 				{
 					"name": "",
 					"tag": "",
 					"nbt": "",
+					"nbt_to_mapping": {
+						"": "$"
+					},
 					"inverse": bool
 				}
 			]
 		}
 	],
-	"light": {
+	"dimension": {
+		"name": "",
+		"inverse": bool
+	},
+	"x_rotation": {
+		"min": x,
+		"max": x,
+		"inverse": bool
+	},
+	"y_rotation": {
 		"min": x,
 		"max": x,
 		"inverse": bool
 	}
-}
-
-
-block function
-{
-	"function": "minecraft:alter_blocks",
-	"blocks": [
-		{
-			"x": x,
-			"y": x,
-			"z": x,
-			"name": "",
-			"properties": {
-				"": ""
-			},
-			"nbt": "",
-			"nbt_to_mapping": {
-				"": "$"
-			}
-		}
-	],
-	"item": {
-		"name": "",
-		"nbt": "",
-		"nbt_to_mapping": {
-			"": "$"
-		}
-	},
-	"requirements": [
-		requirements
-	]
-}
-
-fluid function
-{
-	"function": "minecraft:alter_fluids",
-	"fluids": [
-		{
-			"x": x,
-			"y": x,
-			"z": x,
-			"name": "",
-			"properties": {
-				"": ""
-			}
-		}
-	],
-	"item": {
-		"name": "",
-		"nbt": "",
-		"nbt_to_mapping": {
-			"": "$"
-		}
-	},
-	"requirements": [
-		requirements
-	]
-}
-
-entity function
-{
-	"function": "minecraft:alter_entity",
-	"entity": {
-		"name": "",
-		"nbt": "",
-		"nbt_to_mapping": {
-			"": "$"
-		}
-	},
-	"item": {
-		"name": "",
-		"nbt": "",
-		"nbt_to_mapping": {
-			"": "$"
-		}
-	},
-	"requirements": [
-		requirements
-	]
 }

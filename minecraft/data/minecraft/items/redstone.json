@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:templates/block_support",
+	"block_item": false,
+	"mappings": {
+		"defaults": {
+			"$BlockId": "minecraft:redstone_wire"
+		}
+	}
+}

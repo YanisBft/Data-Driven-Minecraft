@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/block_face",
+	"block_item": true
+}

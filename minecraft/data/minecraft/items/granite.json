@@ -1,10 +1,4 @@
 {
-	"block_item": true,
-	"place_blocks": {
-		"block": [
-			{
-				"name": "minecraft:granite"
-			}
-		]
-	}
+	"parent": "minecraft:templates/block",
+	"block_item": true
 }

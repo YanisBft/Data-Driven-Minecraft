@@ -1,22 +1,4 @@
 {
-	"block_item": true,
-	"place_blocks": {
-		"block": [
-			{
-				"name": "minecraft:magenta_carpet"
-			}
-		],
-		"requirements": [
-			{
-				"solid_faces": [
-					{
-						"y": -1,
-						"faces": {
-							"up": true
-						}
-					}
-				]
-			}
-		]
-	}
+	"parent": "minecraft:templates/block_support",
+	"block_item": true
 }

@@ -1,16 +1,4 @@
 {
-	"block_item": true,
-	"place_blocks": {
-		"block": [
-			{
-				"name": "minecraft:spruce_fence",
-				"properties": {
-					"east": "false",
-					"north": "false",
-					"south": "false",
-					"west": "false"
-				}
-			}
-		]
-	}
+	"parent": "minecraft:templates/block",
+	"block_item": true
 }

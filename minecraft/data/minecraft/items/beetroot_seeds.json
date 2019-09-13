@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:template/crops",
+	"block_item": false,
+	"mappings": {
+		"default": {
+			"$BlockId": "minecraft:beetroots"
+		}
+	}
+}
