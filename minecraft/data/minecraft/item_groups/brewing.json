@@ -21,7 +21,7 @@
         },
         {
             "item": "minecraft:potion",
-            "nbt": "{Potion:'minecraft:ankward'}"
+            "nbt": "{Potion:'minecraft:awkward'}"
         },
         {
             "item": "minecraft:potion",
@@ -219,7 +219,7 @@
         },
         {
             "item": "minecraft:splash_potion",
-            "nbt": "{Potion:'minecraft:ankward'}"
+            "nbt": "{Potion:'minecraft:awkward'}"
         },
         {
             "item": "minecraft:splash_potion",
@@ -387,7 +387,7 @@
         },
         {
             "item": "minecraft:lingering_potion",
-            "nbt": "{Potion:'minecraft:ankward'}"
+            "nbt": "{Potion:'minecraft:awkward'}"
         },
         {
             "item": "minecraft:lingering_potion",
