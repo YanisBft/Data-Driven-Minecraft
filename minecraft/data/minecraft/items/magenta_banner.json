@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:templates/block_rotated_wall_variant",
+	"block_item": true,
+	"mappings": {
+		"default": {
+			"$WallId": "minecraft:magenta_wall_banner"
+		}
+	}
+}

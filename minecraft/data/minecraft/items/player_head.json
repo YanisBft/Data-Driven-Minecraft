@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:templates/block_rotated_wall_variant",
+	"block_item": true,
+	"rarity": "uncommon",
+	"mappings": {
+		"default": {
+			"$WallId": "minecraft:player_wall_head"
+		}
+	},
+	"armor": "head"
+}

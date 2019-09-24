@@ -1,8 +1,8 @@
 {
 	"parent": "minecraft:templates/block_wall_variant",
-	"block_item": false,
+	"block_item": true,
 	"mappings": {
-		"defaults": {
+		"default": {
 			"$WallId": "minecraft:wall_torch"
 		}
 	}

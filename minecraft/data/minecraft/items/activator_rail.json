@@ -1,4 +1,4 @@
 {
-	"parent": "minecraft:templates/block_support",
+	"parent": "minecraft:templates/rail",
 	"block_item": true
 }

@@ -45,11 +45,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": -45,
 							"max": 45
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -87,11 +87,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": 135,
 							"max": -135
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -129,11 +129,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": -135,
 							"max": -45
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -171,11 +171,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": 45,
 							"max": 135
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -213,7 +213,7 @@
 								]
 							}
 						],
-						"y_rotation": {
+						"x_rotation": {
 							"min": -90,
 							"max": -45
 						}
@@ -251,7 +251,7 @@
 								]
 							}
 						],
-						"y_rotation": {
+						"x_rotation": {
 							"min": 45,
 							"max": 90
 						}
@@ -300,11 +300,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": -45,
 							"max": 45
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -353,11 +353,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": 135,
 							"max": -135
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -406,11 +406,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": -135,
 							"max": -45
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -459,11 +459,11 @@
 								]
 							}
 						],
-						"x_rotation": {
+						"y_rotation": {
 							"min": 45,
 							"max": 135
 						},
-						"y_rotation": {
+						"x_rotation": {
 							"min": -45,
 							"max": 45
 						}
@@ -512,7 +512,7 @@
 								]
 							}
 						],
-						"y_rotation": {
+						"x_rotation": {
 							"min": -90,
 							"max": -45
 						}
@@ -561,7 +561,7 @@
 								]
 							}
 						],
-						"y_rotation": {
+						"x_rotation": {
 							"min": 45,
 							"max": 90
 						}

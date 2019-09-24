@@ -23,7 +23,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "north"
+							"shape": "north_south"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -70,7 +70,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "south"
+							"shape": "north_south"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -117,7 +117,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "east"
+							"shape": "east_west"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -164,7 +164,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "west"
+							"shape": "east_west"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -211,7 +211,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "north"
+							"shape": "north_south"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -269,7 +269,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "south"
+							"shape": "north_south"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -327,7 +327,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "east"
+							"shape": "east_west"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
@@ -385,7 +385,7 @@
 						},
 						"name": "$id",
 						"properties": {
-							"facing": "west"
+							"shape": "east_west"
 						},
 						"nbt_to_mapping": {
 							"": "$BlockEntityTag",
