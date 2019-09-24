@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/block_trapdoor",
+	"block_item": true
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:templates/block_wall_variant",
+	"block_item": false,
+	"mappings": {
+		"defaults": {
+			"$WallId": "minecraft:dead_bubble_coral_wall_fan"
+		}
+	}
+}

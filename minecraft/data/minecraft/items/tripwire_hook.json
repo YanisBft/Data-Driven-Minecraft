@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/block_facing_4_wall_support",
+	"block_item": true
+}

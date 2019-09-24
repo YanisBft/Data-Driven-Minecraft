@@ -1,0 +1,2723 @@
+{
+	"rarity": "common",
+	"mappings": {
+		"nbt": {
+			"$id": "id",
+			"$BlockEntityTag": "tag.BlockEntityTag",
+			"$Name": "tag.display.Name"
+		},
+		"default": {
+			"$id": "minecraft:air",
+			"$BlockEntityTag": "{}",
+			"$Name": ""
+		}
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north","south","up"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east","up","west"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["west"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["west"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["south"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["south"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["east"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["west"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["west"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["south"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["south"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block",
+                            "face": ["north"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "left"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "left",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north","south","up"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "right"
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east","up","west"],
+                            "half": "right",
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["west"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["west"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["south"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["south"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "left",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["east"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "north",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["west"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["west"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "south",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 135,
+							"max": -135
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["south"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["south"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "east",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north"]
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "lower"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					},
+					{
+						"location": {
+							"start": "looked_at_block_face",
+                            "face": ["north"],
+							"y": 1
+						},
+						"name": "$id",
+						"properties": {
+							"facing": "west",
+							"hinge": "right",
+                            "half": "upper"
+						},
+						"nbt_to_mapping": {
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						}
+					}
+				]
+			}
+		]
+	}
+}

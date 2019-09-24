@@ -1,0 +1,352 @@
+{
+	"block_item": true,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["down","east","north","south","west"],
+							"y": 1
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:scaffolding"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"positioning": {
+							"sneaking": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"],
+							"z": -1
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:scaffolding"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"z": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						},
+						"positioning": {
+							"sneaking": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"],
+							"z": -1
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:scaffolding"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"z": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -45,
+							"max": 45
+						},
+						"positioning": {
+							"sneaking": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"],
+							"x": -1
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:scaffolding"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"x": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": -135,
+							"max": -45
+						},
+						"positioning": {
+							"sneaking": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"],
+							"x": 1
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:scaffolding"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"x": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"x_rotation": {
+							"min": 45,
+							"max": 135
+						},
+						"positioning": {
+							"sneaking": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face"
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:scaffolding",
+										"inverse": true
+									},
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"positioning": {
+							"sneaking": false
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face"
+						},
+						"name": "minecraft:scaffolding"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"positioning": {
+							"sneaking": true
+						}
+					}
+				]
+			}
+		]
+	}
+}

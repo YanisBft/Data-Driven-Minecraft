@@ -2,24 +2,10 @@ to add:
 * items
 * chorus plant/flower
 * turtle egg
-* coral fans
 * sea pickle
-* mushrooms (non-blocks)
-* banners
-* pumpkins and jack o'lantern
-* slabs
-* stairs
-* beds
-* chests (non-ender)
 * heads/skulls
+* banners/signs
 * lantern
-* scaffolding
-* signs
-* torches
-* doors
-* hopper
-* tripwire hook
-* trapdoors
 
 {
 	"parent": "",
@@ -47,6 +33,16 @@ to add:
 	"coloring": [
 		x
 	],
+	"armor": "",
+	"durability": {
+		"value": x,
+		"repairing_ingredients": [
+			{
+				"name": "",
+				"tag": ""
+			}
+		]
+	},
 	"attribute_modifiers": [
 		{
 			"slot": "",
@@ -236,6 +232,11 @@ conditions
 				"south": bool,
 				"up": bool,
 				"west": bool
+			},
+			"light": {
+				"min": x,
+				"max": x,
+				"inverse": bool
 			}
 		}
 	],
@@ -302,5 +303,10 @@ conditions
 		"min": x,
 		"max": x,
 		"inverse": bool
+	},
+	"positioning": {
+		"sneaking": bool,
+		"sitting": bool,
+		"sleeping": bool
 	}
 }

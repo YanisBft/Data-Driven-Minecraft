@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/slab",
+	"block_item": true
+}

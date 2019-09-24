@@ -1,0 +1,5 @@
+{
+	"parent": "minecraft:templates/block_facing_4",
+	"block_item": true,
+	"armor": "helmet"
+}

@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/stairs",
+	"block_item": true
+}

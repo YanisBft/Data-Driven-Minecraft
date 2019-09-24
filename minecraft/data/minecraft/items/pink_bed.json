@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/bed",
+	"block_item": true
+}
