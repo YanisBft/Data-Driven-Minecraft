@@ -3,8 +3,6 @@ to add:
 * chorus plant/flower
 * lantern
 * sweet berry bush(sweet berries)
-* fire(flint and steel, fire charge)
-* kelp
 
 {
 	"parent": "",
@@ -79,6 +77,8 @@ to add:
 		]
 	}
 }
+
+functions append from parent
 
 hold functions
 {
@@ -178,9 +178,6 @@ use functions
 				}
 			},
 			"name": "",
-			"properties": {
-				"": ""
-			},
 			"nbt": "",
 			"nbt_to_mapping": {
 				"": "$"

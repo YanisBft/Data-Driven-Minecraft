@@ -1,0 +1,108 @@
+{
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face"
+						},
+						"name": "minecraft:fire"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							}
+						]
+					},
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"x": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:burnables"
+									}
+								]
+							}
+						]
+					},
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"x": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:burnables"
+									}
+								]
+							}
+						]
+					},
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:burnables"
+									}
+								]
+							}
+						]
+					},
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"z": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:burnables"
+									}
+								]
+							}
+						]
+					},
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"z": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:burnables"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

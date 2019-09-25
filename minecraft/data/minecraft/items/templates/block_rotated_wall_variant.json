@@ -18,12 +18,12 @@
 		"use": [
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "0"
@@ -57,12 +57,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "1"
@@ -96,12 +96,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "2"
@@ -135,12 +135,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "3"
@@ -174,12 +174,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "4"
@@ -213,12 +213,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "5"
@@ -252,12 +252,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "6"
@@ -291,12 +291,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "7"
@@ -330,12 +330,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "8"
@@ -369,12 +369,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "9"
@@ -408,12 +408,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "10"
@@ -447,12 +447,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "11"
@@ -486,12 +486,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "12"
@@ -525,12 +525,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "13"
@@ -564,12 +564,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "14"
@@ -603,12 +603,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "15"
@@ -642,12 +642,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["south"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["south"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "north"
@@ -677,12 +677,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["west"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["west"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "east"
@@ -712,12 +712,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["north"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["north"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "south"
@@ -747,12 +747,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block",
-					"face": ["east"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["east"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "west"
@@ -782,12 +782,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "0"
@@ -832,12 +832,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "1"
@@ -882,12 +882,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "2"
@@ -932,12 +932,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "3"
@@ -982,12 +982,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "4"
@@ -1032,12 +1032,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "5"
@@ -1082,12 +1082,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "6"
@@ -1132,12 +1132,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "7"
@@ -1182,12 +1182,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "8"
@@ -1232,12 +1232,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "9"
@@ -1282,12 +1282,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "10"
@@ -1332,12 +1332,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "11"
@@ -1382,12 +1382,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "12"
@@ -1432,12 +1432,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "13"
@@ -1482,12 +1482,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "14"
@@ -1532,12 +1532,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["up"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
 						"name": "$BlockId",
 						"properties": {
 							"rotation": "15"
@@ -1582,12 +1582,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["south"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["south"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "north"
@@ -1628,12 +1628,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["west"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["west"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "east"
@@ -1674,12 +1674,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["north"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["north"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "south"
@@ -1720,12 +1720,12 @@
 			},
 			{
 				"function": "minecraft:alter_blocks",
-				"location": {
-					"start": "looked_at_block_face",
-					"face": ["east"]
-				},
 				"blocks": [
 					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["east"]
+						},
 						"name": "$WallId",
 						"properties": {
 							"facing": "west"

@@ -1,0 +1,44 @@
+{
+	"parent": "minecraft:templates/fire",
+	"block_item": false,
+	"durability": {
+		"value": 65,
+		"repairing_ingredients": [
+			{
+				"name": "minecraft:flint_and_steel"
+			}
+		]
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_entities",
+				"entities": [
+					{
+						"location": {
+							"start": "looked_at_entity"
+						},
+						"nbt": "{ignited:1b}"
+					}
+				],
+				"conditions": [
+					{
+						"entities": [
+							{
+								"location": {
+									"start": "looked_at_entity"
+								},
+								"entity": [
+									{
+										"name": "minecraft:creeper",
+										"nbt": "{ignited:0b}"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
