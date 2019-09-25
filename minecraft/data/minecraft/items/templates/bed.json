@@ -1,5 +1,6 @@
 {
 	"rarity": "common",
+	"stack_size": 1,
 	"mappings": {
 		"nbt": {
 			"$id": "id",

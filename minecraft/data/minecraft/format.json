@@ -10,6 +10,7 @@ to add:
 	"parent": "",
 	"block_item": bool, (unset=template, true=block translation string, false=item translation string)
 	"rarity": "",
+	"stack_size": x,
 	"explosion_resistant": bool,
 	"mappings": {
 		"misc_file": {

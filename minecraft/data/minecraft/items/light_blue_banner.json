@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:templates/block_rotated_wall_variant",
 	"block_item": true,
+	"stack_size": 16,
 	"mappings": {
 		"default": {
 			"$WallId": "minecraft:light_blue_wall_banner"

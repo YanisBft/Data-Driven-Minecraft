@@ -1,4 +1,5 @@
 {
 	"parent": "minecraft:templates/block_facing_6",
-	"block_item": true
+	"block_item": true,
+	"stack_size": 1
 }
