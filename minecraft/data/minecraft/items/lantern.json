@@ -1,0 +1,367 @@
+{
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["down"]
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "false"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["down"]
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "false"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "true"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"y": 1
+								},
+								"faces": {
+									"down": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "true"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": 1
+								},
+								"faces": {
+									"down": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "false"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face"
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "false"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": -1
+								},
+								"faces": {
+									"up": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "true"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"y": 1
+								},
+								"faces": {
+									"down": true
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face"
+						},
+						"name": "minecraft:lantern",
+						"properties": {
+							"hanging": "true"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"y": 1
+								},
+								"faces": {
+									"down": true
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,11 +1,1810 @@
 {
-	"parent": "minecraft:templates/block_rotated_wall_variant",
 	"block_item": true,
 	"rarity": "uncommon",
 	"mappings": {
+		"nbt": {
+			"$BlockEntityTag": "tag.BlockEntityTag",
+			"$SkullOwner": "tag.SkullOwner",
+			"$Name": "tag.display.Name"
+		},
 		"default": {
-			"$WallId": "minecraft:player_wall_head"
+			"$BlockEntityTag": "{}",
+			"$SkullOwner": "{}"
+			"$Name": ""
 		}
 	},
-	"armor": "head"
+	"armor": "head",
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "0"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 168.75,
+							"max": -168.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "1"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 146.25,
+							"max": 168.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "2"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 123.75,
+							"max": 146.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "3"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 101.25,
+							"max": 123.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "4"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 78.75,
+							"max": 101.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "5"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 56.25,
+							"max": 78.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "6"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 33.75,
+							"max": 56.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "7"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 11.25,
+							"max": 33.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "8"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -11.25,
+							"max": 11.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "9"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -33.75,
+							"max": -11.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "10"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -56.25,
+							"max": -33.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "11"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -78.75,
+							"max": -56.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "12"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -101.25,
+							"max": -78.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "13"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -123.75,
+							"max": -101.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "14"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -146.25,
+							"max": -123.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "15"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -168.75,
+							"max": -146.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["south"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "north"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["west"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "east"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["north"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "south"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["east"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "west"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "0"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 168.75,
+							"max": -168.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "1"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 146.25,
+							"max": 168.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "2"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 123.75,
+							"max": 146.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "3"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 101.25,
+							"max": 123.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "4"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 78.75,
+							"max": 101.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "5"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 56.25,
+							"max": 78.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "6"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 33.75,
+							"max": 56.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "7"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": 11.25,
+							"max": 33.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "8"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -11.25,
+							"max": 11.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "9"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -33.75,
+							"max": -11.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "10"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -56.25,
+							"max": -33.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "11"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -78.75,
+							"max": -56.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "12"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -101.25,
+							"max": -78.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "13"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -123.75,
+							"max": -101.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "14"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -146.25,
+							"max": -123.75
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["up"]
+						},
+						"name": "minecraft:player_head",
+						"properties": {
+							"rotation": "15"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						],
+						"y_rotation": {
+							"min": -168.75,
+							"max": -146.25
+						}
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["south"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "north"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["west"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "east"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["north"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "south"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["east"]
+						},
+						"name": "minecraft:player_wall_head",
+						"properties": {
+							"facing": "west"
+						},
+						"nbt_to_mapping": {
+							"Owner": "$SkullOwner",
+							"": "$BlockEntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceable"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
 }

@@ -1,8 +1,5 @@
 to add:
-* items
-* chorus plant/flower
-* lantern
-* sweet berry bush(sweet berries)
+* all items
 
 {
 	"parent": "",
@@ -52,22 +49,6 @@ to add:
 			"uuid_most": x
 		}
 	],
-	"consumable": {
-		"time": x,
-		"return_item": "",
-		"saturation": x,
-		"food": x,
-		"effects": [
-			{
-				"name": "",
-				"amplifier": x,
-				"ambient": bool,
-				"show_particles": bool,
-				"show_icon": bool
-			}
-		],
-		"clear_existing_effects": bool
-	},
 	"functions": {
 		"hold": [
 			hold functions
@@ -106,6 +87,25 @@ hold functions
 }
 
 use functions
+{
+	"function": "minecraft:consume",
+	"time": x,
+	"return_item": "",
+	"saturation": x,
+	"food": x,
+	"effects": [
+		{
+			"name": "",
+			"amplifier": x,
+			"ambient": bool,
+			"show_particles": bool,
+			"show_icon": bool,
+			"show_on_item": bool
+		}
+	],
+	"clear_existing_effects": bool
+}
+
 {
 	"function": "minecraft:alter_blocks",
 	"blocks": [
@@ -191,6 +191,7 @@ use functions
 
 conditions
 {
+	"chance": x,
 	"item": {
 		"nbt": "",
 		"nbt_to_mapping": {
