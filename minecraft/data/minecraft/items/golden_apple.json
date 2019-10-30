@@ -1,0 +1,27 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 9.6,
+				"food": 4,
+				"effects": [
+					{
+						"name": "minecraft:regeneration",
+						"amplifier": 1,
+						"duration": 100,
+						"show_on_item": false
+					},
+					{
+						"name": "minecraft:absorption",
+						"duration": 2400,
+						"show_on_item": false
+					}
+				]
+			}
+		]
+	}
+}

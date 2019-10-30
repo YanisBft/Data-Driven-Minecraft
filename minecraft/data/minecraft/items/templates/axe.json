@@ -1,0 +1,1195 @@
+{
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_oak_log",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:oak_log",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_oak_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:oak_log",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_oak_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:oak_log",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_spruce_log",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spruce_log",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_spruce_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spruce_log",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_spruce_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spruce_log",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_birch_log",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:birch_log",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_birch_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:birch_log",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_birch_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:birch_log",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_jungle_log",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:jungle_log",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_jungle_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:jungle_log",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_jungle_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:jungle_log",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_acacia_log",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:acacia_log",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_acacia_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:acacia_log",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_acacia_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:acacia_log",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_dark_oak_log",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:dark_oak_log",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_dark_oak_log",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:dark_oak_log",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_dark_oak_log",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:dark_oak_log",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_oak_wood",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:oak_wood",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_oak_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:oak_wood",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_oak_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:oak_wood",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_spruce_wood",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spruce_wood",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_spruce_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spruce_wood",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_spruce_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spruce_wood",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_birch_wood",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:birch_wood",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_birch_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:birch_wood",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_birch_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:birch_wood",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_jungle_wood",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:jungle_wood",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_jungle_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:jungle_wood",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_jungle_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:jungle_wood",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_acacia_wood",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:acacia_wood",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_acacia_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:acacia_wood",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_acacia_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:acacia_wood",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_dark_oak_wood",
+						"properties": {
+							"axis": "y"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:dark_oak_wood",
+										"properties": {
+											"axis": "y"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_dark_oak_wood",
+						"properties": {
+							"axis": "x"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:dark_oak_wood",
+										"properties": {
+											"axis": "x"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:stripped_dark_oak_wood",
+						"properties": {
+							"axis": "z"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:dark_oak_wood",
+										"properties": {
+											"axis": "z"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,9 +1,0 @@
-{
-	"parent": "minecraft:template/small_flower",
-	"block_item": true,
-	"mappings": {
-		"default": {
-			"$PottedId": "minecraft:potted_pink_tulip"
-		}
-	}
-}

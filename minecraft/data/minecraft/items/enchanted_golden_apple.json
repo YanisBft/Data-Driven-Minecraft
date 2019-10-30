@@ -1,0 +1,38 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 9.6,
+				"food": 4,
+				"effects": [
+					{
+						"name": "minecraft:regeneration",
+						"amplifier": 1,
+						"duration": 400,
+						"show_on_item": false
+					},
+					{
+						"name": "minecraft:absorption",
+						"amplifier": 3,
+						"duration": 2400,
+						"show_on_item": false
+					},
+					{
+						"name": "minecraft:resistance"
+						"duration": 6000,
+						"show_on_item": false
+					},
+					{
+						"name": "minecraft:fire_resistance"
+						"duration": 6000,
+						"show_on_item": false
+					}
+				]
+			}
+		]
+	}
+}

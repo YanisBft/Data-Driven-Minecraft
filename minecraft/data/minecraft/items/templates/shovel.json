@@ -1,0 +1,77 @@
+{
+	"rarity": "common",
+	"attribute_modifiers": [
+		{
+			"slot": "mainhand",
+			"attribute_name": "generic.attackSpeed",
+			"name": "Tool modifier",
+			"amount": -3,
+			"operation": 0,
+			"uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+		}
+	],
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:grass_path"
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:grass_block"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"name": "minecraft:campfire",
+						"properties": {
+							"lit": "false"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:campfire",
+										"properties": {
+											"lit": "true"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -5,5 +5,240 @@
 		"default": {
 			"$PottedId": "minecraft:potted_oak_sapling"
 		}
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "1"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "0"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "2"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "1"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "3"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "2"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "4"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "3"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "5"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "4"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "6"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "5"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "7"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.3,
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:composter",
+										"properties": {
+											"level": "6"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 }

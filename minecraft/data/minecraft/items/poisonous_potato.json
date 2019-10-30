@@ -1,0 +1,32 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 1.2,
+				"food": 2,
+				"effects": [
+					{
+						"name": "minecraft:poison",
+						"duration": 80,
+						"show_on_item": false
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.6
+					}
+				]
+			},
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 1.2,
+				"food": 2
+			}
+		]
+	}
+}

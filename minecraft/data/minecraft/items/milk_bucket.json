@@ -1,0 +1,15 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"stack_size": 1,
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"return_item": "minecraft:bucket",
+				"clear_existing_effects": true
+			}
+		]
+	}
+}

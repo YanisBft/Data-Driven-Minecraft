@@ -1,0 +1,13 @@
+{
+	"rarity": "common",
+	"attribute_modifiers": [
+		{
+			"slot": "mainhand",
+			"attribute_name": "generic.attackSpeed",
+			"name": "Tool modifier",
+			"amount": -2.8,
+			"operation": 0,
+			"uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+		}
+	]
+}

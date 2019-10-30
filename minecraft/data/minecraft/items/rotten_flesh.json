@@ -1,0 +1,32 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 0.8,
+				"food": 4,
+				"effects": [
+					{
+						"name": "minecraft:hunger",
+						"duration": 600,
+						"show_on_item": false
+					}
+				],
+				"conditions": [
+					{
+						"chance": 0.8
+					}
+				]
+			},
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 0.8,
+				"food": 4
+			}
+		]
+	}
+}

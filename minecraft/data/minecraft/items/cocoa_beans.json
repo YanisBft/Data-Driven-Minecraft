@@ -1,0 +1,388 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["north"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "north"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"z": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["south"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "south"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"z": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["east"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "east"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"x": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block",
+							"face": ["west"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "west"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block",
+									"x": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["north"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "north"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"z": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["south"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "south"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"z": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["east"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "east"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"x": -1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block_face",
+							"face": ["west"]
+						},
+						"name": "minecraft:cocoa",
+						"properties": {
+							"facing": "west"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables",
+										"inverse": true
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face"
+								},
+								"block": [
+									{
+										"tag": "minecraft:replaceables"
+									}
+								]
+							},
+							{
+								"location": {
+									"start": "looked_at_block_face",
+									"x": 1
+								},
+								"block": [
+									{
+										"tag": "minecraft:jungle_wood"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

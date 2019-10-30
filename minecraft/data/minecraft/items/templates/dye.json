@@ -1,0 +1,64 @@
+{
+	"rarity": "common",
+	"mappings": {
+		"default": {
+			"$Color": "{Color:0b}"
+		}
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_entities",
+				"entities": [
+					{
+						"location": {
+							"start": "looked_at_entity"
+						},
+						"nbt_to_mapping": {
+							"": "$Color"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"entities": [
+							{
+								"location": {
+									"start": "looked_at_entity"
+								},
+								"entity": [
+									{
+										"name": "minecraft:sheep",
+										"nbt": "{Sheared:0b}"
+									},
+									{
+										"name": "minecraft:sheep",
+										"nbt_to_mappint": {
+											"": "$Color"
+										},
+										"inverse": true
+									},
+									{
+										"name": "minecraft:wolf"
+									},
+									{
+										"name": "minecraft:wolf",
+										"nbt": "{OwnerUUID:''}",
+										"inverse": true
+									},
+									{
+										"name": "minecraft:wolf",
+										"nbt_to_mappint": {
+											"": "$Color"
+										},
+										"inverse": true
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

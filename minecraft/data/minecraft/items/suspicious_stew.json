@@ -1,0 +1,30 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"mappings": {
+		"nbt": {
+			"$EffectId[i]": "tag.Effects[i].EffectId",
+			"$EffectDuration[i]": "tag.Effects[i].EffectDuration"
+		},
+		"default": {
+			"$EffectId": "minecraft:hunger",
+			"$EffectDuration": 160,
+			"$Effects[i]": {
+				"name": "$EffectId[i]",
+				"duration": "$EffectDuration[i]",
+				"show_on_item": false
+			}
+		}
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 2.4,
+				"food": 4,
+				"effects": "$Effects"
+			}
+		]
+	}
+}

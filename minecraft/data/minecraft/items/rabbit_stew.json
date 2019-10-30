@@ -1,0 +1,16 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"stack_size": 1,
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 12,
+				"food": 10,
+				"return_item": "minecraft:bowl"
+			}
+		]
+	}
+}

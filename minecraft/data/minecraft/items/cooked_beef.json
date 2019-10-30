@@ -1,0 +1,14 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:consume",
+				"time": 40,
+				"saturation": 12.8,
+				"food": 8
+			}
+		]
+	}
+}
