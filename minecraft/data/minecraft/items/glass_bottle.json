@@ -1,0 +1,197 @@
+{
+	"block_item": false,
+	"rarity": "common",
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "0"
+						}
+					}
+				],
+				"return_item": {
+					"name": "minecraft:potion",
+					"nbt": "{Potion:'minecraft:water'}"
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:cauldron",
+										"properties": {
+											"level": "1"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "1"
+						}
+					}
+				],
+				"return_item": {
+					"name": "minecraft:potion",
+					"nbt": "{Potion:'minecraft:water'}"
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:cauldron",
+										"properties": {
+											"level": "2"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"level": "2"
+						}
+					}
+				],
+				"return_item": {
+					"name": "minecraft:potion",
+					"nbt": "{Potion:'minecraft:water'}"
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:cauldron",
+										"properties": {
+											"level": "3"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_item",
+				"item": {
+					"name": "minecraft:potion",
+					"nbt": "{Potion:'minecraft:water'}"
+				},
+				"conditions": [
+					{
+						"fluids": [
+							{
+								"location": {
+									"start": "looked_at_fluid"
+								},
+								"fluid": [
+									{
+										"tag": "minecraft:water"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_item",
+				"item": {
+					"name": "minecraft:dragon_breath"
+				},
+				"conditions": [
+					{
+						"entities": [
+							{
+								"location": {
+									"start": "looked_at_entity"
+								},
+								"entity": [
+									{
+										"name": "minecraft:area_effect_cloud",
+										"nbt": "{Particle:'minecraft:dragon_breath'}"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"properties": {
+							"honey_level": "0"
+						}
+					}
+				],
+				"return_item": {
+					"name": "minecraft:honey_bottle"
+				},
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"location": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"tag": "minecraft:beehives",
+										"properties": {
+											"honey_level": "5"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

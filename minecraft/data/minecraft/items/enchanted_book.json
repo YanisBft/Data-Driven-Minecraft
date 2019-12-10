@@ -1,5 +1,6 @@
 {
 	"block_item": false,
 	"rarity": "uncommon",
+	"glowing": true,
 	"stack_size": 1
 }

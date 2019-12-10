@@ -1,6 +1,6 @@
 {
+	"parent": "minecraft:templates/pickaxe",
 	"block_item": false,
-	"rarity": "common",
 	"durability": {
 		"value": 32,
 		"repairing_ingredients": [

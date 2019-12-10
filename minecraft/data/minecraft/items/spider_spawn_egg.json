@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:templates/babyless_spawn_egg",
+    "block_item": false,
+	"mappings": {
+		"default": {
+			"$EntityId": "minecraft:spider"
+		}
+	}
+}

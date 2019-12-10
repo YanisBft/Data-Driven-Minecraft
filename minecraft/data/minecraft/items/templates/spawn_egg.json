@@ -1,0 +1,53 @@
+{
+	"rarity": "common",
+	"mappings": {
+		"nbt": {
+			"$EntityTag": "tag.EntityTag",
+			"$Name": "tag.display.Name"
+		},
+		"default": {
+			"$EntityTag": "{}",
+			"$Name": "",
+			"$EntityId": "minecraft:pig"
+		}
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:alter_blocks",
+				"blocks": [
+					{
+						"location": {
+							"start": "looked_at_block"
+						},
+						"nbt": "{SpawnPotentials:[{Weight:1,Entity:{}}]}",
+						"nbt_to_mapping": {
+							"SpawnData.id": "$EntityId",
+							"SpawnPotentials[0].Entity.id": "$EntityId",
+							"SpawnData.CustomName": "$Name",
+							"SpawnPotentials[0].Entity.CustomName": "$Name",
+							"SpawnData": "$EntityTag",
+							"SpawnPotentials[0].Entity": "$EntityTag"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"position": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:spawner"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

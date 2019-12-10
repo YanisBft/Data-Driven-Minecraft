@@ -1,20 +1,26 @@
 to add:
-* Glass Bottle
 * Ender Peal
 * Bone Meal
-* End Crystal
 * Eye of Ender
 * Firework Star
 * Firework Rocket
 * Chorus Fruit
 * Fishing Rod
-* Hoes
 * Potions
 * Shears
 * Shield
-* all informational
-* all weapons (-fire charge)
+* Clock
+* Compass
+* all maps
+* Book and Quill (written book)
+* all arrows
+* Bow
+* Crossbow
+* Egg
+* Snowball
+* Trident
 * all armor
+* Elytra
 * all vehicles
 * Armor Stand
 * Bottole o' Enchanting
@@ -24,16 +30,20 @@ to add:
 * Name Tag
 * Saddle
 * Totem of Undying
-* all decoration
-* Spawn Eggs
-* all commands only
-* all upcoming
+* Item Frame
+* Painting
+* all music discs
+* Debug Stick
+* Knowledge Book
+* Honey Bottle
+* Honeycomb
 
 
 {
 	"parent": "",
 	"block_item": bool, (unset=template, true=block translation string, false=item translation string)
 	"rarity": "",
+	"glowing": bool,
 	"stack_size": x,
 	"explosion_resistant": bool,
 	"mappings": {
@@ -68,6 +78,7 @@ to add:
 			}
 		]
 	},
+	"show_attributes": bool,
 	"attribute_modifiers": [
 		{
 			"slot": "",
@@ -128,8 +139,14 @@ hold functions
 use functions
 {
 	"function": "minecraft:consume",
+	"return_item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		}
+	},
 	"time": x,
-	"return_item": "",
 	"saturation": x,
 	"food": x,
 	"effects": [
@@ -143,11 +160,40 @@ use functions
 			"show_on_item": bool
 		}
 	],
-	"clear_existing_effects": bool
+	"sound": "",
+	"clear_existing_effects": [ if list is provided but empty, means all
+		{
+			"name": "",
+			"tag": ""
+		} 
+	]
+}
+
+{
+	"function": "minecraft:alter_item",
+	"return_item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		}
+	},
+	"sound": "",
+	"conditions": [
+		conditions
+	]
 }
 
 {
 	"function": "minecraft:alter_blocks",
+	"return_item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		}
+	},
+	"sound": "",
 	"blocks": [
 		{
 			"location": {
@@ -165,7 +211,8 @@ use functions
 			"nbt": "",
 			"nbt_to_mapping": {
 				"": "$"
-			}
+			},
+			"loot_table": ""
 		}
 	],
 	"conditions": [
@@ -175,6 +222,14 @@ use functions
 
 {
 	"function": "minecraft:alter_fluids",
+	"return_item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		}
+	},
+	"sound": "",
 	"fluids": [
 		{
 			"location": {
@@ -192,6 +247,37 @@ use functions
 			"nbt": "",
 			"nbt_to_mapping": {
 				"": "$"
+			},
+			"loot_table": ""
+		}
+	],
+	"conditions": [
+		conditions
+	]
+}
+
+{
+	"function": "minecraft:spawn_entities",
+	"return_item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		}
+	},
+	"sound": "",
+	"entities": [
+		{
+			"location": {
+				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
+				"x": x,
+				"y": x,
+				"z": x
+			},
+			"name": "",
+			"nbt": "",
+			"nbt_to_mapping": {
+				"": "$"
 			}
 		}
 	],
@@ -202,16 +288,24 @@ use functions
 
 {
 	"function": "minecraft:alter_entities",
+	"return_item": {
+		"name": "",
+		"nbt": "",
+		"nbt_to_mapping": {
+			"", "$"
+		}
+	},
+	"sound": "",
 	"entities": [
 		{
 			"location": {
 				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
 				"x": x,
 				"y": x,
-				"z": z,
+				"z": x,
 				"dx": x,
-				"dy": y,
-				"dz": z,
+				"dy": x,
+				"dz": x,
 				"distance": {
 					"min": x,
 					"max": x
@@ -221,7 +315,8 @@ use functions
 			"nbt": "",
 			"nbt_to_mapping": {
 				"": "$"
-			}
+			},
+			"loot_table": ""
 		}
 	],
 	"conditions": [
@@ -245,7 +340,7 @@ conditions
 				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
 				"x": x,
 				"y": x,
-				"z": z,
+				"z": x,
 				"face": ["down","east","north","south","up","west"],
 				"half": ["top","bottom","left","right","front","back"]
 			},
@@ -284,7 +379,7 @@ conditions
 				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
 				"x": x,
 				"y": x,
-				"z": z,
+				"z": x,
 				"face": ["down","east","north","south","up","west"],
 				"half": ["top","bottom","left","right","front","back"]
 			},
@@ -306,10 +401,10 @@ conditions
 				"start": "looked_at_block|looked_at_block_face|looked_at_liquid|looked_at_liquid_face|looked_at_entity|this_entity",
 				"x": x,
 				"y": x,
-				"z": z,
+				"z": x,
 				"dx": x,
-				"dy": y,
-				"dz": z,
+				"dy": x,
+				"dz": x,
 				"distance": {
 					"min": x,
 					"max": x

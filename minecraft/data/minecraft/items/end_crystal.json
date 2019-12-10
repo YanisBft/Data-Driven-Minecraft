@@ -1,0 +1,55 @@
+{
+	"block_item": false,
+	"rarity": "uncommon",
+	"glowing": true,
+	"mappings": {
+		"nbt": {
+			"$EntityTag": "tag.EntityTag",
+			"$Name": "tag.display.Name"
+		},
+		"default": {
+			"$EntityTag": "{}",
+			"$Name": ""
+		}
+	},
+	"functions": {
+		"use": [
+			{
+				"function": "minecraft:spawn_entities"
+				"entity": [
+					{
+						"position": {
+							"start": "looked_at_block",
+							"y": 1
+						},
+						"name": "minecraft:end_crystal",
+						"nbt": "{ShowBottom:0b}",
+						"nbt_to_mapping": {
+							"": "$EntityTag",
+							"CustomName": "$Name"
+						}
+					}
+				],
+				"conditions": [
+					{
+						"blocks": [
+							{
+								"position": {
+									"start": "looked_at_block"
+								},
+								"block": [
+									{
+										"name": "minecraft:bedrock"
+									}
+								]
+							}
+						],
+						"dimension": {
+							"name": "minecraft:the_end"
+						}
+					}
+				]
+			}
+		]
+	}
+}

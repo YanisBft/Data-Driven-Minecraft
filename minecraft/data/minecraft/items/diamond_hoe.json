@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:templates/hoe",
+	"block_item": false,
+	"durability": {
+		"value": 1561,
+		"repairing_ingredients": [
+			{
+				"name": "minecraft:diamond"
+			}
+		]
+	}
+}

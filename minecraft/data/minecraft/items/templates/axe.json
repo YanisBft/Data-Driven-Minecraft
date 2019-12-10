@@ -1,5 +1,5 @@
 {
-	"rarity": "common",
+	"parent": "minecraft:templates/tool",
 	"functions": {
 		"use": [
 			{

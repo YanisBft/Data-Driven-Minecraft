@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:templates/hoe",
+	"block_item": false,
+	"durability": {
+		"value": 32,
+		"repairing_ingredients": [
+			{
+				"name": "minecraft:gold_ingot"
+			}
+		]
+	},
+	"attribute_modifiers": [
+		{
+			"slot": "mainhand",
+			"attribute_name": "generic.attackSpeed",
+			"name": "Tool modifier",
+			"amount": -3,
+			"operation": 0,
+			"uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+		}
+	]
+}

@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:templates/minecart",
+	"block_item": false
+}

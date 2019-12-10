@@ -1,5 +1,6 @@
 {
 	"block_item": false,
 	"rarity": "uncommon",
+	"glowing": true,
 	"explosion_resistant": true
 }

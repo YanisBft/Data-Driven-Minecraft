@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:templates/boat",
+	"block_item": false,
+	"mappings": {
+		"default": {
+			"$Wood": "acacia"
+		}
+	}
+}

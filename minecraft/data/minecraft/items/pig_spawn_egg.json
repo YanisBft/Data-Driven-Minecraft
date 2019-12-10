@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:templates/sanimal_pawn_egg",
+    "block_item": false,
+	"mappings": {
+		"default": {
+			"$EntityId": "minecraft:pig"
+		}
+	}
+}

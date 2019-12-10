@@ -1,5 +1,5 @@
 {
-	"rarity": "common",
+	"parent": "minecraft:templates/tool",
 	"attribute_modifiers": [
 		{
 			"slot": "mainhand",
