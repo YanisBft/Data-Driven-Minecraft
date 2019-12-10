@@ -1,5 +1,5 @@
 {
-    "pick_block": "minecraft:bee_hive",
+    "pick_block": "minecraft:beehive",
     "mine_time": {
         "default": 10,
         "tools": [
